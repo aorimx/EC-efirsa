@@ -1,0 +1,126 @@
+	.padd-between{
+		margin-right: $space-2;
+	}
+	.padd-between-md{
+		margin-right: $space-base;
+	}
+	.margin-between{
+		margin-right: $space-4;
+	}
+.container-form{
+	margin-top: $space-2;
+	.step{
+		a{
+			color: $black;
+		}
+		display: inline-flex;
+		.step1{
+			font-weight: bold;
+		}
+		.step2{
+			span{
+				font-weight: normal;
+			}
+		}
+	}
+	.inline-elements{
+		width: 100%;
+		display: inline-flex;
+		.inputsize{
+			&.xl{
+				width: 100%;
+			}
+			&.gd{
+				width: 45%;
+			}
+			&.md{
+				width: 40%;
+			}
+			&.sm{
+				width: 30%;
+			}
+			&.xs{
+				width: 20%;
+			}
+		}
+	}
+	.lbl-oculto{
+		opacity: 0;
+	}
+	.billig-container{
+		display: none;
+		.mail{
+		 width: 50%;
+		 @media screen and (max-width: 768px){
+		 	width: 100%;
+		 }
+		}
+	}
+	.gift-ocultar{
+			display: none;
+		}
+		.gift-mostrar{
+			display: inline-flex;
+		}
+		.membership-ocultar{
+			width: 100%;
+			display: none;
+		}
+		.membership-mostrar{
+			width: 100%;
+			display: inline-flex;
+			.inputsize{
+			&.gd{
+				width: 40%;
+			}
+		}
+		}
+		.img-oculta{
+			display: none;
+		}
+	.container-title{
+		width: 100%;
+		display: inline-flex;
+		justify-content: space-between;
+		img{
+			max-height: $space-2;
+		}
+	}
+	.inline-img{
+		width: 100%;
+		display: inline-flex;
+	}	
+	@media screen and (max-width: 768px){
+	.inline-elements{
+  			display: flex;
+    		flex-direction: column;
+    		.inputsize{
+			&.gd{
+				width: 100%;
+			}
+			&.md{
+				width: 100%;
+			}
+			&.sm{
+				width: 100%;
+			}
+			&.xs{
+				width: 100%;
+			}
+		}
+	}
+	.gift-mostrar{
+			display: flex;
+    		flex-direction: column;
+    		width: 100%;
+		}
+	.membership-mostrar{
+			display: flex;
+    		flex-direction: column;.inputsize{
+			&.gd{
+				width: 100%;
+			}
+		}
+		}	
+}
+}
