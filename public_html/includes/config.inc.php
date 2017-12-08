@@ -125,7 +125,6 @@
   
 // Password Encryption Salt
 
-  define('PASSWORD_SALT', '1RQKosj4OVKg04hxlKdAPwcdm27IeH39Xw6DwbaqYx2FvzYkXJctTWdtYICM60siv6hFtr7LU3EeE7kiEVjTw4Pka9leIzrVi1qNnStJfganAtyMxiTpTS9BBoT8VTET');
 
   define('PASSWORD_SALT', 'jn7yWf6q1ZpmDynvb8JAs7AZGgKjyNtSkRe56j4rklVUFHFOaRmW6E3FaPPvgfPxe0PF0OAO1wNMs0yi52un4xfe1ZCzloEki5C564pXwWOXzJXEdlxn5kGCoXeUq3aB');
 
