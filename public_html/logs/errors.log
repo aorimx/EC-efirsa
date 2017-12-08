@@ -1,0 +1,16 @@
+[08-Dec-2017 11:19:57 America/Mexico_City] Warning: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in ~/includes/functions/func_email.inc.php on line 63
+ ← ~/includes/library/lib_functions.inc.php on line 10 in email_send()
+ ← ~/pages/create_account.inc.php on line 98 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: POST /EC-efirsa/public_html/en/create_account HTTP/1.1
+Client: ::1 (DESKTOP-ERUIAR2)
+User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Mobile Safari/537.36
+
+[08-Dec-2017 11:19:57 America/Mexico_City] Warning: Failed sending email to inigonavarrete@aori.mx in ~/includes/functions/func_email.inc.php on line 64
+ ← ~/includes/library/lib_functions.inc.php on line 10 in email_send()
+ ← ~/pages/create_account.inc.php on line 98 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: POST /EC-efirsa/public_html/en/create_account HTTP/1.1
+Client: ::1 (DESKTOP-ERUIAR2)
+User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Mobile Safari/537.36
+
