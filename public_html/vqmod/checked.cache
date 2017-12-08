@@ -65,6 +65,7 @@ includes/templates/default.catalog/views/box_site_footer.inc.php
 includes/templates/default.catalog/views/site_cookie_notice.inc.php
 includes/functions/func_general.inc.php
 includes/templates/default.catalog/views/breadcrumbs.inc.php
+
 pages/ajax/cart.json.inc.php
 includes/functions/func_admin.inc.php
 admin/appearance.app/config.inc.php
@@ -100,3 +101,6 @@ includes/templates/default.admin/views/box_widgets.inc.php
 includes/templates/default.catalog/views/notices.inc.php
 includes/templates/default.admin/layouts/default.inc.php
 includes/templates/default.admin/views/breadcrumbs.inc.php
+
+includes/templates/default.catalog/views/box_account_login.inc.php
+
