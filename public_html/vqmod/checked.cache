@@ -67,3 +67,4 @@ includes/templates/default.catalog/views/box_site_footer.inc.php
 includes/templates/default.catalog/views/site_cookie_notice.inc.php
 includes/functions/func_general.inc.php
 includes/templates/default.catalog/views/breadcrumbs.inc.php
+pages/ajax/cart.json.inc.php
