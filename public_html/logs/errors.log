@@ -1,3 +1,214 @@
+
+[08-Dec-2017 10:05:36 America/Mexico_City] Warning: Invalid argument supplied for foreach() in ~/includes/library/lib_link.inc.php on line 88
+
+ ← ~/pages/regional_settings.inc.php on line 41 in ilink()
+
+ ← ~/index.php on line 35 in include()
+
+Request: POST /aori/Efirsa/EC-efirsa/public_html/index.php/en/regional_settings HTTP/1.1
+
+Client: ::1 (ALPA)
+
+User Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+
+
+
+[08-Dec-2017 11:17:07 America/Mexico_City] Warning: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in ~/includes/functions/func_email.inc.php on line 63
+
+ ← ~/includes/library/lib_functions.inc.php on line 10 in call_user_func_array()
+
+ ← ~/pages/ajax/checkout_customer.html.inc.php on line 129 in __callstatic()
+
+ ← ~/pages/ajax/checkout_customer.html.inc.php on line 129 in email_send()
+
+ ← ~/index.php on line 35 in include()
+
+Request: POST /aori/Efirsa/EC-efirsa/public_html/index.php/en/ajax/checkout_customer.html HTTP/1.1
+
+Client: ::1 (ALPA)
+
+User Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+
+
+
+[08-Dec-2017 11:17:07 America/Mexico_City] Warning: Failed sending email to lizbethabundis@hotmail.com in ~/includes/functions/func_email.inc.php on line 64
+
+ ← ~/includes/library/lib_functions.inc.php on line 10 in call_user_func_array()
+
+ ← ~/pages/ajax/checkout_customer.html.inc.php on line 129 in __callstatic()
+
+ ← ~/pages/ajax/checkout_customer.html.inc.php on line 129 in email_send()
+
+ ← ~/index.php on line 35 in include()
+
+Request: POST /aori/Efirsa/EC-efirsa/public_html/index.php/en/ajax/checkout_customer.html HTTP/1.1
+
+Client: ::1 (ALPA)
+
+User Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+
+
+
+[08-Dec-2017 11:18:02 America/Mexico_City] Warning: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in ~/includes/functions/func_email.inc.php on line 63
+
+ ← ~/includes/library/lib_functions.inc.php on line 10 in call_user_func_array()
+
+ ← ~/includes/controllers/ctrl_order.inc.php on line 728 in __callstatic()
+
+ ← ~/includes/controllers/ctrl_order.inc.php on line 728 in email_send()
+
+ ← ~/pages/order_process.inc.php on line 137 in email_order_copy()
+
+ ← ~/index.php on line 35 in include()
+
+Request: POST /aori/Efirsa/EC-efirsa/public_html/index.php/en/order_process HTTP/1.1
+
+Client: ::1 (ALPA)
+
+User Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+
+
+
+[08-Dec-2017 11:18:02 America/Mexico_City] Warning: Failed sending email to lizbethabundis@hotmail.com in ~/includes/functions/func_email.inc.php on line 64
+
+ ← ~/includes/library/lib_functions.inc.php on line 10 in call_user_func_array()
+
+ ← ~/includes/controllers/ctrl_order.inc.php on line 728 in __callstatic()
+
+ ← ~/includes/controllers/ctrl_order.inc.php on line 728 in email_send()
+
+ ← ~/pages/order_process.inc.php on line 137 in email_order_copy()
+
+ ← ~/index.php on line 35 in include()
+
+Request: POST /aori/Efirsa/EC-efirsa/public_html/index.php/en/order_process HTTP/1.1
+
+Client: ::1 (ALPA)
+
+User Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+
+
+
+[08-Dec-2017 11:18:03 America/Mexico_City] Warning: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in ~/includes/functions/func_email.inc.php on line 63
+
+ ← ~/includes/library/lib_functions.inc.php on line 10 in call_user_func_array()
+
+ ← ~/includes/controllers/ctrl_order.inc.php on line 728 in __callstatic()
+
+ ← ~/includes/controllers/ctrl_order.inc.php on line 728 in email_send()
+
+ ← ~/pages/order_process.inc.php on line 140 in email_order_copy()
+
+ ← ~/index.php on line 35 in include()
+
+Request: POST /aori/Efirsa/EC-efirsa/public_html/index.php/en/order_process HTTP/1.1
+
+Client: ::1 (ALPA)
+
+User Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+
+
+
+[08-Dec-2017 11:18:03 America/Mexico_City] Warning: Failed sending email to andreaabundis@aori.mx in ~/includes/functions/func_email.inc.php on line 64
+
+ ← ~/includes/library/lib_functions.inc.php on line 10 in call_user_func_array()
+
+ ← ~/includes/controllers/ctrl_order.inc.php on line 728 in __callstatic()
+
+ ← ~/includes/controllers/ctrl_order.inc.php on line 728 in email_send()
+
+ ← ~/pages/order_process.inc.php on line 140 in email_order_copy()
+
+ ← ~/index.php on line 35 in include()
+
+Request: POST /aori/Efirsa/EC-efirsa/public_html/index.php/en/order_process HTTP/1.1
+
+Client: ::1 (ALPA)
+
+User Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+
+
+
+[08-Dec-2017 11:19:49 America/Mexico_City] Warning: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in ~/includes/functions/func_email.inc.php on line 63
+
+ ← ~/includes/library/lib_functions.inc.php on line 10 in call_user_func_array()
+
+ ← ~/includes/controllers/ctrl_order.inc.php on line 728 in __callstatic()
+
+ ← ~/includes/controllers/ctrl_order.inc.php on line 728 in email_send()
+
+ ← ~/pages/order_process.inc.php on line 137 in email_order_copy()
+
+ ← ~/index.php on line 35 in include()
+
+Request: POST /aori/Efirsa/EC-efirsa/public_html/index.php/en/order_process HTTP/1.1
+
+Client: ::1 (ALPA)
+
+User Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+
+
+
+[08-Dec-2017 11:19:49 America/Mexico_City] Warning: Failed sending email to lizbethabundis@hotmail.com in ~/includes/functions/func_email.inc.php on line 64
+
+ ← ~/includes/library/lib_functions.inc.php on line 10 in call_user_func_array()
+
+ ← ~/includes/controllers/ctrl_order.inc.php on line 728 in __callstatic()
+
+ ← ~/includes/controllers/ctrl_order.inc.php on line 728 in email_send()
+
+ ← ~/pages/order_process.inc.php on line 137 in email_order_copy()
+
+ ← ~/index.php on line 35 in include()
+
+Request: POST /aori/Efirsa/EC-efirsa/public_html/index.php/en/order_process HTTP/1.1
+
+Client: ::1 (ALPA)
+
+User Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+
+
+
+[08-Dec-2017 11:19:50 America/Mexico_City] Warning: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in ~/includes/functions/func_email.inc.php on line 63
+
+ ← ~/includes/library/lib_functions.inc.php on line 10 in call_user_func_array()
+
+ ← ~/includes/controllers/ctrl_order.inc.php on line 728 in __callstatic()
+
+ ← ~/includes/controllers/ctrl_order.inc.php on line 728 in email_send()
+
+ ← ~/pages/order_process.inc.php on line 140 in email_order_copy()
+
+ ← ~/index.php on line 35 in include()
+
+Request: POST /aori/Efirsa/EC-efirsa/public_html/index.php/en/order_process HTTP/1.1
+
+Client: ::1 (ALPA)
+
+User Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+
+
+
+[08-Dec-2017 11:19:50 America/Mexico_City] Warning: Failed sending email to andreaabundis@aori.mx in ~/includes/functions/func_email.inc.php on line 64
+
+ ← ~/includes/library/lib_functions.inc.php on line 10 in call_user_func_array()
+
+ ← ~/includes/controllers/ctrl_order.inc.php on line 728 in __callstatic()
+
+ ← ~/includes/controllers/ctrl_order.inc.php on line 728 in email_send()
+
+ ← ~/pages/order_process.inc.php on line 140 in email_order_copy()
+
+ ← ~/index.php on line 35 in include()
+
+Request: POST /aori/Efirsa/EC-efirsa/public_html/index.php/en/order_process HTTP/1.1
+
+Client: ::1 (ALPA)
+
+User Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+
+
+
 [08-Dec-2017 11:19:57 America/Mexico_City] Warning: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in ~/includes/functions/func_email.inc.php on line 63
  ← ~/includes/library/lib_functions.inc.php on line 10 in email_send()
  ← ~/pages/create_account.inc.php on line 98 in __callstatic()
@@ -13,4 +224,5 @@ User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/5
 Request: POST /EC-efirsa/public_html/en/create_account HTTP/1.1
 Client: ::1 (DESKTOP-ERUIAR2)
 User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Mobile Safari/537.36
+
 
