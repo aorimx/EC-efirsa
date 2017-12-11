@@ -42,7 +42,7 @@
   define('DB_SERVER', '127.0.0.1');
   define('DB_USERNAME', 'root');
   define('DB_PASSWORD', '');
-  define('DB_DATABASE', 'ec-efirsa');
+  define('DB_DATABASE', 'ec-efirsarel');
   define('DB_TABLE_PREFIX', 'ec_');
   define('DB_CONNECTION_CHARSET', (strtoupper(substr(PHP_OS, 0, 3)) == 'WIN') ? 'latin1' : 'utf8'); // utf8 or latin1
   define('DB_PERSISTENT_CONNECTIONS', 'false');
@@ -124,6 +124,5 @@
   }
   
 // Password Encryption Salt
-  define('PASSWORD_SALT', 'tq2OYPXwUw7ewmWFY16AsR7eUVbuiVqUKwrdDIGfdaL80CaQ9mHGgPAXPYvJPmENFGnqvCf5BaPpMw5vAlCVK5zPL22uQxM8DH9JpJk89JQWSHqFacVKJFLmwUHjbhni');
-  
+  define('PASSWORD_SALT', 'BU44JcWHNECMCeU26QWmBFbCRuNiYrkGfwMvCPNsGGbHZAIOQKW5vWe6dAqgJWOHKetAxVvDb7SleMY5kQshsxO2Y6Fzeai3bdzG1oIQZRe3iQQuTwI6x7vrTfC71daZ');
 ?>
