@@ -27,15 +27,15 @@
           <div id="navbar" class="navbar-collapse collapse" style="overflow: hidden; max-height: 424px !important;">
             <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="nav navbar-nav navbar-cel">
               <li>
-                <a class="navbar-brand marca-nocel hidden-xs hidden-sm" href="index.php" style="padding-bottom: 7px; padding-top: 7px; margin-right:20px;"><img src="img/logos/efirsaNav.png"></a>
+                <a class="navbar-brand marca-nocel hidden-xs hidden-sm" href="index.php" style="padding-bottom: 7px; padding-top: 7px; margin-right:200px;"><img src="img/logos/efirsaNav.png"></a>
               </li>
-              <li class="arrow_box"><a itemprop="url" href="index.php"><span itemprop="name">Inicio</span></a></li>
-              <li class="arrow_box"><a itemprop="url" href="nosotros.php"><span itemprop="name">Nosotros</span></a></li>
-              <li class="arrow_box"><a itemprop="url" href="productos.php"><span itemprop="name">Productos</span></a></li>
-              <li class="arrow_box"><a itemprop="url" href="certificaciones.php"><span itemprop="name">Certificaciones</span></a></li>
-              <li class="arrow_box"><a itemprop="url" href="../../../../index.php"><span itemprop="name">Tienda</span></a></li>
-              <li class="arrow_box"><a itemprop="url" href="contacto.php"><span itemprop="name">Contacto</span></a></li>
-              <li class="arrow_box"><a itemprop="url" href="../../../../index.php/en/checkout"><span itemprop="name"><img style="width: 30px;" src="img/carrito.png"></span></a></li>
+              <li class="arrow_box"><a itemprop="url" href="../../includes/templates/default.catalog/ef-s/index.php"><span itemprop="name">Inicio</span></a></li>
+              <li class="arrow_box"><a itemprop="url" href="../../includes/templates/default.catalog/ef-s/nosotros.php"><span itemprop="name">Nosotros</span></a></li>
+              <li class="arrow_box"><a itemprop="url" href="../../includes/templates/default.catalog/ef-s/productos.php"><span itemprop="name">Productos</span></a></li>
+              <li class="arrow_box"><a itemprop="url" href="../../includes/templates/default.catalog/ef-s/certificaciones.php"><span itemprop="name">Certificaciones</span></a></li>
+              <li class="arrow_box"><a itemprop="url" href="index.php"><span itemprop="name">Tienda</span></a></li>
+              <li class="arrow_box"><a itemprop="url" href="../../includes/templates/default.catalog/ef-s/contacto.php"><span itemprop="name">Contacto</span></a></li>
+              <li class="arrow_box"><a itemprop="url" href="../../index.php/en/checkout"><span itemprop="name"><img src="img/carrito.png"></span></a></li>
               <!--<li class="iconos-menu hidden-xs hidden-sm"><a href="#"><img class="lupaMenu" src="img/lupa.png"></a></li>
               <li class="iconos-menu"><a href="#"><img class="carritoMenu" src="img/carrito.png"></a></li>-->
               <!-- Descomentar cuando se usen las nuevas funciones
