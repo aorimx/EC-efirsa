@@ -27,17 +27,8 @@
 
 <div id="page" class="twelve-eighty shadow">
 
-  <header id="header">
-
-    <a class="logotype" href="<?php echo document::href_ilink(''); ?>">
-      <img src="<?php echo WS_DIR_IMAGES; ?>logotype.png" style="max-width: 250px; max-height: 60px;" alt="<?php echo settings::get('store_name'); ?>" title="<?php echo settings::get('store_name'); ?>" />
-    </a>
-
-    <div id="region-wrapper">
-      <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_region.inc.php'); ?>
-    </div>
-
-    <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_cart.inc.php'); ?>
+  <header>
+    <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'ef-s/menu.php'); ?>
   </header>
 
   <!--<?php //include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_site_menu.inc.php'); ?>-->
@@ -59,7 +50,7 @@
     </div>
   </div>
 
-  <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/ef-s/footer.php'); ?>
+  <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'ef-s/footer.php'); ?>
 </div>
 
 <a id="scroll-up" href="#">
