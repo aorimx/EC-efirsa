@@ -1,4 +1,4 @@
-<!--<footer id="footer">
+<footer id="footer">
 
   <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'views/site_cookie_notice.inc.php'); ?>
 
