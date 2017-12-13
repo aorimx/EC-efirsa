@@ -46,7 +46,7 @@
     </div>
 
     <div class="bottom">
-      {snippet:bottom}
+      {snippet:bottom} 
     </div>
   </div>
 
