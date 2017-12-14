@@ -27,7 +27,7 @@
           <div id="navbar" class="navbar-collapse collapse" style="overflow: hidden; max-height: 424px !important;">
             <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="nav navbar-nav navbar-cel">
               <li>
-                <a class="navbar-brand marca-nocel hidden-xs hidden-sm" href="../../includes/templates/default.catalog/ef-s/index.php" style="padding-bottom: 6px; padding-top: 7px; margin-right:20px;"><img src="../../includes/templates/default.catalog/ef-s/img/logos/efirsaNav.png"></a>
+                <a class="navbar-brand marca-nocel hidden-xs hidden-sm" href="../../includes/templates/default.catalog/ef-s/index.php" style="padding-bottom: 6px; padding-top: 7px; margin-right:0px;"><img src="../../includes/templates/default.catalog/ef-s/img/logos/efirsaNav.png"></a>
               </li>
               <li class="arrow_box"><a itemprop="url" href="../../includes/templates/default.catalog/ef-s/index.php"><span itemprop="name">Inicio</span></a></li>
               <li class="arrow_box"><a itemprop="url" href="../../includes/templates/default.catalog/ef-s/nosotros.php"><span itemprop="name">Nosotros</span></a></li>
