@@ -2,7 +2,7 @@
 <nav class="navbar navbar-default" style="height: 67px;">
         <div class="container-fluid sin-padding">
           <div class="navbar-header">
-            <a class="navbar-brand marca-cel visible-xs visible-sm" href="index.php"><img class="logo-movil" src="img/logos/efirsaFooter.png" style="position: relative; top: 0px;"></a>
+            <a class="navbar-brand marca-cel visible-xs visible-sm" href="index.php"><img class="logo-movil" src="../../includes/templates/default.catalog/ef-s/img/logos/efirsaFooter.png" style="position: relative; top: 0px;"></a>
             <button type="button" class="hmenu navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar spanH"></span>
