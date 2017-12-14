@@ -2,7 +2,7 @@
 <nav class="navbar navbar-default" style="height: 67px;">
         <div class="container-fluid sin-padding">
           <div class="navbar-header">
-            <a class="navbar-brand marca-cel visible-xs visible-sm" href="index.php"><img class="logo-movil" src="img/logos/efirsaFooter.png" style="position: relative; top: 0px;"></a>
+            <a class="navbar-brand marca-cel visible-xs visible-sm" href="index.php"><img class="logo-movil" src="../../includes/templates/default.catalog/ef-s/img/logos/efirsaFooter.png" style="position: relative; top: 0px;"></a>
             <button type="button" class="hmenu navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar spanH"></span>
@@ -27,7 +27,7 @@
           <div id="navbar" class="navbar-collapse collapse" style="overflow: hidden; max-height: 424px !important;">
             <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="nav navbar-nav navbar-cel">
               <li>
-                <a class="navbar-brand marca-nocel hidden-xs hidden-sm" href="../../includes/templates/default.catalog/ef-s/index.php" style="padding-bottom: 7px; padding-top: 7px; margin-right:20px;"><img src="../../includes/templates/default.catalog/ef-s/img/logos/efirsaNav.png"></a>
+                <a class="navbar-brand marca-nocel hidden-xs hidden-sm" href="../../includes/templates/default.catalog/ef-s/index.php" style="padding-bottom: 6px; padding-top: 7px; margin-right:20px;"><img src="../../includes/templates/default.catalog/ef-s/img/logos/efirsaNav.png"></a>
               </li>
               <li class="arrow_box"><a itemprop="url" href="../../includes/templates/default.catalog/ef-s/index.php"><span itemprop="name">Inicio</span></a></li>
               <li class="arrow_box"><a itemprop="url" href="../../includes/templates/default.catalog/ef-s/nosotros.php"><span itemprop="name">Nosotros</span></a></li>
