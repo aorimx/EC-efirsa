@@ -5,7 +5,7 @@
       <p class="p-footer footer-fuente" style="margin-bottom: 16px;">Av. Lázaro Cárdenas 2305, Zona 1, Interior 3 <br> C.P. 44920, Col. Las Torres</p>
 
     </div>
-    <div class="col-xs-12 col-sm-6 derecha-footer">
+    <div class="col-xs-12 col-sm-6 derecha-footer" style="padding-right: 32px;">
       <a class="hidden-xs" href="../../includes/templates/default.catalog/ef-s/index.php"><img class="logo-movil-footer" src="../../includes/templates/default.catalog/ef-s/img/logos/efirsaFooter.png"></a>
       <p class="p-footer footer-fuente"><a  href="tel:14140202">Tel. 14140202</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a  href="tel:31441377">31441377</a></p>
       <p class="p-footer footer-fuente"><a  href="tel:018001712297">01 800 171 2297</a><i class="i-footer">&nbsp;Lada sin costo</i></p>
