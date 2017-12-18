@@ -26,7 +26,7 @@
 
   <header id="header">
 
-    <!--<a class="logotype" href="<?php /*echo document::href_ilink(''); ?>">
+    <a class="logotype" href="<?php echo document::href_ilink(''); ?>">
       <img src="<?php echo WS_DIR_IMAGES; ?>logotype.png" style="max-width: 250px; max-height: 60px;" alt="<?php echo settings::get('store_name'); ?>" title="<?php echo settings::get('store_name'); ?>" />
     </a>
 
@@ -34,7 +34,8 @@
       <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_region.inc.php'); ?>
     </div>
 
-    <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_cart.inc.php');*/ ?>-->
+    <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_cart.inc.php'); ?>
+
     <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/menu.php'); ?>
   </header>
 
@@ -57,7 +58,7 @@
     </div>
   </div>
 
-   <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/footer.php'); ?>
+  <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/footer.php'); ?>
 </div>
 
 <a id="scroll-up" href="#">
@@ -66,9 +67,6 @@
 
 {snippet:foot_tags}
 <script src="{snippet:template_path}js/app.min.js"></script>
-<script src="{snippet:template_path}ef-s/js/jquery.js"></script>
-<script src="{snippet:template_path}ef-s/js/mobilMenu.js"></script>
-<script src="{snippet:template_path}ef-s/js/bootstrap.min.js"></script>
-<script src="{snippet:template_path}ef-s/js/scripts.js"></script>
-{snippet:javascript}</body>
+{snippet:javascript}
+</body>
 </html>
