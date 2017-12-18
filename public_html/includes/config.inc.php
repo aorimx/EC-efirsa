@@ -124,6 +124,7 @@
   }
   
 // Password Encryption Salt
+  
   define('PASSWORD_SALT', 'IJaQlm5IJHcZWCpskcteY6IoXziDvMsGCHUvb0FbX0axvu1PwNVAKsv0mnLZuR7YHQr7Locfu0zT6zLMcDJQ65m8xD490gnysVBSOHxywUae4oIEd1pY49zbZqP7jK8a');
   
 ?>
