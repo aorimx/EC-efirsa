@@ -5,11 +5,16 @@
 <meta charset="{snippet:charset}" />
 <meta name="description" content="{snippet:description}" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="{snippet:template_path}css/framework.min.css" />
-<link rel="stylesheet" href="{snippet:template_path}css/app.min.css" />
-<link rel="stylesheet" href="{snippet:template_path}css/checkout.min.css" />
-<!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-<!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
+<link rel="stylesheet" href="{snippet:template_path}ef-s/css/normalize.css" />
+  <link rel="stylesheet" href="{snippet:template_path}ef-s/css/bootstrap.css">
+  <link rel="stylesheet" href="{snippet:template_path}ef-s/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{snippet:template_path}ef-s/css/certificaciones.css">
+  <link rel="stylesheet" href="{snippet:template_path}ef-s/css/inicio.css">
+  <link rel="stylesheet" href="{snippet:template_path}ef-s/css/mobileMenu.css">
+  <link rel="stylesheet" href="{snippet:template_path}ef-s/css/nosotros.css">
+  <link rel="stylesheet" href="{snippet:template_path}ef-s/css/contacto.css">
+  <link rel="stylesheet" href="{snippet:template_path}ef-s/css/estilos.css">
+  <link rel="stylesheet" href="{snippet:template_path}ef-s/css/style1.css">
 {snippet:head_tags}
 {snippet:style}
 </head>
@@ -17,15 +22,15 @@
 
 <div id="header-wrapper">
   <header id="header" class="twelve-eighty">
-
-    <a class="logotype" href="<?php echo document::href_ilink(''); ?>">
+    <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/menu.php'); ?>
+    <!--<a class="logotype" href="<?php /*echo document::href_ilink(''); ?>">
       <img src="<?php echo WS_DIR_IMAGES; ?>logotype.png" style="max-width: 250px; max-height: 60px;" alt="<?php echo settings::get('store_name'); ?>" title="<?php echo settings::get('store_name'); ?>" />
     </a>
 
     <div class="customer-service hidden-xs">
       <div class="title"><?php echo language::translate('title_customer_service', 'Customer Service'); ?></div>
-      <div class="phone"><?php echo settings::get('store_phone'); ?></div>
-    </div>
+      <div class="phone"><?php echo settings::get('store_phone'); */?></div>
+    </div>-->
   </header>
 </div>
 
