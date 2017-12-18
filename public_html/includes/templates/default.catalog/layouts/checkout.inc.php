@@ -41,9 +41,13 @@
 
   </div>
 </div>
-
+<?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/footer.php'); ?>
 {snippet:foot_tags}
 <script src="{snippet:template_path}js/app.min.js"></script>
+<script src="{snippet:template_path}ef-s/js/jquery.js"></script>
+<script src="{snippet:template_path}ef-s/js/mobilMenu.js"></script>
+<script src="{snippet:template_path}ef-s/js/bootstrap.min.js"></script>
+<script src="{snippet:template_path}ef-s/js/scripts.js"></script>
 {snippet:javascript}
 </body>
 </html>
