@@ -6,7 +6,7 @@
   <div id="box-checkout">
     <div class="cart wrapper"></div>
 
-    <div class="row">
+    <div class="j-wrap">
       <div class="col-md-halfs">
         <div class="customer wrapper"></div>
       </div>
