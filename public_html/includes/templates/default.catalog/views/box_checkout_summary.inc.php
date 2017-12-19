@@ -8,7 +8,7 @@
       <tbody>
         <?php foreach ($order_total as $row) { ?>
         <tr>
-          <td class="text-right" colspan="5"><strong><?php echo $row['title']; ?>:</strong></td>
+          <td class="text-left" colspan="5"><strong><?php echo $row['title']; ?>:</strong></td>
           <td class="text-right"><?php echo !empty(customer::$data['display_prices_including_tax']) ? currency::format($row['value'] + $row['tax'], false) : currency::format($row['value'], false); ?></td>
         </tr>
         <?php } ?>
@@ -22,30 +22,29 @@
       </tbody>
       <tfoot>
         <tr class="footer">
-          <td class="text-right" colspan="5"><strong><?php echo language::translate('title_payment_due', 'Payment Due'); ?>:</strong></td>
+          <td class="text-left" colspan="5"><strong><?php echo language::translate('title_payment_due', 'Payment Due'); ?>:</strong></td>
           <td class="text-right" style="width: 25%;"><strong><?php echo currency::format($payment_due, false); ?></strong></td>
         </tr>
       </tfoot>
     </table>
 
-    <div class="comments form-group">
+    <!--<div class="comments form-group">
       <label><?php echo language::translate('title_comments', 'Comments'); ?></label>
       <?php echo functions::form_draw_textarea('comments', true); ?>
-    </div>
+    </div>-->
 
-    <div class="confirm row">
-      <div class="col-md-9">
+    <div class="confirm padding-top">
+      <div class="col-md-fourths">
+        <button class="btn btn-block btn-lg btn-success" type="submit" name="confirm_order" value="true"<?php echo !empty($error) ? ' disabled="disabled"' : ''; ?>><?php echo $confirm; ?></button>
+      </div>
+      <div class="padding-left padding-right">
         <?php if ($error) { ?>
           <div class="alert alert-danger"><?php echo htmlspecialchars($error); ?></div>
         <?php } else { ?>
-          <p class="terms-of-purchase text-center" style="font-size: 1.25em; margin-top: 0.5em;">
+          <p class="terms-of-purchase text-left" style="font-size: 1.25em; margin-top: 0.5em;">
             <?php echo language::translate('checkout_summary:terms_of_purchase', 'By proceeding you hereby confirm and accept the Terms and Conditions of Purchase.'); ?>
           </p>
         <?php } ?>
-      </div>
-
-      <div class="col-md-fourths">
-        <button class="btn btn-block btn-lg btn-success" type="submit" name="confirm_order" value="true"<?php echo !empty($error) ? ' disabled="disabled"' : ''; ?>><?php echo $confirm; ?></button>
       </div>
     </div>
   </div>
