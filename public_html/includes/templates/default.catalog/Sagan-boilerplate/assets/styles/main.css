@@ -1723,5 +1723,29 @@ header.main-nav.responsive {
 
   .hide_element_responsive {
     display: none; } }
+.checkout {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%; }
+  .checkout .shopping-cart {
+    width: 60%;
+    padding-right: 16px; }
+  .checkout .order-summary {
+    width: 40%;
+    padding-right: 16px;
+    padding-left: 16px; }
+    .checkout .order-summary button {
+      max-width: 100%; }
+  .checkout .custome-details {
+    width: 60%;
+    margin-left: 0; }
+    .checkout .custome-details .margin-left {
+      margin-left: -16px; }
+  .checkout .padding-right {
+    padding-right: 16px; }
+  .checkout .padding-left {
+    padding-left: 16px; }
+  .checkout .padding-top {
+    padding-top: 16px; }
 
 /*# sourceMappingURL=main.css.map */

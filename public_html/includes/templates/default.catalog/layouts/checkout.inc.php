@@ -15,33 +15,36 @@
   <link rel="stylesheet" href="{snippet:template_path}ef-s/css/contacto.css">
   <link rel="stylesheet" href="{snippet:template_path}ef-s/css/estilos.css">
   <link rel="stylesheet" href="{snippet:template_path}ef-s/css/style1.css">
+  <link rel="stylesheet" href="{snippet:template_path}Sagan-boilerplate/assets/styles/main.css">
 {snippet:head_tags}
 {snippet:style}
 </head>
 <body>
+  <div id="header-wrapper">
+    <header id="header" class="twelve-eighty">
+      <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/menu.php'); ?>
+      <!--<a class="logotype" href="<?php /*echo document::href_ilink(''); ?>">
+        <img src="<?php echo WS_DIR_IMAGES; ?>logotype.png" style="max-width: 250px; max-height: 60px;" alt="<?php echo settings::get('store_name'); ?>" title="<?php echo settings::get('store_name'); ?>" />
+      </a>
 
-<div id="header-wrapper">
-  <header id="header" class="twelve-eighty">
-    <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/menu.php'); ?>
-    <!--<a class="logotype" href="<?php /*echo document::href_ilink(''); ?>">
-      <img src="<?php echo WS_DIR_IMAGES; ?>logotype.png" style="max-width: 250px; max-height: 60px;" alt="<?php echo settings::get('store_name'); ?>" title="<?php echo settings::get('store_name'); ?>" />
-    </a>
-
-    <div class="customer-service hidden-xs">
-      <div class="title"><?php echo language::translate('title_customer_service', 'Customer Service'); ?></div>
-      <div class="phone"><?php echo settings::get('store_phone'); */?></div>
-    </div>-->
-  </header>
-</div>
-
-<div id="page" class="shadow">
-  <div id="main">
-
-    {snippet:content}
-
+      <div class="customer-service hidden-xs">
+        <div class="title"><?php echo language::translate('title_customer_service', 'Customer Service'); ?></div>
+        <div class="phone"><?php echo settings::get('store_phone'); */?></div>
+      </div>-->
+    </header>
   </div>
-</div>
-<?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/footer.php'); ?>
+  <div class="j-workspace">
+    <div class="j-wrap">
+      <div id="page" class="shadow">
+        <div id="main">
+
+         {snippet:content}
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/footer.php'); ?>
 {snippet:foot_tags}
 <script src="{snippet:template_path}js/app.min.js"></script>
 <script src="{snippet:template_path}ef-s/js/jquery.js"></script>
