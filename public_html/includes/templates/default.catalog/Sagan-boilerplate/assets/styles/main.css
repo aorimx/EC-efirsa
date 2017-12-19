@@ -1728,16 +1728,16 @@ header.main-nav.responsive {
   flex-wrap: wrap;
   width: 100%; }
   .checkout .shopping-cart {
-    width: 60%;
+    width: 70%;
     padding-right: 16px; }
   .checkout .order-summary {
-    width: 40%;
+    width: 30%;
     padding-right: 16px;
     padding-left: 16px; }
     .checkout .order-summary button {
       max-width: 100%; }
   .checkout .custome-details {
-    width: 60%;
+    width: 70%;
     margin-left: 0; }
     .checkout .custome-details .margin-left {
       margin-left: -16px; }
