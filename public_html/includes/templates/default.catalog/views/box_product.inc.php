@@ -1,5 +1,6 @@
-<div id="box-product" class="box" style="max-width: 980px;" data-id="<?php echo $product_id; ?>">
-  <div class="row">
+<div id="box-product" class="box container-product" style="max-width: 980px; display: inline-flex;" data-id="<?php echo $product_id; ?>">
+  
+    <div class="unit percent-70">
     <div class="col-xs-whole col-sm-halfs col-md-thirds">
       <div class="image-wrapper">
         <a href="<?php echo htmlspecialchars($image['original']); ?>" data-toggle="lightbox" data-gallery="product">
@@ -22,7 +23,8 @@
       </div>
       <?php } ?>
     </div>
-
+  </div>
+    <div class="unit percent-30">
     <div class="col-sm-halfs col-md-thirds">
       <h1 class="title"><?php echo $name; ?></h1>
 
