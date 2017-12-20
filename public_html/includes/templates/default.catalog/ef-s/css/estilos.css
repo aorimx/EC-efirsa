@@ -223,7 +223,7 @@ a:hover, a:active{
 }
 
 .navbar-cel li{
-
+  font-size: 14px;
 }
 
 .navbar-cel .arrow_box{
@@ -232,6 +232,12 @@ a:hover, a:active{
 
 .navbar-cel .arrow_box{
 	margin-top: 10px;
+}
+@media screen and (max-width: 991px){
+
+    .navbar-cel .arrow_box{
+        margin-top: 0;
+    }
 }
 @media screen and (max-width: 901px){
 

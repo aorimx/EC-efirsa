@@ -60,3 +60,24 @@
     border-width: 1px;
   }
 } 
+@media screen and (max-width: 991px){
+  .checkout{
+    .shopping-cart {
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .order-summary{
+      width: 100%;
+      padding-right: 0;
+      padding-left: 0;
+      button{
+        max-width: 100%;
+      }
+    }
+    .custome-details{
+      width: 100%;
+      padding-right: 0;
+    }
+  } 
+}
