@@ -5,7 +5,7 @@
 <meta charset="{snippet:charset}" />
 <meta name="description" content="{snippet:description}" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="{snippet:template_path}ef-s/css/normalize.css" />
+  <link rel="stylesheet" href="{snippet:template_path}ef-s/css/normalize.css" />
   <link rel="stylesheet" href="{snippet:template_path}ef-s/css/bootstrap.css">
   <link rel="stylesheet" href="{snippet:template_path}ef-s/css/font-awesome.min.css">
   <link rel="stylesheet" href="{snippet:template_path}ef-s/css/certificaciones.css">
