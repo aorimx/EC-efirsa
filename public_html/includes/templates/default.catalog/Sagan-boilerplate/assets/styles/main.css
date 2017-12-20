@@ -1747,5 +1747,27 @@ header.main-nav.responsive {
     padding-left: 16px; }
   .checkout .padding-top {
     padding-top: 16px; }
+  .checkout .padding-bottom {
+    padding-bottom: 16px; }
+  .checkout .backgroung-gray {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 100%;
+    background-color: #D8D8D8; }
+    .checkout .backgroung-gray h2 {
+      color: white;
+      margin-bottom: 0;
+      padding-left: 16px; }
+  .checkout .backgroung-black {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    background-color: black; }
+    .checkout .backgroung-black strong {
+      color: white; }
+  .checkout .td-border {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px; }
 
 /*# sourceMappingURL=main.css.map */
