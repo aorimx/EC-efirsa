@@ -6,7 +6,7 @@
   </div>
   <?php } ?>
 
-  <h2 class="title"><?php echo language::translate('title_customer_details', 'Customer Details'); ?></h2>
+  <h2 class="title margin-left"><?php echo language::translate('title_customer_details', 'Customer Details'); ?></h2>
 
   <div class="address billing-address">
 
