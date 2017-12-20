@@ -52,6 +52,28 @@
         padding-right: 0;
       }
     }
+     &.percent-40 {
+      width: 40%;
+      padding-right: $space-2;
+      &:last-child {
+        padding-right: 0;
+      }
+      @media screen and (max-width: 768px){
+        width: 100%;
+        padding-right: 0;
+      }
+    }
+     &.percent-60 {
+      width: 60%;
+      padding-right: $space-2;
+      &:last-child {
+        padding-right: 0;
+      }
+      @media screen and (max-width: 768px){
+        width: 100%;
+        padding-right: 0;
+      }
+    }
     &.percent-70 {
       width: 70%;
       padding-right: $space-2;
