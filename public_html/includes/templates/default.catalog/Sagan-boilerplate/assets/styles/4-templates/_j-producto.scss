@@ -17,6 +17,9 @@ $img-sm: 64px;
     margin-bottom: 0;
  }
   }
+ .img-big{
+  margin-right: $space-2;
+ } 
 .img-big:hover{
   -moz-transform: scale(1.1);
 -webkit-transform: scale(1.1);
@@ -76,7 +79,6 @@ transform: scale(1.1)
     display: inline-flex;
     .thumbnail-img-sm{
     img{
-      max-width: 32px;
       padding-right: $space-base;
   }
 }
