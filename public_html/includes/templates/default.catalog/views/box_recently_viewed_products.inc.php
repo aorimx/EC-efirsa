@@ -2,7 +2,7 @@
 
   <h2 class="title"><?php echo language::translate('title_recently_viewed', 'Recently Viewed'); ?></h2>
 
-  <div class="products row half-gutter">
+  <div class="container-img-recently">
 
     <?php foreach ($products as $product) { ?>
     <div class="col-xs-thirds">

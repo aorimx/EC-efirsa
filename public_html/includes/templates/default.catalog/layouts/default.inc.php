@@ -46,10 +46,8 @@
     </div>
     <div class="j-wrap">
     <div class="middle">
-      <div class="grid">
       {snippet:content}
       <div style="clear: both;"></div>
-    </div>
     </div>
   </div>
     <div class="bottom">
@@ -65,6 +63,10 @@
 
 {snippet:foot_tags}
 <script src="{snippet:template_path}js/app.min.js"></script>
+<script src="{snippet:template_path}ef-s/js/jquery.js"></script>
+<script src="{snippet:template_path}ef-s/js/mobilMenu.js"></script>
+<script src="{snippet:template_path}ef-s/js/bootstrap.min.js"></script>
+<script src="{snippet:template_path}ef-s/js/scripts.js"></script>
 {snippet:javascript}
 </body>
 </html>
