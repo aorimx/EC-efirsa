@@ -3,7 +3,7 @@
         <div class="container-fluid sin-padding">
           <div class="navbar-header">
             <a class="navbar-brand marca-cel visible-xs visible-sm" href="index.php"><img class="logo-movil" src="../../includes/templates/default.catalog/ef-s/img/logos/efirsaFooter.png" style="position: relative; top: 0px;"></a>
-            <button type="button" class="hmenu navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <button type="button" class="hmenu navbar-toggle collapsed btn-menu" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar spanH"></span>
               <span class="icon-bar spanH"></span>
@@ -61,4 +61,4 @@
         </div><!--/.container-fluid -->
       </nav>
 </div>
-<div class="separador-menu"></div>
+<div class="separador-menu-sm"></div>

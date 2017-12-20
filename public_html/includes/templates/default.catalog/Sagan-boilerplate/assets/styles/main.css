@@ -1723,6 +1723,37 @@ header.main-nav.responsive {
 
   .hide_element_responsive {
     display: none; } }
+.sub-menu {
+  background: #ffffff; }
+
+.separador-menu-sm {
+  margin-top: 8px; }
+
+.btn-menu {
+  max-width: 40px; }
+
+.container-img-recently {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 100%; }
+
+.btn-aligned {
+  max-width: 100%;
+  margin-top: 16px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center; }
+
+.text-aligned {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center; }
+
 .checkout {
   display: flex;
   flex-wrap: wrap;
