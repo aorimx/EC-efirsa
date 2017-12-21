@@ -1,22 +1,33 @@
-$img-sm: 64px;
+$img-sm: 128px;
 .thumbnail-img{
   img{
     width: $img-sm;
+     @media screen and (max-width: 1232px){
+      width: 96px;
+    }
+    @media screen and (max-width: 840px){
+      width: 80px;
   }
 }
-.container-img-product{
- padding-right: $space-2;
+}
+.container-images-product{
+  width: 100%;
  display: flex;
  justify-content: center;
- align-items: center;
+.container-img-product{
+  width:80%;
+  display: flex;
+ justify-content: center;
+ padding-right: $space-2;
  height: 350px;
  padding: $space-2;
- background-color: rgba(red, .3);
+ background-color: $gray-lighter;
  img {
     max-height: 100%;
     margin-bottom: 0;
  }
   }
+}
  .img-big{
   margin-right: $space-2;
  } 

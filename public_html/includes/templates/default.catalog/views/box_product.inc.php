@@ -1,7 +1,7 @@
 <div id="box-product" style="/*max-width: 980px;*/ " data-id="<?php echo $product_id; ?>">
   <div  class="grid">
     <div class="unit percent-70">
-    <div class="col-xs-whole col-sm-halfs col-md-thirds">
+    <div class="container-images-product">
       <div class="container-img-product">
         <a href="<?php echo htmlspecialchars($image['original']); ?>" data-toggle="lightbox" data-gallery="product">
           <img class="img-responsive" src="<?php echo htmlspecialchars($image['thumbnail']); ?>" srcset="<?php echo htmlspecialchars($image['thumbnail']); ?> 1x, <?php echo htmlspecialchars($image['thumbnail_2x']); ?> 2x" alt="" title="<?php echo htmlspecialchars($name); ?>" />
@@ -24,10 +24,10 @@
       <?php } ?>
     </div>
     <div class="thumbnail-img container-others-img">
-        <img class="img-big " onMouseOver="cambiar();" onMouseOut="volver();" src="{snippet:template_path}Sagan-boilerplate/assets/images/impresion-icon.png" alt="[#TODO]">
-        <img class="img-big" onMouseOver="cambiar2();" onMouseOut="volver();" src="{snippet:template_path}Sagan-boilerplate/assets/images/gmail-logo.jpg" alt="[#TODO]">
-        <img class="img-big" onMouseOver="cambiar3();" onMouseOut="volver();" src="{snippet:template_path}Sagan-boilerplate/assets/images/facebook-logo.jpg" alt="[#TODO]">
-        <img class="img-big" onMouseOver="cambiar4();" onMouseOut="volver();" src="{snippet:template_path}Sagan-boilerplate/assets/images/Pinterest-Logo.png" alt="[#TODO]">
+        <img class="img-big " onMouseOver="cambiar();" onMouseOut="volver();" src="{snippet:template_path}ef-s/img/e-commerce/Botonera4.png" alt="[#TODO]">
+        <img class="img-big" onMouseOver="cambiar2();" onMouseOut="volver();" src="{snippet:template_path}ef-s/img/e-commerce/Botonera4.png" alt="[#TODO]">
+        <img class="img-big" onMouseOver="cambiar3();" onMouseOut="volver();" src="{snippet:template_path}ef-s/img/e-commerce/Botonera4.png" alt="[#TODO]">
+        <img class="img-big" onMouseOver="cambiar4();" onMouseOut="volver();" src="{snippet:template_path}ef-s/img/e-commerce/Botonera4.png" alt="[#TODO]">
         </div>
   </div>
     <div class="unit percent-30">
