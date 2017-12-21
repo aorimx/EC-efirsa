@@ -53,6 +53,14 @@
     <div class="bottom">
       {snippet:bottom}
     </div>
+  <div class="banner-content">
+    <div class="banner">
+      <div class="image-banner">
+        <img class="image" src="../../includes/templates/default.catalog/ef-s/img/Banner.png">
+      </div>
+    </div>
+  </div>
+  <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_recently_viewed_products.inc.php'); ?>
   <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/footer.php'); ?>
 </div>
 

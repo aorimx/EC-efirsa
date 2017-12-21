@@ -127,6 +127,25 @@ a:hover, a:active{
   width: 90%;
   margin: auto;
 }
+.banner-content{
+  width: 100%;
+}
+.banner{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-banner {
+  max-width: 100%;
+  margin-bottom: 16px;
+}
+.image{
+  max-width: 100%;
+}
 #wowslider-container1 .ws_bullets a {
     width: 42px !important;
     height: 7px !important;
