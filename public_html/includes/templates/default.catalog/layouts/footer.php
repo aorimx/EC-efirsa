@@ -1,4 +1,4 @@
-<footer itemscope="" itemtype="https://schema.org/WPFooter" style="padding: 32px 16px 32px;">
+<footer itemscope="" itemtype="https://schema.org/WPFooter" style="padding: 32px 16px 34px;">
   <div class="container" style="height: 184px;">
     <div class="col-xs-12 col-sm-6 footerContacto">
       <h2 class="titulo-footer" style="margin-top: 0;">Contacto</h2>

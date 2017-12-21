@@ -1300,9 +1300,6 @@ header.main-nav.responsive {
 .img-big {
   margin-right: 16px; }
 
-.img-big {
-  margin-right: 16px; }
-
 .img-big:hover {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
@@ -1363,6 +1360,9 @@ header.main-nav.responsive {
 
   .container-product {
     padding-left: 0; }
+
+  .container-images-product .container-img-product {
+    width: 100%; }
 
   .availability-msg {
     width: 100%;
@@ -1741,6 +1741,9 @@ header.main-nav.responsive {
 .sub-menu {
   background: #ffffff;
   margin-left: 64px; }
+  @media screen and (max-width: 768px) {
+    .sub-menu {
+      margin-left: 0; } }
 
 .separador-menu-sm {
   margin-top: 8px; }

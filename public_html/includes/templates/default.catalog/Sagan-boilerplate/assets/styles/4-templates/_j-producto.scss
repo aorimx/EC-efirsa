@@ -122,6 +122,11 @@ transform: scale(1.1)
   .container-product{
     padding-left: 0;
     } 
+  .container-images-product{
+    .container-img-product{
+     width:100%;
+    }
+}  
 .availability-msg{
   width: 100%;
   display: inline-flex;
