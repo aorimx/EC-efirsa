@@ -57,9 +57,9 @@
 </div>
 
 </main>
-<a id="scroll-up" href="#">
-  <?php echo functions::draw_fonticon('fa-chevron-circle-up fa-3x', 'style="color: #000;"'); ?>
-</a>
+<!--<a id="scroll-up" href="#">
+  <?php //echo functions::draw_fonticon('fa-chevron-circle-up fa-3x', 'style="color: #000;"'); ?>
+</a>-->
 
 {snippet:foot_tags}
 <script src="{snippet:template_path}js/app.min.js"></script>
