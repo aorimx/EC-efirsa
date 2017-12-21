@@ -2,7 +2,10 @@
   {snippet:notices}
 
   <?php echo functions::form_draw_form_begin('checkout_form', 'post', document::ilink('order_process')); ?>
-
+    <div>
+      <h1>TU CARRITO</h1>
+      <HR>
+    </div>
   <div id="box-checkout" class="checkout">
     <div class="cart wrapper shopping-cart"></div>
     <div class="summary wrapper order-summary"></div>

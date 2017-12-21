@@ -1,7 +1,5 @@
 <div id="box-checkout-cart" class="box">
 
-  <h2 class="title"><?php echo language::translate('title_shopping_cart', 'Shopping Cart'); ?></h2>
-
   <div class="table-responsive">
     <table class="items table table-striped data-table" style="width: 100%;">
       <thead>
@@ -25,20 +23,20 @@
           </td>
           <td><?php echo currency::format($item['display_price']); ?></td>
           <td>
-            <div style="display: flex;">
+            <div style="display: flex; width: 100%;">
               <?php if (!empty($item['quantity_unit']['name'])) { ?>
-              <div class="input-group" style="width: 125px;">
+              <div class="input-group" style="width: 54%;">
                 <?php echo !empty($item['quantity_unit']['decimals']) ? functions::form_draw_decimal_field('item['.$key.'][quantity]', $item['quantity'], $item['quantity_unit']['decimals'], 0, null) : functions::form_draw_number_field('item['.$key.'][quantity]', $item['quantity'], 0, null); ?>
-                <span class="input-group-addon"><?php echo $item['quantity_unit']['name']; ?></span>
+                <span style="max-width: 48px;" class="input-group-addon"><?php echo $item['quantity_unit']['name']; ?></span>
               </div>
               <?php } else { ?>
                 <?php echo !empty($item['quantity_unit']['decimals']) ? functions::form_draw_decimal_field('item['.$key.'][quantity]', $item['quantity'], $item['quantity_unit']['decimals'], 0, null) : functions::form_draw_number_field('item['.$key.'][quantity]', $item['quantity'], 0, null, 'style="width: 125px;"'); ?>
               <?php } ?>
-              <?php echo functions::form_draw_button('update_cart_item', array($key, functions::draw_fonticon('fa-refresh')), 'submit', 'title="'. htmlspecialchars(language::translate('title_update', 'Update')) .'" formnovalidate style="margin-left: 0.5em;"'); ?>
+              <?php echo functions::form_draw_button('update_cart_item', array($key, functions::draw_fonticon('fa-refresh')), 'submit', 'title="'. htmlspecialchars(language::translate('title_update', 'Update')) .'" formnovalidate style="width: 23%;"'); ?>
+              <?php echo functions::form_draw_button('remove_cart_item', array($key, functions::draw_fonticon('fa-trash')), 'submit', 'class="btn btn-danger" title="'. htmlspecialchars(language::translate('title_remove', 'Remove')) .'" formnovalidate style="margin-right: 0; width: 23%;"'); ?>
             </div>
           </td>
           <td><?php echo currency::format($item['display_price'] * $item['quantity']); ?></td>
-          <td><?php echo functions::form_draw_button('remove_cart_item', array($key, functions::draw_fonticon('fa-trash')), 'submit', 'class="btn btn-danger" title="'. htmlspecialchars(language::translate('title_remove', 'Remove')) .'" formnovalidate'); ?></td>
         </tr>
         <?php } ?>
       </tbody>
