@@ -40,7 +40,7 @@
       <div class="col-md-fourths">
         <button class="btn btn-block btn-lg btn-success" type="submit" name="confirm_order" value="true"<?php echo !empty($error) ? ' disabled="disabled"' : ''; ?>><?php echo $confirm; ?></button>
       </div>
-      <div class="padding-left padding-right">
+      <div class="padding-left padding-right padding-top">
         <?php if ($error) { ?>
           <div class="alert alert-danger"><?php echo htmlspecialchars($error); ?></div>
         <?php } else { ?>
@@ -48,6 +48,10 @@
             Recibiras un correo de uno de nuestros acesores para mas informacion
           </p>
         <?php } ?>
+        <div>
+          <h3>Envio y Devolucion</h3>
+          <p style="font-size: 1.25em;">Si deseas cabiar o devolver tu compra tendras 90 dias para hacerlo</p>
+        </div>
       </div>
     </div>
   </div>
