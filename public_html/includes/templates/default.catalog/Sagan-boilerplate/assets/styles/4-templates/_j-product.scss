@@ -8,6 +8,17 @@
 .btn-menu{
   max-width: 40px;
 }
+.box{
+  margin-top: $space-3;
+}
+.container-others-img{
+  margin-top: $space-2;
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 .container-img-recently{
   display: inline-flex;
   flex-wrap: wrap;
@@ -19,10 +30,8 @@
 .btn-aligned{
   max-width:100%;
   margin-top: $space-2;
-  justify-content: center;
-    align-content: center;
-    align-items: center;
-    text-align: center;
+  margin-bottom: $space-base;
+  text-align: center;
 }
 .text-aligned{
    justify-content: center;

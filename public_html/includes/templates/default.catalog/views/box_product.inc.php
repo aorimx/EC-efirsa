@@ -23,6 +23,12 @@
       </div>
       <?php } ?>
     </div>
+    <div class="thumbnail-img container-others-img">
+        <img class="img-big " onMouseOver="cambiar();" onMouseOut="volver();" src="{snippet:template_path}Sagan-boilerplate/assets/images/impresion-icon.png" alt="[#TODO]">
+        <img class="img-big" onMouseOver="cambiar2();" onMouseOut="volver();" src="{snippet:template_path}Sagan-boilerplate/assets/images/gmail-logo.jpg" alt="[#TODO]">
+        <img class="img-big" onMouseOver="cambiar3();" onMouseOut="volver();" src="{snippet:template_path}Sagan-boilerplate/assets/images/facebook-logo.jpg" alt="[#TODO]">
+        <img class="img-big" onMouseOver="cambiar4();" onMouseOut="volver();" src="{snippet:template_path}Sagan-boilerplate/assets/images/Pinterest-Logo.png" alt="[#TODO]">
+        </div>
   </div>
     <div class="unit percent-30">
     <div class="col-sm-halfs col-md-thirds">
@@ -99,7 +105,7 @@
       </div>
 
 
-      <div class="buy_now" style="margin: 1em 0;">
+      <div class="buy_now">
         <?php echo functions::form_draw_form_begin('buy_now_form', 'post'); ?>
         <?php echo functions::form_draw_hidden_field('product_id', $product_id); ?>
 
