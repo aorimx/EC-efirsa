@@ -781,7 +781,21 @@ a:hover, a:active{
 }
 @media screen and (max-width: 900px){
     .footerContacto{
-        height: 90%;
+        height: auto;
+    }
+    .resp-none{
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap: wrap;  
+    }
+    .redes-footer{
+      width: 40%;
+    }
+    .gris-footer{
+          height: auto;
+      }
+    .copyright{
+      width: 60%;
     }
 }
 @media screen and (max-width: 600px){
@@ -790,9 +804,6 @@ a:hover, a:active{
     }
     .container{
         height: auto !important;
-    }
-    .resp-none{
-        display: none;
     }
     .container-footer-2{
         display: block;
@@ -877,6 +888,8 @@ footer{
 .gris-footer{
 	background-color: #d8d8d8;
   padding: 20px 0px;
+  width: 100%;
+  height: 12%;
 }
 
 .titulo-footer{
@@ -1115,7 +1128,7 @@ footer{
     text-align: center;
 }
 .redes-footer {
-    width: 180px;
+  width: 40%;
     padding: 10px 0px 10px;
     list-style: none;
     text-align: center;
