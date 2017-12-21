@@ -1,7 +1,8 @@
-<div id="box-product" class="box" style="max-width: 980px;" data-id="<?php echo $product_id; ?>">
-  <div class="row">
-    <div class="col-xs-whole col-sm-halfs col-md-thirds">
-      <div class="image-wrapper">
+<div id="box-product" style="/*max-width: 980px;*/ " data-id="<?php echo $product_id; ?>">
+  <div  class="grid">
+    <div class="unit percent-70">
+    <div class="container-images-product">
+      <div class="container-img-product">
         <a href="<?php echo htmlspecialchars($image['original']); ?>" data-toggle="lightbox" data-gallery="product">
           <img class="img-responsive" src="<?php echo htmlspecialchars($image['thumbnail']); ?>" srcset="<?php echo htmlspecialchars($image['thumbnail']); ?> 1x, <?php echo htmlspecialchars($image['thumbnail_2x']); ?> 2x" alt="" title="<?php echo htmlspecialchars($name); ?>" />
           <?php echo $sticker; ?>
@@ -22,7 +23,14 @@
       </div>
       <?php } ?>
     </div>
-
+    <div class="thumbnail-img container-others-img">
+        <img class="img-big " onMouseOver="cambiar();" onMouseOut="volver();" src="{snippet:template_path}ef-s/img/e-commerce/Botonera4.png" alt="[#TODO]">
+        <img class="img-big" onMouseOver="cambiar2();" onMouseOut="volver();" src="{snippet:template_path}ef-s/img/e-commerce/Botonera4.png" alt="[#TODO]">
+        <img class="img-big" onMouseOver="cambiar3();" onMouseOut="volver();" src="{snippet:template_path}ef-s/img/e-commerce/Botonera4.png" alt="[#TODO]">
+        <img class="img-big" onMouseOver="cambiar4();" onMouseOut="volver();" src="{snippet:template_path}ef-s/img/e-commerce/Botonera4.png" alt="[#TODO]">
+        </div>
+  </div>
+    <div class="unit percent-30">
     <div class="col-sm-halfs col-md-thirds">
       <h1 class="title"><?php echo $name; ?></h1>
 
@@ -33,11 +41,6 @@
       </ul>
       <?php } ?>
 
-      <?php if ($description) { ?>
-      <div class="description">
-        <?php echo $description; ?>
-      </div>
-      <?php } ?>
     </div>
 
     <div class="col-sm-halfs col-md-thirds">
@@ -101,9 +104,8 @@
        <?php } ?>
       </div>
 
-      <hr />
 
-      <div class="buy_now" style="margin: 1em 0;">
+      <div class="buy_now">
         <?php echo functions::form_draw_form_begin('buy_now_form', 'post'); ?>
         <?php echo functions::form_draw_hidden_field('product_id', $product_id); ?>
 
@@ -120,13 +122,15 @@
         <?php if (!$catalog_only_mode) { ?>
         <div class="form-group">
           <label><?php echo language::translate('title_quantity', 'Quantity'); ?></label>
-          <div style="display: flex">
+          <!--Aqui abajo iba un display:flex;-->
+          <div>
             <div class="input-group">
               <?php echo (!empty($quantity_unit['decimals'])) ? functions::form_draw_decimal_field('quantity', isset($_POST['quantity']) ? true : 1, $quantity_unit['decimals'], 1, null) : (functions::form_draw_number_field('quantity', isset($_POST['quantity']) ? true : 1, 1)); ?>
               <?php echo !empty($quantity_unit['name']) ? '<div class="input-group-addon">'. $quantity_unit['name'] .'</div>' : ''; ?>
             </div>
-            <div style="padding-left: 0.5em; white-space: nowrap;">
-              <?php echo '<button class="btn btn-success" name="add_cart_product" value="true" type="submit"'. (($quantity <= 0 && !$orderable) ? ' disabled="disabled"' : '') .'>'. language::translate('title_add_to_cart', 'Add To Cart') .'</button>'; ?>
+            <div>
+              <?php echo '<button class="btn btn-success btn-aligned" name="add_cart_product" value="true" type="submit"'. (($quantity <= 0 && !$orderable) ? ' disabled="disabled"' : '') .'>'. language::translate('title_add_to_cart', 'Add To Cart') .'</button>'; ?>
+              <p class="text-aligned">Recibiras un correo de nuestros asesores para mas información</p>
             </div>
           </div>
         </div>
@@ -134,8 +138,6 @@
 
         <?php echo functions::form_draw_form_end(); ?>
       </div>
-
-      <hr />
 
       <div class="social-bookmarks text-center">
         <a class="link" href="#"><?php echo functions::draw_fonticon('fa-link', 'style="color: #333;"'); ?></a>
@@ -179,7 +181,23 @@
   <?php } ?>
   <?php } ?>
 </div>
-
+<hr>
+<div class="grid">
+  <div class="unit half container-descripcion"> 
+    <h3> Descripción</h3>
+      <?php if ($description) { ?>
+        <?php echo $description; ?>
+      <?php } ?>
+  </div>
+  <div class="unit half ">
+     <h3> Caracteristicas</h3>
+          <ul>
+          <li>Especificaciones</li>
+          <li>Especificaciones</li>
+          </ul>
+  </div>
+</div>
+</div>
 <script>
   Number.prototype.toMoney = function() {
     var number = this;

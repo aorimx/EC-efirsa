@@ -2,23 +2,25 @@
   {snippet:notices}
 
   <?php echo functions::form_draw_form_begin('checkout_form', 'post', document::ilink('order_process')); ?>
-
-  <div id="box-checkout">
-    <div class="cart wrapper"></div>
-
-    <div class="row">
-      <div class="col-md-halfs">
+    <div>
+      <h1>TU CARRITO</h1>
+      <HR>
+    </div>
+  <div id="box-checkout" class="checkout">
+    <div class="cart wrapper shopping-cart"></div>
+    <div class="summary wrapper order-summary"></div>
+    <div class="j-wrap custome-details">
+      <div class="col-md-halfs padding-right">
         <div class="customer wrapper"></div>
       </div>
 
-      <div class="col-md-halfs">
+      <div class="col-md-halfs padding-right">
         <div class="shipping wrapper"></div>
 
         <div class="payment wrapper"></div>
       </div>
     </div>
 
-    <div class="summary wrapper"></div>
   </div>
 
   <?php echo functions::form_draw_form_end(); ?>
