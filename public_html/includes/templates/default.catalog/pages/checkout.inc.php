@@ -7,9 +7,9 @@
       <HR>
     </div>
   <div id="box-checkout" class="checkout">
-    <div class="cart wrapper shopping-cart"></div>
-    <div class="summary wrapper order-summary"></div>
-    <div class="j-wrap custome-details">
+    <div class=" shopping-cart">
+    <div class="cart wrapper" id="shopping-cart"></div>
+     <div class="j-wrap custome-details">
       <div class="col-md-halfs padding-right">
         <div class="customer wrapper"></div>
       </div>
@@ -20,6 +20,9 @@
         <div class="payment wrapper"></div>
       </div>
     </div>
+  </div>
+    <div class="summary wrapper order-summary"></div>
+   
 
   </div>
 

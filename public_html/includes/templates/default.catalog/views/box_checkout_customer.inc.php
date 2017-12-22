@@ -1,4 +1,4 @@
-<div id="box-checkout-customer" class="box">
+<div id="box-checkout-customer" class="oculto">
 
   <?php if (empty(customer::$data['id'])) { ?>
   <div style="float:right">

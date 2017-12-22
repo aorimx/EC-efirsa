@@ -38,7 +38,8 @@
 
     <div class="confirm padding-top">
       <div class="col-md-fourths">
-        <button class="btn btn-block btn-lg btn-success" type="submit" name="confirm_order" value="true"<?php echo !empty($error) ? ' disabled="disabled"' : ''; ?>><?php echo $confirm; ?></button>
+        <button class="btn btn-block btn-lg btn-success  oculto " id="btnconfirm" type="submit" name="confirm_order" value="true"<?php echo !empty($error) ? ' disabled="disabled"' : ''; ?>><?php echo $confirm; ?></button>
+        <label class="btn btn-block btn-lg btn-success" id="btncontinuar" type="submit" value="cambiar" onclick="cambiarbtn()">Continuar</label>
       </div>
       <div class="padding-left padding-right padding-top">
         <?php if ($error) { ?>
