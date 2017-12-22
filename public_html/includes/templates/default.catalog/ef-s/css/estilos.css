@@ -928,8 +928,12 @@ footer{
 .derecha-footer a:hover, .derecha-footer a{
 	color: white;
 }
-
-
+.footer-fuente a:visited{
+  color: white;
+}
+.footer-fuente a:link{
+  color: white;
+}
 .area-ventas{
 	color: #c2c3c5 !important;
 }
@@ -1222,7 +1226,13 @@ footer {
 .footer-fuente{
 	font-size: 13px;
 }
-}
+  a:link{ 
+color: #ffffff; 
+} 
+a:visited{ 
+color: #ffffff; 
+} 
+
 
 @media (max-width: 700px){
 	.play_button_landing {
