@@ -1901,9 +1901,9 @@ header.main-nav.responsive {
   flex-direction: row;
   flex-wrap: wrap; }
   .middle-content aside {
-    width: 30%; }
+    width: 100%; }
   .middle-content main {
-    width: 70%; }
+    width: 100%; }
   .middle-content .padding-right {
     padding-right: 16px; }
   .middle-content .padding-left {
