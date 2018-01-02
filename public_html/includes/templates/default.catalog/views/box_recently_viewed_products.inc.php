@@ -1,6 +1,6 @@
-<div id="box-recently-viewed-products" class="box">
+<div id="box-recently-viewed-products" class="title">
 
-  <h2 class="title"><?php echo language::translate('title_recently_viewed', 'Recently Viewed'); ?></h2>
+  <h2><?php echo language::translate('title_recently_viewed', 'Recently Viewed'); ?></h2>
 
   <div class="container-img-recently">
 

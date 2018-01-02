@@ -127,6 +127,25 @@ a:hover, a:active{
   width: 90%;
   margin: auto;
 }
+.banner-content{
+  width: 100%;
+}
+.banner{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-banner {
+  max-width: 100%;
+  margin-bottom: 16px;
+}
+.image{
+  max-width: 100%;
+}
 #wowslider-container1 .ws_bullets a {
     width: 42px !important;
     height: 7px !important;
@@ -909,8 +928,12 @@ footer{
 .derecha-footer a:hover, .derecha-footer a{
 	color: white;
 }
-
-
+.footer-fuente a:visited{
+  color: white;
+}
+.footer-fuente a:link{
+  color: white;
+}
 .area-ventas{
 	color: #c2c3c5 !important;
 }
@@ -1203,7 +1226,13 @@ footer {
 .footer-fuente{
 	font-size: 13px;
 }
-}
+  a:link{ 
+color: #ffffff; 
+} 
+a:visited{ 
+color: #ffffff; 
+} 
+
 
 @media (max-width: 700px){
 	.play_button_landing {

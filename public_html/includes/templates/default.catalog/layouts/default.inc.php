@@ -45,7 +45,7 @@
       {snippet:top}
     </div>
     <div class="j-wrap">
-    <div class="middle">
+    <div class="middle-content">
       {snippet:content}
       <div style="clear: both;"></div>
     </div>
@@ -53,6 +53,9 @@
     <div class="bottom">
       {snippet:bottom}
     </div>
+  <div class="j-wrap">
+    <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_recently_viewed_products.inc.php'); ?>
+  </div>
   <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/footer.php'); ?>
 </div>
 
