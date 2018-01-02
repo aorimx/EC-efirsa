@@ -1,4 +1,4 @@
-<div id="column-left">
+<div id="column-left" class="column_left">
   <div id="navigation">
    
 
