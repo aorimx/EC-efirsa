@@ -1952,10 +1952,11 @@ header.main-nav.responsive {
   width: 100%;
   flex-direction: row;
   flex-wrap: wrap; }
-  .middle-content aside {
-    width: 100%; }
-  .middle-content main {
-    width: 100%; }
+  .middle-content .aside_content {
+    width: 25%;
+    padding-right: 16px; }
+  .middle-content .main_content {
+    width: 75%; }
   .middle-content .padding-right {
     padding-right: 16px; }
   .middle-content .padding-left {

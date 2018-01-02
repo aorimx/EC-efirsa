@@ -4,11 +4,15 @@
   width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
-  aside{
-    width: 100%;
+  .aside_content{
+    width: 25%;
+    padding-right: $space-2;
   }
-  main{
-    width: 100%;
+  .main_content{
+    width: 75%;
+  }
+  .column_left{
+
   }
   .padding-right{
     padding-right: $space-2;
