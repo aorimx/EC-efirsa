@@ -63,6 +63,26 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+.btn-categories{
+  background-color: #228B22;
+  text-transform: capitalize;
+}
+.icon-down{
+  transform: rotate(90deg);
+}
+.padding-le{
+  padding-left: 8px;
+}
+.no-padding{
+  padding-left: 2px;
+  margin-left: 8px;
+}
+.c-oculto{
+  display: none;
+}
+.c-mostrar{
+  display: block;
+}
 @media screen and (max-width: 991px){
  
 }
