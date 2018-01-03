@@ -76,12 +76,12 @@
         <?php echo functions::form_draw_phone_field('phone', true, 'required="required"'); ?>
       </div>
     </div>
-    <div class="row">
+    <!--<div class="row">
       <div class="form-group">
-        <label><!--<?php //echo language::translate('title_country', 'Country'); ?>-->Otros</label>
+        <label><?php //echo language::translate('title_country', 'Country'); ?>Otros</label>
         <textarea></textarea>
       </div>
-    </div>
+    </div>-->
   </div>
 
   <div class="address shipping-address">
