@@ -7,7 +7,7 @@
 
     <p><?php echo language::translate('description_order_completed', 'Thank you for shopping in our store. An order confirmation e-mail has been sent. We will process your order shortly.'); ?></p>
 
-    <p><a href="<?php echo htmlspecialchars($printable_link); ?>" target="_blank"><?php echo language::translate('description_click_printable_copy', 'Click here for a printable copy'); ?></a></p>
+    <p style="padding-left: 24px;"><a href="<?php echo htmlspecialchars($printable_link); ?>" target="_blank"><?php echo language::translate('description_click_printable_copy', 'Click here for a printable copy'); ?></a></p>
 
     <?php if ($payment_receipt) echo $payment_receipt; ?>
 

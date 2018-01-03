@@ -6,7 +6,7 @@
   {snippet:notices}
   {snippet:breadcrumbs}
 
-  <div class="row">
+  <div style="width: 100%; display: inline-flex;">
     <div class="col-md-halfs">
       <div class="box-login" class="box" style="padding: 0 3em;">
 
@@ -23,7 +23,7 @@
             <?php echo functions::form_draw_password_field('password', '', 'placeholder="'. language::translate('title_password', 'Password') .'"'); ?>
           </div>
 
-          <div class="checkbox">
+          <div style="display: none;">
             <label><?php echo functions::form_draw_checkbox('remember_me', '1'); ?> <?php echo language::translate('title_remember_me', 'Remember Me'); ?></label>
           </div>
 
@@ -41,7 +41,7 @@
 
     <div class="col-md-halfs">
 
-      <div id="box-login-create" class="box" style="padding: 0 3em;">
+      <div id="box-login-create" class="box" style="margin-top: 0;">
 
         <h2 class="title"><?php echo language::translate('title_create_an_account', 'Create an Account'); ?></h2>
 

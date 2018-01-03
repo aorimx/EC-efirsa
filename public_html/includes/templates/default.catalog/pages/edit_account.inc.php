@@ -1,11 +1,11 @@
-<aside id="sidebar">
+<aside id="sidebar" style="display: none;">
   <div id="column-left">
     <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_customer_service_links.inc.php'); ?>
     <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_account_links.inc.php'); ?>
   </div>
 </aside>
 
-<main id="content">
+<main id="content" style="padding-left: 32px;">
   {snippet:notices}
 
   <div id="box-edit-account" class="box">
@@ -19,7 +19,7 @@
           <?php echo functions::form_draw_email_field('email', true, 'required="required"'); ?>
         </div>
 
-        <div class="form-group col-md-halfs">
+        <div class="form-group col-md-halfs" style="display: none;">
           <label><?php echo language::translate('title_newsletter', 'Newsletter'); ?></label>
           <div class="checkbox">
             <?php echo functions::form_draw_checkbox('newsletter', '1', true); ?> <?php echo language::translate('title_subscribe', 'Subscribe'); ?>

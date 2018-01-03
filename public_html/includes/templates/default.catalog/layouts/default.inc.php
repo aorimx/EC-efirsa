@@ -70,6 +70,7 @@
 <script src="{snippet:template_path}ef-s/js/mobilMenu.js"></script>
 <script src="{snippet:template_path}ef-s/js/bootstrap.min.js"></script>
 <script src="{snippet:template_path}ef-s/js/scripts.js"></script>
+<script src="{snippet:template_path}Sagan-boilerplate/assets/scripts/aside-categories.js"></script>
 {snippet:javascript}
 </body>
 </html>
