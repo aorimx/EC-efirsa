@@ -100,7 +100,7 @@
       </div>
 
       <div class="row">
-        <div class="form-group col-md-halfs">
+        <div class="form-group col-md-halfs" style="display: none;">
           <label><?php echo language::translate('title_newsletter', 'Newsletter'); ?></label>
           <div class="checkbox">
             <label><?php echo functions::form_draw_checkbox('newsletter', '1', true); ?> <?php echo language::translate('title_subscribe', 'Subscribe'); ?></label>

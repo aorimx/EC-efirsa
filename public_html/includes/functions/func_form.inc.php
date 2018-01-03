@@ -92,8 +92,8 @@
 
   function form_draw_captcha_field($name, $id, $parameters='') {
 
-    $output = '<div class="input-group">' . PHP_EOL
-            . '  <span class="input-group-addon">'. functions::captcha_generate(100, 40, 4, $id, 'numbers', 'align="absbottom"') .'</span>' . PHP_EOL
+    $output = '<div class="input-group" style="display: inline-flex;">' . PHP_EOL
+            . '  <span style="width: 35%; height: 48px;">'. functions::captcha_generate(100, 40, 4, $id, 'numbers', 'align="absbottom"') .'</span>' . PHP_EOL
             . '  ' . functions::form_draw_text_field('captcha', '', $parameters . ' style="font-size: 24px; text-align: center;"') . PHP_EOL
             . '</div>';
 
