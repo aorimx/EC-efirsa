@@ -798,6 +798,15 @@ a:hover, a:active{
     flex-wrap: nowrap;
     justify-content: space-between;
 }
+.text-align{
+  text-align: center;
+}
+.text-align-left{
+  text-align: left;
+}
+.text-align-right{
+  text-align: right;
+}
 @media screen and (max-width: 900px){
     .footerContacto{
         height: auto;

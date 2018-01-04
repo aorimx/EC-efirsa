@@ -51,7 +51,7 @@
         <?php } ?>
         <div>
           <h3>Envio y Devolucion</h3>
-          <p style="font-size: 1.25em;">Si deseas cabiar o devolver tu compra tendras 90 dias para hacerlo</p>
+          <p style="font-size: 1.25em; color: black;">Si deseas cabiar o devolver tu compra tendras 90 dias para hacerlo</p>
         </div>
       </div>
     </div>
