@@ -2064,19 +2064,19 @@ header.main-nav.responsive {
   .middle-content .padding-bottom {
     padding-bottom: 16px; }
   .middle-content .box-thumbnail {
-    width: 100%;
     display: inline-flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between; }
+    justify-content: space-around;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%; }
     .middle-content .box-thumbnail .thumbnail-content {
-      width: 25%;
+      padding-left: 16px;
       padding-right: 16px;
-      padding-left: 16px; }
-    .middle-content .box-thumbnail .thumbnail {
-      width: 100%;
+      width: 200px;
       display: flex;
       flex-direction: column;
+      margin: 8px;
       justify-content: center;
       align-content: center;
       align-items: center;
@@ -2116,5 +2116,14 @@ header.main-nav.responsive {
   .c-mostrar .align-categories {
     text-align: left;
     padding-left: 16px; }
+
+.container-category {
+  width: 100%; }
+
+@media screen and (max-width: 768px) {
+  .middle-content .aside_content {
+    width: 100%; }
+  .middle-content .main_content {
+    width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */

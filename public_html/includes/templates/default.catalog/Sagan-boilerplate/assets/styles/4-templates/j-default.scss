@@ -27,24 +27,25 @@
     padding-bottom: $space-2;
   }
   .box-thumbnail{
-    width: 100%;
     display: inline-flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-left: $space-2;
+    padding-right: $space-2;
+    width: 100%;
     .thumbnail-content{
-      width: 25%;
-      padding-right: $space-2;
-      padding-left: $space-2;
-    }
+    padding-left: $space-2;
+    padding-right: $space-2;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: $space-base;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+          }
     .thumbnail{
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-content: center;
-      align-items: center;
-      text-align: center;
     }
     .image-thumbnail {
       max-width: 100%;
@@ -71,11 +72,11 @@
   transform: rotate(90deg);
 }
 .padding-le{
-  padding-left: 8px;
+  padding-left: $space-base;
 }
 .no-padding{
   padding-left: 2px;
-  margin-left: 8px;
+  margin-left: $space-base;
 }
 .c-oculto{
   display: none;
@@ -87,9 +88,19 @@
     padding-left: $space-2;
   }
 }
+.container-category{
+  width: 100%;
+}
 @media screen and (max-width: 991px){
  
 }
-@media screen and (max-width: 600px){
- 
+@media screen and (max-width: 768px){
+  .middle-content{
+    .aside_content{
+      width: 100%;
+    }
+    .main_content{
+    width: 100%;
+  }
+  }
 }
