@@ -1,4 +1,4 @@
-<aside id="sidebar">
+<aside id="sidebar" style="display: none;">
   <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'views/column_left.inc.php'); ?>
 </aside>
 
@@ -8,7 +8,7 @@
 
   <div style="width: 100%; display: inline-flex;">
     <div class="col-md-halfs">
-      <div class="box-login" class="box" style="padding: 0 3em;">
+      <div class="box-login" class="box" style="padding: 0 3em; padding-left: 80px;">
 
         <h2 class="title"><?php echo language::translate('title_sign_in', 'Sign In'); ?></h2>
 

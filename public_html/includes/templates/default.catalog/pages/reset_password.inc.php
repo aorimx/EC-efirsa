@@ -1,4 +1,4 @@
-<aside id="sidebar">
+<aside id="sidebar" style="display: none;">
   <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'views/column_left.inc.php'); ?>
 </aside>
 
@@ -6,7 +6,7 @@
   {snippet:notices}
   {snippet:breadcrumbs}
 
-  <div id="box-reset-password" class="box">
+  <div id="box-reset-password" class="box padding-left-lg">
 
     <h2 class="title"><?php echo language::translate('title_reset_password', 'Reset Password'); ?></h2>
 

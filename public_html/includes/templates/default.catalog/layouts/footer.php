@@ -1,8 +1,8 @@
 <footer itemscope="" itemtype="https://schema.org/WPFooter" style="padding: 32px 16px 34px;">
   <div class="container" style="height: 184px;">
     <div class="col-xs-12 col-sm-6 footerContacto">
-      <h2 class="titulo-footer" style="margin-top: 0;">Contacto</h2>
-      <p class="p-footer footer-fuente" style="margin-bottom: 16px;">Av. Lázaro Cárdenas 2305, Zona 1, Interior 3 <br> C.P. 44920, Col. Las Torres</p>
+      <h2 class="titulo-footer text-align-left" style="margin-top: 0;">Contacto</h2>
+      <p class="p-footer footer-fuente text-align-left" style="margin-bottom: 16px;">Av. Lázaro Cárdenas 2305, Zona 1, Interior 3 <br> C.P. 44920, Col. Las Torres</p>
 
     </div>
     <div class="col-xs-12 col-sm-6 derecha-footer" style="padding-right: 32px;">

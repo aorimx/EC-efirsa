@@ -1,4 +1,4 @@
-<div id="box-recently-viewed-products" class="title">
+<div id="box-recently-viewed-products" class="title" style="padding-top: 96px;">
 
   <h2><?php echo language::translate('title_recently_viewed', 'Recently Viewed'); ?></h2>
 
