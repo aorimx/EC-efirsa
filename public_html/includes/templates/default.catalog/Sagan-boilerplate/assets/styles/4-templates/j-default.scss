@@ -32,10 +32,11 @@
   .box-thumbnail{
     display: inline-flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     padding-left: $space-2;
     padding-right: $space-2;
     width: 100%;
+    align-items: flex-start;
     .thumbnail-content{
     padding-left: $space-2;
     padding-right: $space-2;

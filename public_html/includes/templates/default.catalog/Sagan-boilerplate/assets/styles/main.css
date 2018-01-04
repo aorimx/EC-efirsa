@@ -2068,10 +2068,11 @@ header.main-nav.responsive {
   .middle-content .box-thumbnail {
     display: inline-flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     padding-left: 16px;
     padding-right: 16px;
-    width: 100%; }
+    width: 100%;
+    align-items: flex-start; }
     .middle-content .box-thumbnail .thumbnail-content {
       padding-left: 16px;
       padding-right: 16px;
