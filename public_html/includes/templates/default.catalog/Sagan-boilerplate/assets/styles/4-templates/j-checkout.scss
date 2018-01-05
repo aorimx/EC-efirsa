@@ -72,6 +72,9 @@
   .padding-bottom{
     padding-bottom: $space-2;
   }
+  .color-black{
+    color: black;
+  }
   .backgroung-gray{
     padding-top: $space-2;
     padding-bottom: $space-2;
@@ -188,8 +191,10 @@
       }
     }
   } 
-
+  .td_name{
+    white-space: unset !important;
   }
+}
 
 @media screen and (max-width: 600px){
   .gris-footers{
@@ -220,5 +225,20 @@
       margin-bottom: $space-base;
       padding-right: $space-base;
     }
+  }
+  .td_name{
+    text-align: right;
+  }
+  .td_price{
+    padding: $space-2 !important;
+  }
+  .td_pieces{
+    margin-left: 30%;
+  }
+  .td_subtotal{
+    width: 50%;
+  }
+  .none{
+    display: none;
   }
 }

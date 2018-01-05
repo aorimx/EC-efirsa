@@ -963,18 +963,19 @@ table {
     padding-left: 0;
     color: #595959; }
     table td:first-child {
-      width: 17%; }
+      width: 15%; }
     table td:nth-child(2) {
       width: 29%; }
     table td:nth-child(3) {
-      width: 13%;
+      width: 14%;
       padding-top: 16px; }
     table td:nth-child(4) {
       width: 28%; }
     table td:last-child {
       border-right: none;
       text-align: right;
-      width: 13%; }
+      width: 14%;
+      margin-left: 50%; }
     table td p {
       line-height: .5; }
     table td span {
@@ -985,14 +986,22 @@ table {
       padding-left: 8px; }
 
 @media screen and (max-width: 600px) {
-  table td {
+  table {
     width: 100%; }
     table td:first-child {
-      width: 30%; }
+      width: 20%; }
+    table td:nth-child(2) {
+      width: 80%;
+      margin-left: 20%; }
+    table td:nth-child(3) {
+      width: 25%; }
+    table td:nth-child(4) {
+      width: 70%; }
     table td:last-child {
       border-right: none;
       text-align: right;
-      width: 100%; } }
+      width: 100%;
+      margin-left: 0; } }
 img {
   max-width: 100%;
   margin-bottom: 16px; }
@@ -1839,6 +1848,8 @@ header.main-nav.responsive {
     padding-top: 16px; }
   .checkout .padding-bottom {
     padding-bottom: 16px; }
+  .checkout .color-black {
+    color: black; }
   .checkout .backgroung-gray {
     padding-top: 16px;
     padding-bottom: 16px;
@@ -1924,7 +1935,10 @@ header.main-nav.responsive {
         width: 100%; } }
 @media screen and (max-width: 768px) {
   .checkout .custome-details .title {
-    width: 105%; } }
+    width: 105%; }
+
+  .td_name {
+    white-space: unset !important; } }
 @media screen and (max-width: 600px) {
   .gris-footers {
     background-color: #d8d8d8;
@@ -1948,7 +1962,22 @@ header.main-nav.responsive {
     .gris-footers .content-footer:last-child {
       width: 100%;
       margin-bottom: 8px;
-      padding-right: 8px; } }
+      padding-right: 8px; }
+
+  .td_name {
+    text-align: right; }
+
+  .td_price {
+    padding: 16px !important; }
+
+  .td_pieces {
+    margin-left: 30%; }
+
+  .td_subtotal {
+    width: 50%; }
+
+  .none {
+    display: none; } }
 #mostrar-modal {
   width: 50px;
   height: 50px;

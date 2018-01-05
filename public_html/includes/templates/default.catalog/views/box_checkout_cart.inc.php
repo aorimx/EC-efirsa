@@ -16,13 +16,13 @@
         <?php foreach ($items as $key => $item) { ?>
         <tr class="item">
           <td><a href="<?php echo htmlspecialchars($item['link']); ?>" class="image-wrapper shadow"><img src="<?php echo htmlspecialchars($item['thumbnail']); ?>" height="48" /></a></td>
-          <td>
+          <td class="td_name">
             <div><strong><a href="<?php echo htmlspecialchars($item['link']); ?>" style="color: inherit;"><?php echo $item['name']; ?></a></strong></div>
             <?php if (!empty($item['options'])) echo '<div class="options">'. implode('<br />', $item['options']) .'</div>'; ?>
             <?php if (!empty($item['error'])) echo '<div class="error">'. $item['error'] .'</div>'; ?>
           </td>
-          <td><?php echo currency::format($item['display_price']); ?></td>
-          <td>
+          <td class="td_price"><?php echo currency::format($item['display_price']); ?></td>
+          <td class="td_pieces">
             <div style="display: flex; width: 100%;">
               <?php if (!empty($item['quantity_unit']['name'])) { ?>
               <div class="input-group" style="width: 54%;">
@@ -42,7 +42,7 @@
       </tbody>
       <tfoot>
         <tr>
-          <td colspan="3"></th>
+          <td colspan="3" class="none"></th>
           <td colspan="3" class="subtotal">
             <?php echo language::translate('title_subtotal', 'Subtotal'); ?>: <strong class="formatted-value"><?php echo !empty(customer::$data['display_prices_including_tax']) ?  currency::format($subtotal + $subtotal_tax) : currency::format($subtotal); ?></strong>
           </td>
