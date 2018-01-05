@@ -17,6 +17,19 @@
   .column_left{
 
   }
+  .input-group{
+    display: inline-flex;
+    .input-group-add{
+      padding: 12px 12px;
+      font-size: 14px;
+      font-weight: normal;
+      line-height: 1;
+      color: #fff;
+      text-align: center;
+      background-color: #6c6c6d;
+      border-radius: 0;
+    }
+  }
   .padding-right{
     padding-right: $space-2;
   }
