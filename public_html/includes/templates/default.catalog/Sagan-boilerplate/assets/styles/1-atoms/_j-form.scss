@@ -32,13 +32,12 @@ input[type=password],
 textarea, select {
   min-width: 80px;
   width: 100%;
-  height: $space-6;
+  height: $space-5;
   background-color: transparent;
-  padding-top: 2px;
   padding-left: $space-base;
   margin-bottom: $space-2;
-  border: solid 1px $gray-lighter;
-  /*border-radius: 4px;*/
+  border: solid 1px #6c6c6d;
+  border-radius: 0;
   text-align: left;
   font-size: 16px;
   font-weight: 300;
