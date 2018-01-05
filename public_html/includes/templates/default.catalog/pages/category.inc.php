@@ -4,16 +4,17 @@
 
 <main id="content" class="container-category">
   {snippet:notices}
+  <div class="sub-menu">
   {snippet:breadcrumbs}
-
+  </div>
   <div id="box-category" class="box">
 
     <?php if ($products) { ?>
-    <div class="btn-group pull-right hidden-xs">
+    <div class="btn-group pull-right hidden-xs container-filtros">
 <?php
   foreach ($sort_alternatives as $key => $value) {
     if ($_GET['sort'] == $key) {
-      echo '<span class="btn btn-default active">'. $value .'</span>';
+      echo '<span class="btn btn-default activo">'. $value .'</span>';
     } else {
       echo '<a class="btn btn-default" href="'. document::href_ilink(null, array('sort' => $key), true) .'">'. $value .'</a>';
     }
