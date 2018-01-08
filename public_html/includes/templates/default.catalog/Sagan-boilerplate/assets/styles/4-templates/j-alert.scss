@@ -1,46 +1,31 @@
-// hacking "gridism.css" a little bit.
-.middle-content{
-  .aside_content-search{
-    width: 25%;
-    padding-right: $space-2;
-    margin-top: $space-10;
+.container-alert{
+  min-height: calc(100vh - (250px + 85.73px));
+  text-align: center;
+  align-items: center;
+  width: 100%;
+.order-success{
+  button{
+    a:visited{
+      color: $white;
+    }
+    a:link{
+      color: $white;
+    }
+    text-transform: initial;
   }
-  .main_content-search{
-    width: 75%;
-    .container-filtros{
-      border-radius: 0;
-      a{
-        border-radius: 0;
-        background-color: $white;
-        border-color: #6c6c6d; 
-        color: $black;
-      }
-      .activo{
-        border-radius: 0;
-        background-color: #6c6c6d;
-        border-color: #6c6c6d;
-        color: $white;
-      }
-    }
-    .sub-menu_search{
-      padding-top: $space-6;
-    }
-    .title-search{
-      text-align: center;
-    }
+  .btn-print{
+    background-color: #228B22;
+  }
+  .fa{
+    font-size: 64px;
+    margin-bottom: $space-3;
+  }
+  p{
+    color: $black;
+  }
+  i{
+    width: 50px;
+    height: 50px;
   }
 }
-@media screen and (max-width: 991px){
- 
-}
-@media screen and (max-width: 768px){
-  .middle-content{
-    .aside_content-search{
-      margin-top: 0;
-      width: 100%;
-    }
-    .main_content-search{
-    width: 100%;
-  }
-  }
 }

@@ -2,7 +2,6 @@
 .j-workspace {
   // won't use "wrap wider";
   box-sizing: border-box;
-  min-height: calc(100vh - (250px + 80px + 85.73px));
   .j-wrap {
     max-width: $max-width-screen;
     margin: 0 auto;
@@ -11,7 +10,6 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    min-height: calc(100vh - (250px + 80px + 85.73px));
   }
   .j-wrap-80 {
     margin: 0 auto;
