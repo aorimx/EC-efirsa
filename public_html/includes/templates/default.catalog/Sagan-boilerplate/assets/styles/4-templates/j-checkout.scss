@@ -6,6 +6,40 @@
   .shopping-cart {
     width: 70%;
     padding-right: $space-2;
+    .content_back{
+      width: 100%;
+      display: inline-flex;
+      .third{
+        width: 53%;
+        padding: $space-2;
+      }
+      .middle{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .content{
+          display: flex;
+          justify-content: center;
+          p{
+            width: 100%;
+            max-width: 250px;
+            color: black;
+            text-align: center;
+            padding: $space-base;
+          }
+          a{
+            width: 100%;
+            max-width: 250px;
+            p{
+              background-color: #228b22;
+              color: white;
+              font-size: $space-2;
+            }
+          }
+        }
+      }
+    }
   }
   .order-summary{
     width: 30%;
@@ -246,6 +280,17 @@
       width: 100%;
       padding-left: 0;
       padding-right: 0;
+      .content_back{
+        width: 100%;
+        display: inline-flex;
+        .third{
+          width: 0;
+          padding: 0;
+        }
+        .middle{
+          width: 100%;
+        }
+      }
     }
     .order-summary{
       width: 100%;
