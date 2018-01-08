@@ -1826,16 +1826,21 @@ header.main-nav.responsive {
         width: 25%;
         padding-left: 24px; }
       .checkout .custome-details .form-group input {
-        width: 75%;
+        width: 70%;
         border-radius: 0px; }
       .checkout .custome-details .form-group select {
-        width: 75%;
+        width: 70%;
         border-radius: 0; }
       .checkout .custome-details .form-group textarea {
         width: 70%;
         border-radius: 0; }
       .checkout .custome-details .form-group .input-group {
-        display: inline-flex; }
+        display: inline-flex;
+        width: 100%;
+        max-height: 40px;
+        margin-left: 6%; }
+        .checkout .custome-details .form-group .input-group input {
+          width: 85%; }
         .checkout .custome-details .form-group .input-group .input-group-add {
           padding: 12px 12px;
           font-size: 14px;

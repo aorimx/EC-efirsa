@@ -40,11 +40,11 @@
         padding-left: $space-3;
       }
       input{
-        width: 75%;
+        width: 70%;
         border-radius: 0px;
       }
       select{
-        width: 75%;
+        width: 70%;
         border-radius: 0;
       }
       textarea{
@@ -53,6 +53,12 @@
       }
       .input-group{
         display: inline-flex;
+        width: 100%;
+        max-height: 40px;
+        margin-left: 6%;
+        input{
+          width: 85%;
+        }
         .input-group-add{
           padding: 12px 12px;
           font-size: 14px;
