@@ -4,7 +4,7 @@
     foreach ($notices[$type] as $notice) {
       switch ($type) {
         case 'errors':
-          echo '<div class="alert alert-danger" style="margin-left:78px;"><a href="#" class="close" data-dismiss="alert">&times;</a>' . functions::draw_fonticon('fa-exclamation-triangle') . ' ' . $notice .'</div>' . PHP_EOL;
+          echo '<div class="alert alert-danger"><a href="#" class="close" data-dismiss="alert">&times;</a>' . functions::draw_fonticon('fa-exclamation-triangle') . ' ' . $notice .'</div>' . PHP_EOL;
           break;
         case 'warnings':
           echo '<div class="alert alert-warning"><a href="#" class="close" data-dismiss="alert">&times;</a>' . functions::draw_fonticon('fa-exclamation-triangle') . ' ' . $notice .'</div>' . PHP_EOL;
