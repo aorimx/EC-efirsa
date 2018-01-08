@@ -6,8 +6,8 @@
   }
 
   if (empty(cart::$items)) {
-    echo '<p><em>'. language::translate('description_no_items_in_cart', 'There are no items in your cart.') .'</em></p>' . PHP_EOL
-       . '<p><a href="'. document::href_ilink('') .'">&lt;&lt; '. language::translate('title_back', 'Back') .'</a></p>';
+    echo '<div class="content_back"><div class="third"></div><div class="middle"><div class="content"><img src="{snippet:template_path}ef-s/img/e-commerce/Carro_Vacio.png"></div><div class="content"><p><em>'. language::translate('description_no_items_in_cart', 'There are no items in your cart.') .'</em></p></div>' . PHP_EOL
+       . '<div class="content"><a href="'. document::href_ilink('') .'"><p>ATRAS</p></a></div></div></div>';
     return;
   }
 
