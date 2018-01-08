@@ -1,3 +1,24 @@
+.buy_now{
+  .form-group{
+    display: block;
+    width: 100%;
+    .input-group{
+      padding-left: 0;
+      width: 100%;
+      margin-left: 0;
+      input{
+        height: $space-5;
+        width: 85%;
+      }
+      div{
+        width: 15%;
+        padding-top: 11px;
+        background-color: #6c6c6d;
+        color: white;
+      }
+    }
+  }
+}
 .sub-menu{
 margin-left: $space-8;
 }
