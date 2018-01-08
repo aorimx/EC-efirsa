@@ -59,7 +59,7 @@
         input{
           width: 85%;
         }
-        .input-group-add{
+        .input-group-ad{
           padding: 12px 12px;
           font-size: 14px;
           font-weight: normal;
@@ -148,6 +148,98 @@
     }
   }
 }
+.td_pieces{
+  .input-group{
+    background-color: #6c6c6d;
+    border-radius: 3px;
+    display: inline-flex;
+    input{
+      width: 65%;
+    }
+    span{
+      width: 35%;
+      text-align: center;
+      padding-top: 7px;
+      color: white;
+    }
+  }
+}
+.featherlight-content{
+  .box-login{
+    .form-group{
+      display: inline-flex;
+      width: 100%;
+      label{
+        width: 25%;
+        padding-left: $space-3;
+      }
+      input{
+        width: 70%;
+        border-radius: 0px;
+      }
+      select{
+        width: 70%;
+        border-radius: 0;
+      }
+      textarea{
+        width: 70%;
+        border-radius: 0;
+      }
+      .input-group{
+        display: inline-flex;
+        width: 100%;
+        max-height: 40px;
+        input{
+          width: 85%;
+        }
+        .input-group-ad{
+          padding: 12px 12px;
+          font-size: 14px;
+          font-weight: normal;
+          line-height: 1;
+          color: #fff;
+          text-align: center;
+          background-color: #6c6c6d;
+          border-radius: 0;
+        }
+      }  
+    }
+  }
+}
+@media screen and (max-width: 1150px){
+  .checkout{
+    .custome-details{
+      .form-group{
+        .input-group{
+          display: inline-flex;
+          width: 100%;
+          max-height: 40px;
+          margin-left: 6%;
+          input{
+            width: 84%;
+          }
+        }  
+      }
+    } 
+  }
+}
+@media screen and (max-width: 1050px){
+  .checkout{
+    .custome-details{
+      .form-group{
+        .input-group{
+          display: inline-flex;
+          width: 100%;
+          max-height: 40px;
+          margin-left: 6%;
+          input{
+            width: 83%;
+          }
+        }  
+      }
+    } 
+  }
+}
 @media screen and (max-width: 991px){
   .checkout{
     .shopping-cart {
@@ -190,10 +282,21 @@
       .input-group{
         padding-left: 0;
         width: 100%;
-      }
+        margin-left: 0;
+        input{
+          width: 96%;
+        }
       }
     }
-  } 
+  }
+} 
+  .td_pieces{
+    .input-group{
+      input{
+        width: 60%;
+      }
+    }
+  }
 }
 @media screen and (max-width: 768px){
   .checkout{
