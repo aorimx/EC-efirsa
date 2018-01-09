@@ -1,5 +1,5 @@
 
-<main id="content">
+<main id="content" style="width: 100%;">
   {snippet:notices}
   <div class="sub-menu">
   {snippet:breadcrumbs}
