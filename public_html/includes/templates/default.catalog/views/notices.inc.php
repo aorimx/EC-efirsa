@@ -4,7 +4,10 @@
     foreach ($notices[$type] as $notice) {
       switch ($type) {
         case 'errors':
-          echo '<div class="alert alert-danger"><a href="#" class="close" data-dismiss="alert">&times;</a>' . functions::draw_fonticon('fa-exclamation-triangle') . ' ' . $notice .'</div>' . PHP_EOL;
+          /*echo '<div class="alert alert-danger"><a href="#" class="close" data-dismiss="alert">&times;</a>' . functions::draw_fonticon('fa-exclamation-triangle') . ' ' . $notice .'</div>' . PHP_EOL;*/
+          echo '<script type="text/javascript">';
+          echo 'setTimeout(function () { swal("Oops!","Algo salio mal","error");';
+          echo '});</script>'; 
           break;
         case 'warnings':
           echo '<div class="alert alert-warning"><a href="#" class="close" data-dismiss="alert">&times;</a>' . functions::draw_fonticon('fa-exclamation-triangle') . ' ' . $notice .'</div>' . PHP_EOL;
@@ -13,14 +16,16 @@
           echo '<div class="alert alert-info"><a href="#" class="close" data-dismiss="alert">&times;</a>' . functions::draw_fonticon('fa-info-circle') . ' ' . $notice .'</div>' . PHP_EOL;
           break;
         case 'success':
-          echo '<div class="alert alert-success"><a href="#" class="close" data-dismiss="alert">&times;</a>' .functions::draw_fonticon('fa-check-circle') . ' ' . $notice .'</div>' . PHP_EOL;
+          /*echo '<div class="alert alert-success"><a href="#" class="close" data-dismiss="alert">&times;</a>' .functions::draw_fonticon('fa-check-circle') . ' ' . $notice .'</div>' . PHP_EOL;*/
+          echo '<script type="text/javascript">';
+          echo 'setTimeout(function () { swal("¡Operación exitosa","Se han realizado con exito las actualizaciones","success");';
+          echo '});</script>'; 
           break;
       }
     }
   }
 ?>
 </div>
-
 <script>
   setTimeout(function(){$('#notices').fadeOut();}, 20000);
 </script>
