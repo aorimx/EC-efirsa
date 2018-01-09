@@ -40,7 +40,7 @@
 
   <!--<?php //include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_site_menu.inc.php'); ?>-->
   
-    <main class="j-workspace ">
+    <main class="j-workspace">
     <div class="top">
       {snippet:top}
     </div>
@@ -53,10 +53,7 @@
     <div class="bottom">
       {snippet:bottom}
     </div>
-  <div class="j-wrap">
-    <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_recently_viewed_products.inc.php'); ?>
-  </div>
-  <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/footer.php'); ?>
+<?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/footer.php'); ?>
 </div>
 
 </main>
@@ -71,6 +68,7 @@
 <script src="{snippet:template_path}ef-s/js/bootstrap.min.js"></script>
 <script src="{snippet:template_path}ef-s/js/scripts.js"></script>
 <script src="{snippet:template_path}Sagan-boilerplate/assets/scripts/aside-categories.js"></script>
+<script src="{snippet:template_path}Sagan-boilerplate/assets/scripts/sweetalert2/dist/sweetalert2.all.min.js"></script>
 {snippet:javascript}
 </body>
 </html>

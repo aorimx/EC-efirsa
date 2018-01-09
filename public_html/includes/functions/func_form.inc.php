@@ -93,7 +93,7 @@
   function form_draw_captcha_field($name, $id, $parameters='') {
 
     $output = '<div class="input-group" style="display: inline-flex;">' . PHP_EOL
-            . '  <span style="width: 35%; height: 48px;">'. functions::captcha_generate(100, 40, 4, $id, 'numbers', 'align="absbottom"') .'</span>' . PHP_EOL
+            . '  <span style="width: 35%; height: 40px;">'. functions::captcha_generate(100, 40, 4, $id, 'numbers', 'align="absbottom"') .'</span>' . PHP_EOL
             . '  ' . functions::form_draw_text_field('captcha', '', $parameters . ' style="font-size: 24px; text-align: center;"') . PHP_EOL
             . '</div>';
 
@@ -125,7 +125,7 @@
 
     return '<div class="input-group">' . PHP_EOL
          . '  <input '. (!preg_match('#class="([^"]+)?"#', $parameters) ? 'class="form-control"' : '') .' type="text" name="'. htmlspecialchars($name) .'" value="'. (!empty($value) ? round($value, currency::$currencies[$currency_code]['decimals']+2) : '') .'" data-type="currency"'. (($parameters) ? ' '. $parameters : false) .' />' . PHP_EOL
-         . '  <strong class="input-group-addon" style="opacity: 0.75;">'. $currency_code .'</strong>' . PHP_EOL
+         . '  <strong class="input-group-ad" style="opacity: 0.75;">'. $currency_code .'</strong>' . PHP_EOL
          . '</div>';
   }
 
@@ -169,7 +169,7 @@
     if ($value === true) $value = form_reinsert_value($name);
 
     return '<div class="input-group">' . PHP_EOL
-         . '  <span class="input-group-addon">'. functions::draw_fonticon('fa-envelope-o fa-fw') .'</span>' . PHP_EOL
+         . '  <span class="input-group-ad">'. functions::draw_fonticon('fa-envelope-o fa-fw') .'</span>' . PHP_EOL
          . '  <input '. (!preg_match('#class="([^"]+)?"#', $parameters) ? 'class="form-control"' : '') .' type="email" name="'. htmlspecialchars($name) .'" value="'. htmlspecialchars($value) .'" data-type="email"'. (($parameters) ? ' '.$parameters : false) .' />'
          . '</div>';
   }
@@ -183,7 +183,7 @@
     if ($value === true) $value = form_reinsert_value($name);
 
     return '<div class="input-group">' . PHP_EOL
-         . '  <span class="input-group-addon">'. functions::draw_fonticon($icon) .'</span>' . PHP_EOL
+         . '  <span class="input-group-ad">'. functions::draw_fonticon($icon) .'</span>' . PHP_EOL
          . '  <input '. (!preg_match('#class="([^"]+)?"#', $parameters) ? 'class="form-control"' : '') .' type="'. htmlspecialchars($type) .'" name="'. htmlspecialchars($name) .'" value="'. htmlspecialchars($value) .'"'. (($parameters) ? ' '.$parameters : false) .' />' . PHP_EOL
          . '</div>';
   }
@@ -255,7 +255,7 @@
     if ($value === true) $value = form_reinsert_value($name);
 
     return '<div class="input-group">' . PHP_EOL
-         . '  <span class="input-group-addon">'. functions::draw_fonticon('fa-key fa-fw') .'</span>' . PHP_EOL
+         . '  <span class="input-group-ad">'. functions::draw_fonticon('fa-key fa-fw') .'</span>' . PHP_EOL
          . '  <input '. (!preg_match('#class="([^"]+)?"#', $parameters) ? 'class="form-control"' : '') .' type="password" name="'. htmlspecialchars($name) .'" value="'. htmlspecialchars($value) .'" data-type="password"'. (($parameters) ? ' '.$parameters : false) .' />'
          . '</div>';
   }
@@ -264,7 +264,7 @@
     if ($value === true) $value = form_reinsert_value($name);
 
     return '<div class="input-group">' . PHP_EOL
-         . '  <span class="input-group-addon">'. functions::draw_fonticon('fa-phone fa-fw') .'</span>' . PHP_EOL
+         . '  <span class="input-group-ad">'. functions::draw_fonticon('fa-phone fa-fw') .'</span>' . PHP_EOL
          . '  <input '. (!preg_match('#class="([^"]+)?"#', $parameters) ? 'class="form-control"' : '') .' type="tel" name="'. htmlspecialchars($name) .'" value="'. htmlspecialchars($value) .'" data-type="phone" pattern="^\+?([0-9]|-| )+$"'. (($parameters) ? ' '.$parameters : false) .' />'
          . '</div>';
   }
@@ -283,7 +283,7 @@
 
   function form_draw_regional_input_field($language_code, $name, $value=true, $parameters='') {
     return '<div class="input-group">' . PHP_EOL
-         . '  <span class="input-group-addon"><img src="'. WS_DIR_IMAGES .'languages/'. $language_code .'.png" width="16" alt="'. $language_code .'" style="vertical-align: middle;" /></span>' . PHP_EOL
+         . '  <span class="input-group-ad"><img src="'. WS_DIR_IMAGES .'languages/'. $language_code .'.png" width="16" alt="'. $language_code .'" style="vertical-align: middle;" /></span>' . PHP_EOL
          . '  ' . form_draw_text_field($name, $value, $parameters) . PHP_EOL
          . '</div>';
   }
@@ -291,7 +291,7 @@
   function form_draw_regional_textarea($language_code, $name, $value=true, $parameters='') {
 
     return '<div class="input-group">' . PHP_EOL
-         . '  <span class="input-group-addon" style="vertical-align: top;"><img src="'. WS_DIR_IMAGES .'languages/'. $language_code .'.png" width="16" alt="'. $language_code .'" style="vertical-align: middle;" /></span>' . PHP_EOL
+         . '  <span class="input-group-ad" style="vertical-align: top;"><img src="'. WS_DIR_IMAGES .'languages/'. $language_code .'.png" width="16" alt="'. $language_code .'" style="vertical-align: middle;" /></span>' . PHP_EOL
          . '  ' . form_draw_textarea($name, $value, $parameters) . PHP_EOL
          . '</div>';
   }
@@ -299,7 +299,7 @@
   function form_draw_regional_wysiwyg_field($language_code, $name, $value=true, $parameters='') {
 
     return '<div class="input-group">' . PHP_EOL
-         . '  <span class="input-group-addon" style="vertical-align: top;"><img src="'. WS_DIR_IMAGES .'languages/'. $language_code .'.png" width="16" alt="'. $language_code .'" style="vertical-align: middle;" /></span>' . PHP_EOL
+         . '  <span class="input-group-ad" style="vertical-align: top;"><img src="'. WS_DIR_IMAGES .'languages/'. $language_code .'.png" width="16" alt="'. $language_code .'" style="vertical-align: middle;" /></span>' . PHP_EOL
          . '  ' . form_draw_wysiwyg_field($name, $value, $parameters) . PHP_EOL
          . '</div>';
   }
@@ -308,7 +308,7 @@
     if ($value === true) $value = form_reinsert_value($name);
 
     return '<div class="input-group">' . PHP_EOL
-         . '  <span class="input-group-addon">'. functions::draw_fonticon('fa-search fa-fw') .'</span>' . PHP_EOL
+         . '  <span class="input-group-ad">'. functions::draw_fonticon('fa-search fa-fw') .'</span>' . PHP_EOL
          . '  <input '. (!preg_match('#class="([^"]+)?"#', $parameters) ? 'class="form-control"' : '') .' type="search" name="'. htmlspecialchars($name) .'" value="'. htmlspecialchars($value) .'" data-type="search"'. (($parameters) ? ' '.$parameters : false) .' />' . PHP_EOL
          . '</div>';
   }
@@ -421,7 +421,7 @@
     if ($value === true) $value = form_reinsert_value($name);
 
     return '<div class="input-group">' . PHP_EOL
-         . '  <span class="input-group-addon">'. functions::draw_fonticon('fa-user fa-fw') .'</span>' . PHP_EOL
+         . '  <span class="input-group-ad">'. functions::draw_fonticon('fa-user fa-fw') .'</span>' . PHP_EOL
          . '  <input '. (!preg_match('#class="([^"]+)?"#', $parameters) ? 'class="form-control"' : '') .' type="text" name="'. htmlspecialchars($name) .'" value="'. htmlspecialchars($value) .'" data-type="text"'. (($parameters) ? ' '.$parameters : false) .' />'
          . '</div>';
   }

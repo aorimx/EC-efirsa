@@ -182,19 +182,20 @@
   <?php } ?>
 </div>
 <hr>
-<div class="grid">
-  <div class="unit half container-descripcion"> 
+<!--<div class="grid">-->
+  <div class="container-descripcion"> 
     <h3> Descripción</h3>
       <?php if ($description) { ?>
         <?php echo $description; ?>
       <?php } ?>
-  </div>
+  <!--</div>-->
+  <!--
   <div class="unit half ">
      <h3> Caracteristicas</h3>
           <ul>
           <li>Especificaciones</li>
           <li>Especificaciones</li>
-          </ul>
+          </ul>-->
   </div>
 </div>
 </div>

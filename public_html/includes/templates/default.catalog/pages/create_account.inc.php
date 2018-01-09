@@ -7,8 +7,9 @@
 
 <main id="content">
   {snippet:notices}
+  <div class="sub-menu">
   {snippet:breadcrumbs}
-
+  </div>
   <div id="box-create-account" class="box sub-menu" style="padding-left: 32px;">
 
     <h1><?php echo language::translate('title_create_account', 'Create Account'); ?></h1>
