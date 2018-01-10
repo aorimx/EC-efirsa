@@ -36,7 +36,7 @@
   <div class="banner-content">
     <div class="banner">
       <div class="image-banner">
-        <img class="image" src="../../includes/templates/default.catalog/ef-s/img/Banner.png">
+        <img class="image" src="{snippet:template_path}images/Banner.png">
       </div>
     </div>
   </div>
