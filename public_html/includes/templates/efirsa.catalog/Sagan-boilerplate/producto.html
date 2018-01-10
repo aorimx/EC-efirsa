@@ -1,0 +1,140 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Producto</title>
+  <link rel="icon" type="image/png" href="https://dummyimage.com/64x64/000/fff" sizes="64x64">
+  <link rel="icon" type="image/png" href="https://dummyimage.com/180x180/000/fff" sizes="180x180">
+  <!-- [#TODO] Dont forget to update the FAVICON IMAGES in the next route -->
+  <!-- <link rel="icon" type="image/png" href="assets/images/favicon-180x180.png" sizes="128x128"> -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" integrity="sha256-K3Njjl2oe0gjRteXwX01fQD5fkk9JFFBdUHy/h38ggY=" crossorigin="anonymous" rel="stylesheet">
+  <link href="./assets/styles/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <!--  Headeer  -->
+
+  <div class="header-container">
+    <header class="main-nav">
+      
+      <nav role="navigation">
+        <ul>
+          
+          <a href="">
+            <li>
+              Home
+            </li>
+          </a>
+          <a href="">
+            <li>
+             Agregar a carrito
+            </li>
+          </a>
+          <li>
+            <a href="">Iniciar sesión</a>
+          </li>
+        </ul>
+      </nav>
+      <div id="nav-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+  </div>
+  <!--  Main content -->
+  <main class="j-workspace ">
+    <div class="j-wrap">
+      <!-- Text Atoms -->
+      <p>Producto/Categoria/Lorem ipsum/Lorem ipsum</p>
+      <!--Imagenes pequeñas -->
+      <div class="grid">
+        <div class="unit tenth thumbnail-img">
+        <img class="img-big" onMouseOver="cambiar();" onMouseOut="volver();" src="assets/images/impresion-icon.png" alt="[#TODO]">
+        <img class="img-big" onMouseOver="cambiar2();" onMouseOut="volver();" src="assets/images/gmail-logo.jpg" alt="[#TODO]">
+        <img class="img-big" onMouseOver="cambiar3();" onMouseOut="volver();" src="assets/images/facebook-logo.jpg" alt="[#TODO]">
+        <img class="img-big" onMouseOver="cambiar4();" onMouseOut="volver();" src="assets/images/Pinterest-Logo.png" alt="[#TODO]">
+        </div>
+        <!--Imagen principal-->
+        <div class="unit percent-45">
+          <div class="container-img-product">
+             <img id= "mi_imagen" src="https://dummyimage.com/1200x800/000/fff" alt="[#TODO]">
+          </div>
+        </div>
+        <!--Información del producto-->
+        <div class="unit percent-45 container-product">
+          <h3>Titulo del producto</h3>
+          <div class="availability-msg">
+            <p>Item# 5151-5151</p>
+            <p class="status">In stock</p>
+          </div>
+          <!--Precio-->
+          <div class="cost">
+            <div class="price gd">
+            <p class="new-cost">$17.95</p>
+            </div>
+            <div class="price gd">
+            <p class="old-cost">$17.95</p>
+            </div>
+            <input type="number" name="" value="1" min="0">
+          </div>
+          <div class="unit half">
+        	<select>
+                  <option>Modelo</option>
+                  <option>Color</option>
+            </select>
+            </div>
+            <!--Add cart-->
+            <div class="add-cart">
+              <input type="number" name="" value="1" min="0">
+              <button class="bg-color-success btn-success">Agregar a carrito</button>
+            </div>
+            <!--Mensaje del producto-->
+            <div class="product-messages" >
+              <img src="assets/images/camion-icon.png" alt="[#TODO]">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            </div>
+            <!--Imagenes de opciones-->
+            <div class="opcions">
+              <p>Opciones:</p>
+              <div class="container-img-sm" >
+                <div class="thumbnail-img-sm" >
+                <img src="assets/images/impresion-icon.png" alt="[#TODO]">
+                <img src="assets/images/gmail-logo.jpg" alt="[#TODO]">
+                <img src="assets/images/facebook-logo.jpg" alt="[#TODO]">
+                <img src="assets/images/Pinterest-Logo.png" alt="[#TODO]">
+              </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <hr>
+      <!-- Grid 2 parts -->
+      <div class="grid">
+        <div class="unit half container-descripcion">
+          <h3> Descripción</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="unit half ">
+          <h3> Caracteristicas</h3>
+          <ul>
+          <li>Especificaciones</li>
+          <li>Especificaciones</li>
+          </ul>
+        </div>
+      </div>
+      
+
+  <footer>
+ <h3>Footer</h3>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="assets/scripts/ripple.js"></script>
+  <script src="assets/scripts/header.js"></script>
+  <script src="assets/scripts/image-change.js"></script>
+
+</body>
+</html>

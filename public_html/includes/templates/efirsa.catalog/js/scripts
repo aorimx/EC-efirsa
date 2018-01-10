@@ -1,0 +1,60 @@
+var $j = jQuery.noConflict();
+
+$j(function(){
+
+
+
+			 //cambiar iconos twitter on hover.
+			$j(".twitterIconSocial").mouseover(function () {
+			    $j(this).attr("src", "http://lilianferes.com.mx/tc/wp-content/uploads/2015/05/twitterhover.png");
+
+			});
+			$j(".twitterIconSocial").mouseout(function () {
+				$j(this).attr("src", "http://lilianferes.com.mx/tc/wp-content/uploads/2015/05/twittericon.png");
+
+			});
+
+			 //cambiar iconos fb on hover.
+			 $j(".fbIconSocial").mouseover(function () {
+				$j(this).attr("src", "http://lilianferes.com.mx/tc/wp-content/uploads/2015/05/fbhover.png");
+
+			});
+			$j(".fbIconSocial").mouseout(function () {
+				$j(this).attr("src", "http://lilianferes.com.mx/tc/wp-content/uploads/2015/05/fbicon.png");
+
+			});
+
+			 //cambiar iconos linkedinIconSocial on hover.
+			 $j(".linkedinIconSocial").mouseover(function () {
+				$j(this).attr("src", "http://lilianferes.com.mx/tc/wp-content/uploads/2015/05/linkedinhover.png");
+
+			});
+			$j(".linkedinIconSocial").mouseout(function () {
+				$j(this).attr("src", "http://lilianferes.com.mx/tc/wp-content/uploads/2015/05/linkedinicon.png");
+
+			});
+
+			//cambiar iconos ytIconSocial on hover.
+			$j(".ytIconSocial").mouseover(function () {
+				$j(this).attr("src", "http://lilianferes.com.mx/tc/wp-content/uploads/2015/05/youtubehover.png");
+
+			});
+			$j(".ytIconSocial").mouseout(function () {
+				$j(this).attr("src", "http://lilianferes.com.mx/tc/wp-content/uploads/2015/05/youtubeicon.png");
+
+			});
+
+			//cambiar iconos pinterestIconSocial on hover.
+			 $j(".pinterestIconSocial").mouseover(function () {
+				$j(this).attr("src", "http://lilianferes.com.mx/tc/wp-content/uploads/2015/05/pinteresthover.png");
+
+			});
+			$j(".pinterestIconSocial").mouseout(function () {
+				$j(this).attr("src", "http://lilianferes.com.mx/tc/wp-content/uploads/2015/05/pinteresticon.png");
+
+			});
+
+
+
+
+});

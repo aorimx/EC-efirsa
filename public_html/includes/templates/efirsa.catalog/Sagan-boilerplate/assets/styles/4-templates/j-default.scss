@@ -1,0 +1,95 @@
+// hacking "gridism.css" a little bit.
+.middle-content{
+  display: inline-flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  .aside_content{
+    width: 25%;
+    padding-right: $space-2;
+  }
+  .main_content{
+    width: 75%;
+  }
+  .column_left{
+
+  }
+  .padding-right{
+    padding-right: $space-2;
+  }
+  .padding-left{
+    padding-left: $space-2;
+  }
+  .padding-top{
+    padding-top: $space-2;
+  }
+  .padding-bottom{
+    padding-bottom: $space-2;
+  }
+  .box-thumbnail{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .thumbnail-content{
+      width: 25%;
+      padding-right: $space-2;
+      padding-left: $space-2;
+    }
+    .thumbnail{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .image-thumbnail {
+      max-width: 100%;
+      margin-bottom: 16px;
+    }
+    .image{
+      max-width: 100%;
+    }
+  }  
+}
+
+.title{
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.btn-categories{
+  background-color: #228B22;
+  text-transform: capitalize;
+}
+.icon-down{
+  transform: rotate(90deg);
+}
+.padding-le{
+  padding-left: 8px;
+}
+.no-padding{
+  padding-left: 2px;
+  margin-left: 8px;
+}
+.c-oculto{
+  display: none;
+}
+.c-mostrar{
+  display: block;
+  .align-categories{
+    text-align: left;
+    padding-left: $space-2;
+  }
+}
+@media screen and (max-width: 991px){
+ 
+}
+@media screen and (max-width: 600px){
+ 
+}

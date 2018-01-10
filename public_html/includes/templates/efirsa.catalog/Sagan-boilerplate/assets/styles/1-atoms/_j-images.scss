@@ -1,0 +1,44 @@
+img {
+    max-width: 100%; // Hacer todas las img responsive.
+    margin-bottom: $space-2;
+}
+.icons-list-inline--sm {
+  img {
+    max-width: 32px;
+    padding-right: $space-base;
+  }
+}
+.icons-list-inline {
+  img {
+    max-width: 64px;
+  }
+}
+.icons-list-inline--lg {
+  img {
+    max-width: 128px;
+  }
+}
+.icons-list-inline--xlg {
+  img {
+    max-width: 256px;
+    max-height: 256px;
+  }
+}
+.p-img-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    max-width: 33%;
+    margin-right: $space-2;
+  }
+}
+.p-img-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    max-width: 33%;
+    margin-right: $space-2;
+  }
+}

@@ -1,0 +1,32 @@
+.spanH{
+    display: block;
+    width: 40px;
+    height: 6px;
+    background: white;
+    border-radius: 10px;
+    margin: 4px;
+    transition: all 0.5s ease-in-out;
+   
+}
+
+
+.hmenu.active{
+    transform: rotate(360deg);
+    transition: all 0.5s ease-in-out;
+}
+
+.hmenu.active span:nth-child(2){
+    transform: rotate(45deg) translateX(1px) translateY(10px);
+   
+    transition: all 0.5s ease-in-out;
+}
+.hmenu.active span:nth-child(3){
+    opacity: 0;
+   
+    transition: all 0.5s ease-in-out;
+}
+.hmenu.active span:nth-child(4){
+    transform: rotate(-45deg) translateX(0px) translateY(-11px);
+ 
+    transition: all 0.5s ease-in-out;
+}
