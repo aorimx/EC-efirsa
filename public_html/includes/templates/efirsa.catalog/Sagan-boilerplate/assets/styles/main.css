@@ -1755,12 +1755,16 @@ header.main-nav.responsive {
     margin-left: 0; }
     .buy_now .form-group .input-group input {
       height: 40px;
-      width: 85%; }
+      width: 80%; }
     .buy_now .form-group .input-group div {
-      width: 15%;
-      padding-top: 11px;
+      width: 20%;
       background-color: #6c6c6d;
-      color: white; }
+      color: white;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 40px; }
 
 .sub-menu {
   margin-left: 64px; }

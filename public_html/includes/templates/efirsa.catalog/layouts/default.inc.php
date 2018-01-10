@@ -15,7 +15,6 @@
   <link rel="stylesheet" href="{snippet:template_path}css/inicio.css">
   <link rel="stylesheet" href="{snippet:template_path}css/mobileMenu.css">
   <link rel="stylesheet" href="{snippet:template_path}css/nosotros.css">
-  <link rel="stylesheet" href="{snippet:template_path}css/contacto.css">
   <link rel="stylesheet" href="{snippet:template_path}css/estilos.css">
   <link rel="stylesheet" href="{snippet:template_path}css/style1.css">
   <link href="{snippet:template_path}Sagan-boilerplate/assets/styles/main.css" rel="stylesheet">
