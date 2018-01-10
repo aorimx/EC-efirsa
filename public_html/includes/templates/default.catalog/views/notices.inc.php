@@ -1,4 +1,5 @@
 <div id="notices">
+  <!-- -->
 <?php
   foreach (array_keys($notices) as $type) {
     foreach ($notices[$type] as $notice) {
