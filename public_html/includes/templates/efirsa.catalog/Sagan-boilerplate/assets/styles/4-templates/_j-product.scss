@@ -25,6 +25,11 @@
 }
 .sub-menu{
 margin-left: $space-8;
+ @media screen and (max-width: 600px){
+    margin-left: 0;
+    width: 100%;
+    padding-right: $space-4;
+  }
 }
 .breadcrumb{
   background: $white;

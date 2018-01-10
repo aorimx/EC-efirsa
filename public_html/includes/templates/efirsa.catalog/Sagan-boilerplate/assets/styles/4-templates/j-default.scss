@@ -6,7 +6,18 @@
   flex-wrap: wrap;
   .half-content{
    width: 50%;
- }
+  @media screen and (max-width: 768px){
+    width: 100%;
+  }
+  .parrafo{
+    text-align: center;
+    color: white;
+    background-color: #228b22;
+    margin-left: $space-10;
+    margin-right: $space-10;
+    padding: $space-2;
+   }
+  }
   .aside_content{
     width: 25%;
     padding-right: $space-2;

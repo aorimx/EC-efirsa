@@ -1768,6 +1768,11 @@ header.main-nav.responsive {
 
 .sub-menu {
   margin-left: 64px; }
+  @media screen and (max-width: 600px) {
+    .sub-menu {
+      margin-left: 0;
+      width: 100%;
+      padding-right: 32px; } }
 
 .breadcrumb {
   background: #ffffff; }
@@ -2115,6 +2120,16 @@ header.main-nav.responsive {
   flex-wrap: wrap; }
   .middle-content .half-content {
     width: 50%; }
+    @media screen and (max-width: 768px) {
+      .middle-content .half-content {
+        width: 100%; } }
+    .middle-content .half-content .parrafo {
+      text-align: center;
+      color: white;
+      background-color: #228b22;
+      margin-left: 80px;
+      margin-right: 80px;
+      padding: 16px; }
   .middle-content .aside_content {
     width: 25%;
     padding-right: 16px; }
