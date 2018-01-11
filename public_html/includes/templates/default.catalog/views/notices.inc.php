@@ -5,7 +5,7 @@
     foreach ($notices[$type] as $notice) {
       switch ($type) {
         case 'errors':
-          /*echo '<div class="alert alert-danger"><a href="#" class="close" data-dismiss="alert">&times;</a>' . functions::draw_fonticon('fa-exclamation-triangle') . ' ' . $notice .'</div>' . PHP_EOL;*/
+          /*echo '<div class="alert alert-danger"><a href="#" class="close" data-dismiss="alert">&times;</a>' . functions::draw_fonticon('fa-exclamation-triangle') s . ' ' . $notice .'</div>' . PHP_EOL;*/
           echo '<script type="text/javascript">';
           echo 'setTimeout(function () { swal({ title: "Oops!", text: "Algo salio mal", type: "error", confirmButtonColor: "#228B22"});';
           echo '});</script>'; 
