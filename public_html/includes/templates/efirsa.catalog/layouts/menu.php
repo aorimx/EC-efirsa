@@ -33,7 +33,7 @@
               <li class="arrow_box"><a itemprop="url" href="nosotros.php"><span itemprop="name">Nosotros</span></a></li>
               <li class="arrow_box"><a itemprop="url" href="productos.php"><span itemprop="name">Productos</span></a></li>
               <li class="arrow_box"><a itemprop="url" href="certificaciones.php"><span itemprop="name">Certificaciones</span></a></li>
-              <li class="arrow_box"><a itemprop="url" href="index.php"><span itemprop="name">Tienda</span></a></li>
+              <li class="arrow_box"><a itemprop="url" href="index_tienda.php"><span itemprop="name">Tienda</span></a></li>
               <li class="arrow_box"><a itemprop="url" href="contacto.php"><span itemprop="name">Contacto</span></a></li>
               <li class="arrow_box"><a itemprop="url" href="checkout"><span itemprop="name"><img src="{snippet:template_path}/images/carrito.png" style="width: 30px;"></span></a></li>
               <!--<li class="iconos-menu hidden-xs hidden-sm"><a href="#"><img class="lupaMenu" src="img/lupa.png"></a></li>
