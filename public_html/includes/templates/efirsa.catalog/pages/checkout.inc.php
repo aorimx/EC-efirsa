@@ -306,11 +306,11 @@
             if (console) console.log('Autosaving customer details');
             var data = 'token=' + $(':input[name="token"]').val()
                      + '&' + $('#box-checkout-customer :input').serialize();
-            queueUpdateTask('customer', data, true);
-            queueUpdateTask('cart', null, true);
-            queueUpdateTask('shipping', null, true);
-            queueUpdateTask('payment', null, true);
-            queueUpdateTask('summary', null, true);
+            queueUpdateTask('customer', data, false);
+            queueUpdateTask('cart', null, false);
+            queueUpdateTask('shipping', null, false);
+            queueUpdateTask('payment', null, false);
+            queueUpdateTask('summary', null, false);
           }
         }
       }, 50

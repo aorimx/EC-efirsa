@@ -1878,6 +1878,9 @@ header.main-nav.responsive {
       max-width: 100%; }
   .checkout .oculto {
     display: none; }
+  .checkout .btn-back {
+    background-color: #6c6c6d;
+    color: #ffffff; }
   .checkout .custome-details {
     width: 100%;
     margin-left: 0;
