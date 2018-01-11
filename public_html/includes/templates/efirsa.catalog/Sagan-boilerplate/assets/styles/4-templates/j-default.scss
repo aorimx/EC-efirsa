@@ -78,7 +78,7 @@
       padding-left: $space-2;
       padding-right: $space-2;
       padding-top: $space-2;
-      width: 300px;
+      width: 200px;
       display: flex;
       flex-direction: column;
       margin: $space-base;
@@ -86,19 +86,6 @@
       align-content: center;
       align-items: center;
       text-align: center;
-        .image-thumbnail {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          height: $thumb-md;
-          width: $thumb-md;
-          padding: $space-2;
-          margin-bottom: $space-2;
-          img {
-            max-height: 100%;
-            margin-bottom: 0;
-          }
-        }
       }   
       .thumbnail-category{
         width: 300px;
@@ -112,6 +99,10 @@
         border-color: #6c6c6d;
         border-style: solid;
         }      
+      .image-thumbnail {
+        max-width: 100%;
+        margin-bottom: 16px;
+      }
     .image{
       max-width: 100%;
     }

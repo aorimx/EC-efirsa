@@ -2199,7 +2199,7 @@ header.main-nav.responsive {
       padding-left: 16px;
       padding-right: 16px;
       padding-top: 16px;
-      width: 300px;
+      width: 200px;
       display: flex;
       flex-direction: column;
       margin: 8px;
@@ -2207,17 +2207,6 @@ header.main-nav.responsive {
       align-content: center;
       align-items: center;
       text-align: center; }
-      .middle-content .box-thumbnail .thumbnail-content .image-thumbnail {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 300px;
-        width: 300px;
-        padding: 16px;
-        margin-bottom: 16px; }
-        .middle-content .box-thumbnail .thumbnail-content .image-thumbnail img {
-          max-height: 100%;
-          margin-bottom: 0; }
     .middle-content .box-thumbnail .thumbnail-category {
       width: 300px;
       display: flex;
@@ -2229,6 +2218,9 @@ header.main-nav.responsive {
       text-align: center;
       border-color: #6c6c6d;
       border-style: solid; }
+    .middle-content .box-thumbnail .image-thumbnail {
+      max-width: 100%;
+      margin-bottom: 16px; }
     .middle-content .box-thumbnail .image {
       max-width: 100%; }
   .middle-content .categories-title {
