@@ -2123,13 +2123,17 @@ header.main-nav.responsive {
     @media screen and (max-width: 768px) {
       .middle-content .half-content {
         width: 100%; } }
-    .middle-content .half-content .parrafo {
-      text-align: center;
-      color: white;
-      background-color: #228b22;
-      margin-left: 80px;
-      margin-right: 80px;
-      padding: 16px; }
+    .middle-content .half-content div {
+      padding-right: 80px;
+      padding-left: 80px; }
+      .middle-content .half-content div h1 {
+        text-align: center;
+        font-size: 32px; }
+      .middle-content .half-content div .parrafo {
+        text-align: center;
+        color: white;
+        background-color: #228b22;
+        padding: 16px; }
   .middle-content .aside_content {
     width: 25%;
     padding-right: 16px; }

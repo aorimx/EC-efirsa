@@ -45,7 +45,7 @@
               <div><img src="{snippet:template_path}images/404.png"></div>
               <div><h1>HTTP 404 - File Not Found</h1></div>';
     echo '    <!--<div><p>Could not find a matching reference for '. parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) .'.</p></div>-->
-              <p><a href="'. document::href_ilink('') .'"><p class="parrafo">ATRAS</p></a></p>
+              <div><a href="'. document::href_ilink('') .'"><p class="parrafo">ATRAS</p></a></div>
             </div>
           <div class="aside_content">';
   }

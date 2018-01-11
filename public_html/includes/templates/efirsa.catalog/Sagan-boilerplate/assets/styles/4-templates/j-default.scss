@@ -6,17 +6,23 @@
   flex-wrap: wrap;
   .half-content{
    width: 50%;
-  @media screen and (max-width: 768px){
-    width: 100%;
-  }
-  .parrafo{
-    text-align: center;
-    color: white;
-    background-color: #228b22;
-    margin-left: $space-10;
-    margin-right: $space-10;
-    padding: $space-2;
-   }
+    @media screen and (max-width: 768px){
+      width: 100%;
+    }
+    div{
+      padding-right: $space-10;
+      padding-left: $space-10;
+      h1{
+        text-align: center;
+        font-size: $space-4;;
+      }
+      .parrafo{
+        text-align: center;
+        color: white;
+        background-color: #228b22;
+        padding: $space-2;
+      }
+    }
   }
   .aside_content{
     width: 25%;
