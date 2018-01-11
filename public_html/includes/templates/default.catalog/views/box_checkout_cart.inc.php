@@ -33,10 +33,10 @@
                 <?php echo !empty($item['quantity_unit']['decimals']) ? functions::form_draw_decimal_field('item['.$key.'][quantity]', $item['quantity'], $item['quantity_unit']['decimals'], 0, null) : functions::form_draw_number_field('item['.$key.'][quantity]', $item['quantity'], 0, null, 'style="width: 125px;"'); ?>
               <?php } ?>
               <input type="hidden" name="update_cart_item" value="<?php echo  $key; ?>" /> <!-- Sustituyò el button submit de refresh, se utiliza el siguiente selector:  input[type="number"]  -->
-              <?php echo functions::form_draw_button('remove_cart_item', array($key, functions::draw_fonticon('fa-trash')), 'button', 'class="btn btn-danger" title="'. htmlspecialchars(language::translate('title_remove', 'Remove')) .'" formnovalidate style="margin-right: 0; width: 25%;"'); ?>
             </div>
           </td>
           <td><?php echo currency::format($item['display_price'] * $item['quantity']); ?></td>
+          <td> <?php echo functions::form_draw_button('remove_cart_item', array($key, functions::draw_fonticon('fa-trash')), 'button', 'class="btn btn-danger" title="'. htmlspecialchars(language::translate('title_remove', 'Remove')) .'" formnovalidate style="margin-right: 0;"'); ?></td>
         </tr>
         <?php } ?>
       </tbody>
