@@ -1,6 +1,5 @@
 <main id="content" class="twelve-eighty">
   {snippet:notices}
-
   <?php echo functions::form_draw_form_begin('checkout_form', 'post', document::ilink('order_process')); ?>
     <div>
       <h1>TU CARRITO</h1>
@@ -134,6 +133,10 @@
     queueUpdateTask('summary', null, true);
   });
 
+
+
+/*
+  //Esta funciòn se remplazo por el evento change
   $('#box-checkout .cart.wrapper').on('click', 'button[name="update_cart_item"]', function(e){
     e.preventDefault();
     var data = 'token=' + $(':input[name="token"]').val()
@@ -145,6 +148,23 @@
     queueUpdateTask('payment', null, true);
     queueUpdateTask('summary', null, true);
   });
+*/
+
+  //Funciòn en base al evento click de los elementos button[name="update_cart_item"]
+  $('#box-checkout .cart.wrapper').on('change','input[type="number"]',function(){
+    var update_cart_item = $(this).parent().parent().find('input[name="update_cart_item"]').val(); //   a $(this).val();
+    if(update_cart_item === undefined) return; //Habria que mostrar una advertencia
+    var data = 'token=' + $(':input[name="token"]').val()
+             + '&' + $(this).closest('td').find(':input').serialize()
+             + '&update_cart_item=' + update_cart_item;
+    queueUpdateTask('cart', data, true);
+    queueUpdateTask('customer', null, true);
+    queueUpdateTask('shipping', null, true);
+    queueUpdateTask('payment', null, true);
+    queueUpdateTask('summary', null, true);
+  });
+
+
 
 // Customer Form: Toggles
 
