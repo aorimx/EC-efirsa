@@ -1388,6 +1388,8 @@ header.main-nav.responsive {
   .container-product {
     padding-left: 0; }
 
+  .container-images-product .extra-images {
+    width: 100%; }
   .container-images-product .container-img-product {
     width: 100%; }
 
