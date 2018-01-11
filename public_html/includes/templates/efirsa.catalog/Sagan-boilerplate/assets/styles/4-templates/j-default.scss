@@ -1,0 +1,172 @@
+// hacking "gridism.css" a little bit.
+.middle-content{
+  display: inline-flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  .half-content{
+   width: 50%;
+    @media screen and (max-width: 768px){
+      width: 100%;
+    }
+    div{
+      padding-right: $space-10;
+      padding-left: $space-10;
+      h1{
+        text-align: center;
+        font-size: $space-4;;
+      }
+      .parrafo{
+        text-align: center;
+        color: white;
+        background-color: #228b22;
+        padding: $space-2;
+      }
+    }
+  }
+  .aside_content{
+    width: 25%;
+    padding-right: $space-2;
+  }
+  .main_content{
+    width: 75%;
+  }
+  .column_left{
+
+  }
+  .input-group{
+    display: inline-flex;
+    width: 100%;
+    .input-group-ad{
+      padding: 12px 12px;
+      font-size: 14px;
+      font-weight: normal;
+      line-height: 1;
+      color: #fff;
+      text-align: center;
+      background-color: #6c6c6d;
+      border-radius: 0;
+    }
+  }
+  .padding-right{
+    padding-right: $space-2;
+  }
+  .padding-left{
+    padding-left: $space-2;
+  }
+  .padding-left-lg{
+    padding-left: $space-10;
+  }
+  .padding-top{
+    padding-top: $space-2;
+  }
+  .padding-bottom{
+    padding-bottom: $space-2;
+  }
+  .box-thumbnail{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: $space-2;
+    padding-right: $space-2;
+    width: 100%;
+    align-items: flex-start;
+    .thumbnail-content{
+    padding-left: $space-2;
+    padding-right: $space-2;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: $space-base;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+          }   
+    .thumbnail-category{
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      margin: $space-base;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      text-align: center;
+      border-color: #6c6c6d;
+      border-style: solid;
+      }      
+    .image-thumbnail {
+      max-width: 100%;
+      margin-bottom: 16px;
+    }
+    .image{
+      max-width: 100%;
+    }
+  } 
+  .categories-title{
+    text-align: center;
+  }  
+  .container-filtros{
+      border-radius: 0;
+      a{
+        border-radius: 0;
+        background-color: $white;
+        border-color: #6c6c6d; 
+        color: $black;
+      }
+      .activo{
+        border-radius: 0;
+        background-color: #6c6c6d;
+        border-color: #6c6c6d;
+        color: $white;
+      }
+    }
+}
+
+.title{
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.btn-categories{
+  background-color: #228B22;
+  text-transform: capitalize;
+}
+.icon-down{
+  transform: rotate(90deg);
+}
+.padding-le{
+  padding-left: $space-base;
+}
+.no-padding{
+  padding-left: 2px;
+  margin-left: $space-base;
+}
+.c-oculto{
+  display: none;
+}
+.c-mostrar{
+  display: block;
+  .align-categories{
+    text-align: left;
+    padding-left: $space-2;
+  }
+}
+.container-category{
+  width: 100%;
+}
+@media screen and (max-width: 991px){
+ 
+}
+@media screen and (max-width: 768px){
+  .middle-content{
+    .aside_content{
+      width: 100%;
+    }
+    .main_content{
+    width: 100%;
+  }
+  }
+}

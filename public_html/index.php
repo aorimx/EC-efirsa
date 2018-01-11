@@ -40,8 +40,14 @@
 
     if (preg_match('#\.[a-z]{2,4}$#', route::$request)) exit;
 
-    echo '<h1>HTTP 404 - File Not Found</h1>';
-    echo '<p>Could not find a matching reference for '. parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) .'.</p>';
+    echo '<div class="aside_content"></div>
+            <div class="half-content">
+              <div><img src="{snippet:template_path}images/404.png"></div>
+              <div><h1>HTTP 404 - File Not Found</h1></div>';
+    echo '    <!--<div><p>Could not find a matching reference for '. parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) .'.</p></div>-->
+              <div><a href="'. document::href_ilink('') .'"><p class="parrafo">ATRAS</p></a></div>
+            </div>
+          <div class="aside_content">';
   }
 
   require_once vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_INCLUDES . 'app_footer.inc.php');

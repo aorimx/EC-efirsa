@@ -1,0 +1,94 @@
+table {
+  width: 100%;
+  // Zebra Stripped Table
+  tr {
+    &:last-child {
+    }
+    th{
+      color: black;
+      font-weight: 500;
+      text-align: left;
+      padding-top: $space-base;
+      padding-right: 0;
+      padding-bottom: $space-base;
+      padding-left: 0;
+      span {
+        font-size: smaller;
+        color: $gray-ghost; //Utilizamos este color por tener un color muy cercano al blanco con distinción del
+      }
+      &:first-child {
+      }
+      &:last-child {
+        padding-right: 0;
+        text-align: right;
+      }
+    }
+  }
+  td {
+    width: 13%;
+    text-align: left;
+    vertical-align: top;
+    padding-top: $space-base;
+    padding-right: 0;
+    padding-bottom: $space-base;
+    padding-left: 0;
+    color: $gray-dark;
+    &:first-child{
+      width: 15%;
+    }
+    &:nth-child(2){
+      width: 29%;
+    }
+    &:nth-child(3){
+      width: 14%;
+      padding-top: $space-2;
+    }
+    &:nth-child(4){
+      width: 28%;
+    }
+    &:last-child{
+      border-right: none;
+      text-align: right;
+      width: 14%;
+      margin-left: 50%;
+    }
+    p{
+      line-height: .5;
+    }
+    span {
+      font-size: smaller;
+      color: $gray-regular;
+    }
+    input{
+      width: $space-7;
+      padding-left: $space-base;
+    }
+  }
+}
+@media screen and (max-width: 600px){
+table {
+  width: 100%;
+  // Zebra Stripped Table
+  td {
+    &:first-child{
+      width: 20%;
+    }
+    &:nth-child(2){
+      width: 80%;
+      margin-left: 20%;
+    }
+    &:nth-child(3){
+      width: 25%;
+    }
+    &:nth-child(4){
+      width: 70%;
+    }
+    &:last-child{
+      border-right: none;
+      text-align: right;
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+}
+}

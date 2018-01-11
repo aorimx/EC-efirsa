@@ -1,0 +1,76 @@
+.buy_now{
+  .form-group{
+    display: block;
+    width: 100%;
+    .input-group{
+      padding-left: 0;
+      width: 100%;
+      margin-left: 0;
+      input{
+        height: $space-5;
+        width: 80%;
+      }
+      div{
+        width: 20%;
+        background-color: #6c6c6d;
+        color: white;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+      }
+    }
+  }
+}
+.sub-menu{
+margin-left: $space-8;
+ @media screen and (max-width: 600px){
+    margin-left: 0;
+    width: 100%;
+    padding-right: $space-4;
+  }
+}
+.breadcrumb{
+  background: $white;
+  @media screen and (max-width: 768px){
+    margin-left: 0;
+  }
+}
+.separador-menu-sm{
+   margin-top: $space-base;
+}
+.btn-menu{
+  max-width: 40px;
+}
+.box{
+  margin-top: $space-3;
+}
+.container-others-img{
+  margin-top: $space-2;
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.container-img-recently{
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: $space-2;
+  padding-right: $space-2;
+  width: 100%;
+}
+.btn-aligned{
+  max-width:100%;
+  margin-top: $space-2;
+  margin-bottom: $space-base;
+  text-align: center;
+}
+.text-aligned{
+   justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
