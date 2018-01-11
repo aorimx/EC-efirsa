@@ -4,6 +4,9 @@
   width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
+  .main_full{
+    width: 100%;
+  }
   .half-content{
    width: 50%;
     @media screen and (max-width: 768px){
