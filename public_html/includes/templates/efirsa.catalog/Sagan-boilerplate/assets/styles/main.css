@@ -1292,7 +1292,26 @@ header.main-nav.responsive {
 .container-images-product {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center; }
+  .container-images-product .extra-images {
+    width: 80%;
+    max-width: 750px;
+    display: inline-flex;
+    justify-content: center; }
+    .container-images-product .extra-images .thumbnail-content {
+      padding-left: 16px;
+      padding-right: 16px;
+      width: 150px;
+      display: flex;
+      flex-direction: column;
+      margin: 8px;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      text-align: center; }
+      .container-images-product .extra-images .thumbnail-content .thumbnail {
+        background-color: #d9d9d9; }
   .container-images-product .container-img-product {
     width: 80%;
     display: flex;

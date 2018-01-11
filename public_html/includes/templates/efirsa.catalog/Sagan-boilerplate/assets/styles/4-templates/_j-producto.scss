@@ -13,7 +13,29 @@ $img-sm: 128px;
 .container-images-product{
   width: 100%;
  display: flex;
+ flex-wrap: wrap;
  justify-content: center;
+ .extra-images{
+  width: 80%;
+  max-width: 750px;
+  display: inline-flex;
+  justify-content: center;
+  .thumbnail-content{
+    padding-left: $space-2;
+    padding-right: $space-2;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    margin: $space-base;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    .thumbnail{
+      background-color: #d9d9d9;
+    }
+  }  
+ }
 .container-img-product{
   width:80%;
   display: flex;
