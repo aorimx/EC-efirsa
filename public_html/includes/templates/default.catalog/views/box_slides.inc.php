@@ -1,4 +1,4 @@
-<div id="box-slides" class="rslides box shadow" style="display: none;">
+<div id="box-slides" class="rslides box shadow">
   <?php foreach($slides as $slide) { ?>
   <div class="slide">
 <?php

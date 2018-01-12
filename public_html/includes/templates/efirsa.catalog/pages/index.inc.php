@@ -5,7 +5,6 @@
 <main id="content" class="main_content">
   {snippet:notices}
 
-  <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_slides.inc.php'); ?>
 
   <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_manufacturer_logotypes.inc.php'); ?>
 
@@ -36,7 +35,8 @@
   <div class="banner-content">
     <div class="banner">
       <div class="image-banner">
-        <img class="image" src="../../includes/templates/default.catalog/ef-s/img/Banner.png">
+        <!-- img class="image" src="../../includes/templates/default.catalog/ef-s/img/Banner.png"-->
+        <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_slides.inc.php'); ?>
       </div>
     </div>
   </div>
