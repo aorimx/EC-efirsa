@@ -6,9 +6,9 @@
   {snippet:notices}
   {snippet:breadcrumbs}
 
-  <div style="width: 100%; display: inline-flex;">
+  <div style="width: 100%; display: inline-flex; flex-wrap: wrap;">
     <div class="col-md-halfs">
-      <div class="box-login" class="box" style="padding: 0 3em; padding-left: 80px;">
+      <div class="box-login" class="box">
 
         <h2 class="title"><?php echo language::translate('title_sign_in', 'Sign In'); ?></h2>
 

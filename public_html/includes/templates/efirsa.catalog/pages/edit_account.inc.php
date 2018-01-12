@@ -5,7 +5,7 @@
   </div>
 </aside>
 
-<main id="content" style="padding-left: 32px;">
+<main id="content" style="padding-left: 32px; padding-right: 32px;">
   {snippet:notices}
 
   <div id="box-edit-account" class="box">
