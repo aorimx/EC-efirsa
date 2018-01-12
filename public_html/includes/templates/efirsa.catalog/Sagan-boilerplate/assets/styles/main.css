@@ -139,9 +139,9 @@ body {
     body a:hover {
       color: #4b626d; }
   body a:link {
-    color: #fff; }
+    color: #000; }
   body a:visited {
-    color: #fff; }
+    color: #000; }
   body p {
     color: #ffffff;
     line-height: 1.5; }
@@ -1970,6 +1970,11 @@ header.main-nav.responsive {
     border-color: black;
     border-style: solid;
     border-width: 1px; }
+
+footer a:visited {
+  color: white !important; }
+footer a:link {
+  color: white !important; }
 
 .gris-footers {
   background-color: #d8d8d8;

@@ -151,6 +151,14 @@
     border-width: 1px;
   }
 } 
+footer{
+  a:visited{
+  color: white !important;
+}
+a:link{
+  color: white !important;
+}
+}
 .gris-footers{
   background-color: #d8d8d8;
   width: 100%;

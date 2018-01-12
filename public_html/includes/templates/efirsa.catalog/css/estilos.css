@@ -831,6 +831,7 @@ footer{
   font-size: 18px;
 }
 
+
 .redes-footer{
   width: 100%;
   padding: 10px 0px 10px;
@@ -848,6 +849,7 @@ footer{
 .redes-footer img{
   width: 30px;
 }
+
 @media screen and (max-width: 600px){
     .redes-footer img{
         width: 20px !important;
