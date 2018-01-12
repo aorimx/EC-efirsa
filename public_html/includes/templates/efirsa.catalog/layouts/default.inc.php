@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{snippet:language}">
 <head>
-<title>Defualt{snippet:title}</title>
+<title>{snippet:title}</title>
 <meta charset="{snippet:charset}" />
 <meta name="description" content="{snippet:description}" />
 <meta name="viewport" content="width=device-width, initial-scale=1">

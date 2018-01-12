@@ -1,4 +1,4 @@
-<main id="content">
+<main id="content" class="main_full">
   {snippet:notices}
   {snippet:breadcrumbs}
   <div id="box-categories" class="box">

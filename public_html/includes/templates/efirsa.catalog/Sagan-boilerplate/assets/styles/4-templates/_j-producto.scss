@@ -32,7 +32,7 @@ $img-sm: 128px;
     align-items: center;
     text-align: center;
     .thumbnail{
-      background-color: #98FF9D;
+      background-color: #d9d9d9;
     }
   }  
  }
@@ -145,6 +145,9 @@ transform: scale(1.1)
     padding-left: 0;
     } 
   .container-images-product{
+    .extra-images{
+      width: 100%;
+    }
     .container-img-product{
      width:100%;
     }
