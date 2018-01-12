@@ -139,9 +139,9 @@ body {
     body a:hover {
       color: #4b626d; }
   body a:link {
-    color: #000000; }
+    color: #fff; }
   body a:visited {
-    color: #000000; }
+    color: #fff; }
   body p {
     color: #ffffff;
     line-height: 1.5; }
@@ -1986,14 +1986,16 @@ header.main-nav.responsive {
       .gris-footers .content-footer .red-footer img {
         width: 30px; }
 
+.td_pieces .none {
+  display: none; }
 .td_pieces .input-group {
   background-color: #6c6c6d;
   border-radius: 3px;
   display: inline-flex; }
   .td_pieces .input-group input {
-    width: 65%; }
+    width: 75%; }
   .td_pieces .input-group span {
-    width: 35%;
+    width: 25%;
     text-align: center;
     padding-top: 7px;
     color: white; }
@@ -2089,9 +2091,11 @@ header.main-nav.responsive {
         margin-left: 0; }
         .checkout .custome-details .form-group .input-group input {
           width: 96%; }
+        .checkout .custome-details .form-group .input-group span {
+          max-width: 40px; }
 
   .td_pieces .input-group input {
-    width: 60%; } }
+    width: 75%; } }
 @media screen and (max-width: 768px) {
   .checkout .custome-details .title {
     width: 105%; }
@@ -2127,16 +2131,42 @@ header.main-nav.responsive {
     text-align: right; }
 
   .td_price {
+    margin-top: 16px;
     padding: 24px !important; }
 
   .td_pieces {
-    margin-left: 30%; }
+    margin-left: 30%;
+    margin-top: 16px; }
+    .td_pieces .none {
+      display: block;
+      width: 50%; }
+    .td_pieces .input-group input {
+      width: 90%; }
+    .td_pieces .input-group span {
+      max-width: 48px; }
+
+  .td_quantity {
+    width: 24%;
+    margin-top: -56px;
+    margin-left: 76%; }
+    .td_quantity button {
+      width: 40px; }
+
+  .td_total_price {
+    width: 22%;
+    padding-left: 24px !important;
+    padding-top: 16px !important; }
 
   .td_subtotal {
     width: 50%; }
 
   .none {
     display: none; } }
+@media screen and (max-width: 440px) {
+  .td_pieces .input-group input {
+    width: 72%; }
+  .td_pieces .input-group span {
+    max-width: 48px; } }
 .middle-content {
   display: inline-flex;
   width: 100%;
@@ -2144,6 +2174,8 @@ header.main-nav.responsive {
   flex-wrap: wrap; }
   .middle-content .main_full {
     width: 100%; }
+  .middle-content .halfs-content {
+    width: 50%; }
   .middle-content .half-content {
     width: 50%; }
     @media screen and (max-width: 768px) {
