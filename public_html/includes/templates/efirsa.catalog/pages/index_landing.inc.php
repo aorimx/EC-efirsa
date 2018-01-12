@@ -50,12 +50,12 @@
     <link rel="stylesheet" type="text/css" href="{snippet:template_path}engine1/style.css" />
     <div id="wowslider-container1">
     <div class="ws_images">
-      <!--<ul>
+      <ul>
       <li><a href="#"><img src="{snippet:template_path}data1/images/slider1x.png" alt="Slider" title="slider-1" id="wows1_0"/></a></li>
       <li><img src="{snippet:template_path}data1/images/slider2x.png" alt="slider-2" title="slider-2" id="wows1_1"/></li>
       <li><img src="{snippet:template_path}data1/images/slider3x.png" alt="slider-3" title="slider-3" id="wows1_2"/></li>
-    </ul>-->
-      <div style="position: relative; width: 100%; font-size: 0px; line-height: 0; max-height: 100%; overflow: hidden;"><img src="{snippet:template_path}data1/images/slider1x.png" alt="Slider" title="slider-1" id="wows1_0" style="width: 100%; visibility: hidden;"></div>
+    </ul>
+      <!--<div style="position: relative; width: 100%; font-size: 0px; line-height: 0; max-height: 100%; overflow: hidden;"><img src="{snippet:template_path}data1/images/slider1x.png" alt="Slider" title="slider-1" id="wows1_0" style="width: 100%; visibility: hidden;"></div>
       <div style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; overflow: hidden;"><div class="ws_list" style="position: absolute; top: 0px; height: 100%; transform: translate3d(0px, 0px, 0px); width: 1000%; left: -100.212%; transition: 0ms;"><div class="ws_swipe_left" style="position: absolute; top: 0px; height: 100%; overflow: hidden; width: 10%; left: -10%;"><img src="{snippet:template_path}data1/images/slider3x.png" alt="slider-3" title="slider-3" id="wows1_2" style="visibility: visible; margin-top: 0px;"></div><ul style="width: 100%;">
       <li style="width: 10%;"><a href="#"><img src="{snippet:template_path}data1/images/slider1x.png" alt="Slider" title="slider-1" id="wows1_0" style="visibility: visible; margin-top: 0px;"></a></li>
       <li style="width: 10%;"><img src="{snippet:template_path}data1/images/slider2x.png" alt="slider-2" title="slider-2" id="wows1_1" style="visibility: visible; margin-top: 0px;"></li>
@@ -67,8 +67,8 @@
       <a href="#" title="slider-1" class="ws_selbull"><span>1</span></a>
       <a href="#" title="slider-2" class=""><span>2</span></a>
       <a href="#" title="slider-3" class=""><span>3</span></a>
-    </div></div><a href="#" class="ws_next"><span><i></i><b></b></span></a><a href="#" class="ws_prev"><span><i></i><b></b></span></a><a href="#" class="ws_playpause ws_pause"><span><i></i><b></b></span></a></div>
-  </div><!--Aqui-->
+    </div></div><a href="#" class="ws_next"><span><i></i><b></b></span></a><a href="#" class="ws_prev"><span><i></i><b></b></span></a><a href="#" class="ws_playpause ws_pause"><span><i></i><b></b></span></a></div>-->
+  </div>
     <div class="ws_bullets"><div>
       <a href="#" title="slider-1"><span>1</span></a>
       <a href="#" title="slider-2"><span>2</span></a>
