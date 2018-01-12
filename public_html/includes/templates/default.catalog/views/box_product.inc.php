@@ -185,7 +185,10 @@
   }
 ?>
     </table>
-  <?php } ?>
+  <?php }
+  else{ ?>
+    <p style="color: #000; opacity: .65;">No hay características para este producto</p>
+  <?php }?> 
   <?php } ?>
   
   </div>
