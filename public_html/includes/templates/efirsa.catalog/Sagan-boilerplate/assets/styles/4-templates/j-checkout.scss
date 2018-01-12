@@ -151,6 +151,14 @@
     border-width: 1px;
   }
 } 
+footer{
+  a:visited{
+  color: white !important;
+}
+a:link{
+  color: white !important;
+}
+}
 .gris-footers{
   background-color: #d8d8d8;
   width: 100%;
@@ -187,15 +195,18 @@
   }
 }
 .td_pieces{
+  .none{
+    display: none;
+  }
   .input-group{
     background-color: #6c6c6d;
     border-radius: 3px;
     display: inline-flex;
     input{
-      width: 65%;
+      width: 75%;
     }
     span{
-      width: 35%;
+      width: 25%;
       text-align: center;
       padding-top: 7px;
       color: white;
@@ -335,6 +346,9 @@
         input{
           width: 96%;
         }
+        span{
+          max-width: 40px;
+        }
       }
     }
   }
@@ -342,7 +356,7 @@
   .td_pieces{
     .input-group{
       input{
-        width: 60%;
+        width: 75%;
       }
     }
   }
@@ -394,15 +408,54 @@
     text-align: right;
   }
   .td_price{
+    margin-top: $space-2;
     padding: $space-3 !important;
   }
   .td_pieces{
+    .none{
+      display: block;
+      width: 50%;
+    }
     margin-left: 30%;
+    margin-top: $space-2;
+    .input-group{
+      input{
+        width: 90%;
+      }
+      span{
+        max-width:48px;
+      }
+    }
+  }
+  .td_quantity{
+    width: 24%;
+    margin-top: -56px;
+    margin-left: 76%;
+    button{
+      width: 40px;
+    }
+  }
+  .td_total_price{
+    width: 22%;
+    padding-left: $space-3 !important;
+    padding-top: 16px !important;;
   }
   .td_subtotal{
     width: 50%;
   }
   .none{
     display: none;
+  }
+}
+@media screen and (max-width: 440px){
+    .td_pieces{
+    .input-group{
+      input{
+        width: 72%;
+      }
+      span{
+        max-width:48px;
+      }
+    }
   }
 }

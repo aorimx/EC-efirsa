@@ -7,8 +7,8 @@
 
         <?php foreach ($order_total as $row) { ?>
         <div class="middle-content">
-          <div class="text-left padding-left padding-top padding-bottom half-content" colspan="5"><strong><?php echo $row['title']; ?>:</strong></div>
-          <div class="text-right padding-right padding-top padding-bottom half-content"><?php echo !empty(customer::$data['display_prices_including_tax']) ? currency::format($row['value'] + $row['tax'], false) : currency::format($row['value'], false); ?></div>
+          <div class="text-left padding-left padding-top padding-bottom halfs-content" colspan="5"><strong><?php echo $row['title']; ?>:</strong></div>
+          <div class="text-right padding-right padding-top padding-bottom halfs-content"><?php echo !empty(customer::$data['display_prices_including_tax']) ? currency::format($row['value'] + $row['tax'], false) : currency::format($row['value'], false); ?></div>
         </div>
         <?php } ?>
         <?php if ($tax_total) { ?>
@@ -32,6 +32,7 @@
 
     <div class="confirm padding-top">
       <div class="col-md-fourths">
+        <a href="<?php echo document::ilink('index.php'); ?>"><p class="btn btn-block btn-lg" style="background-color: #6c6c6d; margin-bottom: 5px;">seguir comprando</p></a>
         <button class="btn btn-block btn-lg btn-success  oculto " id="btnconfirm" type="submit" name="confirm_order" value="true"<?php echo !empty($error) ? ' disabled="disabled"' : ''; ?>><?php echo $confirm; ?></button>
         <label class="btn btn-block btn-lg btn-back oculto" id="btnback" type="submit" value="cambiar" onclick="window.location.reload()">Regresar</label>
         <label class="btn btn-block btn-lg btn-success" id="btncontinuar" type="submit" value="cambiar" onclick="cambiarbtn()">Continuar</label>

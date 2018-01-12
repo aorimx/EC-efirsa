@@ -144,10 +144,24 @@
     </div>
   </div>
 
+</div>
+<hr>
+<div class="grid">
+  <div class="unit half">
+  <div class="container-descripcion"> 
+    <h3> Descripción</h3>
+      <?php if ($description) { ?>
+        <?php echo $description; ?>
+      <?php } ?>
+  </div>
+</div>
+
+  <div class="unit half container-car">
+  <div class="attributes">
+    <h3>Características</h3>
   <?php if (empty($_SERVER['HTTP_X_REQUESTED_WITH']) || strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') { ?>
   <?php if ($attributes) { ?>
-  <div class="attributes">
-    <table class="table table-striped">
+    <table class="table table-striped table-attributes">
 <?php
   for ($i=0; $i<count($attributes); $i++) {
     if (strpos($attributes[$i], ':') !== false) {
@@ -171,26 +185,11 @@
   }
 ?>
     </table>
+  <?php } ?>
+  <?php } ?>
+  
   </div>
-  <?php } ?>
-  <?php } ?>
 </div>
-<hr>
-<!--<div class="grid">-->
-  <div class="container-descripcion"> 
-    <h3> Descripción</h3>
-      <?php if ($description) { ?>
-        <?php echo $description; ?>
-      <?php } ?>
-  <!--</div>-->
-  <!--
-  <div class="unit half ">
-     <h3> Caracteristicas</h3>
-          <ul>
-          <li>Especificaciones</li>
-          <li>Especificaciones</li>
-          </ul>-->
-  </div>
 </div>
 </div>
 <script>
