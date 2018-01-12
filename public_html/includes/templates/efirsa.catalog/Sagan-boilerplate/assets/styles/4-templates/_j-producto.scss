@@ -163,4 +163,31 @@ transform: scale(1.1)
 }
 .container-descripcion{
   margin-right: $space-4;
+  h3{
+    text-align: center;
+  }
+}
+.container-car{  
+  h3{
+    text-align: center;
+  }
+.table-attributes{
+  margin-top: 0;
+  thead{
+    tr{
+      th{
+        text-align: start;
+      }
+    }
+  }
+  tbody{
+    tr{
+      td:first-child{
+        width: 10%;
+      }
+    }
+  }
+}@media screen and (max-width: 768px){
+    margin-top: $space-5;
+  }
 }

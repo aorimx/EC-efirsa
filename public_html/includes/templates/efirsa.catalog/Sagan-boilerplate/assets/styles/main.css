@@ -1401,6 +1401,20 @@ header.main-nav.responsive {
       margin-left: 16px; } }
 .container-descripcion {
   margin-right: 32px; }
+  .container-descripcion h3 {
+    text-align: center; }
+
+.container-car h3 {
+  text-align: center; }
+.container-car .table-attributes {
+  margin-top: 0; }
+  .container-car .table-attributes thead tr th {
+    text-align: start; }
+  .container-car .table-attributes tbody tr td:first-child {
+    width: 10%; }
+@media screen and (max-width: 768px) {
+  .container-car {
+    margin-top: 40px; } }
 
 .padd-between {
   margin-right: 16px; }
