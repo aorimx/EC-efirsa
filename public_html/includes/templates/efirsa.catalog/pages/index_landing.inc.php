@@ -20,7 +20,7 @@
     <div class="row">
       <div class="video-landing">
         <video muted id="preview-youtube" autoplay="" loop="">
-    		  <source src="video/preview.mp4" type="video/mp4">
+    		  <source src="{snippet:template_path}video/preview.mp4" type="video/mp4">
               Su navegador no soporta la etiqueta de vídeo.
     		</video>
         <a href="http://efirsa.mx/archivos/efirsaInstitucional.mp4" data-lity><img id="play-video" class="play_button_landing" src="{snippet:template_path}images/play.png"></a>
