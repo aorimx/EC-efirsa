@@ -7,7 +7,12 @@
 
 
   <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_manufacturer_logotypes.inc.php'); ?>
-
+  
+    <div id="navigation">
+      <?php echo functions::form_draw_form_begin('search_form', 'get', document::ilink('search')); ?>
+      <?php echo functions::form_draw_search_field('query', true, 'placeholder="'. language::translate('text_search_products', 'Search products') .' …"'); ?>
+    <?php echo functions::form_draw_form_end(); ?>
+  </div>
   <ul class="nav nav-tabs nav-justified" style="overflow: hidden;">
     <?php if ($display_campaign_products = (settings::get('box_campaign_products_num_items') && database::num_rows(functions::catalog_products_query(array('campaign' => true, 'limit' => 1)))) ? true : false) { ?><li><a href="#campaign-products" data-toggle="tab"><?php echo language::translate('title_campaign_products', 'Campaign Products'); ?></a></li><?php } ?>
     <li><a href="#popular-products" data-toggle="tab"><?php echo language::translate('title_popular_products', 'Popular Products'); ?></a></li>
