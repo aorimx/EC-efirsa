@@ -5,6 +5,7 @@
 <meta charset="{snippet:charset}" />
 <meta name="description" content="{snippet:description}" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{snippet:template_path}css/font-awesome.min.css">
   <link rel="stylesheet" href="{snippet:template_path}Sagan-boilerplate/assets/styles/main.css">
 </head>
 <body>
