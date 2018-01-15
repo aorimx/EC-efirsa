@@ -5,18 +5,7 @@
 <meta charset="{snippet:charset}" />
 <meta name="description" content="{snippet:description}" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="{snippet:template_path}css/normalize.css" />
-  <link rel="stylesheet" href="{snippet:template_path}css/bootstrap.css">
-  <link rel="stylesheet" href="{snippet:template_path}css/font-awesome.min.css">
-  <link rel="stylesheet" href="{snippet:template_path}css/certificaciones.css">
-  <link rel="stylesheet" href="{snippet:template_path}css/inicio.css">
-  <link rel="stylesheet" href="{snippet:template_path}css/mobileMenu.css">
-  <link rel="stylesheet" href="{snippet:template_path}css/nosotros.css">
-  <link rel="stylesheet" href="{snippet:template_path}css/estilos.css">
-  <link rel="stylesheet" href="{snippet:template_path}css/style1.css">
   <link rel="stylesheet" href="{snippet:template_path}Sagan-boilerplate/assets/styles/main.css">
-{snippet:head_tags}
-{snippet:style}
 </head>
 <body>
   <div id="header-wrapper">
