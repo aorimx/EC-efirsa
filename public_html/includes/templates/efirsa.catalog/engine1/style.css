@@ -4,7 +4,7 @@
  */
 @import url(https://fonts.googleapis.com/css?family=PT+Sans&subset=latin,latin-ext);
 #wowslider-container1 {
-	display: table;
+	display: inline-flex;
 	zoom: 1;
 	position: relative;
 	width: 100%;
@@ -63,6 +63,12 @@
 	max-height:957px;
 	display:block;
 	color:transparent;
+}
+#wowslider-container1 .ws_images ul li a img{
+	width:100%;
+}
+#wowslider-container1 .ws_images ul li img{
+	width:100%;
 }
 #wowslider-container1 img{
 	max-width: none !important;
