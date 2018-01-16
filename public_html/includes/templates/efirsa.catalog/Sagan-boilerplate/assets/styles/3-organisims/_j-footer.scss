@@ -1,3 +1,71 @@
+
+@font-face {
+  font-family: 'Gothaml';
+  src: url('../fonts/GothamLight.ttf') format('truetype');
+
+}
+@font-face {
+  font-family: 'GothamB';
+  src: url('../fonts/GothamBold.eot');
+  src: url('../fonts/GothamBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GothamBold.woff') format('woff'),
+    url('../fonts/GothamBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GothamB';
+  src: url('../fonts/Gotham-Medium.etf');
+  src: url('../fonts/Gotham-Medium.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamB';
+  src: url('../fonts/Gotham-Book.eot');
+  src: url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gotham-Book.woff') format('woff'),
+    url('../fonts/Gotham-Book.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamB';
+  src: url('../fonts/GothamLight.eot');
+  src: url('../fonts/GothamLight.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GothamLight.woff') format('woff'),
+    url('../fonts/GothamLight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'GothamB';
+  src: url('../fonts/Gotham-Light.eot');
+  src: url('../fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gotham-Light.woff') format('woff'),
+    url('../fonts/Gotham-Light.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+
+body{
+  color: #414042;
+}
+
+a:hover, a:active{
+  text-decoration: none;
+  color: #008129;
+}
+footer {.grid .unit.half:last-child{
+  padding-right: $space-11;
+}
+}
 .container-footer-2{
     display: none;
 }
@@ -7,10 +75,12 @@
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;
+    padding-left: $space-11;
 }
 @media screen and (max-width: 900px){
     .footerContacto{
         height: 90%;
+        padding-right: $space-2;
     }
 }
 @media screen and (max-width: 600px){
@@ -37,6 +107,7 @@ footer{
 }
 .p-footer{
   font-size: 18px;
+  margin-top: $space-4;
 }
 .redes-footer{
   width: 100%;
@@ -68,7 +139,6 @@ footer{
   color: black;
 }
 .aviso{
-    font-family: 'Gothaml';
     font-weight: bold;
     text-align: right;
     color: #808285;
@@ -96,6 +166,21 @@ footer{
 .gris-footer{
   background-color: #d8d8d8;
   padding: 20px 0px;
+  .container-footer-gris{
+    width: 100%;
+    display: inline-flex;
+    .redes-gris{
+      width: 36%;
+      padding-left: $space-12;
+    }
+    .copyright-gris{
+      width: 28%;
+    }
+    .terminos-gris{
+      width: 36%;
+      padding-right: $space-12;
+    }
+  }
 }
 .titulo-footer{
     font-size: 32px;
