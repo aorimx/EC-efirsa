@@ -953,7 +953,7 @@ table {
       padding-right: 0;
       text-align: right; }
   table td {
-    width: 13%;
+    width: 15%;
     text-align: left;
     vertical-align: top;
     padding-top: 8px;
@@ -964,10 +964,9 @@ table {
     table td:first-child {
       width: 15%; }
     table td:nth-child(2) {
-      width: 29%; }
+      width: 27%; }
     table td:nth-child(3) {
-      width: 14%;
-      padding-top: 16px; }
+      width: 15%; }
     table td:nth-child(4) {
       width: 28%; }
     table td:last-child {
@@ -1759,7 +1758,7 @@ header.main-nav.responsive {
     position: absolute; }
 
   tr td:nth-child(4) {
-    padding-left: 72px;
+    padding-left: 48px;
     display: inline-flex; }
 
   tbody td {
@@ -1909,12 +1908,19 @@ header.main-nav.responsive {
       background-color: #6c6c6d !important;
       color: #ffffff;
       padding-left: 24px; }
+    .checkout .custome-details .buton-content {
+      display: inline-flex;
+      justify-content: center;
+      width: 100%; }
+      .checkout .custome-details .buton-content button {
+        background-color: #228000; }
     .checkout .custome-details .form-group {
       display: inline-flex;
-      width: 100%; }
+      width: 100%;
+      margin-top: 16px; }
       .checkout .custome-details .form-group label {
         width: 25%;
-        padding-left: 24px; }
+        padding-left: 16px; }
       .checkout .custome-details .form-group input {
         width: 70%;
         border-radius: 0px; }
@@ -1940,6 +1946,10 @@ header.main-nav.responsive {
           text-align: center;
           background-color: #6c6c6d;
           border-radius: 0; }
+  .checkout .text-right {
+    text-align: right; }
+  .checkout .text-left {
+    text-align: left; }
   .checkout .padding-right {
     padding-right: 16px; }
   .checkout .padding-left {
@@ -1957,8 +1967,7 @@ header.main-nav.responsive {
     background-color: #D8D8D8; }
     .checkout .backgroung-gray h2 {
       color: white;
-      margin-bottom: 0;
-      padding-left: 16px; }
+      margin-bottom: 0; }
   .checkout .backgroung-black {
     padding-top: 8px;
     padding-bottom: 8px;
@@ -1966,6 +1975,22 @@ header.main-nav.responsive {
     background-color: black; }
     .checkout .backgroung-black strong {
       color: white; }
+  .checkout .buton .botons {
+    width: 100%; }
+    .checkout .buton .botons a p {
+      background-color: #6d6d6c;
+      text-align: center;
+      padding-top: 8px;
+      padding-bottom: 8px; }
+    .checkout .buton .botons .green {
+      background-color: #228000; }
+    .checkout .buton .botons .grey {
+      background-color: #6d6d6c; }
+    .checkout .buton .botons p {
+      background-color: #228000;
+      text-align: center;
+      padding-top: 8px;
+      padding-bottom: 8px; }
   .checkout .td-border {
     border-color: black;
     border-style: solid;
@@ -2010,13 +2035,15 @@ footer a:link {
 .td_pieces .input-group {
   background-color: #6c6c6d;
   border-radius: 3px;
-  display: inline-flex; }
+  display: inline-flex;
+  height: 40px; }
   .td_pieces .input-group input {
     width: 75%; }
   .td_pieces .input-group span {
     width: 25%;
-    text-align: center;
-    padding-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white; }
 
 .featherlight-content .box-login .form-group {
@@ -2151,18 +2178,21 @@ footer a:link {
 
   .td_price {
     margin-top: 16px;
-    padding: 24px !important; }
+    padding-top: 24px !important; }
 
   .td_pieces {
     margin-left: 30%;
     margin-top: 16px; }
     .td_pieces .none {
       display: block;
-      width: 50%; }
-    .td_pieces .input-group input {
-      width: 90%; }
-    .td_pieces .input-group span {
-      max-width: 48px; }
+      width: 40%; }
+    .td_pieces .input-group {
+      width: 60%;
+      margin-top: 8px; }
+      .td_pieces .input-group input {
+        width: 70%; }
+      .td_pieces .input-group span {
+        width: 48px; }
 
   .td_quantity {
     width: 24%;
@@ -2170,10 +2200,12 @@ footer a:link {
     margin-left: 76%; }
     .td_quantity button {
       width: 40px; }
+      .td_quantity button i {
+        display: flex;
+        justify-content: center; }
 
   .td_total_price {
-    width: 22%;
-    padding-left: 24px !important;
+    width: 28%;
     padding-top: 16px !important; }
 
   .td_subtotal {
@@ -2182,10 +2214,12 @@ footer a:link {
   .none {
     display: none; } }
 @media screen and (max-width: 440px) {
-  .td_pieces .input-group input {
-    width: 72%; }
-  .td_pieces .input-group span {
-    max-width: 48px; } }
+  .td_pieces .none {
+    width: 10%; }
+  .td_pieces .input-group {
+    width: 90%; }
+    .td_pieces .input-group input {
+      width: 70%; } }
 .middle-content {
   display: inline-flex;
   width: 100%;

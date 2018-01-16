@@ -30,12 +30,12 @@
       <?php echo functions::form_draw_textarea('comments', true); ?>
     </div>-->
 
-    <div class="confirm padding-top">
-      <div class="col-md-fourths">
-        <a href="<?php echo document::ilink('index.php'); ?>"><p class="btn btn-block btn-lg" style="background-color: #6c6c6d; margin-bottom: 5px;">seguir comprando</p></a>
-        <button class="btn btn-block btn-lg btn-success  oculto " id="btnconfirm" type="submit" name="confirm_order" value="true"<?php echo !empty($error) ? ' disabled="disabled"' : ''; ?>><?php echo $confirm; ?></button>
-        <label class="btn btn-block btn-lg btn-back oculto" id="btnback" type="submit" value="cambiar" onclick="window.location.reload()">Regresar</label>
-        <label class="btn btn-block btn-lg btn-success" id="btncontinuar" type="submit" value="cambiar" onclick="cambiarbtn()">Continuar</label>
+    <div class="buton padding-top">
+      <div class="botons">
+        <a href="<?php echo document::ilink('index_tienda.php'); ?>"><p>seguir comprando</p></a>
+        <button class="oculto green" id="btnconfirm" type="submit" name="confirm_order" value="true"<?php echo !empty($error) ? ' disabled="disabled"' : ''; ?>><?php echo $confirm; ?></button>
+        <button class="btn-back oculto grey" id="btnback" type="submit" value="cambiar" onclick="window.location.reload()">Regresar</button>
+        <a href="#" id="btncontinuar" type="submit" value="cambiar" onclick="cambiarbtn()"><p  class="green">Continuar</p></a>
       </div>
       <div class="padding-left padding-right padding-top">
         <?php if ($error) { ?>
@@ -47,7 +47,7 @@
         <?php } ?>
         <div>
           <h3>Envio y Devolucion</h3>
-          <p style="font-size: 1.25em; color: black;">Si deseas cabiar o devolver tu compra tendras 90 dias para hacerlo</p>
+          <p style="font-size: 1.25em; color: black;">Si deseas cambiar o devolver tu compra tendras 90 dias para hacerlo</p>
         </div>
       </div>
     </div>
