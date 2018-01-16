@@ -11,7 +11,7 @@
 <body>
   <div id="header-wrapper">
     <header id="header" class="twelve-eighty">
-      <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/menu.php'); ?>
+      <?php //include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/menu.php'); ?>
       <!--<a class="logotype" href="<?php /*echo document::href_ilink(''); ?>">
         <img src="<?php echo WS_DIR_IMAGES; ?>logotype.png" style="max-width: 250px; max-height: 60px;" alt="<?php echo settings::get('store_name'); ?>" title="<?php echo settings::get('store_name'); ?>" />
       </a>
@@ -33,7 +33,7 @@
       </div>
     </div>
   </div>
-  <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/footer.php'); ?>
+  <?php //include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/footer.php'); ?>
 {snippet:foot_tags}
 <script src="{snippet:template_path}js/app.min.js"></script>
 <script src="{snippet:template_path}js/jquery.js"></script>

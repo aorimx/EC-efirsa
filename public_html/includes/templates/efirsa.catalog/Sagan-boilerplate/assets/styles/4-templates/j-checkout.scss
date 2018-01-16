@@ -70,12 +70,21 @@
       color: $white;
       padding-left: $space-3;
     }
+  .buton-content{
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    button{
+      background-color: #228000;
+    }
+  }
   .form-group{
       display: inline-flex;
       width: 100%;
+      margin-top: $space-2;
       label{
         width: 25%;
-        padding-left: $space-3;
+        padding-left: $space-2;
       }
       input{
         width: 70%;
@@ -109,7 +118,13 @@
         }
       }  
     }
-  }    
+  } 
+  .text-right{
+    text-align: right;
+  }   
+  .text-left{
+    text-align: left;
+  }
   .padding-right{
     padding-right: $space-2;
   }
@@ -133,7 +148,6 @@
     h2{
       color:white;
       margin-bottom: 0;
-      padding-left: $space-2;
     }
   }
   .backgroung-black{
@@ -143,6 +157,31 @@
     background-color: black;
     strong{
       color:white;
+    }
+  }
+  .buton{
+    .botons{
+      width: 100%;
+      a{
+        p{
+          background-color: #6d6d6c;
+          text-align: center;
+          padding-top: $space-base;
+          padding-bottom: $space-base;
+        }
+      }
+      .green{
+        background-color: #228000;
+      }
+      .grey{
+        background-color: #6d6d6c;
+      }
+      p{
+        background-color: #228000;
+        text-align: center;
+        padding-top: $space-base;
+        padding-bottom: $space-base;
+      }
     }
   }
   .td-border{
@@ -202,14 +241,17 @@ a:link{
     background-color: #6c6c6d;
     border-radius: 3px;
     display: inline-flex;
+    height: $space-5;
     input{
       width: 75%;
     }
     span{
       width: 25%;
-      text-align: center;
-      padding-top: 7px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       color: white;
+
     }
   }
 }
@@ -409,21 +451,23 @@ a:link{
   }
   .td_price{
     margin-top: $space-2;
-    padding: $space-3 !important;
+    padding-top: $space-3 !important;
   }
   .td_pieces{
     .none{
       display: block;
-      width: 50%;
+      width: 40%;
     }
     margin-left: 30%;
     margin-top: $space-2;
     .input-group{
+      width: 60%;
+      margin-top: $space-base;
       input{
-        width: 90%;
+        width: 70%;
       }
       span{
-        max-width:48px;
+        width: $space-6;;
       }
     }
   }
@@ -433,11 +477,14 @@ a:link{
     margin-left: 76%;
     button{
       width: 40px;
+      i{
+        display: flex;
+        justify-content: center;
+      }
     }
   }
   .td_total_price{
-    width: 22%;
-    padding-left: $space-3 !important;
+    width: 28%;
     padding-top: 16px !important;;
   }
   .td_subtotal{
@@ -448,13 +495,14 @@ a:link{
   }
 }
 @media screen and (max-width: 440px){
-    .td_pieces{
+  .td_pieces{
+    .none{
+      width: 10%;
+    }
     .input-group{
+      width: 90%;
       input{
-        width: 72%;
-      }
-      span{
-        max-width:48px;
+        width: 70%;
       }
     }
   }
