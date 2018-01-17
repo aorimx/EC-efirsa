@@ -1050,7 +1050,7 @@ select {
 .select {
   position: relative;
   display: block;
-  width: 100%;
+  /*width: 100%;*/
   height: 2em;
   line-height: 1.5;
   background: white;
@@ -1341,19 +1341,27 @@ header.main-nav.responsive {
   justify-content: flex-end;
   align-items: baseline;
   min-width: 60%;
-  max-width: 70%; }
+  /*max-width: 70%;*/ }
   .container-filtros #caption {
     padding-right: 18px;
-    padding-right: 1vw; }
+    padding-right: 1vw;
+    text-align: center; }
   .container-filtros .select {
-    width: 15em;
-    max-width: 50%; }
+    width: 15em; }
   .container-filtros #view {
     display: flex;
     justify-content: space-between; }
     .container-filtros #view * {
       padding-left: 18px;
       padding-left: 1vw; }
+  @media screen and (max-width: 440px) {
+    .container-filtros {
+      flex-direction: column;
+      width: 100%; }
+      .container-filtros #caption {
+        width: 100%; }
+      .container-filtros .select {
+        width: 100%; } }
 
 ul.breadcrumb {
   list-style-type: none; }

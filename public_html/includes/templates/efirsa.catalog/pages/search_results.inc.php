@@ -4,6 +4,12 @@
 
 <main id="content" class="main_content-search">
   {snippet:notices}
+
+  <div class="sub-menu_search">  
+      {snippet:breadcrumbs}
+   </div>
+
+   
   <div id="box-search-results" class="box">
 
   <div class="btn-group pull-right hidden-xs container-filtros">
@@ -30,9 +36,7 @@
       </div-->
   </div>
 
-  <div class="sub-menu_search">  
-     {snippet:breadcrumbs}
-  </div>
+
     <h1 class="title title-search"><?php echo $title; ?></h1>
 
     <?php if ($products) { ?>
