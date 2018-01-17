@@ -37,16 +37,58 @@ $space-12: $space-base * 12; // 96px
 
 // font family
 @font-face {
-  font-family: 'BrixSans', sans-serif;
-  src: url('fonts/Light.ttf')  format('truetype');
-  font-weight: regular;
+  font-family: 'Gothaml';
+  src: url('fonts/GothamLight.ttf') format('truetype');
+
 }
 @font-face {
-  font-family: 'BrixSans', sans-serif;
-  src: url('fonts/Bold.ttf')  format('truetype');
+  font-family: 'GothamB';
+  src: url('fonts/GothamBold.eot');
+  src: url('fonts/GothamBold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/GothamBold.woff') format('woff'),
+    url('fonts/GothamBold.ttf') format('truetype');
   font-weight: bold;
+  font-style: normal;
 }
-$font-family-base: 'BrixSans', sans-serif;
+@font-face {
+  font-family: 'GothamB';
+  src: url('fonts/Gotham-Medium.etf');
+  src: url('fonts/Gotham-Medium.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamB';
+  src: url('fonts/Gotham-Book.eot');
+  src: url('fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Gotham-Book.woff') format('woff'),
+    url('fonts/Gotham-Book.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamB';
+  src: url('fonts/GothamLight.eot');
+  src: url('fonts/GothamLight.eot?#iefix') format('embedded-opentype'),
+    url('fonts/GothamLight.woff') format('woff'),
+    url('fonts/GothamLight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'GothamB';
+  src: url('fonts/Gotham-Light.eot');
+  src: url('fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Gotham-Light.woff') format('woff'),
+    url('fonts/Gotham-Light.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+$font-family-base: 'GothamB', sans-serif;
 $headings-font-family: $font-family-base;
 $font-size-base: 16px;
 
