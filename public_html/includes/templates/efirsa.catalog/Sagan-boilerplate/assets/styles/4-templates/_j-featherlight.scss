@@ -102,6 +102,8 @@ body.featherlight-open {
   }
 
   .featherlight-content > img {
+    max-width: calc(100vw - 80px);
+    max-height: calc(100vh - 80px);
   }
 
   .featherlight-content > iframe {
