@@ -1,5 +1,5 @@
 <div class="navbar-fixed-top container-fluid contenedor-menu">
-<nav class="navbar navbar-default" style="height: 67px;">
+<nav class="navbar navbar-default">
         <div class="container-fluid sin-padding">
           <div class="navbar-header">
             <a class="navbar-brand marca-cel visible-xs visible-sm" href="index.php"><img class="logo-movil" src="{snippet:template_path}/images/logos/efirsaFooter.png" style="position: relative; top: 0px;"></a>
@@ -43,7 +43,7 @@
               <li class="arrow_box"><a itemprop="url" href="<?php echo document::ilink('certificaciones'); ?>"><span itemprop="name">Certificaciones</span></a></li>
               <li class="arrow_box"><a itemprop="url" href="<?php echo document::ilink('index_tienda.php'); ?>"><span itemprop="name">Tienda</span></a></li>
               <li class="arrow_box"><a itemprop="url" href="<?php echo document::ilink('contacto.php'); ?>"><span itemprop="name">Contacto</span></a></li>
-              <li class="arrow_box"><a itemprop="url" href="<?php echo document::ilink('checkout'); ?>"><span itemprop="name"><img src="{snippet:template_path}/images/carrito.png" style="width: 30px;"></span></a></li>
+              <li class="arrow_box"><a itemprop="url" class="margin-top" href="<?php echo document::ilink('checkout'); ?>"><span itemprop="name"><img src="{snippet:template_path}/images/carrito.png" style="width: 30px;"></span></a></li>
 
               <!--<li class="iconos-menu hidden-xs hidden-sm"><a href="#"><img class="lupaMenu" src="img/lupa.png"></a></li>
               <li class="iconos-menu"><a href="#"><img class="carritoMenu" src="img/carrito.png"></a></li>-->
