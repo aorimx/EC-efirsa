@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .color-primary {
   color: #414042; }
 
@@ -2617,182 +2618,107 @@ footer a:link {
       width: 50px;
       height: 50px; }
 
-.middle-content {
-  display: inline-flex;
-  width: 100%;
-  flex-direction: row;
-  flex-wrap: wrap; }
-  .middle-content .col-md-halfs {
-    width: 50%; }
-    @media screen and (max-width: 768px) {
-      .middle-content .col-md-halfs {
-        width: 100%; } }
-    .middle-content .col-md-halfs .box-login {
-      width: 100%; }
-      @media screen and (max-width: 768px) {
-        .middle-content .col-md-halfs .box-login form {
-          max-width: 100% !important; } }
-  .middle-content .main_full {
-    width: 100%; }
-  .middle-content .halfs-content {
-    width: 50%; }
-  .middle-content .half-content {
-    width: 50%; }
-    @media screen and (max-width: 768px) {
-      .middle-content .half-content {
-        width: 100%; } }
-    .middle-content .half-content div {
-      padding-right: 80px;
-      padding-left: 80px; }
-      .middle-content .half-content div h1 {
-        text-align: center;
-        font-size: 32px; }
-      .middle-content .half-content div .parrafo {
-        text-align: center;
-        color: white;
-        background-color: #228b22;
-        padding: 16px; }
-  .middle-content .aside_content {
-    width: 25%;
-    padding-right: 16px; }
-  .middle-content .main_content {
-    width: 75%; }
-    .middle-content .main_content .search form {
-      flex-direction: row-reverse; }
-      .middle-content .main_content .search form .input-group {
-        width: 40%; }
-  .middle-content .input-group {
-    display: inline-flex;
-    width: 100%;
-    height: 40px; }
-    .middle-content .input-group .input-group-ad {
-      padding: 12px 12px;
-      font-size: 14px;
-      font-weight: normal;
-      line-height: 1;
-      color: #fff;
-      text-align: center;
-      background-color: #6c6c6d;
-      border-radius: 0; }
-  .middle-content .padding-right {
-    padding-right: 16px; }
-  .middle-content .padding-left {
-    padding-left: 16px; }
-  .middle-content .padding-left-lg {
-    padding-left: 80px; }
-    @media screen and (max-width: 600px) {
-      .middle-content .padding-left-lg {
-        padding-left: 0; }
-        .middle-content .padding-left-lg form {
-          width: 290px !important; } }
-  .middle-content .padding-top {
-    padding-top: 16px; }
-  .middle-content .padding-bottom {
-    padding-bottom: 16px; }
-  .middle-content .box-thumbnail {
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-left: 16px;
-    padding-right: 16px;
-    width: 100%;
-    align-items: flex-start; }
-    .middle-content .box-thumbnail .thumbnail-content {
-      padding-top: 16px;
-      width: 250px;
-      display: flex;
-      flex-direction: column;
-      margin: 8px;
-      justify-content: center;
-      align-content: center;
-      align-items: center;
-      text-align: center; }
-      .middle-content .box-thumbnail .thumbnail-content .info {
-        text-align: start;
-        text-transform: uppercase; }
-        .middle-content .box-thumbnail .thumbnail-content .info .fa {
-          padding-right: 8px; }
-      .middle-content .box-thumbnail .thumbnail-content .price-wrapper {
-        text-align: start; }
-        .middle-content .box-thumbnail .thumbnail-content .price-wrapper span {
-          font-weight: bold; }
-    .middle-content .box-thumbnail .thumbnail-category {
-      width: 300px;
-      display: flex;
-      flex-direction: column;
-      margin: 8px;
-      justify-content: center;
-      align-content: center;
-      align-items: center;
-      text-align: center; }
-    .middle-content .box-thumbnail .image-thumbnail {
-      max-width: 100%;
-      margin-bottom: 16px;
-      border: 1px solid #dcdcdc;
-      box-shadow: 0px 2px 2px 2px #f2f2f2; }
-    .middle-content .box-thumbnail .image {
-      max-width: 100%; }
-  .middle-content .categories-title {
-    text-align: center; }
-  .middle-content .container-filtros {
-    border-radius: 0; }
-    .middle-content .container-filtros a {
-      border-radius: 0;
-      background-color: #ffffff;
-      border-color: #6c6c6d;
-      color: #000000; }
-    .middle-content .container-filtros .activo {
-      border-radius: 0;
-      background-color: #6c6c6d;
-      border-color: #6c6c6d;
-      color: #ffffff; }
+/**
+ * Featherlight ÔÇô ultra slim jQuery lightbox
+ * Version 1.7.0 - http://noelboss.github.io/featherlight/
+ *
+ * Copyright 2016, No├½l Raoul Bossart (http://www.noelboss.com)
+ * MIT Licensed.
+**/
+body.featherlight-open {
+  /* prevent scrolling */
+  overflow: hidden;
+  padding-right: 15px; }
+  body.featherlight-open > *:not(.featherlight):not(#animated-cart-item) {
+    /* blur backdrop */
+    filter: blur(5px); }
 
-.title {
-  width: 100%;
-  display: inline-flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center; }
-
-.btn-categories {
-  background-color: #228B22;
-  text-transform: capitalize;
-  margin-bottom: 0; }
-
-.icon-down {
-  transform: rotate(90deg); }
-
-.padding-le {
-  padding-left: 8px; }
-
-.no-padding {
-  padding-left: 2px;
-  margin-left: 8px; }
-
-.c-oculto {
-  display: none; }
-
-.categories-m {
-  padding-top: 8px;
-  display: block;
-  border-color: #6c6c6d;
-  border-bottom-style: solid; }
-  .categories-m .align-categories {
+.featherlight {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow-y: auto;
+  text-align: center;
+  /* insures that the ::before pseudo element doesn't force wrap with fixed width content; */
+  white-space: nowrap;
+  cursor: pointer;
+  background: #333;
+  /* IE8 "hack" for nested featherlights */
+  background: rgba(0, 0, 0, 0);
+  /* support for nested featherlights. Does not work in IE8 (use JS to fix) */
+  /* See http://stackoverflow.com/questions/16077341/how-to-reset-all-default-styles-of-the-html5-button-element */ }
+  .featherlight * {
+    box-sizing: border-box; }
+  .featherlight.active {
+    background: rgba(0, 0, 0, 0.5); }
+  .featherlight:before {
+    /* position: trick to center content vertically */
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle; }
+  .featherlight .featherlight-content {
+    position: relative;
+    /* position: centering vertical and horizontal */
     text-align: left;
-    padding-left: 40px; }
-
-.container-category {
-  width: 100%; }
-
-@media screen and (max-width: 768px) {
-  .middle-content .aside_content {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 15px 15px;
+    padding: 15px;
+    background: #fff;
+    cursor: auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 0.25em;
+    /* reset white-space wrapping */
+    white-space: normal; }
+  .featherlight .featherlight-close-icon {
+    /* position: centering vertical and horizontal */
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    z-index: 9999;
+    width: 25px;
+    line-height: 25px;
+    padding: 0;
+    background: #c00;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    font-family: Arial, sans-serif; }
+  .featherlight .featherlight-close-icon::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  .featherlight .featherlight-content h1 {
+    margin-top: 0; }
+  .featherlight .featherlight-content > img {
+    max-width: calc(100vw - 80px);
+    max-height: calc(100vh - 80px); }
+  .featherlight .featherlight-content > iframe {
     width: 100%;
-    padding-right: 0; }
-  .middle-content .main_content {
-    width: 100%; }
-    .middle-content .main_content .search {
-      margin-top: 24px; }
-      .middle-content .main_content .search form .input-group {
-        width: 100%; } }
+    height: 100%;
+    border: none; }
+
+.featherlight-loading .featherlight-content {
+  background: none;
+  box-shadow: none; }
+
+/* Stacked modals */
+.featherlight {
+  perspective: 2048px; }
+  .featherlight .featherlight-content {
+    transition: transform 0.25s linear, filter 0.25s linear;
+    transform: -400px;
+    transform: scale(0.8) rotateY(45deg) translateZ(-400px);
+    transform-style: preserve-3d;
+    filter: blur(3px); }
+  .featherlight.active .featherlight-content {
+    transform: none !important;
+    filter: none !important; }
 
 /*# sourceMappingURL=main.css.map */

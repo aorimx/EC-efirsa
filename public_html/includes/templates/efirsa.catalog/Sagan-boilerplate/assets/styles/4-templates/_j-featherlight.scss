@@ -1,232 +1,137 @@
-// hacking "gridism.css" a little bit.
-.middle-content{
-  display: inline-flex;
-  width: 100%;
-  flex-direction: row;
-  flex-wrap: wrap;
-  .col-md-halfs{
-    width: 50%;
-    @media screen and (max-width: 768px){
-      width: 100%;
-    }
-    .box-login{
-      width: 100%;
-      form{
-        @media screen and (max-width: 768px){
-          max-width: 100% !important; 
-        }
-      }
-    }
-  }
-  .main_full{
-    width: 100%;
-  }
-  .halfs-content{
-    width: 50%;
-  }
-  .half-content{
-   width: 50%;
-    @media screen and (max-width: 768px){
-      width: 100%;
-    }
-    div{
-      padding-right: $space-10;
-      padding-left: $space-10;
-      h1{
-        text-align: center;
-        font-size: $space-4;;
-      }
-      .parrafo{
-        text-align: center;
-        color: white;
-        background-color: #228b22;
-        padding: $space-2;
-      }
-    }
-  }
-  .aside_content{
-    width: 25%;
-    padding-right: $space-2;
-  }
-  .main_content{
-    width: 75%;
-    .search{
-      form{
-        flex-direction: row-reverse;
-      .input-group{
-        width: 40%;
-      }
-    }
-    }
-  }
-  .column_left{
+/**
+ * Featherlight – ultra slim jQuery lightbox
+ * Version 1.7.0 - http://noelboss.github.io/featherlight/
+ *
+ * Copyright 2016, Noël Raoul Bossart (http://www.noelboss.com)
+ * MIT Licensed.
+**/
 
+body.featherlight-open {
+  /* prevent scrolling */
+  overflow: hidden;
+  padding-right: 15px;
+
+  > *:not(.featherlight):not(#animated-cart-item) {
+    /* blur backdrop */
+    filter: blur(5px);
   }
-  .input-group{
-    display: inline-flex;
-    width: 100%;
-    height: 40px;
-    .input-group-ad{
-      padding: 12px 12px;
-      font-size: 14px;
-      font-weight: normal;
-      line-height: 1;
-      color: #fff;
-      text-align: center;
-      background-color: #6c6c6d;
-      border-radius: 0;
-    }
-  }
-  .padding-right{
-    padding-right: $space-2;
-  }
-  .padding-left{
-    padding-left: $space-2;
-  }
-  .padding-left-lg{
-    padding-left: $space-10;
-    @media screen and (max-width: 600px){
-          padding-left: 0;
-          form{
-            width: 290px !important;
-          }
-    }
-  }
-  .padding-top{
-    padding-top: $space-2;
-  }
-  .padding-bottom{
-    padding-bottom: $space-2;
-  }
-  .box-thumbnail{
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-left: $space-2;
-    padding-right: $space-2;
-    width: 100%;
-    align-items: flex-start;
-      .thumbnail-content{
-      padding-top: $space-2;
-      width: 250px;
-      display: flex;
-      flex-direction: column;
-      margin: $space-base;
-      justify-content: center;
-      align-content: center;
-      align-items: center;
-      text-align: center;
-      .info{
-        text-align: start;
-        text-transform: uppercase;
-        .fa{
-          padding-right: $space-base;
-        }
-      }
-      .price-wrapper{
-        text-align: start;
-        span{
-          font-weight: bold;
-        }
-      }
-      }   
-      .thumbnail-category{
-        width: 300px;
-        display: flex;
-        flex-direction: column;
-        margin: $space-base;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-        text-align: center;
-        }      
-      .image-thumbnail {
-        max-width: 100%;
-        margin-bottom: 16px;
-        border: 1px solid #dcdcdc;
-        box-shadow: 0px 2px 2px 2px #f2f2f2;
-      }
-    .image{
-      max-width: 100%;
-    }
-  } 
-  .categories-title{
-    text-align: center;
-  }  
-  .container-filtros{
-      border-radius: 0;
-      a{
-        border-radius: 0;
-        background-color: $white;
-        border-color: #6c6c6d; 
-        color: $black;
-      }
-      .activo{
-        border-radius: 0;
-        background-color: #6c6c6d;
-        border-color: #6c6c6d;
-        color: $white;
-      }
-    }
 }
 
-.title{
-  width: 100%;
-  display: inline-flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.btn-categories{
-  background-color: #228B22;
-  text-transform: capitalize;
-  margin-bottom: 0;
-}
-.icon-down{
-  transform: rotate(90deg);
-}
-.padding-le{
-  padding-left: $space-base;
-}
-.no-padding{
-  padding-left: 2px;
-  margin-left: $space-base;
-}
-.c-oculto{
+.featherlight {
   display: none;
-}
-.categories-m{
-  padding-top: $space-base;
-  display: block;
-  border-color: #6c6c6d;
-  border-bottom-style: solid;
-  .align-categories{
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  overflow-y: auto;
+
+  text-align: center;
+  /* insures that the ::before pseudo element doesn't force wrap with fixed width content; */
+  white-space: nowrap;
+
+  cursor: pointer;
+  background: #333;
+  /* IE8 "hack" for nested featherlights */
+  background: rgba(0, 0, 0, 0);
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* support for nested featherlights. Does not work in IE8 (use JS to fix) */
+  &.active {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  &:before {
+    /* position: trick to center content vertically */
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  .featherlight-content {
+    position: relative;
+
+    /* position: centering vertical and horizontal */
     text-align: left;
-    padding-left: $space-5;
+    vertical-align: middle;
+    display: inline-block;
+
+    margin: 15px 15px;
+    padding: 15px;
+
+    background: #fff;
+    cursor: auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    border-radius: 0.25em;
+
+    /* reset white-space wrapping */
+    white-space: normal;
   }
-}
-.container-category{
-  width: 100%;
-}
-@media screen and (max-width: 991px){
- 
-}
-@media screen and (max-width: 768px){
-  .middle-content{
-    .aside_content{
-      width: 100%;
-      padding-right: 0;
-    }
-    .main_content{
+
+  .featherlight-close-icon {
+    /* position: centering vertical and horizontal */
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    z-index: 9999;
+
+    width: 25px;
+    line-height: 25px;
+    padding: 0;
+
+    background: #c00;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+
+    cursor: pointer;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+  /* See http://stackoverflow.com/questions/16077341/how-to-reset-all-default-styles-of-the-html5-button-element */
+  .featherlight-close-icon::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+
+  .featherlight-content h1 {
+    margin-top: 0;
+  }
+
+  .featherlight-content > img {
+  }
+
+  .featherlight-content > iframe {
     width: 100%;
-    .search{
-      form{
-      .input-group{
-        width: 100%;
-      }
-    }
-    margin-top: $space-3;
+    height: 100%;
+    border: none;
   }
+}
+
+.featherlight-loading {
+  .featherlight-content {
+    background: none;
+    box-shadow: none;
   }
+}
+
+/* Stacked modals */
+.featherlight {
+   perspective: 2048px;
+
+  .featherlight-content {
+    transition: transform 0.25s linear, filter 0.25s linear;
+    transform: -400px;
+    transform: scale(0.8) rotateY(45deg) translateZ(-400px);
+    transform-style: preserve-3d;
+    filter: blur(3px);
+  }
+
+  &.active .featherlight-content {
+    transform: none !important;
+    filter: none !important;
   }
 }
