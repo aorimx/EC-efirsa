@@ -1,0 +1,28 @@
+.container-filtros{
+    display: flex;
+    /*justify-content: space-between;*/
+    justify-content: flex-end;
+    align-items: baseline;
+    min-width: 60%;
+    max-width: 70%;
+    
+    #caption{
+       padding-right: 18px;
+       padding-right: 1vw;
+    }
+
+    .select{
+        width: 15em;
+        max-width: 50%;
+    }
+
+    #view{
+        //width: 15%;
+        display: flex;
+        justify-content: space-between;
+        *{
+            padding-left: 18px;
+            padding-left: 1vw;
+        }
+    }
+}
