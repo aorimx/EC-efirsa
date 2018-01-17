@@ -2038,7 +2038,8 @@ footer {
       padding-top: 8px;
       padding-bottom: 8px; }
     .checkout .buton .botons .green {
-      background-color: #228000; }
+      background-color: #228000;
+      margin-bottom: 4px; }
     .checkout .buton .botons .grey {
       background-color: #6d6d6c; }
     .checkout .buton .botons p {
@@ -2131,6 +2132,9 @@ footer a:link {
       text-align: center;
       background-color: #6c6c6d;
       border-radius: 0; }
+
+.td_quantity button {
+  background-color: firebrick; }
 
 @media screen and (max-width: 1150px) {
   .checkout .custome-details .form-group .input-group {

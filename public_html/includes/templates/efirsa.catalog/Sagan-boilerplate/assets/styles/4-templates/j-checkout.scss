@@ -172,6 +172,7 @@
       }
       .green{
         background-color: #228000;
+        margin-bottom: 4px;
       }
       .grey{
         background-color: #6d6d6c;
@@ -297,6 +298,11 @@ a:link{
     }
   }
 }
+ .td_quantity{
+    button{
+      background-color: firebrick;
+    }
+  }
 @media screen and (max-width: 1150px){
   .checkout{
     .custome-details{
