@@ -44,7 +44,7 @@
       {snippet:bottom}
     </div>
 
- <!-- <?php //include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/footer.php'); ?>-->
+  <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/footer.php'); ?>
 </div>
 
 </main>

@@ -33,19 +33,20 @@ $space-8: $space-base * 8; // 64px
 $space-9: $space-base * 9; // 72px
 $space-10: $space-base * 10; // 80px
 $space-11: $space-base * 11; // 88px
+$space-12: $space-base * 12; // 96px
 
-// font family
+// font family h
 @font-face {
-  font-family: 'BrixSans', sans-serif;
-  src: url('fonts/Light.ttf')  format('truetype');
+  font-family: 'GothamB', sans-serif;
+  src: url('fonts/GothamLight.ttf')  format('truetype');
   font-weight: regular;
 }
 @font-face {
-  font-family: 'BrixSans', sans-serif;
-  src: url('fonts/Bold.ttf')  format('truetype');
+  font-family: 'GothamB', sans-serif;
+  src: url('fonts/GothamBold.ttf')  format('truetype');
   font-weight: bold;
 }
-$font-family-base: 'BrixSans', sans-serif;
+$font-family-base: 'GothamB', sans-serif;
 $headings-font-family: $font-family-base;
 $font-size-base: 16px;
 
