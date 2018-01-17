@@ -1841,7 +1841,8 @@ footer {
   .buy_now .form-group .input-group {
     padding-left: 0;
     width: 100%;
-    margin-left: 0; }
+    margin-left: 0;
+    display: inline-flex; }
     .buy_now .form-group .input-group input {
       height: 40px;
       width: 80%; }
@@ -1849,7 +1850,6 @@ footer {
       width: 20%;
       background-color: #6c6c6d;
       color: white;
-      border-radius: 4px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -1899,6 +1899,9 @@ footer {
   margin-top: 16px;
   margin-bottom: 8px;
   text-align: center; }
+
+.btn-success {
+  background-color: #228B22; }
 
 .text-aligned {
   justify-content: center;
