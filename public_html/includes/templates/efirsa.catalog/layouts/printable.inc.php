@@ -8,6 +8,7 @@
 {snippet:head_tags}
 <link rel="stylesheet"  href="{snippet:template_path}css/framework.min.css" />
 <link rel="stylesheet" href="{snippet:template_path}css/printable.min.css" />
+  <link href="{snippet:template_path}Sagan-boilerplate/assets/styles/main.css" rel="stylesheet">
 {snippet:style}
 </head>
 <body data-size="A4">
