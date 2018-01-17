@@ -1,0 +1,41 @@
+.container-filtros{
+    display: flex;
+    /*justify-content: space-between;*/
+    justify-content: flex-end;
+    align-items: baseline;
+    min-width: 60%;
+    /*max-width: 70%;*/
+    
+    #caption{
+       padding-right: 18px;
+       padding-right: 1vw;
+       text-align: center;
+    }
+
+    .select{
+        width: 15em;
+    }
+
+    #view{
+        //width: 15%;
+        display: flex;
+        justify-content: space-between;
+        *{
+            padding-left: 18px;
+            padding-left: 1vw;
+        }
+    }
+
+
+    @media screen and (max-width: 440px){
+        flex-direction: column;
+        width: 100%;
+        #caption{
+            width: 100%;
+        }
+
+        .select{
+            width: 100%;
+        }
+      }
+}

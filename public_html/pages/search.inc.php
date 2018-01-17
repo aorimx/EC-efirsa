@@ -2,6 +2,7 @@
   if (empty($_GET['query'])) $_GET['query'] = '';
   if (empty($_GET['page'])) $_GET['page'] = 1;
   if (empty($_GET['sort'])) $_GET['sort'] = 'relevance';
+  if (empty($_GET['view'])) $_GET['view'] = 'column';
 
   $_GET['query'] = trim($_GET['query']);
 
@@ -24,6 +25,7 @@
       'date' => language::translate('title_date', 'Date'),
     ),
     'pagination' => null,
+    'listing_type' => $_GET['view'] //Validar la info!
   );
 
   $query =

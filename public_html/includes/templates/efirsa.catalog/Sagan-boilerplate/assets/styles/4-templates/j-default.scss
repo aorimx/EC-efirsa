@@ -106,29 +106,32 @@
     padding-right: $space-2;
     width: 100%;
     align-items: flex-start;
-      .thumbnail-content{
-      padding-top: $space-2;
-      width: 250px;
-      display: flex;
-      flex-direction: column;
-      margin: $space-base;
-      justify-content: center;
-      align-content: center;
-      align-items: center;
-      text-align: center;
-      .info{
-        text-align: start;
-        text-transform: uppercase;
-        .fa{
-          padding-right: $space-base;
+
+    
+    
+      .thumbnail-content{      
+        padding-top: $space-2;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        margin: $space-base;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        text-align: center;        
+        .info{
+          text-align: start;
+          text-transform: uppercase;
+          .fa{
+            padding-right: $space-base;
+          }
         }
-      }
-      .price-wrapper{
-        text-align: start;
-        span{
-          font-weight: bold;
-        }
-      }
+        .price-wrapper{
+          text-align: start;
+          span{
+            font-weight: bold;
+          }
+        }     
       }   
       .thumbnail-category{
         width: 300px;
@@ -139,6 +142,7 @@
         align-content: center;
         align-items: center;
         text-align: center;
+         
         }      
       .image-thumbnail {
         max-width: 100%;
@@ -149,6 +153,38 @@
     .image{
       max-width: 100%;
     }
+
+    &.row-test{
+      flex-direction: column;
+
+      .thumbnail-content{ 
+        width: 100%;
+        .info{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 0 1vw;
+        }
+      }
+      .thumbnail{
+        background-color: red;
+        width: 100%;
+        .link{
+          display: flex;
+        }
+      }
+
+      .image-thumbnail {
+        border: unset;
+        box-shadow: unset;
+        min-width: 320px;
+        padding: 0 1vw;
+      }
+    
+
+    }
+
+
   } 
   .categories-title{
     text-align: center;
