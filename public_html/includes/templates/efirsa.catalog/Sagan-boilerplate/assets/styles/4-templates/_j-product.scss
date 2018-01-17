@@ -6,6 +6,7 @@
       padding-left: 0;
       width: 100%;
       margin-left: 0;
+      display: inline-flex;
       input{
         height: $space-5;
         width: 80%;
@@ -14,7 +15,6 @@
         width: 20%;
         background-color: #6c6c6d;
         color: white;
-        border-radius: 4px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -68,6 +68,9 @@ margin-left: $space-8;
   margin-bottom: $space-base;
   text-align: center;
 }
+.btn-success{
+        background-color: #228B22;
+      }
 .text-aligned{
    justify-content: center;
     align-content: center;
