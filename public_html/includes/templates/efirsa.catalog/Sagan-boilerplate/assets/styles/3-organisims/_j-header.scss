@@ -6,6 +6,7 @@
   position: fixed;
   top: 0;
   height: $space-7;
+  z-index: 1;
   .navbar-default{
     .container-fluid{
       .navbar-header{
