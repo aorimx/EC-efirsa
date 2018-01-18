@@ -142,16 +142,6 @@
   .color-black{
     color: black;
   }
-  .backgroung-gray{ //Mover a un scss aparte
-    padding-top: $space-2;
-    padding-bottom: $space-2;
-    width: 100%;
-    background-color: #D8D8D8;
-    h2{
-      color:white;
-      margin-bottom: 0;
-    }
-  }
   .backgroung-black{
     padding-top: $space-base;
     padding-bottom: $space-base;

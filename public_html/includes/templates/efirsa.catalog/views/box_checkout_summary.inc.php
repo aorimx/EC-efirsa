@@ -32,22 +32,22 @@
 
     <div class="confirm padding-top buton">
       <div class="botons">
-        <a href="<?php echo document::ilink('index_tienda.php'); ?>"><p class="btn btn-block btn-lg" style="background-color: #6c6c6d; margin-bottom: 5px;">seguir comprando</p></a>
+        <a href="<?php echo document::ilink('index_tienda.php'); ?>"><p class="btn btn-block btn-lg" style="background-color: #6c6c6d; margin-bottom: 5px;">Seguir comprando</p></a>
         <button class="green  oculto " id="btnconfirm" type="submit" name="confirm_order" value="true"<?php echo !empty($error) ? ' disabled="disabled"' : ''; ?>><?php echo $confirm; ?></button>
         <a href="#"><p class="btn btn-block btn-lg btn-back grey oculto" id="btnback" type="submit" value="cambiar" onclick="window.location.reload()">Regresar</p></a>
         <a href="#"><p class="green" id="btncontinuar" type="submit" value="cambiar" onclick="cambiarbtn()">Continuar</p></a>
       </div>
       <div class="padding-left padding-right padding-top">
         <?php if ($error) { ?>
-          <div class="alert alert-danger"><?php echo htmlspecialchars($error); ?></div>
+          <div class="alert alert-danger" style="display: none;"><?php echo htmlspecialchars($error); ?></div>
         <?php } else { ?>
-          <p class="terms-of-purchase text-left color-black" style="font-size: 1.25em; margin-top: 0.5em;">
-            Recibiras un correo de uno de nuestros acesores para mas informacion
-          </p>
         <?php } ?>
         <div>
-          <h3>Envio y Devolucion</h3>
-          <p style="font-size: 1.25em; color: black;">Si deseas cabiar o devolver tu compra tendras 90 dias para hacerlo</p>
+          <p class="terms-of-purchase text-left" style="font-size: 1em; color: #a0a0a0; margin-top: 0.5em;">
+            Recibiras un correo de uno de nuestros acesores para mas informacion
+          </p>
+          <h4 style="color: #a0a0a0; ">Envio y Devolucion</h4>
+          <p style="font-size: 1em; color: #a0a0a0;">Si deseas cabiar o devolver tu compra tendras 90 dias para hacerlo.</p>
         </div>
       </div>
     </div>

@@ -2208,14 +2208,6 @@ ul.breadcrumb {
     padding-bottom: 16px; }
   .checkout .color-black {
     color: black; }
-  .checkout .backgroung-gray {
-    padding-top: 16px;
-    padding-bottom: 16px;
-    width: 100%;
-    background-color: #D8D8D8; }
-    .checkout .backgroung-gray h2 {
-      color: white;
-      margin-bottom: 0; }
   .checkout .backgroung-black {
     padding-top: 8px;
     padding-bottom: 8px;
@@ -2684,7 +2676,8 @@ footer a:link {
   padding-top: 16px;
   padding-bottom: 16px;
   width: 100%;
-  background-color: #D8D8D8; }
+  background-color: #868686;
+  margin-bottom: 8px; }
   .backgroung-gray h2 {
     color: white;
     margin-bottom: 0; }
