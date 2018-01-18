@@ -51,6 +51,7 @@
   .main_content{
     width: 75%;
     .search{
+      margin-top: $space-8;
       form{
         flex-direction: row-reverse;
       .input-group{
