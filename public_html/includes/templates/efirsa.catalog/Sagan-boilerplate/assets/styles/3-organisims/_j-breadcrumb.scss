@@ -1,0 +1,21 @@
+ul.breadcrumb{
+    list-style-type: none;
+    padding:  0px;
+    
+    li{
+        display: inline-block;
+        text-decoration: none;
+    }
+    li:not(:last-child){
+            a:hover{
+                
+            }
+            ::after{
+            padding: 0 $space-2;
+            content: '/';
+        }
+    }
+
+
+    
+}

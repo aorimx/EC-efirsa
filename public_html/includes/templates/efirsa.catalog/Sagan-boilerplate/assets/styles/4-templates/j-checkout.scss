@@ -43,7 +43,7 @@
   }
   .order-summary{
     width: 30%;
-    padding-right: $space-2;
+   /* padding-right: $space-2;*/
     padding-left: $space-2;
     button{
       max-width: 100%;
@@ -140,7 +140,7 @@
   .color-black{
     color: black;
   }
-  .backgroung-gray{
+  .backgroung-gray{ //Mover a un scss aparte
     padding-top: $space-2;
     padding-bottom: $space-2;
     width: 100%;
@@ -172,6 +172,7 @@
       }
       .green{
         background-color: #228000;
+        margin-bottom: 4px;
       }
       .grey{
         background-color: #6d6d6c;
@@ -297,6 +298,11 @@ a:link{
     }
   }
 }
+ .td_quantity{
+    button{
+      background-color: firebrick;
+    }
+  }
 @media screen and (max-width: 1150px){
   .checkout{
     .custome-details{

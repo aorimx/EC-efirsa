@@ -7,7 +7,7 @@
       width: 100%;
       margin-left: 0;
       display: inline-flex;
-      input{
+      input,select{
         height: $space-5;
         width: 80%;
       }
@@ -20,11 +20,14 @@
         justify-content: center;
         height: 40px;
       }
+      input{
+        text-align: right;
+      }
     }
   }
 }
 .sub-menu{
-margin-left: $space-8;
+ /*margin-left: $space-8;*/
  @media screen and (max-width: 600px){
     margin-left: 0;
     width: 100%;

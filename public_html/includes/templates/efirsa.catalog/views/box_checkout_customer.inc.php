@@ -1,7 +1,7 @@
 <div id="box-checkout-customer" class="oculto">
 
   <?php if (empty(customer::$data['id'])) { ?>
-  <div style="float:right">
+  <div style="float:right; display:none;">
     <a href="<?php echo document::ilink('login', array('redirect_url' => document::ilink('checkout'))) ?>" data-toggle="lightbox"><?php echo language::translate('title_sign_in', 'Sign In'); ?></a>
   </div>
   <?php } ?>
@@ -71,7 +71,7 @@
           <label><!--<?php //echo language::translate('title_email', 'Email'); ?>-->Email</label>
           <?php echo functions::form_draw_email_field('email', true, 'required="required"'. (!empty(customer::$data['id']) ? ' readonly="readonly"' : '')); ?>
         </div>
-      <div class="form-group">
+      <div class="form-group padding-top">
         <label><!--<?php //echo language::translate('title_phone', 'Phone'); ?>-->Telefono</label>
         <?php echo functions::form_draw_phone_field('phone', true, 'required="required"'); ?>
       </div>
@@ -84,7 +84,7 @@
     </div>-->
   </div>
 
-  <div class="address shipping-address">
+  <div class="address shipping-address padding-top padding-left">
 
     <h3><?php echo functions::form_draw_checkbox('different_shipping_address', '1', !empty($_POST['different_shipping_address']) ? '1' : '', 'style="margin: 0px;"'); ?> <?php echo language::translate('title_different_shipping_address', 'Different Shipping Address'); ?></h3>
 
@@ -156,7 +156,7 @@
   </div>
 
   <?php if (empty(customer::$data['id'])) { ?>
-  <div class="account">
+  <div class="account" style="display: none;">
 
     <?php if (!empty($account_exists)) { ?>
 
@@ -192,7 +192,7 @@
   </div>
   <?php } ?>
 
-  <div>
+  <div class="content">
     <button class="btn btn-block btn-default" name="save_customer_details" type="submit" disabled="disabled"><?php echo language::translate('title_save_changes', 'Save Changes'); ?></button>
   </div>
 

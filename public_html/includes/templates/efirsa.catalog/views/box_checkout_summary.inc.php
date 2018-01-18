@@ -30,12 +30,12 @@
       <?php echo functions::form_draw_textarea('comments', true); ?>
     </div>-->
 
-    <div class="confirm padding-top">
-      <div class="col-md-fourths">
-        <a href="<?php echo document::ilink('index.php'); ?>"><p class="btn btn-block btn-lg" style="background-color: #6c6c6d; margin-bottom: 5px;">seguir comprando</p></a>
-        <button class="btn btn-block btn-lg btn-success  oculto " id="btnconfirm" type="submit" name="confirm_order" value="true"<?php echo !empty($error) ? ' disabled="disabled"' : ''; ?>><?php echo $confirm; ?></button>
-        <label class="btn btn-block btn-lg btn-back oculto" id="btnback" type="submit" value="cambiar" onclick="window.location.reload()">Regresar</label>
-        <label class="btn btn-block btn-lg btn-success" id="btncontinuar" type="submit" value="cambiar" onclick="cambiarbtn()">Continuar</label>
+    <div class="confirm padding-top buton">
+      <div class="botons">
+        <a href="<?php echo document::ilink('index_tienda.php'); ?>"><p class="btn btn-block btn-lg" style="background-color: #6c6c6d; margin-bottom: 5px;">seguir comprando</p></a>
+        <button class="green  oculto " id="btnconfirm" type="submit" name="confirm_order" value="true"<?php echo !empty($error) ? ' disabled="disabled"' : ''; ?>><?php echo $confirm; ?></button>
+        <a href="#"><p class="btn btn-block btn-lg btn-back grey oculto" id="btnback" type="submit" value="cambiar" onclick="window.location.reload()">Regresar</p></a>
+        <a href="#"><p class="green" id="btncontinuar" type="submit" value="cambiar" onclick="cambiarbtn()">Continuar</p></a>
       </div>
       <div class="padding-left padding-right padding-top">
         <?php if ($error) { ?>

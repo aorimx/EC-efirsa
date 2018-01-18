@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="{snippet:template_path}Sagan-boilerplate/assets/styles/main.css">
 </head>
 <body>
-  <div id="header-wrapper">
     <header id="header" style="display: flex; justify-content: center;">
       <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/menu.php'); ?>
       <!--<a class="logotype" href="<?php /*echo document::href_ilink(''); ?>">
@@ -21,7 +20,6 @@
         <div class="phone"><?php echo settings::get('store_phone'); */?></div>
       </div>-->
     </header>
-  </div>
   <div class="j-workspace">
     <div class="j-wrap">
       <div id="page" class="shadow">
@@ -33,7 +31,7 @@
       </div>
     </div>
   </div>
-  <?php //include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/footer.php'); ?>
+  <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/footer.php'); ?>
 {snippet:foot_tags}
 <script src="{snippet:template_path}js/app.min.js"></script>
 <script src="{snippet:template_path}js/jquery.js"></script>
