@@ -42,7 +42,7 @@
     <?php } ?>
 
     <?php if ($_GET['page'] == 1 && $subcategories) { ?>
-    <div class="categories row half-gutter">
+    <div class="categories row half-gutter   box-thumbnail ">
       <?php foreach ($subcategories as $subcategory) echo functions::draw_listing_category($subcategory); ?>
     </div>
     <?php } ?>
@@ -51,7 +51,11 @@
     <div class="products row half-gutter box-thumbnail">
       <?php foreach ($products as $product) {echo functions::draw_listing_product($product, $product['listing_type']);} ?>
     </div>
-    <?php } ?>
+    <?php }  else {?>
+      <div class="products row half-gutter box-thumbnail">
+        NO HAY PRODUCTOS EN ESTA CATEGORÌA
+      </div>
+    <?php }?>
 
     <?php echo $pagination; ?>
   </div>

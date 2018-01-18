@@ -43,7 +43,7 @@
   }
   .order-summary{
     width: 30%;
-    padding-right: $space-2;
+   /* padding-right: $space-2;*/
     padding-left: $space-2;
     button{
       max-width: 100%;
@@ -140,7 +140,7 @@
   .color-black{
     color: black;
   }
-  .backgroung-gray{
+  .backgroung-gray{ //Mover a un scss aparte
     padding-top: $space-2;
     padding-bottom: $space-2;
     width: 100%;

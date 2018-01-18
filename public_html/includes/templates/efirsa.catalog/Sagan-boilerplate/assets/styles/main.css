@@ -1035,41 +1035,6 @@ img {
     max-width: 33%;
     margin-right: 16px; }
 
-@font-face {
-  font-family: 'Gothaml';
-  src: url("../fonts/GothamLight.ttf") format("truetype"); }
-@font-face {
-  font-family: 'GothamB';
-  src: url("../fonts/GothamBold.eot");
-  src: url("../fonts/GothamBold.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamBold.woff") format("woff"), url("../fonts/GothamBold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal; }
-@font-face {
-  font-family: 'GothamB';
-  src: url("../fonts/Gotham-Medium.etf");
-  src: url("../fonts/Gotham-Medium.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal; }
-@font-face {
-  font-family: 'GothamB';
-  src: url("../fonts/Gotham-Book.eot");
-  src: url("../fonts/Gotham-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Book.woff") format("woff"), url("../fonts/Gotham-Book.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal; }
-@font-face {
-  font-family: 'GothamB';
-  src: url("../fonts/GothamLight.eot");
-  src: url("../fonts/GothamLight.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamLight.woff") format("woff"), url("../fonts/GothamLight.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal; }
-@font-face {
-  font-family: 'GothamB';
-  src: url("../fonts/Gotham-Light.eot");
-  src: url("../fonts/Gotham-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Light.woff") format("woff"), url("../fonts/Gotham-Light.ttf") format("truetype");
-  font-weight: 100;
-  font-style: normal; }
-body {
-  color: #414042; }
 /* Reset Select */
 select {
   -webkit-appearance: none;
@@ -1126,64 +1091,41 @@ select::-ms-expand {
   -o-transition: .25s all ease;
   transition: .25s all ease; }
 
-footer {
-  background-color: #595959; }
-  footer .j-wrap {
-    flex-direction: column; }
-    footer .j-wrap .contact-ways {
-      display: flex;
-      justify-content: space-around;
-      align-items: flex-start;
-      margin-top: 64px; }
-      footer .j-wrap .contact-ways h3 {
-        color: #4caf50; }
-      footer .j-wrap .contact-ways hr {
-        width: 80px;
-        margin-bottom: 32px; }
-      footer .j-wrap .contact-ways p {
-        color: #FFF; }
-      footer .j-wrap .contact-ways a {
-        color: #FFF; }
-        footer .j-wrap .contact-ways a:hover {
-          color: #cccccc; }
-      @media screen and (max-width: 768px) {
-        footer .j-wrap .contact-ways {
-          flex-direction: column; } }
-      footer .j-wrap .contact-ways .footer-unit {
-        width: 33.33%; }
-        @media screen and (max-width: 768px) {
-          footer .j-wrap .contact-ways .footer-unit {
-            width: 100%; } }
-      footer .j-wrap .contact-ways .social-networks {
-        text-align: center; }
-        footer .j-wrap .contact-ways .social-networks ul {
-          display: flex;
-          max-width: 160px;
-          margin: 0 auto;
-          list-style: none;
-          justify-content: space-around;
-          margin-top: 32px;
-          padding: 0; }
-          footer .j-wrap .contact-ways .social-networks ul li a img {
-            height: 32px; }
-          footer .j-wrap .contact-ways .social-networks ul li a:hover {
-            opacity: .75; }
-      footer .j-wrap .contact-ways .footer-contact {
-        text-align: center; }
-        footer .j-wrap .contact-ways .footer-contact p a:first-child {
-          font-size: 24px; }
-      footer .j-wrap .contact-ways .location {
-        text-align: center; }
-    footer .j-wrap .footer-bottom {
-      text-align: center;
-      margin: 64px 0; }
-      footer .j-wrap .footer-bottom svg {
-        height: 56px;
-        fill: #fff;
-        margin-bottom: 16px; }
-      footer .j-wrap .footer-bottom p {
-        color: #FFF;
-        margin-bottom: 0; }
+@font-face {
+  font-family: 'Gothaml';
+  src: url("../fonts/GothamLight.ttf") format("truetype"); }
+@font-face {
+  font-family: 'GothamB';
+  src: url("../fonts/GothamBold.eot");
+  src: url("../fonts/GothamBold.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamBold.woff") format("woff"), url("../fonts/GothamBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'GothamB';
+  src: url("../fonts/Gotham-Medium.etf");
+  src: url("../fonts/Gotham-Medium.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: 'GothamB';
+  src: url("../fonts/Gotham-Book.eot");
+  src: url("../fonts/Gotham-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Book.woff") format("woff"), url("../fonts/Gotham-Book.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: 'GothamB';
+  src: url("../fonts/GothamLight.eot");
+  src: url("../fonts/GothamLight.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamLight.woff") format("woff"), url("../fonts/GothamLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'GothamB';
+  src: url("../fonts/Gotham-Light.eot");
+  src: url("../fonts/Gotham-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Light.woff") format("woff"), url("../fonts/Gotham-Light.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal; }
+body {
+  color: #414042; }
 
 a:hover, a:active {
   text-decoration: none;
@@ -1477,12 +1419,13 @@ footer {
         width: 100%; } }
 
 ul.breadcrumb {
-  list-style-type: none; }
+  list-style-type: none;
+  padding: 0px; }
   ul.breadcrumb li {
     display: inline-block;
     text-decoration: none; }
   ul.breadcrumb li:not(:last-child) ::after {
-    padding: 0 12px;
+    padding: 0 16px;
     content: '/'; }
 
 .thumbnail-img img {
@@ -1994,7 +1937,7 @@ ul.breadcrumb {
     width: 100%;
     margin-left: 0;
     display: inline-flex; }
-    .buy_now .form-group .input-group input {
+    .buy_now .form-group .input-group input, .buy_now .form-group .input-group select {
       height: 40px;
       width: 80%; }
     .buy_now .form-group .input-group div {
@@ -2005,9 +1948,11 @@ ul.breadcrumb {
       align-items: center;
       justify-content: center;
       height: 40px; }
+    .buy_now .form-group .input-group input {
+      text-align: right; }
 
 .sub-menu {
-  margin-left: 64px; }
+  /*margin-left: $space-8;*/ }
   @media screen and (max-width: 600px) {
     .sub-menu {
       margin-left: 0;
@@ -2096,7 +2041,7 @@ ul.breadcrumb {
               font-size: 16px; }
   .checkout .order-summary {
     width: 30%;
-    padding-right: 16px;
+    /* padding-right: $space-2;*/
     padding-left: 16px; }
     .checkout .order-summary button {
       max-width: 100%; }
@@ -2540,12 +2485,12 @@ footer a:link {
       justify-content: center;
       align-content: center;
       align-items: center;
-      text-align: center; }
+      text-align: start; }
     .middle-content .box-thumbnail .image-thumbnail {
       max-width: 100%;
       margin-bottom: 16px;
       border: 1px solid #dcdcdc;
-      box-shadow: 0px 2px 2px 2px #f2f2f2; }
+      box-shadow: 0px 2px 2px 2px #ddd; }
     .middle-content .box-thumbnail .image {
       max-width: 100%; }
     .middle-content .box-thumbnail.row-test {
@@ -2594,6 +2539,11 @@ footer a:link {
   text-transform: capitalize;
   margin-bottom: 0; }
 
+.btn-filters {
+  background-color: #414042;
+  text-transform: capitalize;
+  margin-bottom: 0; }
+
 .icon-down {
   transform: rotate(90deg); }
 
@@ -2629,6 +2579,18 @@ footer a:link {
       margin-top: 24px; }
       .middle-content .main_content .search form .input-group {
         width: 100%; } }
+#view-full-page {
+  float: right; }
+
+.backgroung-gray {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 100%;
+  background-color: #D8D8D8; }
+  .backgroung-gray h2 {
+    color: white;
+    margin-bottom: 0; }
+
 .middle-content .aside_content-search {
   width: 25%;
   padding-right: 16px;
@@ -2685,10 +2647,10 @@ footer a:link {
       height: 50px; }
 
 /**
- * Featherlight ÔÇô ultra slim jQuery lightbox
+ * Featherlight – ultra slim jQuery lightbox
  * Version 1.7.0 - http://noelboss.github.io/featherlight/
  *
- * Copyright 2016, No├½l Raoul Bossart (http://www.noelboss.com)
+ * Copyright 2016, Noël Raoul Bossart (http://www.noelboss.com)
  * MIT Licensed.
 **/
 body.featherlight-open {
@@ -2713,7 +2675,7 @@ body.featherlight-open {
   cursor: pointer;
   background: #333;
   /* IE8 "hack" for nested featherlights */
-  background: rgba(0, 0, 0, 0);
+  background: transparent;
   /* support for nested featherlights. Does not work in IE8 (use JS to fix) */
   /* See http://stackoverflow.com/questions/16077341/how-to-reset-all-default-styles-of-the-html5-button-element */ }
   .featherlight * {
