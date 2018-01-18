@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="{snippet:template_path}Sagan-boilerplate/assets/styles/main.css">
 </head>
 <body>
-    <header id="header" style="display: flex; justify-content: center;">
+    <header id="header" style="display: flex; justify-content: center; flex-wrap: wrap;">
       <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/menu.php'); ?>
       <!--<a class="logotype" href="<?php /*echo document::href_ilink(''); ?>">
         <img src="<?php echo WS_DIR_IMAGES; ?>logotype.png" style="max-width: 250px; max-height: 60px;" alt="<?php echo settings::get('store_name'); ?>" title="<?php echo settings::get('store_name'); ?>" />
