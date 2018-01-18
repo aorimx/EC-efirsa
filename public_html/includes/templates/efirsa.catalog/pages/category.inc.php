@@ -52,9 +52,12 @@
       <?php foreach ($products as $product) {echo functions::draw_listing_product($product, $product['listing_type']);} ?>
     </div>
     <?php }  else {?>
-      <div class="products row half-gutter box-thumbnail">
-        NO HAY PRODUCTOS EN ESTA CATEGORÌA
+    <div class="container-alert">
+      <div class="order-success">
+        <p>NO HAY PRODUCTOS EN ESTA CATEGORÌA</p>
+        <a href="../../index_tienda.php"><button class="btn-print">Regresar</button></a>
       </div>
+    </div> 
     <?php }?>
 
     <?php echo $pagination; ?>
