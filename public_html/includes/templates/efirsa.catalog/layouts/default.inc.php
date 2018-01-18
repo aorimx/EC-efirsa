@@ -13,12 +13,8 @@
 </head>
 <body>
 
-<div id="page" class="twelve-eighty shadow">
-
-  <header id="header">
-
-   
-
+<div id="page" style="display: flex; justify-content: center; flex-wrap: wrap;">
+  <header>
     <div id="region-wrapper">
       <!--<?php //include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_region.inc.php'); ?>-->
     </div>
@@ -31,23 +27,24 @@
   <!--<?php //include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_site_menu.inc.php'); ?>-->
   
     <main class="j-workspace ">
-    <div class="top">
-      {snippet:top}
-    </div>
-    <div class="j-wrap">
-    <div class="middle-content">
-      {snippet:content}
-      <div style="clear: both;"></div>
-    </div>
-  </div>
-    <div class="bottom">
-      {snippet:bottom}
-    </div>
+      <div class="top">
+        {snippet:top}
+      </div>
+      <div class="j-wrap">
+        <div class="middle-content">
+          {snippet:content}
+          <div style="clear: both;"></div>
+        </div>
+      </div>
+      <div class="bottom">
+        {snippet:bottom}
+      </div>
 
-  <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/footer.php'); ?>
+      <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/footer.php'); ?>
+    </main>
 </div>
 
-</main>
+
 <!--<a id="scroll-up" href="#">
   <?php //echo functions::draw_fonticon('fa-chevron-circle-up fa-3x', 'style="color: #000;"'); ?>
 </a>-->
