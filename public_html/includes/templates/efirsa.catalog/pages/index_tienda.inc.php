@@ -5,8 +5,6 @@
 <main id="content" class="main_content">
   {snippet:notices}
 
-
-  <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_manufacturer_logotypes.inc.php'); ?>
   
     <div id="navigation">
       <div class="search">
