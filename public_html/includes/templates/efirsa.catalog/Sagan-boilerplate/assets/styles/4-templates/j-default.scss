@@ -47,6 +47,21 @@
   .aside_content{
     width: 25%;
     padding-right: $space-2;
+    .box-manufacturer{
+      ul{
+        padding: 0;
+      }
+    }
+    .box-manufaturer-img{
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-top: $space-base;
+      .manufacturer-image{
+        width: 50px;
+        margin: 0;
+      }
+    }
   }
   .main_content{
     width: 75%;
