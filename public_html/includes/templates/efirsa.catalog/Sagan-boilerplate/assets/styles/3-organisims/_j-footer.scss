@@ -225,10 +225,13 @@ footer{
 .footerContacto{
   p{
     font-size: 13px;
+    margin-bottom: $space-10 !important;
+    margin-top: 0;
     }
   }
 .derecha-footer{
     text-align: left;
+    margin-top: -$space-7;
     .ventas_text{
       font-size: 13px;
     }
@@ -238,14 +241,19 @@ footer{
 }
 .gris-footer{
   .container-footer-gris{
-    display: block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
     .redes-gris{
-      padding-left: 240px;
-      width: 100%;
-      padding-top: $space-2;
+      padding-left: 16px;
+      width: 50%;
+      order: 1;
     }
     .copyright-gris{
       width: 100%;
+      order: 3;
       .copyright{
         font-size: 14px;
         margin-bottom: 11px;
@@ -257,7 +265,9 @@ footer{
     }
     .terminos-gris{
       padding-right: $space-2;
-      width: 100%;
+      width: 50%;
+      padding-top: $space-base;
+      order: 2;
       p{
         font-size: 14px;
       }
@@ -265,32 +275,59 @@ footer{
   }
 }
   }
-    @media screen and (max-width: 600px){
-    .footerContacto{
-        height: auto;
-    }
-    .container{
-        height: auto !important;
-    }
-    .resp-none{
-        display: none;
-    }
-    .container-footer-2{
-        width: 100%;
-        display: block;
-    }
-    
+@media screen and (max-width: 600px){
+  .footerContacto{
+    height: auto;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  .derecha-footer{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  .container{
+    height: auto !important;
+  }    
 }
 @media screen and (max-width: 600px){
-    .redes-footer img{
-        width: 20px !important;
-      }
-      .gris-footer{
-          height: 142px;
-      }
-    .gris-footer{
+  .redes-footer img{
+    width: 20px !important;
+  }
+  .gris-footer{
+    height: 142px;
   .container-footer-gris{
-    display: none;
+    .redes-gris{
+      padding-left: 16px;
+      width: 44%;
+      order: 1;
+      .redes-footer{
+        li{
+          padding-right: $space-2;
+        }
+      }
+    }
+    .copyright-gris{
+      width: 100%;
+      order: 3;
+      .copyright{
+        font-size: 12px;
+        margin-bottom: 11px;
+      }
+        .copy_subtext{
+          text-align: center;
+          margin-bottom: 0;
+          font-size: 12px;
+        }
+    }
+    .terminos-gris{
+      padding-right: $space-2;
+      width: 56%;
+      padding-top: $space-base;
+      order: 2;
+      p{
+        font-size: 12px;
+      }
+    }
   }
 }
 }
