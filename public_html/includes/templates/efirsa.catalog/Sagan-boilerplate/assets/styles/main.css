@@ -2509,6 +2509,16 @@ footer a:link {
   .middle-content .aside_content {
     width: 25%;
     padding-right: 16px; }
+    .middle-content .aside_content .box-manufacturer ul {
+      padding: 0; }
+    .middle-content .aside_content .box-manufaturer-img {
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-top: 8px; }
+      .middle-content .aside_content .box-manufaturer-img .manufacturer-image {
+        width: 50px;
+        margin: 0; }
   .middle-content .main_content {
     width: 75%; }
     .middle-content .main_content .search {
