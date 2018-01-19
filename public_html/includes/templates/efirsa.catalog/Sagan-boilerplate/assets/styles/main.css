@@ -1661,6 +1661,52 @@ ul.breadcrumb {
   .container-car {
     margin-top: 40px; } }
 
+.product-detail .title {
+  justify-content: flex-start;
+  font-size: 32px;
+  margin: 0; }
+.product-detail .manufacturer {
+  background-color: red; }
+.product-detail .tax {
+  color: gray;
+  margin-right: 8px; }
+.product-detail .codes {
+  text-transform: uppercase;
+  padding: 0px; }
+.product-detail .stock-status .stock-available .value {
+  color: #4caf50; }
+.product-detail .stock-status .stock-delivery .value {
+  /*color: black;*/ }
+.product-detail .stock-status .stock-partly-available .value {
+  color: #ff9800; }
+.product-detail .stock-status .stock-unavailable .value {
+  color: #f44336; }
+.product-detail .buy_now .form-group {
+  display: block;
+  width: 100%; }
+  .product-detail .buy_now .form-group .input-group {
+    padding-left: 0;
+    width: 100%;
+    margin-left: 0;
+    display: inline-flex; }
+    .product-detail .buy_now .form-group .input-group input, .product-detail .buy_now .form-group .input-group select {
+      height: 40px;
+      width: 80%; }
+    .product-detail .buy_now .form-group .input-group div {
+      width: 20%;
+      background-color: #6c6c6d;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 40px; }
+    .product-detail .buy_now .form-group .input-group input {
+      text-align: right; }
+  .product-detail .buy_now .form-group .message {
+    color: gray; }
+.product-detail .social-bookmarks {
+  text-align: center; }
+
 .padd-between {
   margin-right: 16px; }
 
@@ -2026,28 +2072,6 @@ ul.breadcrumb {
 
   .hide_element_responsive {
     display: none; } }
-.buy_now .form-group {
-  display: block;
-  width: 100%; }
-  .buy_now .form-group .input-group {
-    padding-left: 0;
-    width: 100%;
-    margin-left: 0;
-    display: inline-flex; }
-    .buy_now .form-group .input-group input, .buy_now .form-group .input-group select {
-      height: 40px;
-      width: 80%; }
-    .buy_now .form-group .input-group div {
-      width: 20%;
-      background-color: #6c6c6d;
-      color: white;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 40px; }
-    .buy_now .form-group .input-group input {
-      text-align: right; }
-
 .sub-menu {
   /*margin-left: $space-8;*/ }
   @media screen and (max-width: 600px) {
