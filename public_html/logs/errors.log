@@ -14,3 +14,35 @@ Request: GET /aori/Efirsa/EC-efirsa/public_html/es/nosotros HTTP/1.1
 Client: ::1 (Hazzel-PC)
 User Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1
 
+[18-Jan-2018 18:16:46 America/Mexico_City] Warning: include(A:/web/aori/EC-efirsa/public_html/includes/templates/default.catalog//pages/index_tienda.inc.php): failed to open stream: No such file or directory in ~/includes/classes/view.inc.php on line 63
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/index_tienda.inc.php on line 12 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/index_tienda HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[18-Jan-2018 18:16:46 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-efirsa/public_html/includes/templates/default.catalog//pages/index_tienda.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/view.inc.php on line 63
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/index_tienda.inc.php on line 12 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/index_tienda HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[19-Jan-2018 11:26:03 America/Mexico_City] Notice: Undefined variable: products in ~/includes/templates/efirsa.catalog/pages/manufacturers.inc.php on line 8
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/manufacturers.inc.php on line 35 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/manufacturers HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[19-Jan-2018 11:26:05 America/Mexico_City] Notice: Undefined variable: products in ~/includes/templates/efirsa.catalog/pages/manufacturers.inc.php on line 8
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/manufacturers.inc.php on line 35 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/manufacturers HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+

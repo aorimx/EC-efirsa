@@ -2,6 +2,8 @@
   <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'views/column_left.inc.php'); ?>
 </aside>
 
+manufacturer
+
 <main id="content">
   {snippet:notices}
   {snippet:breadcrumbs}
