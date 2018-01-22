@@ -1,4 +1,5 @@
-<footer itemscope="" itemtype="https://schema.org/WPFooter" style="padding: 32px 16px 32px;">
+<div style="display: flex; justify-content: center; flex-wrap: wrap;">
+  <footer itemscope="" itemtype="https://schema.org/WPFooter" style="padding: 32px 16px 32px; width: 100%; max-width: 1200px;">
   <div class="container grid" style="height: 184px;">
     <div class="col-xs-12 col-sm-6 footerContacto unit half">
       <h2 class="titulo-footer" style="margin-top: 0;">Contacto</h2>
@@ -15,7 +16,7 @@
   </div>
 </footer>
 
-<div class="gris-footer">
+<div class="gris-footer" style="width: 100%; max-width: 1200px;">
   <div class="container resp-none container-footer-gris">
     <div class="col-sm-4 centrar-footer redes-gris">
       <ul class="redes-footer">
@@ -57,3 +58,4 @@
   </div> 
 </div>
 
+</div>

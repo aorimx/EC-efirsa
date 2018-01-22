@@ -1697,7 +1697,7 @@ ul.breadcrumb {
 
 .product-detail .title {
   justify-content: flex-start;
-  font-size: 32px;
+  font-size: 16px;
   margin: 0; }
 .product-detail .manufacturer {
   background-color: red; }

@@ -13,8 +13,8 @@
 </head>
 <body>
 
-<div id="page" style="display: flex; justify-content: center; flex-wrap: wrap;">
-  <header>
+<div id="page">
+  <header style="display: flex; justify-content: center; flex-wrap: wrap;">
     <div id="region-wrapper">
       <!--<?php //include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_region.inc.php'); ?>-->
     </div>
@@ -40,8 +40,9 @@
         {snippet:bottom}
       </div>
 
-      <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/footer.php'); ?>
+     
     </main>
+     <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/footer.php'); ?>
 </div>
 
 
