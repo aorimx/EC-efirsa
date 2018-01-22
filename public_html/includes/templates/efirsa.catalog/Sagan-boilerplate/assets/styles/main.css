@@ -999,7 +999,8 @@ table {
       width: 20%; }
     table td:nth-child(2) {
       width: 80%;
-      margin-left: 20%; }
+      margin-left: 20%;
+      padding-left: 8px; }
     table td:nth-child(3) {
       width: 25%; }
     table td:nth-child(4) {
@@ -1494,7 +1495,8 @@ footer {
     .contenedor-menu .navbar-default .container-fluid .navbar-collapse {
       background-color: #b5b5b5;
       margin-top: -2px;
-      transition: .5s; }
+      transition: .5s;
+      height: 400px; }
       .contenedor-menu .navbar-default .container-fluid .navbar-collapse ul {
         display: grid;
         justify-content: right; }
@@ -1510,6 +1512,9 @@ footer {
           border-color: transparent;
           border-bottom-color: white;
           width: 230px; }
+          .contenedor-menu .navbar-default .container-fluid .navbar-collapse ul .arrow_box:last-child {
+            margin-right: 0;
+            margin-left: 16px; }
           .contenedor-menu .navbar-default .container-fluid .navbar-collapse ul .arrow_box .margin-top {
             margin-top: -8px; }
           .contenedor-menu .navbar-default .container-fluid .navbar-collapse ul .arrow_box a span {
