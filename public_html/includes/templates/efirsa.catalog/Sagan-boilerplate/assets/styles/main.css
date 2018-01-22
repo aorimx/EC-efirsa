@@ -2247,7 +2247,7 @@ ul.breadcrumb {
         max-height: 40px;
         margin-left: 6%; }
         .checkout .custome-details .form-group .input-group input {
-          width: 85%; }
+          width: 83%; }
         .checkout .custome-details .form-group .input-group .input-group-ad {
           padding: 12px 12px;
           font-size: 14px;
@@ -2393,7 +2393,7 @@ footer a:link {
     max-height: 40px;
     margin-left: 6%; }
     .checkout .custome-details .form-group .input-group input {
-      width: 84%; } }
+      width: 83%; } }
 @media screen and (max-width: 1050px) {
   .checkout .custome-details .form-group .input-group {
     display: inline-flex;
@@ -2401,7 +2401,7 @@ footer a:link {
     max-height: 40px;
     margin-left: 6%; }
     .checkout .custome-details .form-group .input-group input {
-      width: 83%; } }
+      width: 82%; } }
 @media screen and (max-width: 991px) {
   .checkout .shopping-cart {
     width: 100%;
@@ -2458,6 +2458,10 @@ footer a:link {
   .td_name {
     white-space: unset !important; } }
 @media screen and (max-width: 600px) {
+  .checkout .custome-details .title {
+    width: 106%;
+    padding-left: 0; }
+
   .gris-footers {
     background-color: #d8d8d8;
     width: 100%;
@@ -2523,12 +2527,18 @@ footer a:link {
   .none {
     display: none; } }
 @media screen and (max-width: 440px) {
+  .checkout .custome-details .title {
+    width: 110%; }
+
   .td_pieces .none {
     width: 10%; }
   .td_pieces .input-group {
     width: 90%; }
     .td_pieces .input-group input {
       width: 70%; } }
+@media screen and (max-width: 320px) {
+  .checkout .custome-details .title {
+    width: 112%; } }
 .middle-content {
   display: inline-flex;
   width: 100%;
