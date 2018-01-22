@@ -1656,7 +1656,7 @@ ul.breadcrumb {
   .container-car .table-attributes thead tr th {
     text-align: start; }
   .container-car .table-attributes tbody tr td:first-child {
-    width: 10%; }
+    width: 30%; }
 @media screen and (max-width: 768px) {
   .container-car {
     margin-top: 40px; } }
