@@ -1,8 +1,8 @@
 # Define some error documents
 ErrorDocument 401 "Access Forbidden"
-ErrorDocument 403 /error_document?code=403
-ErrorDocument 404 /error_document?code=404
-ErrorDocument 410 /error_document?code=410
+ErrorDocument 403 /aori/Efirsa/EC-efirsa/public_html/error_document?code=403
+ErrorDocument 404 /aori/Efirsa/EC-efirsa/public_html/error_document?code=404
+ErrorDocument 410 /aori/Efirsa/EC-efirsa/public_html/error_document?code=410
 ErrorDocument 500 "Internal Server Error"
 
 # Deny showing indexes for directory content - Uncomment if supported by you web host
@@ -38,7 +38,7 @@ ErrorDocument 500 "Internal Server Error"
   #RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
   # Web path to catalog root
-  RewriteBase /
+  RewriteBase /aori/Efirsa/EC-efirsa/public_html/
 
   # No rewrite logic for physical files
   RewriteCond %{REQUEST_FILENAME} -d [OR]
@@ -82,12 +82,12 @@ ErrorDocument 500 "Internal Server Error"
 #<IfModule mod_auth.c>
 #  AuthType Basic
 #  AuthName "Restricted Area"
-#  AuthUserFile "A:/web/aori/EC-efirsa/public_html/admin/.htpasswd"
+#  AuthUserFile "C:/wamp/www/aori/Efirsa/EC-efirsa/public_html/admin/.htpasswd"
 #  Require valid-user
 #</IfModule>
 #<IfModule mod_auth_basic.c>
 #  AuthType Basic
 #  AuthName "Restricted Area"
-#  AuthUserFile "A:/web/aori/EC-efirsa/public_html/admin/.htpasswd"
+#  AuthUserFile "C:/wamp/www/aori/Efirsa/EC-efirsa/public_html/admin/.htpasswd"
 #  Require valid-user
 #</IfModule>
