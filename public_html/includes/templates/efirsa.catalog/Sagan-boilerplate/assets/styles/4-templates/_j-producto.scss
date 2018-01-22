@@ -197,6 +197,11 @@ $img-sm: 128px;
         }
       }
     }
+  }
+  tbody{
+    tr{
+      td:first-child{
+        width: 30%;
     tbody{
       tr{
         td:first-child{
