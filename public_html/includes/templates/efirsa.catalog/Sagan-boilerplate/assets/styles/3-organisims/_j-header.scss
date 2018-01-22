@@ -1,4 +1,8 @@
-  .contenedor-menu{
+header{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }  .contenedor-menu{
     width: 100%;
     max-width: 1232px;
     background-color: #414042;
@@ -190,6 +194,7 @@
           background-color: #b5b5b5;
           margin-top:-2px;
           transition: .5s;
+          height: 400px;
           ul{
             display: grid;
             justify-content: right;
@@ -206,6 +211,10 @@
               border-color: transparent;
               border-bottom-color: white;
               width: 230px;
+              &:last-child{
+                margin-right: 0;
+                margin-left: $space-2;
+              }
               .margin-top{
                 margin-top: -$space-base;
               }

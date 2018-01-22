@@ -12,7 +12,7 @@
       display: inline-flex;
       .third{
         width: 53%;
-        padding: $space-2;
+        padding: $space-2;  
       }
       .middle{
         display: flex;
@@ -106,7 +106,7 @@
         max-height: 40px;
         margin-left: 6%;
         input{
-          width: 85%;
+          width: 83%;
         }
         .input-group-ad{
           padding: 12px 12px;
@@ -307,7 +307,7 @@ a:link{
           max-height: 40px;
           margin-left: 6%;
           input{
-            width: 84%;
+            width: 83%;
           }
         }  
       }
@@ -324,7 +324,7 @@ a:link{
           max-height: 40px;
           margin-left: 6%;
           input{
-            width: 83%;
+            width: 82%;
           }
         }  
       }
@@ -417,6 +417,14 @@ a:link{
 }
 
 @media screen and (max-width: 600px){
+   .checkout{
+    .custome-details{
+      .title{
+        width: 106%;
+        padding-left: 0;
+      }
+    }
+  } 
   .gris-footers{
     background-color: #d8d8d8;
     width: 100%;
@@ -495,6 +503,13 @@ a:link{
   }
 }
 @media screen and (max-width: 440px){
+     .checkout{
+    .custome-details{
+      .title{
+        width: 110%;
+      }
+    }
+  } 
   .td_pieces{
     .none{
       width: 10%;
@@ -506,4 +521,13 @@ a:link{
       }
     }
   }
+}
+@media screen and (max-width: 320px){
+     .checkout{
+    .custome-details{
+      .title{
+        width: 112%;
+      }
+    }
+  } 
 }

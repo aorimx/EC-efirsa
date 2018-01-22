@@ -1,4 +1,5 @@
-<footer itemscope="" itemtype="https://schema.org/WPFooter" style="padding: 32px 16px 32px;">
+<div class="footer-content">
+  <footer itemscope="" itemtype="https://schema.org/WPFooter" style="padding: 32px 16px 32px;">
   <div class="container grid" style="height: 184px;">
     <div class="col-xs-12 col-sm-6 footerContacto unit half">
       <h2 class="titulo-footer" style="margin-top: 0;">Contacto</h2>
@@ -57,3 +58,4 @@
   </div> 
 </div>
 
+</div>
