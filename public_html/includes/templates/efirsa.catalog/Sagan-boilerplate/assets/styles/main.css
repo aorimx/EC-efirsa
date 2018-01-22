@@ -1140,10 +1140,17 @@ a:hover, a:active {
   text-decoration: none;
   color: #008129; }
 
-footer .grid {
-  flex-direction: row; }
-  footer .grid .unit.half:last-child {
-    padding-right: 88px; }
+.footer-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .footer-content footer {
+    width: 100%;
+    max-width: 1200px; }
+    .footer-content footer .grid {
+      flex-direction: row; }
+      .footer-content footer .grid .unit.half:last-child {
+        padding-right: 88px; }
 
 .container-footer-2 {
   display: none; }
@@ -1158,7 +1165,9 @@ footer .grid {
 
 .gris-footer {
   background-color: #d8d8d8;
-  padding-top: 8px; }
+  padding-top: 8px;
+  width: 100%;
+  max-width: 1200px; }
   .gris-footer .container-footer-gris {
     width: 100%;
     display: inline-flex; }
@@ -1353,6 +1362,11 @@ footer {
       order: 2; }
       .gris-footer .container-footer-gris .terminos-gris p {
         font-size: 12px; } }
+header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
 .contenedor-menu {
   width: 100%;
   max-width: 1232px;

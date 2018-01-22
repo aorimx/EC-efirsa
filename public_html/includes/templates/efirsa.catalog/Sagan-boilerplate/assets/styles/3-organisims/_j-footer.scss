@@ -62,13 +62,20 @@ a:hover, a:active{
   text-decoration: none;
   color: #008129;
 }
-footer {
-  .grid{ 
-    flex-direction: row;
-  .unit.half:last-child{
-  padding-right: $space-11;
-}
-}
+.footer-content{
+  display: flex; 
+  justify-content: center; 
+  flex-wrap: wrap;
+  footer {
+    width: 100%;
+    max-width: 1200px;
+    .grid{ 
+      flex-direction: row;
+      .unit.half:last-child{
+        padding-right: $space-11;
+      }
+    }
+  }
 }
 .container-footer-2{
     display: none;
@@ -84,6 +91,8 @@ footer {
 .gris-footer{
   background-color: #d8d8d8;
   padding-top: $space-base;
+  width: 100%;
+  max-width: 1200px;
   .container-footer-gris{
     width: 100%;
     display: inline-flex;
