@@ -1,8 +1,8 @@
-<!--<aside id="sidebar">
-  <?php //include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'views/column_left.inc.php'); ?>
-</aside>-->
+<aside id="sidebar" class="aside_content">
+  <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'views/column_left.inc.php'); ?>
+</aside>
 
-<main id="content" class="container-category">
+<main id="content" class="container-category main_content">
   {snippet:notices}
   <div class="sub-menu">
   {snippet:breadcrumbs}

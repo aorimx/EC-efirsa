@@ -117,13 +117,13 @@
   ini_set('error_log', FS_DIR_HTTP_ROOT . WS_DIR_LOGS . 'errors.log');
   ini_set('display_startup_errors', 'Off');
   ini_set('display_errors', 'Off');
-  if (in_array($_SERVER['REMOTE_ADDR'], array('127.0.0.1', '::1'))) {
+  if (in_array($_SERVER['REMOTE_ADDR'], array('127.0.0.1', '127.0.0.1'))) {
     error_reporting(E_ALL);
     ini_set('display_startup_errors', 'On');
     ini_set('display_errors', 'On');
   }
   
 // Password Encryption Salt
-  define('PASSWORD_SALT', 'UwS1gcqv36i0g8FPaKCr8LSPDNgCS6nrvumI2ta7vUzRHMYx728XogdOyVMm5mcXef0TkvSowdhEaBDl9JDr4AyiE5f0rzKlKIOopaODdeHtUssQZjsMWOEOlEN7dJVC');
+  define('PASSWORD_SALT', 'r31PdCxCBa0auAj7cP18iKtSEycUH0sg433m9zPVgbOOCeIJpM6846XR5wlnaVPDCLKq90YFgnInrK4e9kByPKFBw03aRWYk37WCEpAMczjH0HSZMhKJ1xDiVkFOdsCz');
   
 ?>
