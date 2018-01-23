@@ -1588,7 +1588,7 @@ ul.breadcrumb {
   flex-wrap: wrap;
   justify-content: center; }
   .container-images-product .extra-images {
-    width: 80%;
+    width: 70%;
     max-width: 750px;
     display: inline-flex;
     justify-content: center; }
@@ -1682,11 +1682,7 @@ ul.breadcrumb {
     padding-left: 0; }
 
   .container-images-product .extra-images {
-    width: 100%; } }
-  @media screen and (max-width: 768px) and (max-width: 768px) {
-    .container-images-product .extra-images {
-      display: none; } }
-@media screen and (max-width: 768px) {
+    width: 80%; }
   .container-images-product .container-img-product {
     width: 100%; }
 
