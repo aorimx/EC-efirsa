@@ -67,7 +67,7 @@
       </div>
       <?php } ?>
 
-    -->    
+    -->
 
         </div>
 
@@ -83,8 +83,8 @@
 
     <div class="col-sm-halfs col-md-thirds">
 
-     
-   
+
+
 
 
       <?php if ($cheapest_shipping_fee !== null) { ?>
@@ -130,8 +130,10 @@
           <?php foreach ($options as $option) { ?>
           <div class="form-group">
             <label><?php echo $option['name']; ?></label>
+            <div class="select-product">
             <?php echo $option['description'] ? '<div>' . $option['description'] . '</div>' : ''; ?>
             <?php echo $option['values']; ?>
+          </div>
           </div>
           <?php } ?>
         <?php } ?>
@@ -156,7 +158,7 @@
         <?php echo functions::form_draw_form_end(); ?>
       </div>
 
-      
+
       <div class="social-bookmarks text-center" style="margin: 1rem 0;">
         <a class="link" href="#"><?php echo functions::draw_fonticon('fa-link', 'style="color: #333;"'); ?></a>
         <a class="twitter" href="<?php echo document::href_link('http://twitter.com/home/', array('status' => $name .' - '. $link)); ?>" target="_blank" title="<?php echo sprintf(language::translate('text_share_on_s', 'Share on %s'), 'Twitter'); ?>"><?php echo functions::draw_fonticon('fa-twitter-square fa-lg', 'style="color: #55acee;"'); ?></a>
@@ -173,7 +175,7 @@
 <hr>
 <div class="grid">
   <div class="unit half">
-  <div class="container-descripcion"> 
+  <div class="container-descripcion">
     <h3> Descripción</h3>
       <?php if ($description) { ?>
         <?php echo $description; ?>
@@ -213,9 +215,9 @@
   <?php }
   else{ ?>
     <p style="color: #000; opacity: .65;">No hay características para este producto</p>
-  <?php }?> 
+  <?php }?>
   <?php } ?>
-  
+
   </div>
 </div>
 </div>
