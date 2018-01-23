@@ -1736,6 +1736,27 @@ ul.breadcrumb {
 .product-detail .buy_now .form-group {
   display: block;
   width: 100%; }
+  .product-detail .buy_now .form-group .select-product {
+    border: 1px;
+    border-style: solid;
+    border-color: #d9d9d9;
+    min-height: 40px; }
+    .product-detail .buy_now .form-group .select-product textarea {
+      border: none; }
+    .product-detail .buy_now .form-group .select-product input {
+      border: none; }
+    .product-detail .buy_now .form-group .select-product .checkbox label {
+      display: inline; }
+      .product-detail .buy_now .form-group .select-product .checkbox label input {
+        height: 16px;
+        margin-bottom: 0;
+        margin-right: 8px; }
+    .product-detail .buy_now .form-group .select-product .radio label {
+      display: inline; }
+      .product-detail .buy_now .form-group .select-product .radio label input {
+        height: 16px;
+        margin-bottom: 0;
+        margin-right: 8px; }
   .product-detail .buy_now .form-group .input-group {
     padding-left: 0;
     width: 100%;
@@ -2840,10 +2861,10 @@ footer a:link {
       height: 50px; }
 
 /**
- * Featherlight ÔÇô ultra slim jQuery lightbox
+ * Featherlight – ultra slim jQuery lightbox
  * Version 1.7.0 - http://noelboss.github.io/featherlight/
  *
- * Copyright 2016, No├½l Raoul Bossart (http://www.noelboss.com)
+ * Copyright 2016, Noël Raoul Bossart (http://www.noelboss.com)
  * MIT Licensed.
 **/
 body.featherlight-open {
