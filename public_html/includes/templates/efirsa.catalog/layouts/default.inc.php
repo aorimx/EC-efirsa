@@ -42,17 +42,16 @@
   <?php //echo functions::draw_fonticon('fa-chevron-circle-up fa-3x', 'style="color: #000;"'); ?>
 </a>-->
 {snippet:foot_tags}
-<script src="{snippet:template_path}js/jquery.js"></script>
-<script src="{snippet:template_path}Sagan-boilerplate/assets/slick/slick.min.js"></script>
-
-
 <script src="{snippet:template_path}js/app.min.js"></script>
+<script src="{snippet:template_path}Sagan-boilerplate/assets/slick/slick.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="{snippet:template_path}js/mobilMenu.js"></script>
+<script src="{snippet:template_path}js/bootstrap.js"></script>
 <script src="{snippet:template_path}js/scripts.js"></script>
 <script src="{snippet:template_path}js/bar-order-by.js"></script>
-<script src="{snippet:template_path}js/sweetalert2/dist/sweetalert2.all.min.js"></script>
 <script src="{snippet:template_path}Sagan-boilerplate/assets/scripts/aside-categories.js"></script>
-
+<script src="{snippet:template_path}js/sweetalert2/dist/sweetalert2.all.min.js"></script>
 <script src="{snippet:template_path}Sagan-boilerplate/assets/scripts/prueba.js"></script>
 {snippet:javascript}
 </body>

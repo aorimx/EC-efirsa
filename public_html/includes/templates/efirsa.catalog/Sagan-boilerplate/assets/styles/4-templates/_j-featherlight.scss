@@ -18,6 +18,9 @@ body.featherlight-open {
 }
 
 .featherlight {
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
   display: none;
   position: fixed;
   top: 0; right: 0; bottom: 0; left: 0;
@@ -35,7 +38,6 @@ body.featherlight-open {
   * {
     box-sizing: border-box;
   }
-
   /* support for nested featherlights. Does not work in IE8 (use JS to fix) */
   &.active {
     background: rgba(0, 0, 0, 0.5);
@@ -50,6 +52,9 @@ body.featherlight-open {
   }
 
   .featherlight-content {
+    overflow-x: hidden;
+    width: 95%;
+    height: 95%;
     position: relative;
 
     /* position: centering vertical and horizontal */
@@ -57,7 +62,7 @@ body.featherlight-open {
     vertical-align: middle;
     display: inline-block;
 
-    margin: 15px 15px;
+    margin: 0;
     padding: 15px;
 
     background: #fff;
@@ -72,8 +77,8 @@ body.featherlight-open {
   .featherlight-close-icon {
     /* position: centering vertical and horizontal */
     position: absolute;
-    top: -10px;
-    right: -10px;
+    top: 0;
+    right: 0;
     z-index: 9999;
 
     width: 25px;
