@@ -16,9 +16,8 @@ $img-sm: 128px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
   .extra-images{
-    width: 80%;
+    width: 70%;
     max-width: 750px;
     display: inline-flex;
     justify-content: center;
@@ -160,11 +159,7 @@ $img-sm: 128px;
   }
   .container-images-product{
     .extra-images{
-      width: 100%;
-      @media screen and (max-width: 768px){
-        display: none;
-      }
-
+      width: 80%;
     }
     .container-img-product{
       width:100%;

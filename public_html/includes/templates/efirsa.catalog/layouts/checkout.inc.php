@@ -5,8 +5,10 @@
 <meta charset="{snippet:charset}" />
 <meta name="description" content="{snippet:description}" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="{snippet:template_path}css/font-awesome.min.css">
-  <link rel="stylesheet" href="{snippet:template_path}Sagan-boilerplate/assets/styles/main.css">
+<link rel="stylesheet" href="{snippet:template_path}css/font-awesome.min.css">
+<link rel="stylesheet" href="{snippet:template_path}Sagan-boilerplate/assets/styles/main.css">
+<link rel="stylesheet" href="{snippet:template_path}Sagan-boilerplate/assets/slick/slick.css"/>
+<link rel="stylesheet" href="{snippet:template_path}Sagan-boilerplate/assets/slick/slick-theme.css"/>
 </head>
 <body>
     <header id="header">
@@ -34,11 +36,12 @@
   </div>
 {snippet:foot_tags}
 <script src="{snippet:template_path}js/app.min.js"></script>
-<script src="{snippet:template_path}js/jquery.js"></script>
 <script src="{snippet:template_path}js/mobilMenu.js"></script>
-<script src="{snippet:template_path}js/bootstrap.min.js"></script>
 <script src="{snippet:template_path}js/scripts.js"></script>
 <script src="{snippet:template_path}Sagan-boilerplate/assets/scripts/checkout.js"></script>
+<script src="{snippet:template_path}js/jquery.js"></script>
+<script src="{snippet:template_path}Sagan-boilerplate/assets/scripts/prueba.js"></script>
+<script src="{snippet:template_path}Sagan-boilerplate/assets/slick/slick.min.js"></script>
 {snippet:javascript}
 </body>
 </html>

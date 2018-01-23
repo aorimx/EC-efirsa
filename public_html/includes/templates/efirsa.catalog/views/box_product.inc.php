@@ -10,17 +10,18 @@
       </div>
 
       <?php if ($extra_images) { ?>
-      <div class="extra-images row half-gutter">
-        <?php foreach ($extra_images as $image) { ?>
-        <div class="thumbnail-content">
-          <div class="thumbnail">
-            <a href="<?php echo htmlspecialchars($image['original']); ?>" data-toggle="lightbox" data-gallery="product">
-              <img class="img-responsive" src="<?php echo htmlspecialchars($image['thumbnail']); ?>" srcset="<?php echo htmlspecialchars($image['thumbnail']); ?> 1x, <?php echo htmlspecialchars($image['thumbnail_2x']); ?> 2x" alt="" title="<?php echo htmlspecialchars($name); ?>" />
-            </a>
+      
+        <div class=" extra-images quotes">
+          <?php foreach ($extra_images as $image) { ?>
+          <div class="thumbnail-content">
+            <div class="thumbnail">
+              <a href="<?php echo htmlspecialchars($image['original']); ?>" data-toggle="lightbox" data-gallery="product">
+                <img class="img-responsive" src="<?php echo htmlspecialchars($image['thumbnail']); ?>" srcset="<?php echo htmlspecialchars($image['thumbnail']); ?> 1x, <?php echo htmlspecialchars($image['thumbnail_2x']); ?> 2x" alt="" title="<?php echo htmlspecialchars($name); ?>" />
+              </a>
+            </div>
           </div>
+          <?php } ?>
         </div>
-        <?php } ?>
-      </div>
       <?php } ?>
     </div>
   </div>
