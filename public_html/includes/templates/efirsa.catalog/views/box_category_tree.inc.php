@@ -1,6 +1,5 @@
 <div id="box-category-tree" class="box">
   <!--Este era h2-->
-  <!--button class="backgroung-gray">Filtros</button-->
   <button class="title btn-categories"><?php echo language::translate('title_categories', 'Categories'); ?>
     <!--<i class="icon fa fa-caret-right flag-icon1 flip-right padding-le" aria-hidden="true"></i>--></button>
   <div class="categories-m">
