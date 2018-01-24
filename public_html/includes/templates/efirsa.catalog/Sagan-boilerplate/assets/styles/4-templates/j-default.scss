@@ -95,6 +95,7 @@
           border-color: #6c6c6d;
           border-bottom-style: solid;
           border-width: 2px;
+          padding-top: $space-base;
         }
 
         label,input{
@@ -266,7 +267,11 @@
   .categories-title{
     text-align: center;
   }  
+
+
   .container-filtros{
+    margin-top: $space-3;
+    margin-bottom: $space-3;
       border-radius: 0;
       a{
         border-radius: 0;
@@ -281,6 +286,8 @@
         color: $white;
       }
     }
+
+
 }
 
 .title{
@@ -294,6 +301,7 @@
   background-color: #228B22;
   text-transform: capitalize;
   margin-bottom: 0;
+  cursor: default;
 }
 .btn-filters{
   background-color: $color-primary;

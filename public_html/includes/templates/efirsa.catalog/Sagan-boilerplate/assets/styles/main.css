@@ -2589,7 +2589,8 @@ footer a:link {
     .middle-content .aside_content #box-filter .manufacturers .form-control {
       border-color: #6c6c6d;
       border-bottom-style: solid;
-      border-width: 2px; }
+      border-width: 2px;
+      padding-top: 8px; }
     .middle-content .aside_content #box-filter .manufacturers label, .middle-content .aside_content #box-filter .manufacturers input {
       margin-bottom: 0px; }
     .middle-content .aside_content #box-filter .box-manufaturer-img {
@@ -2701,6 +2702,8 @@ footer a:link {
   .middle-content .categories-title {
     text-align: center; }
   .middle-content .container-filtros {
+    margin-top: 24px;
+    margin-bottom: 24px;
     border-radius: 0; }
     .middle-content .container-filtros a {
       border-radius: 0;
@@ -2723,7 +2726,8 @@ footer a:link {
 .btn-categories {
   background-color: #228B22;
   text-transform: capitalize;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  cursor: default; }
 
 .btn-filters {
   background-color: #414042;
