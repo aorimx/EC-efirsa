@@ -1569,7 +1569,7 @@ ul.breadcrumb {
   ul.breadcrumb li {
     display: inline-block;
     text-decoration: none; }
-  ul.breadcrumb li:not(:last-child) ::after {
+  ul.breadcrumb li:not(:last-child)::after {
     padding: 0 16px;
     content: '/'; }
 
@@ -2612,14 +2612,38 @@ footer a:link {
   .middle-content .aside_content {
     width: 25%;
     padding-right: 16px; }
-    .middle-content .aside_content .box-manufacturer ul {
-      padding: 0; }
-    .middle-content .aside_content .box-manufaturer-img {
+    .middle-content .aside_content #box-category-tree .categories-m {
+      padding-top: 8px;
+      display: block;
+      border-color: #6c6c6d;
+      border-bottom-style: solid;
+      border-width: 2px;
+      overflow-x: auto; }
+      .middle-content .aside_content #box-category-tree .categories-m ul {
+        list-style: none;
+        color: red; }
+        .middle-content .aside_content #box-category-tree .categories-m ul li::before {
+          /*content: '\203A';*/ }
+        .middle-content .aside_content #box-category-tree .categories-m ul li.no-children::before {
+          /*content: '-';*/ }
+      .middle-content .aside_content #box-category-tree .categories-m .align-categories {
+        text-align: left;
+        padding-left: 40px; }
+    .middle-content .aside_content #box-filter .manufacturers ul {
+      list-style: none; }
+    .middle-content .aside_content #box-filter .manufacturers .form-control {
+      border-color: #6c6c6d;
+      border-bottom-style: solid;
+      border-width: 2px;
+      padding-top: 8px; }
+    .middle-content .aside_content #box-filter .manufacturers label, .middle-content .aside_content #box-filter .manufacturers input {
+      margin-bottom: 0px; }
+    .middle-content .aside_content #box-filter .box-manufaturer-img {
       display: inline-flex;
       flex-direction: row;
       flex-wrap: wrap;
       margin-top: 8px; }
-      .middle-content .aside_content .box-manufaturer-img .manufacturer-image {
+      .middle-content .aside_content #box-filter .box-manufaturer-img .manufacturer-image {
         width: 50px;
         margin: 0; }
   .middle-content .main_content {
@@ -2723,6 +2747,8 @@ footer a:link {
   .middle-content .categories-title {
     text-align: center; }
   .middle-content .container-filtros {
+    margin-top: 24px;
+    margin-bottom: 24px;
     border-radius: 0; }
     .middle-content .container-filtros a {
       border-radius: 0;
@@ -2746,7 +2772,7 @@ footer a:link {
   background-color: #228B22;
   text-transform: capitalize;
   margin-bottom: 0;
-  cursor: unset; }
+  cursor: default; }
 
 .btn-filters {
   background-color: #414042;
@@ -2765,15 +2791,6 @@ footer a:link {
 
 .c-oculto {
   display: none; }
-
-.categories-m {
-  padding-top: 8px;
-  display: block;
-  border-color: #6c6c6d;
-  border-bottom-style: solid; }
-  .categories-m .align-categories {
-    text-align: left;
-    padding-left: 40px; }
 
 .container-category {
   width: 100%; }
@@ -2857,10 +2874,10 @@ footer a:link {
       height: 50px; }
 
 /**
- * Featherlight ÔÇô ultra slim jQuery lightbox
+ * Featherlight – ultra slim jQuery lightbox
  * Version 1.7.0 - http://noelboss.github.io/featherlight/
  *
- * Copyright 2016, No├½l Raoul Bossart (http://www.noelboss.com)
+ * Copyright 2016, Noël Raoul Bossart (http://www.noelboss.com)
  * MIT Licensed.
 **/
 body.featherlight-open {
@@ -2888,7 +2905,7 @@ body.featherlight-open {
   cursor: pointer;
   background: #333;
   /* IE8 "hack" for nested featherlights */
-  background: rgba(0, 0, 0, 0);
+  background: transparent;
   /* support for nested featherlights. Does not work in IE8 (use JS to fix) */
   /* See http://stackoverflow.com/questions/16077341/how-to-reset-all-default-styles-of-the-html5-button-element */ }
   .featherlight * {
