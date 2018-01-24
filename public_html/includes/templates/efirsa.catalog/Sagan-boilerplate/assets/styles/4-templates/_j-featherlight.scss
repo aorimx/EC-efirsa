@@ -56,20 +56,16 @@ body.featherlight-open {
     max-width: 95%;
     max-height: 95%;
     position: relative;
-
     /* position: centering vertical and horizontal */
     text-align: left;
     vertical-align: middle;
     display: inline-block;
-
     margin: 0;
     padding: 15px;
-
     background: #fff;
     cursor: auto;
     box-shadow: 0 5px 15px rgba(0,0,0,0.5);
     border-radius: 0.25em;
-
     /* reset white-space wrapping */
     white-space: normal;
   }
