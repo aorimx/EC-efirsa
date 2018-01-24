@@ -1,16 +1,11 @@
 .sub-menu{
  /*margin-left: $space-8;*/
- @media screen and (max-width: 600px){
-    margin-left: 0;
-    width: 100%;
-    padding-right: $space-4;
+ @media screen and (max-width: 768px){
+    display: none;
   }
 }
 .breadcrumb{
   background: $white;
-  @media screen and (max-width: 768px){
-    margin-left: 0;
-  }
 }
 .separador-menu-sm{
    margin-top: $space-base;

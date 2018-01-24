@@ -53,8 +53,8 @@ body.featherlight-open {
 
   .featherlight-content {
     overflow-x: hidden;
-    width: 95%;
-    height: 95%;
+    max-width: 95%;
+    max-height: 95%;
     position: relative;
 
     /* position: centering vertical and horizontal */
