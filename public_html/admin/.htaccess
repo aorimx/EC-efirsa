@@ -5,12 +5,12 @@ ErrorDocument 401 "Access Forbidden"
 <IfModule mod_auth.c>
   AuthType Basic
   AuthName "Restricted Area"
-  AuthUserFile "C:/wamp/www/aori/Efirsa/EC-efirsa/public_html/admin/.htpasswd"
+  AuthUserFile "/Applications/MAMP/htdocs/EC-efirsa/public_html/admin/.htpasswd"
   Require valid-user
 </IfModule>
 <IfModule mod_auth_basic.c>
   AuthType Basic
   AuthName "Restricted Area"
-  AuthUserFile "C:/wamp/www/aori/Efirsa/EC-efirsa/public_html/admin/.htpasswd"
+  AuthUserFile "/Applications/MAMP/htdocs/EC-efirsa/public_html/admin/.htpasswd"
   Require valid-user
 </IfModule>
