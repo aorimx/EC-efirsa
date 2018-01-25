@@ -44,25 +44,86 @@
       }
     }
   }
+
+
   .aside_content{
     width: 25%;
     padding-right: $space-2;
-    .box-manufacturer{
-      ul{
-        padding: 0;
+
+    
+    #box-category-tree{
+
+      .categories-m{
+        padding-top: $space-base;
+        display: block;
+        border-color: #6c6c6d;
+        border-bottom-style: solid;
+        border-width: 2px;
+        overflow-x: auto;
+        ul{
+          list-style: none;
+          color:red;
+          
+          li{
+              &::before{
+                /*content: '\203A';*/
+                
+              }
+
+              &.no-children::before{
+                /*content: '-';*/
+              }
+            
+          }
+        }
+        .align-categories{
+          text-align: left;
+          padding-left: $space-5;
+        }
       }
+
     }
-    .box-manufaturer-img{
-      display: inline-flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      margin-top: $space-base;
-      .manufacturer-image{
-        width: 50px;
-        margin: 0;
+
+    #box-filter{
+      .manufacturers {
+
+        ul{
+          list-style: none;
+        }
+
+        .form-control{
+          border-color: #6c6c6d;
+          border-bottom-style: solid;
+          border-width: 2px;
+          padding-top: $space-base;
+        }
+
+        label,input{
+          margin-bottom: 0px;
+        }
+
       }
+  
+      .box-manufaturer-img{
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: $space-base;
+        .manufacturer-image{
+          width: 50px;
+          margin: 0;
+        }
+      }
+
     }
+
+   
+
   }
+
+
+
+
   .main_content{
     width: 75%;
     .search{
@@ -206,7 +267,11 @@
   .categories-title{
     text-align: center;
   }  
+
+
   .container-filtros{
+    margin-top: $space-3;
+    margin-bottom: $space-3;
       border-radius: 0;
       a{
         border-radius: 0;
@@ -221,6 +286,8 @@
         color: $white;
       }
     }
+
+
 }
 
 .title{
@@ -234,7 +301,7 @@
   background-color: #228B22;
   text-transform: capitalize;
   margin-bottom: 0;
-  cursor: unset;
+  cursor: default;
 }
 .btn-filters{
   background-color: $color-primary;
@@ -254,16 +321,7 @@
 .c-oculto{
   display: none;
 }
-.categories-m{
-  padding-top: $space-base;
-  display: block;
-  border-color: #6c6c6d;
-  border-bottom-style: solid;
-  .align-categories{
-    text-align: left;
-    padding-left: $space-5;
-  }
-}
+
 .container-category{
   width: 100%;
 }

@@ -34,10 +34,10 @@
     }
     else{      
       $box_category_tree = null;
-      echo '<button class="backgroung-gray">Filtros</button>';
       echo '<button class="title btn-categories">Categorias</button>';
       echo '<div class="categories-m">';
-      echo '<div class="padding-bottom">No hay Categorias</div>';
+      echo '<div class="padding-bottom padding-top">No hay Categorias</div>';
+      echo '<hr>';
     }
     cache::end_capture($box_category_tree_cache_id);
   }

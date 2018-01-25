@@ -223,6 +223,13 @@
 </div>
 </div>
 <script>
+    $(document).ready(function(){
+    $('.quotes').slick({
+      variableWidth: true,
+    });
+  });
+</script>
+<script>
   Number.prototype.toMoney = function() {
     var number = this;
     var decimals = <?php echo currency::$selected['decimals']; ?>;
