@@ -31,7 +31,7 @@
     <div class="container-alert">
       <div class="order-success">
         <p>NO HAY PRODUCTOS EN ESTA CATEGORÌA</p>
-        <a href="../../index_tienda.php"><button class="btn-print">Regresar</button></a>
+        <a href="<?php echo document::ilink('index_tienda'); ?>"><button class="btn-print">Regresar a la página principal</button></a>
       </div>
     </div> 
     <?php }?>

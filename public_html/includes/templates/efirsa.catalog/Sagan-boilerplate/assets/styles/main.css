@@ -2195,6 +2195,11 @@ ul.breadcrumb {
   display: flex;
   flex-wrap: wrap;
   width: 100%; }
+  .checkout .confirm .comments {
+    text-align: justify; }
+    @media screen and (max-width: 1150px) {
+      .checkout .confirm .comments {
+        text-align: center; } }
   .checkout .shopping-cart {
     width: 70%;
     padding-right: 8px;
@@ -2915,7 +2920,7 @@ body.featherlight-open {
   cursor: pointer;
   background: #333;
   /* IE8 "hack" for nested featherlights */
-  background: rgba(0, 0, 0, 0);
+  background: transparent;
   /* support for nested featherlights. Does not work in IE8 (use JS to fix) */
   /* See http://stackoverflow.com/questions/16077341/how-to-reset-all-default-styles-of-the-html5-button-element */ }
   .featherlight * {

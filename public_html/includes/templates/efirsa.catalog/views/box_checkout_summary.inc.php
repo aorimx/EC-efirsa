@@ -42,7 +42,7 @@
           <div class="alert alert-danger" style="display: none;"><?php echo htmlspecialchars($error); ?></div>
         <?php } else { ?>
         <?php } ?>
-        <div>
+        <div class="comments">
           <p class="terms-of-purchase" style="font-size: 1em; color: #a0a0a0; margin-top: 0.5em;">
             Recibiras un correo de uno de nuestros acesores para mas informacion
           </p>
