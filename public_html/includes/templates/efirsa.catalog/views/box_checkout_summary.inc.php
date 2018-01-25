@@ -37,17 +37,23 @@
         <a href="#"><p class="btn btn-block btn-lg btn-back grey oculto" id="btnback" type="submit" value="cambiar" onclick="window.location.reload()">Regresar</p></a>
         <a href="#"><p class="green" id="btncontinuar" type="submit" value="cambiar" onclick="cambiarbtn()">Continuar</p></a>
       </div>
-      <div class="padding-left padding-right padding-top">
+      <div class="padding-left padding-right padding-top" style="text-align: justify;">
         <?php if ($error) { ?>
           <div class="alert alert-danger" style="display: none;"><?php echo htmlspecialchars($error); ?></div>
         <?php } else { ?>
         <?php } ?>
         <div>
-          <p class="terms-of-purchase text-left" style="font-size: 1em; color: #a0a0a0; margin-top: 0.5em;">
+          <p class="terms-of-purchase" style="font-size: 1em; color: #a0a0a0; margin-top: 0.5em;">
             Recibiras un correo de uno de nuestros acesores para mas informacion
           </p>
-          <h4 style="color: #a0a0a0; ">Envio y Devolucion</h4>
-          <p style="font-size: 1em; color: #a0a0a0;">Si deseas cabiar o devolver tu compra tendras 90 dias para hacerlo.</p>
+
+          <div >
+              <h4 style="color: #a0a0a0; ">Envio y Devolucion</h4>
+              <p style="font-size: 1em; color: #a0a0a0;">
+                Si deseas cabiar o devolver tu compra tendras 90 dias para hacerlo.
+              </p>
+          </div>
+      
         </div>
       </div>
     </div>
