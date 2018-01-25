@@ -13,7 +13,7 @@
       width: 100%;
       form{
         @media screen and (max-width: 768px){
-          max-width: 100% !important; 
+          max-width: 100% !important;
         }
       }
     }
@@ -50,7 +50,7 @@
     width: 25%;
     padding-right: $space-2;
 
-    
+
     #box-category-tree{
 
       .categories-m{
@@ -63,17 +63,17 @@
         ul{
           list-style: none;
           color:red;
-          
+
           li{
               &::before{
                 /*content: '\203A';*/
-                
+
               }
 
               &.no-children::before{
                 /*content: '-';*/
               }
-            
+
           }
         }
         .align-categories{
@@ -103,7 +103,7 @@
         }
 
       }
-  
+
       .box-manufaturer-img{
         display: inline-flex;
         flex-direction: row;
@@ -117,7 +117,7 @@
 
     }
 
-   
+
 
   }
 
@@ -184,9 +184,9 @@
     width: 100%;
     align-items: flex-start;
 
-    
-    
-      .thumbnail-content{      
+
+
+      .thumbnail-content{
         padding-top: $space-2;
         width: 250px;
         display: flex;
@@ -195,21 +195,21 @@
         justify-content: center;
         align-content: center;
         align-items: center;
-        text-align: center;        
+        text-align: center;
         .info{
           text-align: start;
           text-transform: uppercase;
           .fa{
             padding-right: $space-base;
-          } 
+          }
         }
         .price-wrapper{
           text-align: start;
           span{
             font-weight: bold;
           }
-        }     
-      }   
+        }
+      }
       .thumbnail-category{
         width: 300px;
         display: flex;
@@ -219,8 +219,9 @@
         align-content: center;
         align-items: center;
         text-align: start;
-         
-        }      
+
+        }
+        
       .image-thumbnail {
         max-width: 100%;
         margin-bottom: 16px;
@@ -235,7 +236,7 @@
     &.row-test{
       flex-direction: column;
 
-      .thumbnail-content{ 
+      .thumbnail-content{
         width: 100%;
         .info{
           display: flex;
@@ -258,15 +259,15 @@
         min-width: 320px;
         padding: 0 1vw;
       }
-    
+
 
     }
 
 
-  } 
+  }
   .categories-title{
     text-align: center;
-  }  
+  }
 
 
   .container-filtros{
@@ -276,7 +277,7 @@
       a{
         border-radius: 0;
         background-color: $white;
-        border-color: #6c6c6d; 
+        border-color: #6c6c6d;
         color: $black;
       }
       .activo{
@@ -326,7 +327,7 @@
   width: 100%;
 }
 @media screen and (max-width: 991px){
- 
+
 }
 @media screen and (max-width: 768px){
   .middle-content{
