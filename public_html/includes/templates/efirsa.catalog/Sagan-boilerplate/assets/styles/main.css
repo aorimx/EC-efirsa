@@ -2244,6 +2244,10 @@ ul.breadcrumb {
     margin-top: 24px; }
     .checkout .custome-details .margin-left {
       margin-left: -16px; }
+    .checkout .custome-details p {
+      padding-top: 16px;
+      color: red;
+      text-align: center; }
     .checkout .custome-details .title {
       width: 105%;
       background-color: #6c6c6d !important;
