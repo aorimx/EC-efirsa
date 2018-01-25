@@ -229,7 +229,8 @@ body {
     padding-right: 16px;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    width: 100%; }
   .j-workspace .j-wrap-80 {
     margin: 0 auto;
     padding-left: 16px;
@@ -2574,6 +2575,16 @@ footer a:link {
   width: 100%;
   flex-direction: row;
   flex-wrap: wrap; }
+  .middle-content .banner-content {
+    max-width: 100%;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center; }
+    .middle-content .banner-content .nav {
+      display: none; }
+    .middle-content .banner-content .caption {
+      display: flex;
+      justify-content: center; }
   .middle-content .col-md-halfs {
     width: 50%; }
     @media screen and (max-width: 768px) {
