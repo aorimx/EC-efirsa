@@ -187,37 +187,38 @@
   <div class="attributes">
     <h3>Características</h3>
   <?php if (empty($_SERVER['HTTP_X_REQUESTED_WITH']) || strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') { ?>
-  <?php if ($attributes) { ?>
-    <table class="table table-striped table-attributes">
-<?php
-  for ($i=0; $i<count($attributes); $i++) {
-    if (strpos($attributes[$i], ':') !== false) {
-      @list($key, $value) = explode(':', $attributes[$i]);
-      echo '  <tr>' . PHP_EOL
-         . '    <td>'. trim($key) .':</td>' . PHP_EOL
-         . '    <td>'. trim($value) .'</td>' . PHP_EOL
-         . '  </tr>' . PHP_EOL;
-    } else if (trim($attributes[$i]) != '') {
-      echo '  <thead>' . PHP_EOL
-         . '    <tr>' . PHP_EOL
-         . '      <th colspan="2">'. $attributes[$i] .'</th>' . PHP_EOL
-         . '    </tr>' . PHP_EOL
-         . '  </thead>' . PHP_EOL
-         . '  <tbody>' . PHP_EOL;
-    } else {
-      echo ' </tbody>' . PHP_EOL
-         . '</table>' . PHP_EOL
-         . '<table class="table table-striped">' . PHP_EOL;
-    }
-  }
-?>
-    </table>
-  <?php }
-  else{ ?>
-    <p style="color: #000; opacity: .65;">No hay características para este producto</p>
-  <?php }?>
-  <?php } ?>
-
+    <?php if ($attributes) { ?>
+      <table class="table table-striped table-attributes">
+          <?php
+            for ($i=0; $i<count($attributes); $i++) {
+              if (strpos($attributes[$i], ':') !== false) {
+                @list($key, $value) = explode(':', $attributes[$i]);
+                echo '  <tr>' . PHP_EOL
+                  . '    <td>'. trim($key) .':</td>' . PHP_EOL
+                  . '    <td>'. trim($value) .'</td>' . PHP_EOL
+                  . '  </tr>' . PHP_EOL;
+              } else if (trim($attributes[$i]) != '') {
+                echo '  <thead>' . PHP_EOL
+                  . '    <tr>' . PHP_EOL
+                  . '      <th colspan="2">'. $attributes[$i] .'</th>' . PHP_EOL
+                  . '    </tr>' . PHP_EOL
+                  . '  </thead>' . PHP_EOL
+                  . '  <tbody>' . PHP_EOL;
+              } else {
+                echo ' </tbody>' . PHP_EOL
+                  . '</table>' . PHP_EOL
+                  . '<table class="table table-striped">' . PHP_EOL;
+              }
+            }
+          ?>
+      </table>
+    <?php }
+    else{ ?>
+      <p style="color: #414042; opacity: .65;">No hay características para este producto</p>
+    <?php }?>
+  <?php }   else{ ?>
+      <p style="color: #414042; opacity: .65;">No hay características para este producto</p>
+    <?php }?>
   </div>
 </div>
 </div>

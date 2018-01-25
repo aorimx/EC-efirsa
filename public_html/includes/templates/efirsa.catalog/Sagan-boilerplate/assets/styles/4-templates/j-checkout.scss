@@ -3,6 +3,22 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+
+
+
+
+  .confirm{
+    .comments{
+      text-align: justify;
+      @media screen and (max-width: 1150px){
+        text-align: center;
+      }
+    }
+  }
+
+
+
+
   .shopping-cart {
     width: 70%;
     padding-right: $space-base;
