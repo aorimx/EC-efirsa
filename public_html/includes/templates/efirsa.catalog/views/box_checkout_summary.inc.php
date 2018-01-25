@@ -53,7 +53,7 @@
                 Si deseas cabiar o devolver tu compra tendras 90 dias para hacerlo.
               </p>
           </div>
-      
+
         </div>
       </div>
     </div>

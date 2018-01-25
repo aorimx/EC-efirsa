@@ -7,7 +7,6 @@
   <?php } ?>
 
   <h2 class="title margin-left"><?php echo language::translate('title_customer_details', 'Customer Details'); ?></h2>
-
   <div class="address billing-address">
     <div class="row">
       <div class="form-group">
@@ -76,6 +75,7 @@
         <?php echo functions::form_draw_phone_field('phone', true, 'required="required"'); ?>
       </div>
     </div>
+    <p>Antes de continuar guarda tus cambios*</p>
     <!--<div class="row">
       <div class="form-group">
         <label><?php //echo language::translate('title_country', 'Country'); ?>Otros</label>
