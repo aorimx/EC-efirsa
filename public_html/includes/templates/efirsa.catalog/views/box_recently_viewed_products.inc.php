@@ -1,14 +1,14 @@
 <?php if(!empty($products)){ ?>
-  <div id="box-recently-viewed-products" class="title" style="padding-top: 96px;">
+  <div id="box-recently-viewed-products" class="box-recently_viewed">
 
-    <h2><?php echo language::translate('title_recently_viewed', 'Recently Viewed'); ?></h2> 
+    <h2><?php echo language::translate('title_recently_viewed', 'Recently Viewed'); ?></h2>
 
-    <div class="container-img-recently">
+    <div class="box-thumbnail">
 
       <?php foreach ($products as $product) { ?>
-      <div class="col-xs-thirds">
+      <div class="thumbnail-content">
         <a href="<?php echo htmlspecialchars($product['link']); ?>"<?php echo !empty(document::$settings['product_modal_window']) ? ' data-toggle="lightbox"' : ''; ?>>
-          <img class="img-thumbnail" src="<?php echo htmlspecialchars($product['thumbnail']); ?>" alt="" />
+          <img class="image-thumbnail" src="<?php echo htmlspecialchars($product['thumbnail']); ?>" alt="" />
           </a>
         </div>
       <?php } ?>

@@ -1,6 +1,7 @@
 // hacking "gridism.css" a little bit.
 .j-workspace {
   // won't use "wrap wider";
+  min-height: calc(100vh - (250px + 85.73px));
   box-sizing: border-box;
   margin-top: $space-8;
   width: 100%;

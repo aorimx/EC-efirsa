@@ -1,0 +1,19 @@
+
+
+.container-filtros{
+  margin-top: $space-3;
+  margin-bottom: $space-3;
+    border-radius: 0;
+    a{
+      border-radius: 0;
+      background-color: $white;
+      border-color: #6c6c6d;
+      color: $black;
+    }
+    .activo{
+      border-radius: 0;
+      background-color: #6c6c6d;
+      border-color: #6c6c6d;
+      color: $white;
+    }
+  }
