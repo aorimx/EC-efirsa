@@ -37,8 +37,8 @@
 {snippet:foot_tags}
 <script src="{snippet:template_path}js/app.min.js"></script>
 <script src="{snippet:template_path}Sagan-boilerplate/assets/slick/slick.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="{snippet:template_path}js/mobilMenu.js"></script>
 <script src="{snippet:template_path}js/bootstrap.js"></script>
 <script src="{snippet:template_path}Sagan-boilerplate/assets/scripts/checkout.js"></script>

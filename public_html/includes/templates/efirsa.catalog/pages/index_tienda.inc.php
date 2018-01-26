@@ -35,12 +35,12 @@
 </main>
 <div class="j-wrap padding-top">
   <div class="banner-content">
-    <div class="banner">
-      <div class="image-banner">
+    <!--<div class="banner">
+      <div class="image-banner">-->
         <!-- img class="image" src="../../includes/templates/default.catalog/ef-s/img/Banner.png"-->
         <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_slides.inc.php'); ?>
-      </div>
-    </div>
+      <!--</div>
+    </div>-->
   </div>
 </div>
   <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_recently_viewed_products.inc.php'); ?>
