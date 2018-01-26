@@ -1293,6 +1293,8 @@ footer {
 .derecha-footer p {
   margin: 0;
   font-size: 18px; }
+  .derecha-footer p a {
+    color: white; }
   .derecha-footer p i {
     color: #c2c3c5;
     font-size: 13px; }

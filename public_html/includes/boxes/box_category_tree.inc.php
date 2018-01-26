@@ -34,7 +34,7 @@
     }
     else{      
       $box_category_tree = null;
-      echo '<button class="title btn-categories">Categorias</button>';
+      echo '<button class="bg-color-success">Categorias</button>';
       echo '<div class="categories-m">';
       echo '<div class="padding-bottom padding-top">No hay Categorias</div>';
       echo '<hr>';
