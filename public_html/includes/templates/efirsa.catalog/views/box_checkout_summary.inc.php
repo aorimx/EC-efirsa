@@ -1,4 +1,4 @@
-<div id="box-checkout-summary" class="box">
+<div id="box-checkout-summary">
   <div class="backgroung-gray">
     <h2 class="title">Resumen</h2>
   </div>
@@ -20,7 +20,7 @@
     <div>
       <p class="text-left padding-left color-black">Su pedido es apto para instalacion inmediata</p>
     </div>
-    <div class="backgroung-black" style="display: inline-flex;">
+    <div class="backgroung-black">
       <div class="text-left td-border padding-left" colspan="5" style="width: 50%;"><strong>Total: </strong></div>
       <div class="text-right td-border padding-right" style="width: 50%;"><strong><?php echo currency::format($payment_due, false); ?></strong></div>
     </div>
@@ -30,7 +30,7 @@
       <?php echo functions::form_draw_textarea('comments', true); ?>
     </div>-->
 
-    <div class="confirm padding-top buton">
+    <div class="confirm padding-top content-butons">
       <div class="botons">
         <a href="<?php echo document::ilink('index_tienda.php'); ?>"><p class="btn btn-block btn-lg" style="background-color: #6c6c6d; margin-bottom: 5px;">Seguir comprando</p></a>
         <button class="green  oculto " id="btnconfirm" type="submit" name="confirm_order" value="true"<?php echo !empty($error) ? ' disabled="disabled"' : ''; ?>><?php echo $confirm; ?></button>

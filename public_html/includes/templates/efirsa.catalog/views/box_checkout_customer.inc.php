@@ -10,19 +10,19 @@
   <div class="address billing-address">
     <div class="row">
       <div class="form-group">
-        <label><!--<?php //echo language::translate('title_firstname', 'Firstname'); ?>-->Nombre</label>
+        <label><!--<?php //echo language::translate('title_firstname', 'Firstname'); ?>-->Nombre*</label>
         <?php echo functions::form_draw_text_field('firstname', true, 'required="required"'); ?>
       </div>
 
       <div class="form-group">
-        <label><!--<?php //echo language::translate('title_lastname', 'Lastname'); ?>-->Apellido</label>
+        <label><!--<?php //echo language::translate('title_lastname', 'Lastname'); ?>-->Apellido*</label>
         <?php echo functions::form_draw_text_field('lastname', true, 'required="required"'); ?>
       </div>
     </div>
 
     <div class="row">
       <div class="form-group">
-        <label><!--<?php //echo language::translate('title_address1', 'Address1'); ?>-->Direccion 1</label>
+        <label><!--<?php //echo language::translate('title_address1', 'Address1'); ?>-->Direccion 1*</label>
         <?php echo functions::form_draw_text_field('address1', true, 'required="required"'); ?>
       </div>
 
@@ -38,12 +38,12 @@
 
     <div class="row">
       <div class="form-group">
-        <label><!--<?php //echo language::translate('title_postcode', 'Postcode');?>-->Codigo Postal</label>
+        <label><!--<?php //echo language::translate('title_postcode', 'Postcode');?>-->Codigo Postal*</label>
         <?php echo functions::form_draw_text_field('postcode', true); ?>
       </div>
 
       <div class="form-group">
-        <label><!--<?php //echo language::translate('title_city', 'City'); ?>-->Ciudad</label>
+        <label><!--<?php //echo language::translate('title_city', 'City'); ?>-->Ciudad*</label>
         <?php echo functions::form_draw_text_field('city', true); ?>
       </div>
 
@@ -55,7 +55,7 @@
 
     <div class="row">
       <div class="form-group">
-        <label><!--<?php //echo language::translate('title_country', 'Country'); ?>-->País</label>
+        <label><!--<?php //echo language::translate('title_country', 'Country'); ?>-->País*</label>
         <?php echo functions::form_draw_countries_list('country_code', true); ?>
       </div>
 
@@ -67,15 +67,16 @@
 
     <div class="row">
       <div class="form-group">
-          <label><!--<?php //echo language::translate('title_email', 'Email'); ?>-->Email</label>
+          <label><!--<?php //echo language::translate('title_email', 'Email'); ?>-->Email*</label>
           <?php echo functions::form_draw_email_field('email', true, 'required="required"'. (!empty(customer::$data['id']) ? ' readonly="readonly"' : '')); ?>
         </div>
       <div class="form-group padding-top">
-        <label><!--<?php //echo language::translate('title_phone', 'Phone'); ?>-->Telefono</label>
+        <label><!--<?php //echo language::translate('title_phone', 'Phone'); ?>-->Telefono*</label>
         <?php echo functions::form_draw_phone_field('phone', true, 'required="required"'); ?>
       </div>
     </div>
     <p>Antes de continuar guarda tus cambios*</p>
+    <p>los campos marcados con " * " son obligatorios</p>
     <!--<div class="row">
       <div class="form-group">
         <label><?php //echo language::translate('title_country', 'Country'); ?>Otros</label>
