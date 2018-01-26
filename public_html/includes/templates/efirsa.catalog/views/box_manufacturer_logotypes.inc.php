@@ -1,5 +1,5 @@
-<div id="box-manufacturer-logotypes" class="box hidden-xs hidden-sm box-manufacturer">
-	<button class="title btn-categories">Manufacturer</button>
+<div id="box-manufacturer-logotypes" class="box-manufacturer">
+	<button class="btn-solid">Manufacturer</button>
   <ul class="list-inline text-center">
   	<div class="box-manufaturer-img">
     <?php foreach ($logotypes as $logotype) { ?>

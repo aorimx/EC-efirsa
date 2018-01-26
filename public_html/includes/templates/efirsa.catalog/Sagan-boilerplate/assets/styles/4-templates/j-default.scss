@@ -4,19 +4,6 @@
   width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
-  .banner-content{
-    max-width: 100%;
-    width: 100%;
-    display: inline-flex;
-    justify-content: center;
-    .nav{
-      display: none;
-    }
-    .caption{
-      display: flex;
-      justify-content: center;
-    }
-  }
   .col-md-halfs{
     width: 50%;
     @media screen and (max-width: 768px){
@@ -37,123 +24,12 @@
   .halfs-content{
     width: 50%;
   }
-  .half-content{
-   width: 50%;
-    @media screen and (max-width: 768px){
-      width: 100%;
-    }
-    div{
-      padding-right: $space-10;
-      padding-left: $space-10;
-      h1{
-        text-align: center;
-        font-size: $space-4;;
-      }
-      .parrafo{
-        text-align: center;
-        color: white;
-        background-color: #228b22;
-        padding: $space-2;
-      }
-    }
-  }
-
-
   .aside_content{
     width: 25%;
     padding-right: $space-2;
-
-
-    #box-category-tree{
-
-      .categories-m{
-        padding-top: $space-base;
-        display: block;
-        border-color: #6c6c6d;
-        border-bottom-style: solid;
-        border-width: 2px;
-        overflow-x: auto;
-        ul{
-          list-style: none;
-          color:red;
-
-          li{
-              &::before{
-                /*content: '\203A';*/
-
-              }
-
-              &.no-children::before{
-                /*content: '-';*/
-              }
-
-          }
-        }
-        .align-categories{
-          text-align: left;
-          padding-left: $space-5;
-        }
-      }
-
-    }
-
-    #box-filter{
-      .manufacturers {
-
-        ul{
-          list-style: none;
-        }
-
-        .form-control{
-          border-color: #6c6c6d;
-          border-bottom-style: solid;
-          border-width: 2px;
-          padding-top: $space-base;
-        }
-
-        label,input{
-          margin-bottom: 0px;
-        }
-
-      }
-
-      .box-manufaturer-img{
-        display: inline-flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-top: $space-base;
-        .manufacturer-image{
-          width: 50px;
-          margin: 0;
-        }
-      }
-
-    }
-
-
-
   }
-
-
-
-
   .main_content{
     width: 75%;
-  }
-  .input-group{
-    display: inline-flex;
-    width: 100%;
-    height: 40px;
-    .input-group-ad{
-      padding: 12px 12px;
-      font-size: 14px;
-      font-weight: normal;
-      line-height: 1;
-      color: #fff;
-      text-align: center;
-      background-color: #6c6c6d;
-      border-radius: 0;
-    }
   }
   .padding-right{
     padding-right: $space-2;
@@ -161,160 +37,17 @@
   .padding-left{
     padding-left: $space-2;
   }
-  .padding-left-lg{
-    padding-left: $space-10;
-    @media screen and (max-width: 600px){
-          padding-left: 0;
-          form{
-            width: 290px !important;
-          }
-    }
-  }
   .padding-top{
     padding-top: $space-2;
   }
   .padding-bottom{
     padding-bottom: $space-2;
   }
-  .box-thumbnail{
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-left: $space-2;
-    padding-right: $space-2;
-    width: 100%;
-    align-items: flex-start;
 
 
-
-      .thumbnail-content{
-        padding-top: $space-2;
-        width: 250px;
-        display: flex;
-        flex-direction: column;
-        margin: $space-base;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-        text-align: center;
-        .info{
-          text-align: start;
-          text-transform: uppercase;
-          .fa{
-            padding-right: $space-base;
-          }
-        }
-        .price-wrapper{
-          text-align: start;
-          span{
-            font-weight: bold;
-          }
-        }
-      }
-      .thumbnail-category{
-        width: 300px;
-        display: flex;
-        flex-direction: column;
-        margin: $space-base;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-        text-align: start;
-
-        }
-
-      .image-thumbnail {
-        max-width: 100%;
-        margin-bottom: 16px;
-        border: 1px solid #dcdcdc;
-        //box-shadow: 0px 2px 2px 2px #f2f2f2;
-        box-shadow: 0px 2px 2px 2px #ddd;
-      }
-    .image{
-      max-width: 100%;
-    }
-
-    &.row-test{
-      flex-direction: column;
-
-      .thumbnail-content{
-        width: 100%;
-        .info{
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          padding: 0 1vw;
-        }
-      }
-      .thumbnail{
-        background-color: red;
-        width: 100%;
-        .link{
-          display: flex;
-        }
-      }
-
-      .image-thumbnail {
-        border: unset;
-        box-shadow: unset;
-        min-width: 320px;
-        padding: 0 1vw;
-      }
-
-
-    }
-
-
-  }
-  .categories-title{
-    text-align: center;
-  }
-
-
-  .container-filtros{
-    margin-top: $space-3;
-    margin-bottom: $space-3;
-      border-radius: 0;
-      a{
-        border-radius: 0;
-        background-color: $white;
-        border-color: #6c6c6d;
-        color: $black;
-      }
-      .activo{
-        border-radius: 0;
-        background-color: #6c6c6d;
-        border-color: #6c6c6d;
-        color: $white;
-      }
-    }
-
-
-}
-
-.title{
-  width: 100%;
-  display: inline-flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.btn-categories{
-  background-color: #228B22;
-  text-transform: capitalize;
-  margin-bottom: 0;
-  cursor: default;
-}
-.btn-filters{
-  background-color: $color-primary;
-  text-transform: capitalize;
-  margin-bottom: 0;
 }
 .icon-down{
   transform: rotate(90deg);
-}
-.padding-le{
-  padding-left: $space-base;
 }
 .no-padding{
   padding-left: 2px;
@@ -322,13 +55,6 @@
 }
 .c-oculto{
   display: none;
-}
-
-.container-category{
-  width: 100%;
-}
-@media screen and (max-width: 991px){
-
 }
 @media screen and (max-width: 768px){
   .middle-content{
@@ -338,32 +64,9 @@
     }
     .main_content{
     width: 100%;
-    .search{
-      form{
-      .input-group{
-        width: 100%;
-      }
-    }
-    margin-top: $space-3;
-  }
   }
   }
 }
-
-
-
 #view-full-page{
   float: right;
-}
-
-.backgroung-gray{
-  padding-top: $space-2;
-  padding-bottom: $space-2;
-  width: 100%;
-  background-color: #868686;
-  margin-bottom: 8px;
-  h2{
-    color:white;
-    margin-bottom: 0;
-  }
 }

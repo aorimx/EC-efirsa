@@ -1,7 +1,7 @@
 ul.breadcrumb{
     list-style-type: none;
     padding:  0px;
-    
+
     li{
         display: inline-block;
         text-decoration: none;
@@ -12,5 +12,11 @@ ul.breadcrumb{
             content: '/';
         }
     }
-    
+
+}
+.sub-menu{
+ /*margin-left: $space-8;*/
+ @media screen and (max-width: 768px){
+    display: none;
+  }
 }

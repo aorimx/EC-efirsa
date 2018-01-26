@@ -11,7 +11,7 @@
     <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'views/box_order_by.inc.php'); ?>
   </div>
 
-  <div class="sub-menu_search">  
+  <div class="sub-menu_search">
      {snippet:breadcrumbs}
   </div>
     <h1 class="title title-search"><?php echo $title; ?></h1>

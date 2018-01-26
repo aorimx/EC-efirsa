@@ -1,4 +1,4 @@
-<div id="box-product" style="/*max-width: 980px;*/ " data-id="<?php echo $product_id; ?>">
+<div id="box-product" class="box_product" data-id="<?php echo $product_id; ?>">
   <div  class="grid">
     <div class="unit percent-70">
     <div class="container-images-product">
@@ -10,7 +10,7 @@
       </div>
 
       <?php if ($extra_images) { ?>
-      
+
         <div class=" extra-images quotes">
           <?php foreach ($extra_images as $image) { ?>
           <div class="thumbnail-content">
@@ -27,7 +27,7 @@
   </div>
     <div class="unit percent-30 product-detail">
 
-    <div class="col-sm-halfs col-md-thirds" style="margin-bottom: 1rem;">
+    <div class="col-sm-halfs col-md-thirds" >
       <h1 class="title"><?php echo $name; ?></h1>
       <div class="price-wrapper">
           <?php if ($campaign_price) { ?>
