@@ -1,5 +1,4 @@
 <div id="column-left" class="column_left">
-  
   <h1 class="titulos-banner">Tienda _</h1>
   <input id="mobile-menu-toggle" type="checkbox" style="display: none;" />
   <div class="content" style="display: block;">

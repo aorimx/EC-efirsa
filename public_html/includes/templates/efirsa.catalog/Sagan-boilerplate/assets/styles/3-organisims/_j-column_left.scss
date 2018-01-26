@@ -1,0 +1,342 @@
+
+@font-face {
+  font-family: 'Gothaml';
+  src: url('../fonts/GothamLight.ttf') format('truetype');
+
+}
+@font-face {
+  font-family: 'GothamB';
+  src: url('../fonts/GothamBold.eot');
+  src: url('../fonts/GothamBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GothamBold.woff') format('woff'),
+    url('../fonts/GothamBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GothamB';
+  src: url('../fonts/Gotham-Medium.etf');
+  src: url('../fonts/Gotham-Medium.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamB';
+  src: url('../fonts/Gotham-Book.eot');
+  src: url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gotham-Book.woff') format('woff'),
+    url('../fonts/Gotham-Book.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamB';
+  src: url('../fonts/GothamLight.eot');
+  src: url('../fonts/GothamLight.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GothamLight.woff') format('woff'),
+    url('../fonts/GothamLight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'GothamB';
+  src: url('../fonts/Gotham-Light.eot');
+  src: url('../fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gotham-Light.woff') format('woff'),
+    url('../fonts/Gotham-Light.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+
+body{
+  color: #414042;
+}
+
+a:hover, a:active{
+  text-decoration: none;
+  color: #008129;
+}
+.footer-content{
+  display: flex; 
+  justify-content: center; 
+  flex-wrap: wrap;
+  footer {
+    width: 100%;
+    max-width: 1200px;
+    .grid{ 
+      flex-direction: row;
+      .unit.half:last-child{
+        padding-right: $space-11;
+      }
+    }
+  }
+}
+.container-footer-2{
+    display: none;
+}
+.footerContacto{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-left: $space-11;
+}
+.gris-footer{
+  background-color: #d8d8d8;
+  padding-top: $space-base;
+  width: 100%;
+  max-width: 1200px;
+  .container-footer-gris{
+    width: 100%;
+    display: inline-flex;
+    .redes-gris{
+      width: 36%;
+      padding-left: $space-12;
+    }
+    .copyright-gris{
+      width: 28%;
+      .copyright{ 
+        margin-bottom: 0;
+      }
+      .copy_subtext{
+        text-align: center;
+        color: #414042;
+      }
+    }
+    .terminos-gris{
+      width: 36%;
+      padding-right: $space-12;
+    }
+  }
+}
+
+footer{
+    background-color: #58595b;
+    background-size: 100%;
+    background-position: top;
+    padding: 50px 15px 50px;
+}
+.p-footer{
+  font-size: 18px;
+  margin-top: $space-4;
+}
+.redes-footer{
+  width: 100%;
+  padding: 10px 0px 10px;
+  list-style: none;
+}
+.redes-footer li{
+    position: relative;
+    display: block;
+    float: left;
+    padding-right: 30px;
+}
+.redes-footer img{
+  width: 30px;
+}
+.copyright{
+  font-weight: bold;
+  text-align: center;
+  color: #414042;
+}
+.aviso{
+    font-weight: bold;
+    text-align: right;
+    color: #808285;
+    margin: 0;
+}
+.aviso:hover{
+    font-weight: normal;
+    color: #808285;
+}
+.logo-footer{
+  display: block;
+  margin: auto;
+}
+.logo-movil-footer{
+    max-width: 168px;
+    position: relative;
+    margin-bottom: 40px;
+}
+footer{
+  color: white;
+}
+.i-footer{
+    font-size: 16px;
+}
+
+.titulo-footer{
+    font-size: 32px;
+    color: #c2c3c5;
+    margin-top: 40px;
+}
+.derecha-footer{
+    text-align: right;
+}
+.derecha-footer p{
+    margin: 0;
+    font-size: 18px;
+    i{
+      color: #c2c3c5;
+      font-size: 13px;
+    }
+}
+.derecha-footer a:hover, .derecha-footer a{
+  color: white;
+}
+.area-ventas{
+  color: #c2c3c5 !important;
+}
+@media screen and (max-width: 900px){
+    .footerContacto{
+        height: 90%;
+        padding-right: $space-2;
+        padding-left: $space-7;
+    }
+    footer {.grid {.unit.half:last-child{
+  padding-right: $space-7;
+}
+}
+}
+.gris-footer{
+  .container-footer-gris{
+    .redes-gris{
+      padding-left: $space-9;
+    }
+    .copyright-gris{
+    }
+    .terminos-gris{
+      padding-right: $space-9;
+      p{
+        font-size: 14px;
+      }
+    }
+  }
+}
+}
+@media screen and (max-width: 768px){
+  footer {
+  .grid {
+    display: block;
+    .unit.half:last-child{
+      padding-right: 0;
+      padding-left: $space-7;
+    }
+  }
+}
+.footerContacto{
+  p{
+    font-size: 13px;
+    margin-bottom: $space-10 !important;
+    margin-top: 0;
+    }
+  }
+.derecha-footer{
+    text-align: left;
+    margin-top: -$space-7;
+    .ventas_text{
+      font-size: 13px;
+    }
+    .logo-movil-footer{
+      display: none;
+    }
+}
+.gris-footer{
+  .container-footer-gris{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    .redes-gris{
+      padding-left: 16px;
+      width: 50%;
+      order: 1;
+    }
+    .copyright-gris{
+      width: 100%;
+      order: 3;
+      .copyright{
+        font-size: 14px;
+        margin-bottom: 11px;
+      }
+        .copy_subtext{
+          text-align: center;
+          margin-bottom: 0;
+        }
+    }
+    .terminos-gris{
+      padding-right: $space-2;
+      width: 50%;
+      padding-top: $space-base;
+      order: 2;
+      p{
+        font-size: 14px;
+      }
+    }
+  }
+}
+  }
+@media screen and (max-width: 600px){
+  .footerContacto{
+    height: auto;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  .derecha-footer{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  .container{
+    height: auto !important;
+  }    
+}
+@media screen and (max-width: 600px){
+  .redes-footer img{
+    width: 20px !important;
+  }
+  .gris-footer{
+    height: 142px;
+  .container-footer-gris{
+    .redes-gris{
+      padding-left: 16px;
+      width: 44%;
+      order: 1;
+      .redes-footer{
+        li{
+          padding-right: $space-2;
+        }
+      }
+    }
+    .copyright-gris{
+      width: 100%;
+      order: 3;
+      .copyright{
+        font-size: 12px;
+        margin-bottom: 11px;
+      }
+        .copy_subtext{
+          text-align: center;
+          margin-bottom: 0;
+          font-size: 12px;
+        }
+    }
+    .terminos-gris{
+      padding-right: $space-2;
+      width: 56%;
+      padding-top: $space-base;
+      order: 2;
+      p{
+        font-size: 12px;
+      }
+    }
+  }
+}
+}
