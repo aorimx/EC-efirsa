@@ -1,0 +1,174 @@
+  .custome-details{
+    width: 100%;
+    margin-left: 0;
+    padding-left: $space-8;
+    padding-right: $space-8;
+    margin-top: $space-3;
+    .margin-left{
+      margin-left: -$space-2;
+    }
+    p{
+      padding-top: $space-2;
+      color: red;
+      text-align: center;
+    }
+    .title{
+      width: 105%;
+      background-color: #6c6c6d !important;
+      color: $white;
+      padding-left: $space-3;
+    }
+    .buton-content{
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    button{
+      background-color: #228000;
+    }
+    }
+    .form-group{
+      display: inline-flex;
+      width: 100%;
+      margin-top: $space-2;
+      label{
+        width: 25%;
+        padding-left: $space-2;
+      }
+      input{
+        width: 70%;
+        border-radius: 0px;
+      }
+      select{
+        width: 70%;
+        border-radius: 0;
+      }
+      textarea{
+        width: 70%;
+        border-radius: 0;
+      }
+      .input-group{
+        display: inline-flex;
+        width: 100%;
+        max-height: 40px;
+        margin-left: 6%;
+        input{
+          width: 83%;
+        }
+        .input-group-ad{
+          padding: 12px 12px;
+          font-size: 14px;
+          font-weight: normal;
+          line-height: 1;
+          color: #fff;
+          text-align: center;
+          background-color: #6c6c6d;
+          border-radius: 0;
+        }
+      }
+    }
+    .content {
+      display: flex;
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+@media screen and (max-width: 1150px){
+  .custome-details{
+    .form-group{
+      .input-group{
+        display: inline-flex;
+        width: 100%;
+        max-height: 40px;
+        margin-left: 6%;
+        input{
+          width: 83%;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1050px){
+  .custome-details{
+    .form-group{
+      .input-group{
+        display: inline-flex;
+        width: 100%;
+        max-height: 40px;
+        margin-left: 6%;
+        input{
+          width: 82%;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 991px){
+  .custome-details{
+    width: 100%;
+    padding-right: 0;
+    padding-left: $space-2;
+    .title{
+      width: 104%
+    }
+    .form-group{
+      display: block;
+      width: 100%;
+      label{
+        width: 100%;
+        padding-left: 0;
+      }
+      input{
+        width: 100%;
+      }
+      select{
+        width: 100%;
+      }
+      textarea{
+        width: 100%;
+        border-radius: 0;
+      }
+      .input-group{
+        padding-left: 0;
+        width: 100%;
+        margin-left: 0;
+        input{
+          width: 96%;
+        }
+        span{
+          max-width: 40px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px){
+  .custome-details{
+    .title{
+      width: 105%
+    }
+  }
+}
+@media screen and (max-width: 600px){
+  .custome-details{
+    .title{
+      width: 106%;
+      padding-left: 0;
+    }
+  }
+}
+@media screen and (max-width: 440px){
+  .custome-details{
+    .title{
+      width: 110%;
+    }
+  }
+}
+@media screen and (max-width: 320px){
+  .custome-details{
+    .title{
+      width: 112%;
+    }
+  }
+}
