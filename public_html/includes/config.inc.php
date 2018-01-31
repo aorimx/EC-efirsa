@@ -39,9 +39,9 @@
 
 // Database
   define('DB_TYPE', 'mysql');
-  define('DB_SERVER', 'localhost');
+  define('DB_SERVER', '127.0.0.1');
   define('DB_USERNAME', 'root');
-  define('DB_PASSWORD', 'root');
+  define('DB_PASSWORD', '');
   define('DB_DATABASE', 'ec-efirsa');
   define('DB_TABLE_PREFIX', 'ec_');
   define('DB_CONNECTION_CHARSET', (strtoupper(substr(PHP_OS, 0, 3)) == 'WIN') ? 'latin1' : 'utf8'); // utf8 or latin1
@@ -106,6 +106,11 @@
 // Database tables (Add-ons)
   /* Your added tables here ... */
 
+  define('DB_TABLE_PAGES_CUSTOM',                '`'. DB_DATABASE .'`.`'. DB_TABLE_PREFIX . 'pages_custom`');
+  define('DB_TABLE_PAGES_CONTENT_CUSTOM',                '`'. DB_DATABASE .'`.`'. DB_TABLE_PREFIX . 'pages_content_custom`');
+  define('DB_TABLE_PAGES_COMPONENT_CUSTOM',                '`'. DB_DATABASE .'`.`'. DB_TABLE_PREFIX . 'pages_component_custom`');
+
+
 ######################################################################
 ## Application #######################################################
 ######################################################################
@@ -117,13 +122,13 @@
   ini_set('error_log', FS_DIR_HTTP_ROOT . WS_DIR_LOGS . 'errors.log');
   ini_set('display_startup_errors', 'Off');
   ini_set('display_errors', 'Off');
-  if (in_array($_SERVER['REMOTE_ADDR'], array('127.0.0.1', '::1'))) {
+  if (in_array($_SERVER['REMOTE_ADDR'], array('127.0.0.1', '127.0.0.1'))) {
     error_reporting(E_ALL);
     ini_set('display_startup_errors', 'On');
     ini_set('display_errors', 'On');
   }
   
 // Password Encryption Salt
-  define('PASSWORD_SALT', '2xP1PhqXXvAWgfAtnsIWXzFthH5Muo9KhprYyMIPekhaiK12whWWQpUS0X8O7rDDfuV6zONchAtD6AkG4Nf81KxlUXd8UnEr3vPOM3Ckd84i1canUFCKrlg5OIRYQJVe');
+  define('PASSWORD_SALT', 'ldjYUTseQB85BeY566GrUYs0vBhHhFKfXi2dk7y5TeSrBxbvyvowDMdJDLhzt89vQfn2cykJ1BhpXaSK5rAq14qA5uaWqiLCt43B29XEGjVQuZXnuEstuymlpXtfnoDE');
   
 ?>

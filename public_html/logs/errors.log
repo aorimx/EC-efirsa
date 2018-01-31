@@ -7273,3 +7273,1298 @@ Request: POST /EC-efirsa/public_html/en/ajax/checkout_summary.html HTTP/1.1
 Client: ::1 (localhost)
 User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
 
+[25-Jan-2018 23:53:47 Europe/Berlin] Warning: mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in ~/includes/library/lib_database.inc.php on line 12
+ ← ~/includes/library/lib_database.inc.php on line 118 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 92 in query()
+ ← ~/includes/library/lib_language.inc.php on line 19 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 16 in require_once()
+Request: GET / HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[25-Jan-2018 23:53:47 Europe/Berlin] Warning: mysqli::set_charset(): Couldn't fetch mysqli in ~/includes/library/lib_database.inc.php on line 46
+ ← ~/includes/library/lib_database.inc.php on line 83 in set_charset()
+ ← ~/includes/library/lib_database.inc.php on line 14 in set_encoding()
+ ← ~/includes/library/lib_database.inc.php on line 118 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 92 in query()
+ ← ~/includes/library/lib_language.inc.php on line 19 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 16 in require_once()
+Request: GET / HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[25-Jan-2018 23:53:47 Europe/Berlin] Warning: Unknown MySQL character set for charset latin1 in ~/includes/library/lib_database.inc.php on line 84
+ ← ~/includes/library/lib_database.inc.php on line 14 in set_encoding()
+ ← ~/includes/library/lib_database.inc.php on line 118 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 92 in query()
+ ← ~/includes/library/lib_language.inc.php on line 19 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 16 in require_once()
+Request: GET / HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[25-Jan-2018 23:53:47 Europe/Berlin] Warning: mysqli::query(): Couldn't fetch mysqli in ~/includes/library/lib_database.inc.php on line 122
+ ← ~/includes/library/lib_database.inc.php on line 29 in query()
+ ← ~/includes/library/lib_database.inc.php on line 118 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 92 in query()
+ ← ~/includes/library/lib_language.inc.php on line 19 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 16 in require_once()
+Request: GET / HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[25-Jan-2018 23:53:47 Europe/Berlin] Warning: database::_error(): Couldn't fetch mysqli in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 29 in query()
+ ← ~/includes/library/lib_database.inc.php on line 118 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 92 in query()
+ ← ~/includes/library/lib_language.inc.php on line 19 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 16 in require_once()
+Request: GET / HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[25-Jan-2018 23:53:47 Europe/Berlin] Warning: database::_error(): Couldn't fetch mysqli in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 29 in query()
+ ← ~/includes/library/lib_database.inc.php on line 118 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 92 in query()
+ ← ~/includes/library/lib_language.inc.php on line 19 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 16 in require_once()
+Request: GET / HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[25-Jan-2018 23:53:47 Europe/Berlin] Fatal error:  - 
+select @@SESSION.sql_mode;
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/library/lib_database.inc.php on line 29 in query()
+ ← ~/includes/library/lib_database.inc.php on line 118 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 92 in query()
+ ← ~/includes/library/lib_language.inc.php on line 19 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 16 in require_once()
+Request: GET / HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[25-Jan-2018 23:53:53 Europe/Berlin] Fatal error: 1146 - Table 'ec-efirsa.ec_settings' doesn't exist
+select * from `ec-efirsa`.`ec_settings`
+where `key` = 'default_language_code'
+limit 1;
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/library/lib_settings.inc.php on line 57 in query()
+ ← ~/includes/library/lib_language.inc.php on line 175 in get()
+ ← ~/includes/library/lib_language.inc.php on line 104 in identify()
+ ← ~/includes/library/lib_language.inc.php on line 22 in set()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 16 in require_once()
+Request: GET / HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[25-Jan-2018 16:53:55 America/Mexico_City] Warning: include(A:/web/aori/EC-efirsa/public_html/includes/templates/default.catalog//pages/index_landing.inc.php): failed to open stream: No such file or directory in ~/includes/classes/view.inc.php on line 63
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/ HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[25-Jan-2018 16:53:55 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-efirsa/public_html/includes/templates/default.catalog//pages/index_landing.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/view.inc.php on line 63
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/ HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[26-Jan-2018 13:05:03 America/Mexico_City] PHP Parse error:  syntax error, unexpected ''template_settings'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\config.inc.php on line 25
+[26-Jan-2018 13:05:04 America/Mexico_City] PHP Parse error:  syntax error, unexpected ''template_settings'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\config.inc.php on line 25
+[26-Jan-2018 13:35:24 America/Mexico_City] PHP Parse error:  syntax error, unexpected ''template_settings'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\config.inc.php on line 31
+[26-Jan-2018 15:32:56 America/Mexico_City] Fatal error: 1_leo.app/listadocomponentes is not a valid admin document in ~/admin/index.php on line 120
+Request: GET /admin/?app=1_leo&doc=listadocomponentes HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[26-Jan-2018 15:35:24 America/Mexico_City] Notice: Undefined variable: _get in ~/admin/1_leo.app/listadopaginas.inc.php on line 2
+Request: GET /admin/?app=1_leo&doc=listadopaginas HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[26-Jan-2018 15:35:28 America/Mexico_City] Notice: Undefined variable: _get in ~/admin/1_leo.app/listadocomponentes.inc.php on line 2
+Request: GET /admin/?app=1_leo&doc=listadocomponentes HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[26-Jan-2018 17:47:15 America/Mexico_City] Fatal error: 1_leo.app/edit_category is not a valid admin document in ~/admin/index.php on line 120
+Request: GET /admin/?app=1_leo&doc=edit_category&parent_id=1234 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[26-Jan-2018 18:13:53 America/Mexico_City] Fatal error: 1_leo.app/pagedetail is not a valid admin document in ~/admin/index.php on line 120
+Request: GET /admin/?app=1_leo&doc=pagedetail HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 10:05:37 America/Mexico_City] Fatal error: 1_leo.app/listadocomponentes is not a valid admin document in ~/admin/index.php on line 120
+Request: GET /admin/?app=1_leo&doc=listadocomponentes HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 10:05:39 America/Mexico_City] Fatal error: 1_leo.app/listadocomponentes is not a valid admin document in ~/admin/index.php on line 120
+Request: GET /admin/?app=1_leo&doc=listadocomponentes HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 10:05:54 America/Mexico_City] Fatal error: 1_leo.app/listadocomponentes is not a valid admin document in ~/admin/index.php on line 120
+Request: GET /admin/?app=1_leo&doc=listadocomponentes HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 10:15:53 America/Mexico_City] Notice: Undefined index: category_id in ~/admin/1_leo.app/pagelist.inc.php on line 17
+Request: GET /admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 10:16:39 America/Mexico_City] Notice: Undefined index: category_id in ~/admin/1_leo.app/pagelist.inc.php on line 17
+Request: GET /admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 11:48:08 America/Mexico_City] Notice: Undefined variable: products_query in ~/admin/1_leo.app/pagelist.inc.php on line 56
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 11:48:08 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in A:\web\aori\EC-efirsa\public_html\includes\library\lib_database.inc.php:180
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\pagelist.inc.php(56): database::free(NULL)
+#1 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\pagelist.inc.php(78): get_pages_list()
+#2 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#3 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\includes\library\lib_database.inc.php on line 180
+[29-Jan-2018 11:48:10 America/Mexico_City] Notice: Undefined variable: products_query in ~/admin/1_leo.app/pagelist.inc.php on line 56
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 11:48:10 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in A:\web\aori\EC-efirsa\public_html\includes\library\lib_database.inc.php:180
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\pagelist.inc.php(56): database::free(NULL)
+#1 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\pagelist.inc.php(78): get_pages_list()
+#2 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#3 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\includes\library\lib_database.inc.php on line 180
+[29-Jan-2018 11:53:56 America/Mexico_City] Notice: Undefined variable: product in ~/admin/1_leo.app/pagelist.inc.php on line 49
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 11:53:56 America/Mexico_City] Notice: Undefined variable: product in ~/admin/1_leo.app/pagelist.inc.php on line 50
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 11:53:56 America/Mexico_City] Notice: Undefined variable: product in ~/admin/1_leo.app/pagelist.inc.php on line 50
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 11:53:56 America/Mexico_City] Notice: Undefined variable: category_id in ~/admin/1_leo.app/pagelist.inc.php on line 54
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 11:53:56 America/Mexico_City] Notice: Undefined variable: product in ~/admin/1_leo.app/pagelist.inc.php on line 54
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 11:53:56 America/Mexico_City] Notice: Undefined variable: product in ~/admin/1_leo.app/pagelist.inc.php on line 49
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 11:53:56 America/Mexico_City] Notice: Undefined variable: product in ~/admin/1_leo.app/pagelist.inc.php on line 50
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 11:53:56 America/Mexico_City] Notice: Undefined variable: product in ~/admin/1_leo.app/pagelist.inc.php on line 50
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 11:53:56 America/Mexico_City] Notice: Undefined variable: category_id in ~/admin/1_leo.app/pagelist.inc.php on line 54
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 11:53:56 America/Mexico_City] Notice: Undefined variable: product in ~/admin/1_leo.app/pagelist.inc.php on line 54
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 11:53:56 America/Mexico_City] Notice: Undefined variable: products_query in ~/admin/1_leo.app/pagelist.inc.php on line 57
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 11:53:56 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in A:\web\aori\EC-efirsa\public_html\includes\library\lib_database.inc.php:180
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\pagelist.inc.php(57): database::free(NULL)
+#1 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\pagelist.inc.php(79): get_pages_list()
+#2 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#3 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\includes\library\lib_database.inc.php on line 180
+[29-Jan-2018 11:55:21 America/Mexico_City] Notice: Undefined variable: product in ~/admin/1_leo.app/pagelist.inc.php on line 49
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 11:55:21 America/Mexico_City] Notice: Undefined variable: product in ~/admin/1_leo.app/pagelist.inc.php on line 49
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 11:55:21 America/Mexico_City] Notice: Undefined variable: products_query in ~/admin/1_leo.app/pagelist.inc.php on line 57
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 11:55:21 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in A:\web\aori\EC-efirsa\public_html\includes\library\lib_database.inc.php:180
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\pagelist.inc.php(57): database::free(NULL)
+#1 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\pagelist.inc.php(79): get_pages_list()
+#2 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#3 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\includes\library\lib_database.inc.php on line 180
+[29-Jan-2018 11:55:22 America/Mexico_City] Notice: Undefined variable: product in ~/admin/1_leo.app/pagelist.inc.php on line 49
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 11:55:22 America/Mexico_City] Notice: Undefined variable: product in ~/admin/1_leo.app/pagelist.inc.php on line 49
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 11:55:22 America/Mexico_City] Notice: Undefined variable: products_query in ~/admin/1_leo.app/pagelist.inc.php on line 57
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 11:55:22 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in A:\web\aori\EC-efirsa\public_html\includes\library\lib_database.inc.php:180
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\pagelist.inc.php(57): database::free(NULL)
+#1 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\pagelist.inc.php(79): get_pages_list()
+#2 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#3 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\includes\library\lib_database.inc.php on line 180
+[29-Jan-2018 11:55:41 America/Mexico_City] Notice: Undefined variable: products_query in ~/admin/1_leo.app/pagelist.inc.php on line 57
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 11:55:41 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in A:\web\aori\EC-efirsa\public_html\includes\library\lib_database.inc.php:180
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\pagelist.inc.php(57): database::free(NULL)
+#1 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\pagelist.inc.php(79): get_pages_list()
+#2 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#3 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\includes\library\lib_database.inc.php on line 180
+[29-Jan-2018 12:00:41 America/Mexico_City] Fatal error: 1_leo.app/edit_page is not a valid admin document in ~/admin/index.php on line 120
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=1&product_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 12:12:42 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'nueva' (T_STRING), expecting ',' or ')' in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\pagelist.inc.php on line 5
+[29-Jan-2018 12:13:43 America/Mexico_City] Warning: require_once(A:/web/aori/EC-efirsa/public_html/includes/classes/lnguage.inc.php): failed to open stream: No such file or directory in ~/includes/autoloader.inc.php on line 38
+ ← ~/admin/1_leo.app/pagelist.inc.php on line 5 in spl_autoload_call()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 12:13:43 America/Mexico_City] PHP Fatal error:  require_once(): Failed opening required 'A:/web/aori/EC-efirsa/public_html/includes/classes/lnguage.inc.php' (include_path='C:\xampp\php\PEAR') in A:\web\aori\EC-efirsa\public_html\includes\autoloader.inc.php on line 38
+[29-Jan-2018 12:13:58 America/Mexico_City] Warning: require_once(A:/web/aori/EC-efirsa/public_html/includes/classes/lnguage.inc.php): failed to open stream: No such file or directory in ~/includes/autoloader.inc.php on line 38
+ ← ~/admin/1_leo.app/pagelist.inc.php on line 5 in spl_autoload_call()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 12:13:58 America/Mexico_City] PHP Fatal error:  require_once(): Failed opening required 'A:/web/aori/EC-efirsa/public_html/includes/classes/lnguage.inc.php' (include_path='C:\xampp\php\PEAR') in A:\web\aori\EC-efirsa\public_html\includes\autoloader.inc.php on line 38
+[29-Jan-2018 12:26:54 America/Mexico_City] Fatal error: 1064 - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order ASC' at line 1
+select * FROM `ec-efirsa`.`ec_pages_custom` where pages_custom_id=2 order by order ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/admin/1_leo.app/edit_page.inc.php on line 25 in query()
+ ← ~/admin/1_leo.app/edit_page.inc.php on line 74 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=2 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 12:28:31 America/Mexico_City] Fatal error: 1054 - Unknown column 'pages_custom_id' in 'where clause'
+select * FROM `ec-efirsa`.`ec_pages_custom` where pages_custom_id=2 order by  position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/admin/1_leo.app/edit_page.inc.php on line 25 in query()
+ ← ~/admin/1_leo.app/edit_page.inc.php on line 74 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=2 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 12:28:33 America/Mexico_City] Fatal error: 1054 - Unknown column 'pages_custom_id' in 'where clause'
+select * FROM `ec-efirsa`.`ec_pages_custom` where pages_custom_id=2 order by  position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/admin/1_leo.app/edit_page.inc.php on line 25 in query()
+ ← ~/admin/1_leo.app/edit_page.inc.php on line 74 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=2 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 12:28:52 America/Mexico_City] Fatal error: 1054 - Unknown column 'pages_custom_id' in 'where clause'
+select * FROM `ec-efirsa`.`ec_pages_custom` where pages_custom_id=2 order by  position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/admin/1_leo.app/edit_page.inc.php on line 25 in query()
+ ← ~/admin/1_leo.app/edit_page.inc.php on line 74 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=2 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 12:30:06 America/Mexico_City] Fatal error: 1054 - Unknown column 'pages_custom_id' in 'where clause'
+select * FROM `ec-efirsa`.`ec_pages_custom` where 	pages_custom_id=2 order by  position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/admin/1_leo.app/edit_page.inc.php on line 25 in query()
+ ← ~/admin/1_leo.app/edit_page.inc.php on line 74 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=2 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 12:30:44 America/Mexico_City] Fatal error: 1054 - Unknown column 'ec_pages_custom_id' in 'where clause'
+select * FROM `ec-efirsa`.`ec_pages_custom` where 	ec_pages_custom_id=2 order by  position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/admin/1_leo.app/edit_page.inc.php on line 25 in query()
+ ← ~/admin/1_leo.app/edit_page.inc.php on line 74 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=2 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 12:30:45 America/Mexico_City] Fatal error: 1054 - Unknown column 'ec_pages_custom_id' in 'where clause'
+select * FROM `ec-efirsa`.`ec_pages_custom` where 	ec_pages_custom_id=2 order by  position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/admin/1_leo.app/edit_page.inc.php on line 25 in query()
+ ← ~/admin/1_leo.app/edit_page.inc.php on line 74 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=2 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 12:30:46 America/Mexico_City] Fatal error: 1054 - Unknown column 'ec_pages_custom_id' in 'where clause'
+select * FROM `ec-efirsa`.`ec_pages_custom` where 	ec_pages_custom_id=2 order by  position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/admin/1_leo.app/edit_page.inc.php on line 25 in query()
+ ← ~/admin/1_leo.app/edit_page.inc.php on line 74 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=2 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 12:30:46 America/Mexico_City] Fatal error: 1054 - Unknown column 'ec_pages_custom_id' in 'where clause'
+select * FROM `ec-efirsa`.`ec_pages_custom` where 	ec_pages_custom_id=2 order by  position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/admin/1_leo.app/edit_page.inc.php on line 25 in query()
+ ← ~/admin/1_leo.app/edit_page.inc.php on line 74 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=2 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 12:30:46 America/Mexico_City] Fatal error: 1054 - Unknown column 'ec_pages_custom_id' in 'where clause'
+select * FROM `ec-efirsa`.`ec_pages_custom` where 	ec_pages_custom_id=2 order by  position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/admin/1_leo.app/edit_page.inc.php on line 25 in query()
+ ← ~/admin/1_leo.app/edit_page.inc.php on line 74 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=2 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 12:31:00 America/Mexico_City] Notice: Undefined variable: pages_query in ~/admin/1_leo.app/edit_page.inc.php on line 55
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=2 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 12:31:00 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in A:\web\aori\EC-efirsa\public_html\includes\library\lib_database.inc.php:180
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(55): database::free(NULL)
+#1 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(74): get_page_component_list()
+#2 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#3 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\includes\library\lib_database.inc.php on line 180
+[29-Jan-2018 13:44:50 America/Mexico_City] Notice: Undefined index: component_name in ~/admin/1_leo.app/edit_page.inc.php on line 47
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 13:44:50 America/Mexico_City] Notice: Undefined index: component_name in ~/admin/1_leo.app/edit_page.inc.php on line 47
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 13:47:37 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'DB_TABLE_PAGES_COMPONENT_CUSTO' (T_STRING), expecting ',' or ')' in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 24
+[29-Jan-2018 13:53:07 America/Mexico_City] Fatal error: 1_leo.app/contact is not a valid admin document in ~/admin/index.php on line 120
+Request: GET /admin/?app=1_leo&doc=contact&component_id=2 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 15:04:34 America/Mexico_City] PHP Parse error:  syntax error, unexpected '?>' in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\component\hero.inc.php on line 24
+[29-Jan-2018 15:38:12 America/Mexico_City] PHP Parse error:  syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM), expecting '(' in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\component\hero.inc.php on line 26
+[29-Jan-2018 15:38:19 America/Mexico_City] PHP Parse error:  syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM), expecting '(' in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\component\hero.inc.php on line 26
+[29-Jan-2018 15:38:52 America/Mexico_City] PHP Parse error:  syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM), expecting '(' in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\component\hero.inc.php on line 26
+[29-Jan-2018 15:38:53 America/Mexico_City] PHP Parse error:  syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM), expecting '(' in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\component\hero.inc.php on line 26
+[29-Jan-2018 15:38:58 America/Mexico_City] Warning: preg_match() expects parameter 2 to be string, array given in ~/includes/functions/func_form.inc.php on line 368
+ ← ~/includes/library/lib_functions.inc.php on line 10 in form_draw_text_field()
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 26 in __callstatic()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=hero&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 15:39:27 America/Mexico_City] Warning: preg_match() expects parameter 2 to be string, array given in ~/includes/functions/func_form.inc.php on line 368
+ ← ~/includes/library/lib_functions.inc.php on line 10 in form_draw_text_field()
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 26 in __callstatic()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=hero&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 15:39:27 America/Mexico_City] Notice: Array to string conversion in ~/includes/functions/func_form.inc.php on line 368
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 26 in __callstatic()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=hero&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[29-Jan-2018 15:49:27 America/Mexico_City] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\component\hero.inc.php on line 23
+[29-Jan-2018 15:53:23 America/Mexico_City] PHP Parse error:  syntax error, unexpected '<', expecting end of file in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\component\hero.inc.php on line 30
+[30-Jan-2018 10:20:39 America/Mexico_City] PHP Parse error:  syntax error, unexpected '" where id= '"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_custom.inc.php on line 24
+[30-Jan-2018 10:20:54 America/Mexico_City] PHP Parse error:  syntax error, unexpected '" where id= '"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_custom.inc.php on line 24
+[30-Jan-2018 10:20:57 America/Mexico_City] PHP Parse error:  syntax error, unexpected '" where id= '"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_custom.inc.php on line 24
+[30-Jan-2018 10:25:21 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/edit_page.inc.php on line 25
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 12:37:46 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/edit_page.inc.php on line 25
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 12:39:49 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/edit_page.inc.php on line 24
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 12:40:51 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/edit_page.inc.php on line 24
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 12:44:30 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/edit_page.inc.php on line 24
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:04:40 America/Mexico_City] Deprecated: Non-static method ctrl_pages_custom::loadComponents() should not be called statically in ~/admin/1_leo.app/edit_page.inc.php on line 20
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:04:40 America/Mexico_City] PHP Fatal error:  Uncaught Error: Using $this when not in object context in A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_custom.inc.php:49
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(20): ctrl_pages_custom::loadComponents()
+#1 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(77): get_page_component_list()
+#2 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#3 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_custom.inc.php on line 49
+[30-Jan-2018 13:04:57 America/Mexico_City] PHP Fatal error:  Uncaught Error: Cannot use object of type ctrl_pages_custom as array in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php:28
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(77): get_page_component_list()
+#1 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#2 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 28
+[30-Jan-2018 13:05:46 America/Mexico_City] PHP Fatal error:  Uncaught Error: Cannot use object of type ctrl_pages_custom as array in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php:28
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(77): get_page_component_list()
+#1 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#2 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 28
+[30-Jan-2018 13:07:04 America/Mexico_City] PHP Fatal error:  Uncaught Error: Cannot use object of type ctrl_pages_custom as array in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php:28
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(77): get_page_component_list()
+#1 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#2 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 28
+[30-Jan-2018 13:07:07 America/Mexico_City] PHP Fatal error:  Uncaught Error: Cannot use object of type ctrl_pages_custom as array in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php:28
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(77): get_page_component_list()
+#1 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#2 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 28
+[30-Jan-2018 13:07:35 America/Mexico_City] PHP Fatal error:  Uncaught Error: Cannot use object of type ctrl_pages_custom as array in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php:28
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(77): get_page_component_list()
+#1 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#2 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 28
+[30-Jan-2018 13:07:37 America/Mexico_City] PHP Fatal error:  Uncaught Error: Cannot use object of type ctrl_pages_custom as array in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php:28
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(77): get_page_component_list()
+#1 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#2 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 28
+[30-Jan-2018 13:07:43 America/Mexico_City] PHP Fatal error:  Uncaught Error: Cannot use object of type ctrl_pages_custom as array in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php:28
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(77): get_page_component_list()
+#1 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#2 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 28
+[30-Jan-2018 13:07:54 America/Mexico_City] PHP Fatal error:  Uncaught Error: Cannot use object of type ctrl_pages_custom as array in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php:28
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(77): get_page_component_list()
+#1 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#2 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 28
+[30-Jan-2018 13:08:46 America/Mexico_City] PHP Fatal error:  Uncaught Error: Cannot use object of type ctrl_pages_custom as array in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php:29
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(78): get_page_component_list()
+#1 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#2 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 29
+[30-Jan-2018 13:09:12 America/Mexico_City] PHP Fatal error:  Uncaught Error: Cannot use object of type ctrl_pages_custom as array in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php:29
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(78): get_page_component_list()
+#1 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#2 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 29
+[30-Jan-2018 13:10:38 America/Mexico_City] PHP Fatal error:  Uncaught Error: Cannot use object of type ctrl_pages_custom as array in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php:29
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(78): get_page_component_list()
+#1 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#2 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 29
+[30-Jan-2018 13:10:39 America/Mexico_City] PHP Fatal error:  Uncaught Error: Cannot use object of type ctrl_pages_custom as array in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php:29
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(78): get_page_component_list()
+#1 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#2 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 29
+[30-Jan-2018 13:10:40 America/Mexico_City] PHP Fatal error:  Uncaught Error: Cannot use object of type ctrl_pages_custom as array in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php:29
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(78): get_page_component_list()
+#1 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#2 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 29
+[30-Jan-2018 13:12:59 America/Mexico_City] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 17
+[30-Jan-2018 13:13:17 America/Mexico_City] Notice: Undefined variable: page in ~/admin/1_leo.app/edit_page.inc.php on line 23
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:13:17 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function loadComponents() on null in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php:23
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(80): get_page_component_list()
+#1 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#2 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 23
+[30-Jan-2018 13:13:18 America/Mexico_City] Notice: Undefined variable: page in ~/admin/1_leo.app/edit_page.inc.php on line 23
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:13:18 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function loadComponents() on null in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php:23
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(80): get_page_component_list()
+#1 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#2 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 23
+[30-Jan-2018 13:13:40 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'page' (T_STRING), expecting variable (T_VARIABLE) or '$' in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 16
+[30-Jan-2018 13:13:41 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'page' (T_STRING), expecting variable (T_VARIABLE) or '$' in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 16
+[30-Jan-2018 13:13:46 America/Mexico_City] Notice: Undefined variable: page in ~/admin/1_leo.app/edit_page.inc.php on line 24
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:13:46 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function loadComponents() on null in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php:24
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(81): get_page_component_list()
+#1 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#2 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 24
+[30-Jan-2018 13:13:47 America/Mexico_City] Notice: Undefined variable: page in ~/admin/1_leo.app/edit_page.inc.php on line 24
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:13:47 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function loadComponents() on null in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php:24
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(81): get_page_component_list()
+#1 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#2 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 24
+[30-Jan-2018 13:14:43 America/Mexico_City] Notice: Undefined variable: page in ~/admin/1_leo.app/edit_page.inc.php on line 24
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:14:43 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function loadComponents() on null in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php:24
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(81): get_page_component_list()
+#1 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#2 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 24
+[30-Jan-2018 13:19:07 America/Mexico_City] Notice: Undefined index: language_code in ~/admin/1_leo.app/edit_page.inc.php on line 20
+Request: POST /admin/?app=1_leo&doc=edit_page&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:19:07 America/Mexico_City] Notice: Undefined index: language in ~/includes/controllers/ctrl_pages_custom.inc.php on line 59
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=edit_page&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:19:47 America/Mexico_City] Notice: Undefined index: language_code in ~/admin/1_leo.app/edit_page.inc.php on line 20
+Request: POST /admin/?app=1_leo&doc=edit_page&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:19:47 America/Mexico_City] Notice: Undefined index: language in ~/includes/controllers/ctrl_pages_custom.inc.php on line 59
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=edit_page&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:19:51 America/Mexico_City] Notice: Undefined index: language in ~/includes/controllers/ctrl_pages_custom.inc.php on line 59
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=edit_page&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:34:15 America/Mexico_City] Notice: Undefined variable: page in ~/admin/1_leo.app/edit_page.inc.php on line 36
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=7 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:34:15 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function loadComponents() on null in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php:36
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(93): get_page_component_list()
+#1 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#2 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 36
+[30-Jan-2018 13:34:16 America/Mexico_City] Notice: Undefined variable: page in ~/admin/1_leo.app/edit_page.inc.php on line 36
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=7 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:34:16 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function loadComponents() on null in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php:36
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(93): get_page_component_list()
+#1 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#2 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 36
+[30-Jan-2018 13:34:52 America/Mexico_City] Notice: Undefined variable: page in ~/admin/1_leo.app/edit_page.inc.php on line 37
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=7 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:34:52 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function loadComponents() on null in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php:37
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(94): get_page_component_list()
+#1 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#2 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 37
+[30-Jan-2018 13:34:53 America/Mexico_City] Notice: Undefined variable: page in ~/admin/1_leo.app/edit_page.inc.php on line 37
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=7 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:34:53 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function loadComponents() on null in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php:37
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(94): get_page_component_list()
+#1 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#2 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 37
+[30-Jan-2018 13:35:54 America/Mexico_City] Notice: Undefined variable: num_product_rows in ~/admin/1_leo.app/edit_page.inc.php on line 99
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=7 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:38:07 America/Mexico_City] Notice: Undefined variable: num_product_rows in ~/admin/1_leo.app/edit_page.inc.php on line 99
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=7 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:38:14 America/Mexico_City] Notice: Undefined variable: num_product_rows in ~/admin/1_leo.app/edit_page.inc.php on line 99
+Request: POST /admin/?app=1_leo&doc=edit_page&page_id=7 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:38:17 America/Mexico_City] Notice: Undefined variable: num_product_rows in ~/admin/1_leo.app/edit_page.inc.php on line 99
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=7 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:38:22 America/Mexico_City] Notice: Undefined variable: num_product_rows in ~/admin/1_leo.app/edit_page.inc.php on line 99
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=8 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:38:27 America/Mexico_City] Notice: Undefined variable: num_product_rows in ~/admin/1_leo.app/edit_page.inc.php on line 99
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=8 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:43:17 America/Mexico_City] Notice: Undefined variable: num_product_rows in ~/admin/1_leo.app/edit_page.inc.php on line 99
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=8 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:43:22 America/Mexico_City] Notice: Undefined variable: num_product_rows in ~/admin/1_leo.app/edit_page.inc.php on line 99
+Request: POST /admin/?app=1_leo&doc=edit_page&page_id=8 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:44:03 America/Mexico_City] Notice: Undefined variable: num_product_rows in ~/admin/1_leo.app/edit_page.inc.php on line 99
+Request: POST /admin/?app=1_leo&doc=edit_page&page_id=8 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:44:54 America/Mexico_City] Notice: Undefined variable: num_product_rows in ~/admin/1_leo.app/edit_page.inc.php on line 99
+Request: POST /admin/?app=1_leo&doc=edit_page&page_id=8 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:45:01 America/Mexico_City] Notice: Undefined variable: num_product_rows in ~/admin/1_leo.app/edit_page.inc.php on line 99
+Request: POST /admin/?app=1_leo&doc=edit_page&page_id=8 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:45:21 America/Mexico_City] Notice: Undefined variable: num_product_rows in ~/admin/1_leo.app/edit_page.inc.php on line 99
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=10 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:46:17 America/Mexico_City] Notice: Undefined variable: num_product_rows in ~/admin/1_leo.app/edit_page.inc.php on line 99
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=10 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:52:03 America/Mexico_City] Notice: Undefined variable: num_product_rows in ~/admin/1_leo.app/edit_page.inc.php on line 108
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=10 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:52:04 America/Mexico_City] Notice: Undefined variable: num_product_rows in ~/admin/1_leo.app/edit_page.inc.php on line 108
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=10 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 13:57:54 America/Mexico_City] Notice: Undefined variable: num_product_rows in ~/admin/1_leo.app/edit_page.inc.php on line 114
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=10 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 14:58:34 America/Mexico_City] Notice: Undefined index: categories in ~/admin/1_leo.app/edit_page.inc.php on line 39
+Request: POST /admin/?app=1_leo&doc=edit_page&page_id=10 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 14:58:34 America/Mexico_City] Fatal error: 1_leo.app/catalog is not a valid admin document in ~/admin/index.php on line 120
+Request: GET /admin/?app=1_leo&doc=catalog HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 14:59:06 America/Mexico_City] Fatal error: 1_leo.app/page_list is not a valid admin document in ~/admin/index.php on line 120
+Request: GET /admin/?app=1_leo&doc=page_list HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:01:36 America/Mexico_City] Notice: Undefined variable: num_product_rows in ~/admin/1_leo.app/edit_page.inc.php on line 113
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=9 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:02:06 America/Mexico_City] Notice: Undefined variable: num_product_rows in ~/admin/1_leo.app/edit_page.inc.php on line 113
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=9 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:02:12 America/Mexico_City] Notice: Undefined variable: num_product_rows in ~/admin/1_leo.app/edit_page.inc.php on line 113
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=8 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:02:20 America/Mexico_City] Notice: Undefined variable: num_product_rows in ~/admin/1_leo.app/edit_page.inc.php on line 113
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=7 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:02:25 America/Mexico_City] Notice: Undefined variable: num_product_rows in ~/admin/1_leo.app/edit_page.inc.php on line 113
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=6 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:02:30 America/Mexico_City] Notice: Undefined variable: num_product_rows in ~/admin/1_leo.app/edit_page.inc.php on line 113
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=5 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:07:05 America/Mexico_City] Notice: Undefined variable: page in ~/admin/1_leo.app/edit_page.inc.php on line 50
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=5 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:07:05 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function loadComponents() on null in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php:50
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(108): get_page_component_list()
+#1 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#2 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 50
+[30-Jan-2018 15:07:38 America/Mexico_City] Notice: Trying to get property 'data' of non-object in ~/admin/1_leo.app/edit_page.inc.php on line 80
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=5 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:07:38 America/Mexico_City] Notice: Trying to get property 'data' of non-object in ~/admin/1_leo.app/edit_page.inc.php on line 82
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=5 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:07:38 America/Mexico_City] Notice: Undefined variable: page in ~/admin/1_leo.app/edit_page.inc.php on line 50
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=5 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:07:38 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function loadComponents() on null in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php:50
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(111): get_page_component_list()
+#1 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#2 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 50
+[30-Jan-2018 15:07:39 America/Mexico_City] Notice: Trying to get property 'data' of non-object in ~/admin/1_leo.app/edit_page.inc.php on line 80
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=5 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:07:39 America/Mexico_City] Notice: Trying to get property 'data' of non-object in ~/admin/1_leo.app/edit_page.inc.php on line 82
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=5 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:07:39 America/Mexico_City] Notice: Undefined variable: page in ~/admin/1_leo.app/edit_page.inc.php on line 50
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=5 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:07:39 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function loadComponents() on null in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php:50
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(111): get_page_component_list()
+#1 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#2 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 50
+[30-Jan-2018 15:07:56 America/Mexico_City] Notice: Undefined variable: page in ~/admin/1_leo.app/edit_page.inc.php on line 50
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=5 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:07:56 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function loadComponents() on null in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php:50
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(108): get_page_component_list()
+#1 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#2 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 50
+[30-Jan-2018 15:09:40 America/Mexico_City] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 47
+[30-Jan-2018 15:11:06 America/Mexico_City] Notice: Undefined variable: num_components_rows in ~/admin/1_leo.app/edit_page.inc.php on line 113
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=5 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:22:14 America/Mexico_City] Warning: include(./component/hero.inc.php): failed to open stream: No such file or directory in ~/admin/1_leo.app/edit_component.inc.php on line 6
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_component&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:22:14 America/Mexico_City] Warning: include(): Failed opening './component/hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/admin/1_leo.app/edit_component.inc.php on line 6
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_component&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:24:56 America/Mexico_City] Fatal error: 1_leo.app/edit_component is not a valid admin document in ~/admin/index.php on line 120
+Request: GET /admin/?app=1_leo&doc=edit_component&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:27:35 America/Mexico_City] PHP Fatal error:  Uncaught Error: Cannot use object of type ctrl_pages_custom as array in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php:63
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(109): get_page_component_list(Object(ctrl_pages_custom))
+#1 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#2 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 63
+[30-Jan-2018 15:27:52 America/Mexico_City] PHP Fatal error:  Uncaught Error: Cannot use object of type ctrl_pages_custom as array in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php:63
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php(109): get_page_component_list(Object(ctrl_pages_custom))
+#1 A:\web\aori\EC-efirsa\public_html\admin\index.php(121): include('A:\\web\\aori\\EC-...')
+#2 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\edit_page.inc.php on line 63
+[30-Jan-2018 15:47:24 America/Mexico_City] Notice: Undefined index: button_title in ~/admin/1_leo.app/component/hero.inc.php on line 29
+Request: POST /admin/?app=1_leo&doc=hero&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:47:24 America/Mexico_City] Notice: Undefined index: button_link in ~/admin/1_leo.app/component/hero.inc.php on line 29
+Request: POST /admin/?app=1_leo&doc=hero&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:47:24 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/component/hero.inc.php on line 32
+Request: POST /admin/?app=1_leo&doc=hero&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:47:24 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/edit_page.inc.php on line 5
+Request: GET /admin/?app=1_leo&doc=edit_page HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:48:00 America/Mexico_City] Notice: Undefined index: button_title in ~/admin/1_leo.app/component/hero.inc.php on line 29
+Request: POST /admin/?app=1_leo&doc=hero&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:48:00 America/Mexico_City] Notice: Undefined index: button_link in ~/admin/1_leo.app/component/hero.inc.php on line 29
+Request: POST /admin/?app=1_leo&doc=hero&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:48:00 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/component/hero.inc.php on line 32
+Request: POST /admin/?app=1_leo&doc=hero&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:48:00 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/edit_page.inc.php on line 5
+Request: GET /admin/?app=1_leo&doc=edit_page HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:48:54 America/Mexico_City] Notice: Undefined index: button_title in ~/admin/1_leo.app/component/hero.inc.php on line 29
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:48:54 America/Mexico_City] Notice: Undefined index: button_link in ~/admin/1_leo.app/component/hero.inc.php on line 29
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:59:53 America/Mexico_City] Warning: Illegal string offset 'title' in ~/admin/1_leo.app/component/hero.inc.php on line 49
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:59:53 America/Mexico_City] Warning: Illegal string offset 'subtitle' in ~/admin/1_leo.app/component/hero.inc.php on line 51
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:59:53 America/Mexico_City] Warning: Illegal string offset 'btn_subtitle' in ~/admin/1_leo.app/component/hero.inc.php on line 53
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 15:59:53 America/Mexico_City] Warning: Illegal string offset 'btn_link' in ~/admin/1_leo.app/component/hero.inc.php on line 55
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:01:08 America/Mexico_City] Warning: Illegal string offset 'title' in ~/admin/1_leo.app/component/hero.inc.php on line 49
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:01:08 America/Mexico_City] Warning: Illegal string offset 'subtitle' in ~/admin/1_leo.app/component/hero.inc.php on line 51
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:01:08 America/Mexico_City] Warning: Illegal string offset 'btn_subtitle' in ~/admin/1_leo.app/component/hero.inc.php on line 53
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:01:08 America/Mexico_City] Warning: Illegal string offset 'btn_link' in ~/admin/1_leo.app/component/hero.inc.php on line 55
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:02:00 America/Mexico_City] Notice: Undefined index: title in ~/admin/1_leo.app/component/hero.inc.php on line 49
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:02:00 America/Mexico_City] Notice: Undefined index: subtitle in ~/admin/1_leo.app/component/hero.inc.php on line 51
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:02:00 America/Mexico_City] Notice: Undefined index: btn_subtitle in ~/admin/1_leo.app/component/hero.inc.php on line 53
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:02:00 America/Mexico_City] Notice: Undefined index: btn_link in ~/admin/1_leo.app/component/hero.inc.php on line 55
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:02:10 America/Mexico_City] Warning: Illegal string offset 'title' in ~/admin/1_leo.app/component/hero.inc.php on line 49
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:02:10 America/Mexico_City] Warning: Illegal string offset 'subtitle' in ~/admin/1_leo.app/component/hero.inc.php on line 51
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:02:10 America/Mexico_City] Warning: Illegal string offset 'btn_subtitle' in ~/admin/1_leo.app/component/hero.inc.php on line 53
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:02:10 America/Mexico_City] Warning: Illegal string offset 'btn_link' in ~/admin/1_leo.app/component/hero.inc.php on line 55
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:02:50 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\component\hero.inc.php on line 49
+[30-Jan-2018 16:02:56 America/Mexico_City] Warning: Illegal string offset 'title' in ~/admin/1_leo.app/component/hero.inc.php on line 49
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:02:56 America/Mexico_City] Warning: Illegal string offset 'subtitle' in ~/admin/1_leo.app/component/hero.inc.php on line 51
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:02:56 America/Mexico_City] Warning: Illegal string offset 'btn_subtitle' in ~/admin/1_leo.app/component/hero.inc.php on line 53
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:02:56 America/Mexico_City] Warning: Illegal string offset 'btn_link' in ~/admin/1_leo.app/component/hero.inc.php on line 55
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:04:37 America/Mexico_City] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\component\hero.inc.php on line 49
+[30-Jan-2018 16:04:58 America/Mexico_City] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\component\hero.inc.php on line 49
+[30-Jan-2018 16:04:58 America/Mexico_City] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\component\hero.inc.php on line 49
+[30-Jan-2018 16:04:59 America/Mexico_City] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\component\hero.inc.php on line 49
+[30-Jan-2018 16:05:19 America/Mexico_City] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\component\hero.inc.php on line 49
+[30-Jan-2018 16:05:43 America/Mexico_City] Warning: Illegal string offset 'subtitle' in ~/admin/1_leo.app/component/hero.inc.php on line 51
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:05:43 America/Mexico_City] Warning: Illegal string offset 'btn_subtitle' in ~/admin/1_leo.app/component/hero.inc.php on line 53
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:05:43 America/Mexico_City] Warning: Illegal string offset 'btn_link' in ~/admin/1_leo.app/component/hero.inc.php on line 55
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:14:00 America/Mexico_City] Warning: json_decode() expects parameter 1 to be string, array given in ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 37
+ ← ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 7 in load()
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 13 in __construct()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:14:32 America/Mexico_City] Warning: json_decode() expects parameter 1 to be string, array given in ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 37
+ ← ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 7 in load()
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 13 in __construct()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:15:02 America/Mexico_City] Warning: json_decode() expects parameter 1 to be string, array given in ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 37
+ ← ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 7 in load()
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 13 in __construct()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:15:15 America/Mexico_City] Warning: json_decode() expects parameter 1 to be string, array given in ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 37
+ ← ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 7 in load()
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 13 in __construct()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:15:52 America/Mexico_City] Warning: json_decode() expects parameter 1 to be string, array given in ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 37
+ ← ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 7 in load()
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 13 in __construct()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:16:54 America/Mexico_City] Warning: json_decode() expects parameter 1 to be string, array given in ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 37
+ ← ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 7 in load()
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 13 in __construct()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:33:36 America/Mexico_City] Notice: Undefined index: button_title in ~/admin/1_leo.app/component/hero.inc.php on line 27
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:33:36 America/Mexico_City] Notice: Undefined index: button_link in ~/admin/1_leo.app/component/hero.inc.php on line 27
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:34:28 America/Mexico_City] Notice: Undefined index: button_title in ~/admin/1_leo.app/component/hero.inc.php on line 27
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:34:28 America/Mexico_City] Notice: Undefined index: button_link in ~/admin/1_leo.app/component/hero.inc.php on line 27
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:36:29 America/Mexico_City] Warning: json_decode() expects parameter 1 to be string, array given in ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 37
+ ← ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 7 in load()
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 13 in __construct()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 16:39:47 America/Mexico_City] PHP Parse error:  syntax error, unexpected '"'"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_content_custom.inc.php on line 53
+[30-Jan-2018 16:48:57 America/Mexico_City] Warning: json_decode() expects parameter 1 to be string, array given in ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 37
+ ← ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 7 in load()
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 13 in __construct()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 18:18:07 America/Mexico_City] Notice: Undefined index: image in ~/admin/1_leo.app/component/hero.inc.php on line 53
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 18:18:12 America/Mexico_City] Notice: Undefined index: image in ~/admin/1_leo.app/component/hero.inc.php on line 53
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 18:23:27 America/Mexico_City] Notice: Undefined index: image in ~/admin/1_leo.app/component/hero.inc.php on line 54
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[30-Jan-2018 18:23:34 America/Mexico_City] Notice: Undefined index: image in ~/admin/1_leo.app/component/hero.inc.php on line 54
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
