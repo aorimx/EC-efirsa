@@ -230,3 +230,15 @@ admin/1_leo.app/component/contact.inc.php
 includes/controllers/ctrl_pages_custom.inc.php
 admin/1_leo.app/edit_component.inc.php
 includes/controllers/ctrl_pages_content_custom.inc.php
+pages/test_index.inc.php
+includes/templates/efirsa.catalog/pages/test_index.inc.php
+admin/1_leo.app/pagesection.inc.php
+admin/1_leo.app/sectiondetail.inc.php
+includes/controllers/ctrl_pages_section_custom.inc.php
+includes/controllers/ctrl_pages_component_custom.inc.php
+includes/functions/func_component.inc.php
+includes/library/lib_components.inc.php
+components/component_hero.inc.php
+includes/classes/component.inc.php
+components/hero.inc.php
+components/section.inc.php

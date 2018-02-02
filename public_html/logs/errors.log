@@ -8568,3 +8568,2613 @@ Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
 Client: 127.0.0.1 (efirsa.aori.dev)
 User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
 
+[31-Jan-2018 09:48:55 America/Mexico_City] Warning: getimagesize(): Filename cannot be empty in ~/includes/controllers/ctrl_image.inc.php on line 857
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 23 in width()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 10:02:34 America/Mexico_City] Warning: getimagesize(): Filename cannot be empty in ~/includes/controllers/ctrl_image.inc.php on line 857
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 23 in width()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 10:03:10 America/Mexico_City] Warning: getimagesize(): Filename cannot be empty in ~/includes/controllers/ctrl_image.inc.php on line 857
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 23 in width()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 10:09:25 America/Mexico_City] Warning: getimagesize(): Filename cannot be empty in ~/includes/controllers/ctrl_image.inc.php on line 857
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 23 in width()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 10:09:48 America/Mexico_City] Warning: getimagesize(): Filename cannot be empty in ~/includes/controllers/ctrl_image.inc.php on line 857
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 24 in width()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 10:12:51 America/Mexico_City] Warning: getimagesize(): Filename cannot be empty in ~/includes/controllers/ctrl_image.inc.php on line 857
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 24 in width()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 10:19:11 America/Mexico_City] Notice: Undefined variable: _FILE in ~/admin/1_leo.app/component/hero.inc.php on line 20
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 10:19:11 America/Mexico_City] Notice: Undefined index: image in ~/admin/1_leo.app/component/hero.inc.php on line 23
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 10:19:11 America/Mexico_City] Warning: getimagesize(): Filename cannot be empty in ~/includes/controllers/ctrl_image.inc.php on line 857
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 24 in width()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 10:19:35 America/Mexico_City] Notice: Undefined index: image in ~/admin/1_leo.app/component/hero.inc.php on line 20
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 10:19:35 America/Mexico_City] Notice: Undefined index: image in ~/admin/1_leo.app/component/hero.inc.php on line 23
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 10:19:35 America/Mexico_City] Warning: getimagesize(): Filename cannot be empty in ~/includes/controllers/ctrl_image.inc.php on line 857
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 24 in width()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 10:21:24 America/Mexico_City] Notice: Undefined index: image in ~/admin/1_leo.app/component/hero.inc.php on line 20
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 10:21:24 America/Mexico_City] Notice: Undefined index: image in ~/admin/1_leo.app/component/hero.inc.php on line 23
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 10:21:24 America/Mexico_City] Warning: getimagesize(): Filename cannot be empty in ~/includes/controllers/ctrl_image.inc.php on line 857
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 24 in width()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 10:22:12 America/Mexico_City] Notice: Undefined index: image in ~/admin/1_leo.app/component/hero.inc.php on line 20
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 10:22:12 America/Mexico_City] Notice: Undefined index: image in ~/admin/1_leo.app/component/hero.inc.php on line 23
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 10:22:12 America/Mexico_City] Warning: getimagesize(): Filename cannot be empty in ~/includes/controllers/ctrl_image.inc.php on line 857
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 24 in width()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 10:22:56 America/Mexico_City] Notice: Undefined index: image in ~/admin/1_leo.app/component/hero.inc.php on line 20
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 10:22:56 America/Mexico_City] Notice: Undefined index: image in ~/admin/1_leo.app/component/hero.inc.php on line 23
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 10:22:56 America/Mexico_City] Warning: getimagesize(): Filename cannot be empty in ~/includes/controllers/ctrl_image.inc.php on line 857
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 24 in width()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 11:16:27 America/Mexico_City] Notice: Undefined variable: title in ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 3
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 13 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 11:16:48 America/Mexico_City] PHP Parse error:  syntax error, unexpected '}' in A:\web\aori\EC-efirsa\public_html\includes\templates\efirsa.catalog\pages\test_index.inc.php on line 3
+[31-Jan-2018 11:17:15 America/Mexico_City] Notice: Undefined variable: title in ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 3
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 13 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 11:25:23 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in A:\web\aori\EC-efirsa\public_html\pages\test_index.inc.php on line 12
+[31-Jan-2018 11:25:59 America/Mexico_City] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in A:\web\aori\EC-efirsa\public_html\pages\test_index.inc.php on line 12
+[31-Jan-2018 11:26:13 America/Mexico_City] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in A:\web\aori\EC-efirsa\public_html\pages\test_index.inc.php on line 12
+[31-Jan-2018 12:11:49 America/Mexico_City] PHP Parse error:  syntax error, unexpected '" INNER JOIN "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_custom.inc.php on line 61
+[31-Jan-2018 12:12:02 America/Mexico_City] PHP Parse error:  syntax error, unexpected '" INNER JOIN "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_custom.inc.php on line 62
+[31-Jan-2018 12:12:04 America/Mexico_City] PHP Parse error:  syntax error, unexpected '" INNER JOIN "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_custom.inc.php on line 62
+[31-Jan-2018 12:21:21 America/Mexico_City] Notice: Undefined offset: 1 in ~/pages/test_index.inc.php on line 12
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 12:21:21 America/Mexico_City] Warning: array_intersect_key(): Argument #1 is not an array in ~/pages/test_index.inc.php on line 13
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 12:21:21 America/Mexico_City] Warning: array_replace(): Argument #2 is not an array in ~/pages/test_index.inc.php on line 13
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 12:21:21 America/Mexico_City] Warning: Invalid argument supplied for foreach() in ~/pages/test_index.inc.php on line 15
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 12:24:05 America/Mexico_City] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in A:\web\aori\EC-efirsa\public_html\includes\library\lib_database.inc.php on line 122
+[31-Jan-2018 12:24:38 America/Mexico_City] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in A:\web\aori\EC-efirsa\public_html\includes\library\lib_database.inc.php on line 122
+[31-Jan-2018 12:24:38 America/Mexico_City] Notice: Undefined variable: page_custom in ~/pages/test_index.inc.php on line 19
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 12:24:38 America/Mexico_City] Warning: Invalid argument supplied for foreach() in ~/pages/test_index.inc.php on line 19
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 12:24:38 America/Mexico_City] Notice: Undefined variable: page_custom in ~/pages/test_index.inc.php on line 19
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 12:24:38 America/Mexico_City] Warning: Invalid argument supplied for foreach() in ~/pages/test_index.inc.php on line 19
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 12:25:34 America/Mexico_City] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in A:\web\aori\EC-efirsa\public_html\includes\library\lib_database.inc.php on line 122
+[31-Jan-2018 12:32:52 America/Mexico_City] PHP Parse error:  syntax error, unexpected ';', expecting ')' in A:\web\aori\EC-efirsa\public_html\pages\test_index.inc.php on line 14
+[31-Jan-2018 12:49:25 America/Mexico_City] Notice: Undefined variable: data_aux in ~/includes/controllers/ctrl_pages_custom.inc.php on line 59
+ ← ~/admin/1_leo.app/edit_page.inc.php on line 119 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=2 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 12:49:25 America/Mexico_City] Warning: Invalid argument supplied for foreach() in ~/admin/1_leo.app/edit_page.inc.php on line 48
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=2 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 12:50:11 America/Mexico_City] Notice: Undefined variable: data_aux in ~/includes/controllers/ctrl_pages_custom.inc.php on line 59
+ ← ~/admin/1_leo.app/edit_page.inc.php on line 120 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=2 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 15:23:46 America/Mexico_City] Fatal error: 1054 - Unknown column 'ec_pages_custom_id' in 'where clause'
+select * FROM `ec-efirsa`.`ec_pages_content_custom` inner join `ec-efirsa`.`ec_pages_component_custom`on `ec-efirsa`.`ec_pages_component_custom`.id = ec_pages_component_custom_id where 	ec_pages_custom_id=1 order by  position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 53 in query()
+ ← ~/admin/1_leo.app/pagesection.inc.php on line 41 in loadComponents()
+ ← ~/admin/1_leo.app/pagesection.inc.php on line 98 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagesection&page_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 15:40:21 America/Mexico_City] Fatal error: 1054 - Unknown column 'ec_pages_section_custom' in 'where clause'
+select * FROM `ec-efirsa`.`ec_pages_component_custom` where 	ec_pages_section_custom=1 order by  position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 51 in query()
+ ← ~/admin/1_leo.app/pagesection.inc.php on line 41 in loadSection()
+ ← ~/admin/1_leo.app/pagesection.inc.php on line 98 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagesection&page_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 15:40:22 America/Mexico_City] Fatal error: 1054 - Unknown column 'ec_pages_section_custom' in 'where clause'
+select * FROM `ec-efirsa`.`ec_pages_component_custom` where 	ec_pages_section_custom=1 order by  position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 51 in query()
+ ← ~/admin/1_leo.app/pagesection.inc.php on line 41 in loadSection()
+ ← ~/admin/1_leo.app/pagesection.inc.php on line 98 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagesection&page_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 15:41:20 America/Mexico_City] Fatal error: 1054 - Unknown column 'ec_pages_section_custom' in 'where clause'
+select * FROM `ec-efirsa`.`ec_pages_component_custom` where 	ec_pages_section_custom=1
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 50 in query()
+ ← ~/admin/1_leo.app/pagesection.inc.php on line 41 in loadSection()
+ ← ~/admin/1_leo.app/pagesection.inc.php on line 98 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagesection&page_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 15:41:39 America/Mexico_City] Fatal error: 1054 - Unknown column 'ec_pages_custom_id' in 'where clause'
+select * FROM `ec-efirsa`.`ec_pages_component_custom` where 	ec_pages_custom_id=1 order by  position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 51 in query()
+ ← ~/admin/1_leo.app/pagesection.inc.php on line 41 in loadSection()
+ ← ~/admin/1_leo.app/pagesection.inc.php on line 98 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagesection&page_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 15:42:09 America/Mexico_City] Fatal error: 1054 - Unknown column 'ec_pages_custom_id' in 'where clause'
+select * FROM `ec-efirsa`.`ec_pages_component_custom` where 	ec_pages_custom_id=1
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 50 in query()
+ ← ~/admin/1_leo.app/pagesection.inc.php on line 41 in loadSection()
+ ← ~/admin/1_leo.app/pagesection.inc.php on line 98 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagesection&page_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 15:42:39 America/Mexico_City] Notice: Undefined index: edit_view in ~/admin/1_leo.app/pagesection.inc.php on line 53
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagesection&page_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 15:42:39 America/Mexico_City] Notice: Undefined index: edit_view in ~/admin/1_leo.app/pagesection.inc.php on line 53
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagesection&page_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 15:42:59 America/Mexico_City] Notice: Undefined index: edit_view in ~/admin/1_leo.app/pagesection.inc.php on line 53
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagesection&page_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 15:42:59 America/Mexico_City] Notice: Undefined index: edit_view in ~/admin/1_leo.app/pagesection.inc.php on line 53
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagesection&page_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 15:45:01 America/Mexico_City] Notice: Undefined index: edit_view in ~/admin/1_leo.app/pagesection.inc.php on line 53
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagesection&page_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 15:45:01 America/Mexico_City] Notice: Undefined index: edit_view in ~/admin/1_leo.app/pagesection.inc.php on line 53
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=pagesection&page_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 15:46:13 America/Mexico_City] Fatal error: 1054 - Unknown column 'ec_pages_custom_id' in 'where clause'
+select * FROM `ec-efirsa`.`ec_pages_content_custom` inner join `ec-efirsa`.`ec_pages_component_custom`on `ec-efirsa`.`ec_pages_component_custom`.id = ec_pages_component_custom_id where 	ec_pages_custom_id=1 order by  position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 66 in query()
+ ← ~/admin/1_leo.app/edit_page.inc.php on line 43 in loadComponents()
+ ← ~/admin/1_leo.app/edit_page.inc.php on line 100 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 15:47:08 America/Mexico_City] Fatal error: 1054 - Unknown column 'ec_pages_custom_id' in 'where clause'
+select * FROM `ec-efirsa`.`ec_pages_content_custom` inner join `ec-efirsa`.`ec_pages_component_custom`on `ec-efirsa`.`ec_pages_component_custom`.id = ec_pages_component_custom_id where 	ec_pages_custom_id=1 order by  position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 66 in query()
+ ← ~/admin/1_leo.app/edit_page.inc.php on line 43 in loadComponents()
+ ← ~/admin/1_leo.app/edit_page.inc.php on line 100 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 15:48:27 America/Mexico_City] Fatal error: 1054 - Unknown column 'ec_pages_custom_id' in 'where clause'
+select * FROM `ec-efirsa`.`ec_pages_content_custom` inner join `ec-efirsa`.`ec_pages_component_custom`on `ec-efirsa`.`ec_pages_component_custom`.id = ec_pages_component_custom_id where 	ec_pages_custom_id=1 order by  position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 66 in query()
+ ← ~/admin/1_leo.app/edit_page.inc.php on line 43 in loadComponents()
+ ← ~/admin/1_leo.app/edit_page.inc.php on line 100 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 15:49:51 America/Mexico_City] Fatal error: 1054 - Unknown column 'ec_pages_custom_id' in 'where clause'
+select * FROM `ec-efirsa`.`ec_pages_content_custom` inner join `ec-efirsa`.`ec_pages_component_custom`on `ec-efirsa`.`ec_pages_component_custom`.id = ec_pages_component_custom_id where 	ec_pages_custom_id=1 order by  position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 66 in query()
+ ← ~/admin/1_leo.app/sectiondetail.inc.php on line 43 in loadComponents()
+ ← ~/admin/1_leo.app/sectiondetail.inc.php on line 100 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 15:50:38 America/Mexico_City] Fatal error: 1054 - Unknown column 'ec_pages_custom_id' in 'where clause'
+select * FROM `ec-efirsa`.`ec_pages_content_custom` inner join `ec-efirsa`.`ec_pages_component_custom`on `ec-efirsa`.`ec_pages_component_custom`.id = ec_pages_component_custom_id where 	ec_pages_custom_id=1 order by  position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 66 in query()
+ ← ~/admin/1_leo.app/sectiondetail.inc.php on line 43 in loadComponents()
+ ← ~/admin/1_leo.app/sectiondetail.inc.php on line 100 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 15:51:08 America/Mexico_City] Fatal error: 1054 - Unknown column 'ec_pages_custom_id' in 'where clause'
+select * FROM `ec-efirsa`.`ec_pages_content_custom` inner join `ec-efirsa`.`ec_pages_component_custom`on `ec-efirsa`.`ec_pages_component_custom`.id = ec_pages_component_custom_id where 	ec_pages_custom_id=1 order by  position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 66 in query()
+ ← ~/admin/1_leo.app/sectiondetail.inc.php on line 43 in loadComponents()
+ ← ~/admin/1_leo.app/sectiondetail.inc.php on line 100 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 15:51:16 America/Mexico_City] Fatal error: 1054 - Unknown column 'ec_pages_custom_id' in 'where clause'
+select * FROM `ec-efirsa`.`ec_pages_content_custom` inner join `ec-efirsa`.`ec_pages_component_custom`on `ec-efirsa`.`ec_pages_component_custom`.id = ec_pages_component_custom_id where 	ec_pages_custom_id=1 order by  position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 66 in query()
+ ← ~/admin/1_leo.app/sectiondetail.inc.php on line 43 in loadComponents()
+ ← ~/admin/1_leo.app/sectiondetail.inc.php on line 100 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 15:52:02 America/Mexico_City] Fatal error: 1054 - Unknown column 'ec_pages_custom_id' in 'where clause'
+select * FROM `ec-efirsa`.`ec_pages_content_custom` inner join `ec-efirsa`.`ec_pages_component_custom`on `ec-efirsa`.`ec_pages_component_custom`.id = ec_pages_component_custom_id where 	ec_pages_custom_id=1 order by  position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 66 in query()
+ ← ~/admin/1_leo.app/sectiondetail.inc.php on line 43 in loadComponents()
+ ← ~/admin/1_leo.app/sectiondetail.inc.php on line 100 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 15:56:14 America/Mexico_City] Fatal error: 1054 - Unknown column 'ec_pages_custom_id' in 'where clause'
+select * FROM `ec-efirsa`.`ec_pages_content_custom` inner join `ec-efirsa`.`ec_pages_component_custom`on `ec-efirsa`.`ec_pages_component_custom`.id = ec_pages_component_custom_id where 	ec_pages_custom_id=1 order by  position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 66 in query()
+ ← ~/admin/1_leo.app/sectiondetail.inc.php on line 43 in loadComponents()
+ ← ~/admin/1_leo.app/sectiondetail.inc.php on line 100 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:17:37 America/Mexico_City] Fatal error: 1054 - Unknown column 'ec_pages_custom_id' in 'where clause'
+select * FROM `ec-efirsa`.`ec_pages_content_custom` inner join `ec-efirsa`.`ec_pages_component_custom`on `ec-efirsa`.`ec_pages_component_custom`.id = ec_pages_component_custom_id where 	ec_pages_custom_id=1 order by  position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 66 in query()
+ ← ~/admin/1_leo.app/sectiondetail.inc.php on line 43 in loadComponents()
+ ← ~/admin/1_leo.app/sectiondetail.inc.php on line 100 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:18:43 America/Mexico_City] Warning: require_once(A:/web/aori/EC-efirsa/public_html/includes/controllers/ctrl_pages_section_custom.inc.php): failed to open stream: No such file or directory in ~/includes/autoloader.inc.php on line 5
+ ← ~/admin/1_leo.app/sectiondetail.inc.php on line 19 in spl_autoload_call()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:18:43 America/Mexico_City] PHP Fatal error:  require_once(): Failed opening required 'A:/web/aori/EC-efirsa/public_html/includes/controllers/ctrl_pages_section_custom.inc.php' (include_path='C:\xampp\php\PEAR') in A:\web\aori\EC-efirsa\public_html\includes\autoloader.inc.php on line 5
+[31-Jan-2018 16:18:45 America/Mexico_City] Warning: require_once(A:/web/aori/EC-efirsa/public_html/includes/controllers/ctrl_pages_section_custom.inc.php): failed to open stream: No such file or directory in ~/includes/autoloader.inc.php on line 5
+ ← ~/admin/1_leo.app/sectiondetail.inc.php on line 19 in spl_autoload_call()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:18:45 America/Mexico_City] PHP Fatal error:  require_once(): Failed opening required 'A:/web/aori/EC-efirsa/public_html/includes/controllers/ctrl_pages_section_custom.inc.php' (include_path='C:\xampp\php\PEAR') in A:\web\aori\EC-efirsa\public_html\includes\autoloader.inc.php on line 5
+[31-Jan-2018 16:19:14 America/Mexico_City] Notice: Undefined index: title in ~/admin/1_leo.app/sectiondetail.inc.php on line 69
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:19:14 America/Mexico_City] Notice: Undefined index: language_code in ~/admin/1_leo.app/sectiondetail.inc.php on line 71
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:19:14 America/Mexico_City] Fatal error: 1054 - Unknown column 'content.component_content' in 'field list'
+SELECT content.component_content,component.name, component.edit_view  FROM `ec-efirsa`.`ec_pages_section_custom` AS section  INNER JOIN `ec-efirsa`.`ec_pages_component_custom` AS content ON content.ec_pages_section_custom_id = section.id  INNER JOIN `ec-efirsa`.`ec_pages_component_custom` AS component ON component.id = content.ec_pages_component_custom_id  WHERE section.id = 1 ORDER BY content.position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 47 in query()
+ ← ~/admin/1_leo.app/sectiondetail.inc.php on line 43 in loadComponents()
+ ← ~/admin/1_leo.app/sectiondetail.inc.php on line 100 in get_page_component_list()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:20:06 America/Mexico_City] Notice: Undefined index: title in ~/admin/1_leo.app/sectiondetail.inc.php on line 69
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:20:06 America/Mexico_City] Notice: Undefined index: language_code in ~/admin/1_leo.app/sectiondetail.inc.php on line 71
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:20:06 America/Mexico_City] Notice: Undefined index: id in ~/admin/1_leo.app/sectiondetail.inc.php on line 50
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:20:06 America/Mexico_City] Notice: Undefined index: id in ~/admin/1_leo.app/sectiondetail.inc.php on line 50
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:20:06 America/Mexico_City] Notice: Undefined index: id in ~/admin/1_leo.app/sectiondetail.inc.php on line 55
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:20:06 America/Mexico_City] Notice: Undefined index: id in ~/admin/1_leo.app/sectiondetail.inc.php on line 50
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:20:06 America/Mexico_City] Notice: Undefined index: id in ~/admin/1_leo.app/sectiondetail.inc.php on line 50
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:20:06 America/Mexico_City] Notice: Undefined index: id in ~/admin/1_leo.app/sectiondetail.inc.php on line 55
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:21:09 America/Mexico_City] PHP Parse error:  syntax error, unexpected '_CUSTOM' (T_STRING), expecting ',' or ')' in A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_section_custom.inc.php on line 44
+[31-Jan-2018 16:21:20 America/Mexico_City] PHP Parse error:  syntax error, unexpected '_CUSTOM' (T_STRING), expecting ',' or ')' in A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_section_custom.inc.php on line 44
+[31-Jan-2018 16:21:38 America/Mexico_City] PHP Parse error:  syntax error, unexpected '_CUSTOM' (T_STRING), expecting ',' or ')' in A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_section_custom.inc.php on line 44
+[31-Jan-2018 16:21:39 America/Mexico_City] PHP Parse error:  syntax error, unexpected '_CUSTOM' (T_STRING), expecting ',' or ')' in A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_section_custom.inc.php on line 44
+[31-Jan-2018 16:22:18 America/Mexico_City] Notice: Undefined index: title in ~/admin/1_leo.app/sectiondetail.inc.php on line 69
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:22:18 America/Mexico_City] Notice: Undefined index: language_code in ~/admin/1_leo.app/sectiondetail.inc.php on line 71
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:22:59 America/Mexico_City] Notice: Undefined index: title in ~/admin/1_leo.app/sectiondetail.inc.php on line 69
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:22:59 America/Mexico_City] Notice: Undefined index: language_code in ~/admin/1_leo.app/sectiondetail.inc.php on line 71
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:23:21 America/Mexico_City] Notice: Undefined index: ec_pages_custom_id in ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 52
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:23:21 America/Mexico_City] Fatal error: 1054 - Unknown column 'ec_pages_custom_id' in 'field list'
+update `ec-efirsa`.`ec_pages_content_custom` set  component_content='{"title":"Test hero","subtitle":"Subtitle","btn_title":"btn_title","btn_link":"btn_link","imagen":"hero.png"}', position='0', ec_pages_custom_id=''  where id='1'
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 53 in query()
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 51 in save()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:23:41 America/Mexico_City] Notice: Undefined index: title in ~/admin/1_leo.app/sectiondetail.inc.php on line 69
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:23:41 America/Mexico_City] Notice: Undefined index: language_code in ~/admin/1_leo.app/sectiondetail.inc.php on line 71
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:23:55 America/Mexico_City] Notice: Undefined index: title in ~/admin/1_leo.app/sectiondetail.inc.php on line 69
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:23:55 America/Mexico_City] Notice: Undefined index: language_code in ~/admin/1_leo.app/sectiondetail.inc.php on line 71
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:24:43 America/Mexico_City] Notice: Undefined index: language_code in ~/admin/1_leo.app/sectiondetail.inc.php on line 24
+Request: POST /admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:24:43 America/Mexico_City] Fatal error: 1_leo.app/edit_page is not a valid admin document in ~/admin/index.php on line 120
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:24:56 America/Mexico_City] Notice: Undefined index: section_id in ~/admin/1_leo.app/sectiondetail.inc.php on line 19
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:26:27 America/Mexico_City] Notice: Undefined index: language_code in ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 88
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:26:27 America/Mexico_City] Notice: Undefined index: title in ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 88
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:26:27 America/Mexico_City] Fatal error: 1_leo.app/edit_page is not a valid admin document in ~/admin/index.php on line 120
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:28:15 America/Mexico_City] Fatal error: 1_leo.app/edit_page is not a valid admin document in ~/admin/index.php on line 120
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:33:33 America/Mexico_City] Notice: Undefined index: meta_description in ~/admin/1_leo.app/pagesection.inc.php on line 72
+Request: GET /admin/?app=1_leo&doc=pagesection&page_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:39:26 America/Mexico_City] Fatal error: 1_leo.app/edit_page is not a valid admin document in ~/admin/index.php on line 120
+Request: GET /admin/?app=1_leo&doc=edit_page&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:40:05 America/Mexico_City] Fatal error: 1_leo.app/edit_page is not a valid admin document in ~/admin/index.php on line 120
+Request: GET /admin/?app=1_leo&doc=edit_page&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:40:47 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/sectiondetail.inc.php on line 5
+Request: GET /admin/?app=1_leo&doc=sectiondetail&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:41:16 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/sectiondetail.inc.php on line 5
+Request: GET /admin/?app=1_leo&doc=sectiondetail&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:45:13 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/sectiondetail.inc.php on line 5
+Request: GET /admin/?app=1_leo&doc=sectiondetail&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:57:00 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/pagesection.inc.php on line 27
+Request: POST /admin/?app=1_leo&doc=pagesection&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 16:59:53 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/sectiondetail.inc.php on line 5
+Request: GET /admin/?app=1_leo&doc=sectiondetail&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:00:18 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/sectiondetail.inc.php on line 5
+Request: GET /admin/?app=1_leo&doc=sectiondetail&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:00:32 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/sectiondetail.inc.php on line 5
+Request: POST /admin/?app=1_leo&doc=sectiondetail&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:00:32 America/Mexico_City] Notice: Undefined index: language_code in ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 81
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=sectiondetail&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:00:32 America/Mexico_City] Notice: Undefined index: title in ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 81
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=sectiondetail&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:00:32 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/sectiondetail.inc.php on line 28
+Request: POST /admin/?app=1_leo&doc=sectiondetail&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:00:32 America/Mexico_City] Fatal error: 1_leo.app/edit_page is not a valid admin document in ~/admin/index.php on line 120
+Request: GET /admin/?app=1_leo&doc=edit_page HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:00:35 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/sectiondetail.inc.php on line 5
+Request: GET /admin/?app=1_leo&doc=sectiondetail&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:05:46 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/sectiondetail.inc.php on line 5
+Request: GET /admin/?app=1_leo&doc=sectiondetail&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:05:59 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/sectiondetail.inc.php on line 5
+Request: POST /admin/?app=1_leo&doc=sectiondetail&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:05:59 America/Mexico_City] Notice: Undefined index: language_code in ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 81
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=sectiondetail&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:05:59 America/Mexico_City] Notice: Undefined index: title in ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 81
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=sectiondetail&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:05:59 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/sectiondetail.inc.php on line 28
+Request: POST /admin/?app=1_leo&doc=sectiondetail&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:06:00 America/Mexico_City] Fatal error: 1_leo.app/edit_page is not a valid admin document in ~/admin/index.php on line 120
+Request: GET /admin/?app=1_leo&doc=edit_page HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:06:03 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/sectiondetail.inc.php on line 5
+Request: GET /admin/?app=1_leo&doc=sectiondetail&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:06:35 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/sectiondetail.inc.php on line 5
+Request: GET /admin/?app=1_leo&doc=sectiondetail&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:06:38 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/sectiondetail.inc.php on line 5
+Request: POST /admin/?app=1_leo&doc=sectiondetail&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:06:38 America/Mexico_City] Notice: Undefined index: language_code in ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 81
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=sectiondetail&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:06:38 America/Mexico_City] Notice: Undefined index: title in ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 81
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=sectiondetail&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:06:38 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/sectiondetail.inc.php on line 28
+Request: POST /admin/?app=1_leo&doc=sectiondetail&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:07:00 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/sectiondetail.inc.php on line 5
+Request: GET /admin/?app=1_leo&doc=sectiondetail&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:07:57 America/Mexico_City] Notice: Undefined index: section_id in ~/admin/1_leo.app/sectiondetail.inc.php on line 19
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=3&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:08:03 America/Mexico_City] Notice: Undefined index: section_id in ~/admin/1_leo.app/sectiondetail.inc.php on line 19
+Request: POST /admin/?app=1_leo&doc=sectiondetail&page_id=3&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:08:03 America/Mexico_City] Notice: Undefined index: language_code in ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 81
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=sectiondetail&page_id=3&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:08:03 America/Mexico_City] Notice: Undefined index: title in ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 81
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=sectiondetail&page_id=3&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:08:08 America/Mexico_City] Notice: Undefined index: section_id in ~/admin/1_leo.app/sectiondetail.inc.php on line 19
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=3&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:08:10 America/Mexico_City] Notice: Undefined index: section_id in ~/admin/1_leo.app/sectiondetail.inc.php on line 19
+Request: POST /admin/?app=1_leo&doc=sectiondetail&page_id=3&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:08:10 America/Mexico_City] Notice: Undefined index: language_code in ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 81
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=sectiondetail&page_id=3&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:08:10 America/Mexico_City] Notice: Undefined index: title in ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 81
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=sectiondetail&page_id=3&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:08:30 America/Mexico_City] Notice: Undefined index: section_id in ~/admin/1_leo.app/sectiondetail.inc.php on line 19
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=3&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:10:59 America/Mexico_City] Notice: Undefined index: language_code in ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 81
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=sectiondetail&page_id=3&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:10:59 America/Mexico_City] Notice: Undefined index: title in ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 81
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=sectiondetail&page_id=3&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:22:08 America/Mexico_City] Notice: Undefined index: language_code in ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 81
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=sectiondetail&page_id=3&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:22:08 America/Mexico_City] Notice: Undefined index: title in ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 81
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=sectiondetail&page_id=3&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:22:20 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/pagesection.inc.php on line 5
+Request: GET /admin/?app=1_leo&doc=pagesection&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:28:00 America/Mexico_City] Fatal error: 1064 - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '3)' at line 1
+insert into `ec-efirsa`.`ec_pages_section_custom`(position, name,ec_pages_custom_id) values ('', 'section I'3)
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 81 in query()
+ ← ~/admin/1_leo.app/sectiondetail.inc.php on line 26 in save()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=sectiondetail&page_id=3&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:29:58 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')', expecting ']' in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\sectiondetail.inc.php on line 35
+[31-Jan-2018 17:36:18 America/Mexico_City] Notice: Undefined index: ec_pages_custom_id in ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 46
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&page_id=3&doc=hero&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:36:18 America/Mexico_City] Fatal error: 1054 - Unknown column 'ec_pages_custom_id' in 'field list'
+insert into `ec-efirsa`.`ec_pages_content_custom` (component_content ,position,ec_pages_custom_id)  values ( '{"title":"Title Hero!","subtitle":"subtitile hero!","btn_title":"BTN!!!","btn_link":"The best button","imagen":"hero.png"}','', '')
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 46 in query()
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 51 in save()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&page_id=3&doc=hero&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:39:14 America/Mexico_City] Notice: Undefined variable: component in ~/admin/1_leo.app/pagesection.inc.php on line 5
+Request: GET /admin/?app=1_leo&doc=pagesection&page_id=3 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:43:16 America/Mexico_City] Notice: Undefined index: ec_pages_custom_id in ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 46
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&page_id=3&doc=hero&section_id=8&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:43:16 America/Mexico_City] Fatal error: 1054 - Unknown column 'ec_pages_custom_id' in 'field list'
+insert into `ec-efirsa`.`ec_pages_content_custom` (component_content ,position,ec_pages_custom_id)  values ( '{"title":"1","subtitle":"1","btn_title":"1","btn_link":"1","imagen":"hero.png"}','', '')
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 46 in query()
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 51 in save()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&page_id=3&doc=hero&section_id=8&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:47:51 America/Mexico_City] Fatal error: 1452 - Cannot add or update a child row: a foreign key constraint fails (`ec-efirsa`.`ec_pages_content_custom`, CONSTRAINT `fk_ec_pages_content_custom_ec_pages_section_custom1` FOREIGN KEY (`ec_pages_section_custom_id`, `ec_pages_section_custom_ec_pages_custom_id`))
+insert into `ec-efirsa`.`ec_pages_content_custom` (component_content ,position,ec_pages_section_custom_id)  values ( '{"title":"1","subtitle":"1","btn_title":"1","btn_link":"1","imagen":"hero.png"}','', '8')
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 46 in query()
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 51 in save()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&page_id=3&doc=hero&section_id=8&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:49:08 America/Mexico_City] Fatal error: 1451 - Cannot delete or update a parent row: a foreign key constraint fails (`ec-efirsa`.`ec_pages_section_custom`, CONSTRAINT `fk_ec_pages_container_custom_ec_pages_custom` FOREIGN KEY (`ec_pages_custom_id`) REFERENCES `ec_pages_custom` (`id`) ON DELETE NO ACTION ON U)
+delete from `ec-efirsa`.`ec_pages_custom` where id='3' limit 1;
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 119 in query()
+ ← ~/admin/1_leo.app/pagesection.inc.php on line 32 in delete()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=pagesection&page_id=3 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:49:21 America/Mexico_City] Fatal error: 1451 - Cannot delete or update a parent row: a foreign key constraint fails (`ec-efirsa`.`ec_pages_section_custom`, CONSTRAINT `fk_ec_pages_container_custom_ec_pages_custom` FOREIGN KEY (`ec_pages_custom_id`) REFERENCES `ec_pages_custom` (`id`) ON DELETE NO ACTION ON U)
+delete from `ec-efirsa`.`ec_pages_custom` where id='3' limit 1;
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 119 in query()
+ ← ~/admin/1_leo.app/pagesection.inc.php on line 32 in delete()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=pagesection&page_id=3 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:51:04 America/Mexico_City] Fatal error: 1054 - Unknown column 'content.ec_pages_custom_id' in 'on clause'
+SELECT page.*, content.component_content, content.position, component.*  FROM `ec-efirsa`.`ec_pages_custom` AS page  INNER JOIN `ec-efirsa`.`ec_pages_content_custom` AS content ON content.ec_pages_custom_id=page.id  INNER JOIN `ec-efirsa`.`ec_pages_component_custom` AS component ON component.id = content.ec_pages_component_custom_id  WHERE page.id =  1 ORDER BY content.position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 84 in query()
+ ← ~/pages/test_index.inc.php on line 14 in loadComponentsDetail()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:51:12 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/pagesection.inc.php on line 5
+Request: GET /admin/?app=1_leo&doc=pagesection&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:52:57 America/Mexico_City] Notice: Undefined index: section_id in ~/admin/1_leo.app/sectiondetail.inc.php on line 5
+Request: GET /admin/?app=1_leo&doc=sectiondetail&page_id=1&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 17:57:09 America/Mexico_City] Fatal error: 1452 - Cannot add or update a child row: a foreign key constraint fails (`ec-efirsa`.`ec_pages_content_custom`, CONSTRAINT `fk_ec_pages_content_custom_ec_pages_section_custom1` FOREIGN KEY (`ec_pages_section_custom_id`, `ec_pages_section_custom_ec_pages_custom_id`))
+insert into `ec-efirsa`.`ec_pages_content_custom` (component_content ,position,ec_pages_section_custom_id)  values ( '{"title":"title","subtitle":"1","btn_title":"1","btn_link":"1","imagen":"hero.png"}','', '9')
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 46 in query()
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 51 in save()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&page_id=1&doc=hero&section_id=9&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 18:00:57 America/Mexico_City] Notice: Undefined index: section_id in ~/admin/1_leo.app/component/hero.inc.php on line 51
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 18:00:57 America/Mexico_City] Notice: Undefined index: ec_pages_custom_id in ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 52
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 18:00:57 America/Mexico_City] Fatal error: 1054 - Unknown column 'ec_pages_custom_id' in 'field list'
+update `ec-efirsa`.`ec_pages_content_custom` set  component_content='{"title":"1","subtitle":"1","btn_title":"1","btn_link":"1","imagen":"hero.png"}', position='0', ec_pages_custom_id=''  where id='1'
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 53 in query()
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 51 in save()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 18:02:32 America/Mexico_City] Notice: Undefined index: ec_pages_custom_id in ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 52
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&section_id=9&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 18:02:32 America/Mexico_City] Fatal error: 1054 - Unknown column 'ec_pages_custom_id' in 'field list'
+update `ec-efirsa`.`ec_pages_content_custom` set  component_content='{"title":"1","subtitle":"1","btn_title":"1","btn_link":"1","imagen":"hero.png"}', position='0', ec_pages_custom_id=''  where id='1'
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 53 in query()
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 51 in save()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&section_id=9&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 18:03:21 America/Mexico_City] Fatal error: 1054 - Unknown column 'ec_pages_custom_id' in 'field list'
+update `ec-efirsa`.`ec_pages_content_custom` set  component_content='{"title":"1","subtitle":"1","btn_title":"1","btn_link":"1","imagen":"hero.png"}', position='0', ec_pages_custom_id='9'  where id='1'
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 53 in query()
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 51 in save()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=hero&page_id=1&section_id=9&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[31-Jan-2018 18:09:02 America/Mexico_City] Fatal error: Could not find product (ID: 1) in database. in ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 31
+ ← ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 7 in load()
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 13 in __construct()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&section_id=9&component_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+
+[01-Feb-2018 09:28:59 America/Mexico_City] PHP Parse error:  syntax error, unexpected '}', expecting ';' in A:\web\aori\EC-efirsa\public_html\includes\functions\func_form.inc.php on line 213
+[01-Feb-2018 09:31:26 America/Mexico_City] PHP Parse error:  syntax error, unexpected ';' in A:\web\aori\EC-efirsa\public_html\admin\1_leo.app\component\hero.inc.php on line 85
+[01-Feb-2018 09:52:22 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/pagesection.inc.php on line 29
+Request: POST /admin/?app=1_leo&doc=pagesection&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 09:56:05 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in A:\web\aori\EC-efirsa\public_html\includes\functions\func_form.inc.php on line 207
+[01-Feb-2018 09:56:18 America/Mexico_City] Fatal error: 1452 - Cannot add or update a child row: a foreign key constraint fails (`ec-efirsa`.`ec_pages_content_custom`, CONSTRAINT `fk_ec_pages_content_custom_ec_pages_section_custom1` FOREIGN KEY (`ec_pages_section_custom_id`, `ec_pages_section_custom_ec_pages_custom_id`))
+insert into `ec-efirsa`.`ec_pages_content_custom` (component_content ,position,ec_pages_section_custom_id,ec_pages_section_custom_ec_pages_custom_id,ec_pages_component_custom_id)  values ( '{"title":"2","subtitle":"2","btn_title":"2","btn_link":"2","imagen":"hero.png"}','', '10','1','1')
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 46 in query()
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 51 in save()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&page_id=2&doc=hero&section_id=10&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 09:56:37 America/Mexico_City] Fatal error: 1451 - Cannot delete or update a parent row: a foreign key constraint fails (`ec-efirsa`.`ec_pages_section_custom`, CONSTRAINT `fk_ec_pages_container_custom_ec_pages_custom` FOREIGN KEY (`ec_pages_custom_id`) REFERENCES `ec_pages_custom` (`id`) ON DELETE NO ACTION ON U)
+delete from `ec-efirsa`.`ec_pages_custom` where id='2' limit 1;
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 120 in query()
+ ← ~/admin/1_leo.app/pagesection.inc.php on line 34 in delete()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=pagesection&page_id=2 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 09:59:45 America/Mexico_City] Fatal error: 1_leo.app/edit_page is not a valid admin document in ~/admin/index.php on line 120
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 10:00:26 America/Mexico_City] Fatal error: 1_leo.app/edit_page is not a valid admin document in ~/admin/index.php on line 120
+Request: GET /admin/?app=1_leo&doc=edit_page&page_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 10:08:06 America/Mexico_City] Fatal error: 1451 - Cannot delete or update a parent row: a foreign key constraint fails (`ec-efirsa`.`ec_pages_content_custom`, CONSTRAINT `fk_ec_pages_content_custom_ec_pages_section_custom1` FOREIGN KEY (`ec_pages_section_custom_id`, `ec_pages_section_custom_ec_pages_custom_id`))
+delete from `ec-efirsa`.`ec_pages_section_custom` where id='1' limit 1;
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 100 in query()
+ ← ~/admin/1_leo.app/sectiondetail.inc.php on line 35 in delete()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 10:20:26 America/Mexico_City] PHP Parse error:  syntax error, unexpected '}' in A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_section_custom.inc.php on line 101
+[01-Feb-2018 10:20:40 America/Mexico_City] PHP Fatal error:  Cannot redeclare ctrl_pages_content_custom::delete() in A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_content_custom.inc.php on line 65
+[01-Feb-2018 10:29:16 America/Mexico_City] Fatal error: 1451 - Cannot delete or update a parent row: a foreign key constraint fails (`ec-efirsa`.`ec_pages_section_custom`, CONSTRAINT `fk_ec_pages_container_custom_ec_pages_custom` FOREIGN KEY (`ec_pages_custom_id`) REFERENCES `ec_pages_custom` (`id`) ON DELETE NO ACTION ON U)
+delete from `ec-efirsa`.`ec_pages_custom` where id='2' limit 1;
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 120 in query()
+ ← ~/admin/1_leo.app/pagesection.inc.php on line 34 in delete()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&doc=pagesection&page_id=2 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 10:43:02 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/pagesection.inc.php on line 29
+Request: POST /admin/?app=1_leo&doc=pagesection&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 10:43:24 America/Mexico_City] Fatal error: 1452 - Cannot add or update a child row: a foreign key constraint fails (`ec-efirsa`.`ec_pages_content_custom`, CONSTRAINT `fk_ec_pages_content_custom_ec_pages_section_custom1` FOREIGN KEY (`ec_pages_section_custom_id`, `ec_pages_section_custom_ec_pages_custom_id`))
+insert into `ec-efirsa`.`ec_pages_content_custom` (component_content ,position,ec_pages_section_custom_id,ec_pages_section_custom_ec_pages_custom_id,ec_pages_component_custom_id)  values ( '{"title":"1","subtitle":"2","btn_title":"3","btn_link":"4","imagen":"hero.png"}','', '13','1','1')
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 46 in query()
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 51 in save()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&page_id=3&doc=hero&section_id=13&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 10:47:14 America/Mexico_City] Fatal error: 1452 - Cannot add or update a child row: a foreign key constraint fails (`ec-efirsa`.`ec_pages_content_custom`, CONSTRAINT `fk_ec_pages_content_custom_ec_pages_section_custom1` FOREIGN KEY (`ec_pages_section_custom_id`, `ec_pages_section_custom_ec_pages_custom_id`))
+insert into `ec-efirsa`.`ec_pages_content_custom` (component_content ,position,ec_pages_section_custom_id,ec_pages_section_custom_ec_pages_custom_id,ec_pages_component_custom_id)  values ( '{"title":"8","subtitle":"8","btn_title":"8","btn_link":"8","imagen":"hero.png"}','', '13','1','1')
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 46 in query()
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 51 in save()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&page_id=3&doc=hero&section_id=13&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 10:49:30 America/Mexico_City] Fatal error: 1452 - Cannot add or update a child row: a foreign key constraint fails (`ec-efirsa`.`ec_pages_content_custom`, CONSTRAINT `fk_ec_pages_content_custom_ec_pages_section_custom1` FOREIGN KEY (`ec_pages_section_custom_id`, `ec_pages_section_custom_ec_pages_custom_id`))
+insert into `ec-efirsa`.`ec_pages_content_custom` (component_content ,position,ec_pages_section_custom_id,ec_pages_section_custom_ec_pages_custom_id,ec_pages_component_custom_id)  values ( '{"title":"8","subtitle":"8","btn_title":"8","btn_link":"8","imagen":"hero.png"}','', '','13','1')
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 46 in query()
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 51 in save()
+ ← ~/admin/index.php on line 121 in include()
+Request: POST /admin/?app=1_leo&page_id=3&doc=hero&section_id=13&new=1 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 11:22:10 America/Mexico_City] Fatal error: Could not find product (ID: 21) in database. in ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 31
+ ← ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 7 in load()
+ ← ~/admin/1_leo.app/component/hero.inc.php on line 10 in __construct()
+ ← ~/admin/index.php on line 121 in include()
+Request: GET /admin/?app=1_leo&doc=hero&page_id=1&section_id=9&component_id=21 HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 11:35:34 America/Mexico_City] Fatal error: 1054 - Unknown column 'content.ec_pages_custom_id' in 'on clause'
+SELECT page.*, content.component_content, content.position, component.*  FROM `ec-efirsa`.`ec_pages_custom` AS page  INNER JOIN `ec-efirsa`.`ec_pages_content_custom` AS content ON content.ec_pages_custom_id=page.id  INNER JOIN `ec-efirsa`.`ec_pages_component_custom` AS component ON component.id = content.ec_pages_component_custom_id  WHERE page.id =  1 ORDER BY content.position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 85 in query()
+ ← ~/pages/test_index.inc.php on line 14 in loadComponentsDetail()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 11:35:37 America/Mexico_City] Fatal error: 1054 - Unknown column 'content.ec_pages_custom_id' in 'on clause'
+SELECT page.*, content.component_content, content.position, component.*  FROM `ec-efirsa`.`ec_pages_custom` AS page  INNER JOIN `ec-efirsa`.`ec_pages_content_custom` AS content ON content.ec_pages_custom_id=page.id  INNER JOIN `ec-efirsa`.`ec_pages_component_custom` AS component ON component.id = content.ec_pages_component_custom_id  WHERE page.id =  1 ORDER BY content.position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 85 in query()
+ ← ~/pages/test_index.inc.php on line 14 in loadComponentsDetail()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 12:28:29 America/Mexico_City] PHP Parse error:  syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_section_custom.inc.php on line 39
+[01-Feb-2018 12:29:07 America/Mexico_City] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_section_custom.inc.php on line 45
+[01-Feb-2018 12:29:24 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')' in A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_section_custom.inc.php on line 45
+[01-Feb-2018 12:29:25 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')' in A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_section_custom.inc.php on line 45
+[01-Feb-2018 12:29:44 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')' in A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_section_custom.inc.php on line 45
+[01-Feb-2018 12:29:45 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')' in A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_section_custom.inc.php on line 45
+[01-Feb-2018 12:30:02 America/Mexico_City] Notice: Undefined variable: page_custom_id in ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 32
+ ← ~/pages/test_index.inc.php on line 10 in __construct()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 12:30:02 America/Mexico_City] Fatal error: Could not find section (ID: 0) in database. in ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 32
+ ← ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 8 in load()
+ ← ~/pages/test_index.inc.php on line 10 in __construct()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 12:30:31 America/Mexico_City] Fatal error: 1054 - Unknown column 'content.ec_pages_custom_id' in 'on clause'
+SELECT page.*, content.component_content, content.position, component.*  FROM `ec-efirsa`.`ec_pages_custom` AS page  INNER JOIN `ec-efirsa`.`ec_pages_content_custom` AS content ON content.ec_pages_custom_id=page.id  INNER JOIN `ec-efirsa`.`ec_pages_component_custom` AS component ON component.id = content.ec_pages_component_custom_id  WHERE page.id =  2 ORDER BY content.position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 81 in query()
+ ← ~/pages/test_index.inc.php on line 16 in loadComponentsDetail()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 12:30:32 America/Mexico_City] Fatal error: 1054 - Unknown column 'content.ec_pages_custom_id' in 'on clause'
+SELECT page.*, content.component_content, content.position, component.*  FROM `ec-efirsa`.`ec_pages_custom` AS page  INNER JOIN `ec-efirsa`.`ec_pages_content_custom` AS content ON content.ec_pages_custom_id=page.id  INNER JOIN `ec-efirsa`.`ec_pages_component_custom` AS component ON component.id = content.ec_pages_component_custom_id  WHERE page.id =  2 ORDER BY content.position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 81 in query()
+ ← ~/pages/test_index.inc.php on line 16 in loadComponentsDetail()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 12:30:51 America/Mexico_City] Fatal error: 1054 - Unknown column 'content.ec_pages_custom_id' in 'on clause'
+SELECT page.*, content.component_content, content.position, component.*  FROM `ec-efirsa`.`ec_pages_custom` AS page  INNER JOIN `ec-efirsa`.`ec_pages_content_custom` AS content ON content.ec_pages_custom_id=page.id  INNER JOIN `ec-efirsa`.`ec_pages_component_custom` AS component ON component.id = content.ec_pages_component_custom_id  WHERE page.id =  2 ORDER BY content.position ASC 
+ in ~/includes/library/lib_database.inc.php on line 220
+ ← ~/includes/library/lib_database.inc.php on line 123 in _error()
+ ← ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 81 in query()
+ ← ~/pages/test_index.inc.php on line 16 in loadComponentsDetail()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 12:31:29 America/Mexico_City] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_section_custom.inc.php on line 45
+[01-Feb-2018 12:49:07 America/Mexico_City] Fatal error: Could not find product (ID: 6) in database. in ~/includes/controllers/ctrl_pages_component_custom.inc.php on line 31
+ ← ~/includes/controllers/ctrl_pages_component_custom.inc.php on line 7 in load()
+ ← ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 40 in __construct()
+ ← ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 7 in load()
+ ← ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 45 in __construct()
+ ← ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 8 in load()
+ ← ~/pages/test_index.inc.php on line 10 in __construct()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 13:08:38 America/Mexico_City] Notice: Undefined variable: data in ~/includes/controllers/ctrl_pages_component_custom.inc.php on line 37
+ ← ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 40 in __construct()
+ ← ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 7 in load()
+ ← ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 45 in __construct()
+ ← ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 8 in load()
+ ← ~/pages/test_index.inc.php on line 10 in __construct()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 13:16:12 America/Mexico_City] Notice: Undefined variable: page_sections in ~/includes/controllers/ctrl_pages_custom.inc.php on line 43
+ ← ~/pages/test_index.inc.php on line 9 in __construct()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 13:16:12 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in A:\web\aori\EC-efirsa\public_html\includes\library\lib_database.inc.php:160
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_custom.inc.php(43): database::fetch(NULL)
+#1 A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_custom.inc.php(8): ctrl_pages_custom->load(1)
+#2 A:\web\aori\EC-efirsa\public_html\pages\test_index.inc.php(9): ctrl_pages_custom->__construct(1)
+#3 A:\web\aori\EC-efirsa\public_html\index.php(35): include('A:\\web\\aori\\EC-...')
+#4 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\includes\library\lib_database.inc.php on line 160
+[01-Feb-2018 13:16:43 America/Mexico_City] Notice: Undefined variable: page_sections in ~/includes/controllers/ctrl_pages_custom.inc.php on line 43
+ ← ~/pages/test_index.inc.php on line 9 in __construct()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 13:16:43 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in A:\web\aori\EC-efirsa\public_html\includes\library\lib_database.inc.php:160
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_custom.inc.php(43): database::fetch(NULL)
+#1 A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_custom.inc.php(8): ctrl_pages_custom->load(1)
+#2 A:\web\aori\EC-efirsa\public_html\pages\test_index.inc.php(9): ctrl_pages_custom->__construct(1)
+#3 A:\web\aori\EC-efirsa\public_html\index.php(35): include('A:\\web\\aori\\EC-...')
+#4 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\includes\library\lib_database.inc.php on line 160
+[01-Feb-2018 13:17:04 America/Mexico_City] Notice: Undefined variable: page_sections in ~/includes/controllers/ctrl_pages_custom.inc.php on line 43
+ ← ~/pages/test_index.inc.php on line 9 in __construct()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 13:17:04 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in A:\web\aori\EC-efirsa\public_html\includes\library\lib_database.inc.php:160
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_custom.inc.php(43): database::fetch(NULL)
+#1 A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_custom.inc.php(8): ctrl_pages_custom->load(1)
+#2 A:\web\aori\EC-efirsa\public_html\pages\test_index.inc.php(9): ctrl_pages_custom->__construct(1)
+#3 A:\web\aori\EC-efirsa\public_html\index.php(35): include('A:\\web\\aori\\EC-...')
+#4 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\includes\library\lib_database.inc.php on line 160
+[01-Feb-2018 13:17:04 America/Mexico_City] Notice: Undefined variable: page_sections in ~/includes/controllers/ctrl_pages_custom.inc.php on line 43
+ ← ~/pages/test_index.inc.php on line 9 in __construct()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 13:17:04 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in A:\web\aori\EC-efirsa\public_html\includes\library\lib_database.inc.php:160
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_custom.inc.php(43): database::fetch(NULL)
+#1 A:\web\aori\EC-efirsa\public_html\includes\controllers\ctrl_pages_custom.inc.php(8): ctrl_pages_custom->load(1)
+#2 A:\web\aori\EC-efirsa\public_html\pages\test_index.inc.php(9): ctrl_pages_custom->__construct(1)
+#3 A:\web\aori\EC-efirsa\public_html\index.php(35): include('A:\\web\\aori\\EC-...')
+#4 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\includes\library\lib_database.inc.php on line 160
+[01-Feb-2018 15:11:35 America/Mexico_City] Warning: include_once(A:/web/aori/EC-efirsa/public_html/includes/functions/func_component.inc.php): failed to open stream: No such file or directory in ~/includes/library/lib_functions.inc.php on line 8
+ ← ~/pages/test_index.inc.php on line 2 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:11:35 America/Mexico_City] Warning: include_once(): Failed opening 'A:/web/aori/EC-efirsa/public_html/includes/functions/func_component.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/library/lib_functions.inc.php on line 8
+ ← ~/pages/test_index.inc.php on line 2 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:11:35 America/Mexico_City] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'component_hero' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:12:57 America/Mexico_City] Warning: include_once(A:/web/aori/EC-efirsa/public_html/includes/functions/func_component.inc.php): failed to open stream: No such file or directory in ~/includes/library/lib_functions.inc.php on line 8
+ ← ~/pages/test_index.inc.php on line 2 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:12:57 America/Mexico_City] Warning: include_once(): Failed opening 'A:/web/aori/EC-efirsa/public_html/includes/functions/func_component.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/library/lib_functions.inc.php on line 8
+ ← ~/pages/test_index.inc.php on line 2 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:12:57 America/Mexico_City] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'component_hero_leo' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:12:58 America/Mexico_City] Warning: include_once(A:/web/aori/EC-efirsa/public_html/includes/functions/func_component.inc.php): failed to open stream: No such file or directory in ~/includes/library/lib_functions.inc.php on line 8
+ ← ~/pages/test_index.inc.php on line 2 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:12:58 America/Mexico_City] Warning: include_once(): Failed opening 'A:/web/aori/EC-efirsa/public_html/includes/functions/func_component.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/library/lib_functions.inc.php on line 8
+ ← ~/pages/test_index.inc.php on line 2 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:12:58 America/Mexico_City] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'component_hero_leo' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:12:59 America/Mexico_City] Warning: include_once(A:/web/aori/EC-efirsa/public_html/includes/functions/func_component.inc.php): failed to open stream: No such file or directory in ~/includes/library/lib_functions.inc.php on line 8
+ ← ~/pages/test_index.inc.php on line 2 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:12:59 America/Mexico_City] Warning: include_once(): Failed opening 'A:/web/aori/EC-efirsa/public_html/includes/functions/func_component.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/library/lib_functions.inc.php on line 8
+ ← ~/pages/test_index.inc.php on line 2 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:12:59 America/Mexico_City] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'component_hero_leo' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:18:49 America/Mexico_City] PHP Parse error:  syntax error, unexpected '}', expecting ';' in A:\web\aori\EC-efirsa\public_html\includes\functions\func_component.inc.php on line 5
+[01-Feb-2018 15:44:56 America/Mexico_City] Warning: include_once(A:/web/aori/EC-efirsa/public_htmlcomponentes/component_component.inc.php): failed to open stream: No such file or directory in ~/includes/library/lib_components.inc.php on line 9
+ ← ~/pages/test_index.inc.php on line 3 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:44:56 America/Mexico_City] Warning: include_once(): Failed opening 'A:/web/aori/EC-efirsa/public_htmlcomponentes/component_component.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/library/lib_components.inc.php on line 9
+ ← ~/pages/test_index.inc.php on line 3 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:44:56 America/Mexico_City] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'component_hero' not found or invalid function name in ~/includes/library/lib_components.inc.php on line 11
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:45:09 America/Mexico_City] Warning: include_once(A:/web/aori/EC-efirsa/public_html/componentes/component_component.inc.php): failed to open stream: No such file or directory in ~/includes/library/lib_components.inc.php on line 9
+ ← ~/pages/test_index.inc.php on line 3 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:45:09 America/Mexico_City] Warning: include_once(): Failed opening 'A:/web/aori/EC-efirsa/public_html/componentes/component_component.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/library/lib_components.inc.php on line 9
+ ← ~/pages/test_index.inc.php on line 3 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:45:09 America/Mexico_City] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'component_hero' not found or invalid function name in ~/includes/library/lib_components.inc.php on line 11
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:45:16 America/Mexico_City] Warning: include_once(A:/web/aori/EC-efirsa/public_html/components/component_component.inc.php): failed to open stream: No such file or directory in ~/includes/library/lib_components.inc.php on line 9
+ ← ~/pages/test_index.inc.php on line 3 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:45:16 America/Mexico_City] Warning: include_once(): Failed opening 'A:/web/aori/EC-efirsa/public_html/components/component_component.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/library/lib_components.inc.php on line 9
+ ← ~/pages/test_index.inc.php on line 3 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:45:16 America/Mexico_City] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'component_hero' not found or invalid function name in ~/includes/library/lib_components.inc.php on line 11
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:46:00 America/Mexico_City] Warning: include_once(A:/web/aori/EC-efirsa/public_html/components/component_component.inc.php): failed to open stream: No such file or directory in ~/includes/library/lib_components.inc.php on line 9
+ ← ~/pages/test_index.inc.php on line 3 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:46:00 America/Mexico_City] Warning: include_once(): Failed opening 'A:/web/aori/EC-efirsa/public_html/components/component_component.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/library/lib_components.inc.php on line 9
+ ← ~/pages/test_index.inc.php on line 3 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:46:00 America/Mexico_City] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'component_hero_hero' not found or invalid function name in ~/includes/library/lib_components.inc.php on line 11
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:46:01 America/Mexico_City] Warning: include_once(A:/web/aori/EC-efirsa/public_html/components/component_component.inc.php): failed to open stream: No such file or directory in ~/includes/library/lib_components.inc.php on line 9
+ ← ~/pages/test_index.inc.php on line 3 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:46:01 America/Mexico_City] Warning: include_once(): Failed opening 'A:/web/aori/EC-efirsa/public_html/components/component_component.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/library/lib_components.inc.php on line 9
+ ← ~/pages/test_index.inc.php on line 3 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:46:01 America/Mexico_City] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'component_hero_hero' not found or invalid function name in ~/includes/library/lib_components.inc.php on line 11
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:46:11 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in A:\web\aori\EC-efirsa\public_html\components\component_hero.inc.php on line 3
+[01-Feb-2018 15:46:54 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in A:\web\aori\EC-efirsa\public_html\components\component_hero.inc.php on line 3
+[01-Feb-2018 15:46:55 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in A:\web\aori\EC-efirsa\public_html\components\component_hero.inc.php on line 3
+[01-Feb-2018 15:46:55 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in A:\web\aori\EC-efirsa\public_html\components\component_hero.inc.php on line 3
+[01-Feb-2018 15:47:09 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in A:\web\aori\EC-efirsa\public_html\components\component_hero.inc.php on line 3
+[01-Feb-2018 15:47:28 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in A:\web\aori\EC-efirsa\public_html\components\component_hero.inc.php on line 3
+[01-Feb-2018 15:47:29 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in A:\web\aori\EC-efirsa\public_html\components\component_hero.inc.php on line 3
+[01-Feb-2018 15:47:29 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in A:\web\aori\EC-efirsa\public_html\components\component_hero.inc.php on line 3
+[01-Feb-2018 15:47:30 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in A:\web\aori\EC-efirsa\public_html\components\component_hero.inc.php on line 3
+[01-Feb-2018 15:47:30 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in A:\web\aori\EC-efirsa\public_html\components\component_hero.inc.php on line 3
+[01-Feb-2018 15:47:31 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in A:\web\aori\EC-efirsa\public_html\components\component_hero.inc.php on line 3
+[01-Feb-2018 15:47:39 America/Mexico_City] Warning: include_once(A:/web/aori/EC-efirsa/public_html/components/component_component.inc.php): failed to open stream: No such file or directory in ~/includes/library/lib_components.inc.php on line 9
+ ← ~/pages/test_index.inc.php on line 3 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:47:39 America/Mexico_City] Warning: include_once(): Failed opening 'A:/web/aori/EC-efirsa/public_html/components/component_component.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/library/lib_components.inc.php on line 9
+ ← ~/pages/test_index.inc.php on line 3 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:47:39 America/Mexico_City] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'component_hero_draw' not found or invalid function name in ~/includes/library/lib_components.inc.php on line 11
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 15:47:46 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in A:\web\aori\EC-efirsa\public_html\components\component_hero.inc.php on line 3
+[01-Feb-2018 15:47:57 America/Mexico_City] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'hero_draw' not found or invalid function name in ~/includes/library/lib_components.inc.php on line 11
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 16:16:58 America/Mexico_City] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function '_draw' not found or invalid function name in ~/includes/library/lib_components.inc.php on line 11
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 16:17:08 America/Mexico_City] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'draw' not found or invalid function name in ~/includes/library/lib_components.inc.php on line 11
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 16:27:55 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in A:\web\aori\EC-efirsa\public_html\components\component_hero.inc.php on line 5
+[01-Feb-2018 16:29:18 America/Mexico_City] Notice: Undefined variable: name in ~/components/hero.inc.php on line 2
+ ← ~/includes/library/lib_components.inc.php on line 11 in draw()
+ ← ~/pages/test_index.inc.php on line 3 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 16:40:58 America/Mexico_City] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in A:\web\aori\EC-efirsa\public_html\components\component_hero.inc.php on line 10
+[01-Feb-2018 16:42:44 America/Mexico_City] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in A:\web\aori\EC-efirsa\public_html\components\component_hero.inc.php on line 11
+[01-Feb-2018 16:44:03 America/Mexico_City] Warning: Illegal string offset 'title' in ~/components/component_hero.inc.php on line 10
+ ← ~/pages/test_index.inc.php on line 4 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 16:44:03 America/Mexico_City] Warning: Illegal string offset 'title' in ~/components/component_hero.inc.php on line 11
+ ← ~/pages/test_index.inc.php on line 4 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 16:47:36 America/Mexico_City] Warning: Use of undefined constant title - assumed 'title' (this will throw an Error in a future version of PHP) in ~/components/component_hero.inc.php on line 10
+ ← ~/pages/test_index.inc.php on line 4 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 16:47:36 America/Mexico_City] Warning: Illegal string offset 'title' in ~/components/component_hero.inc.php on line 10
+ ← ~/pages/test_index.inc.php on line 4 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 16:47:36 America/Mexico_City] Warning: Use of undefined constant title - assumed 'title' (this will throw an Error in a future version of PHP) in ~/components/component_hero.inc.php on line 11
+ ← ~/pages/test_index.inc.php on line 4 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 16:47:36 America/Mexico_City] Warning: Illegal string offset 'title' in ~/components/component_hero.inc.php on line 11
+ ← ~/pages/test_index.inc.php on line 4 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 16:47:48 America/Mexico_City] Warning: Illegal string offset 'title' in ~/components/component_hero.inc.php on line 10
+ ← ~/pages/test_index.inc.php on line 4 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 16:47:48 America/Mexico_City] Warning: Illegal string offset 'title' in ~/components/component_hero.inc.php on line 11
+ ← ~/pages/test_index.inc.php on line 4 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 16:47:50 America/Mexico_City] Warning: Illegal string offset 'title' in ~/components/component_hero.inc.php on line 10
+ ← ~/pages/test_index.inc.php on line 4 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 16:47:50 America/Mexico_City] Warning: Illegal string offset 'title' in ~/components/component_hero.inc.php on line 11
+ ← ~/pages/test_index.inc.php on line 4 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 16:47:51 America/Mexico_City] Warning: Illegal string offset 'title' in ~/components/component_hero.inc.php on line 10
+ ← ~/pages/test_index.inc.php on line 4 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 16:47:51 America/Mexico_City] Warning: Illegal string offset 'title' in ~/components/component_hero.inc.php on line 11
+ ← ~/pages/test_index.inc.php on line 4 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 16:48:56 America/Mexico_City] Notice: Array to string conversion in ~/components/component_hero.inc.php on line 10
+ ← ~/pages/test_index.inc.php on line 4 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 16:48:56 America/Mexico_City] Notice: Array to string conversion in ~/components/component_hero.inc.php on line 11
+ ← ~/pages/test_index.inc.php on line 4 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 16:50:31 America/Mexico_City] Notice: Array to string conversion in ~/components/hero.inc.php on line 2
+ ← ~/includes/library/lib_components.inc.php on line 11 in draw()
+ ← ~/pages/test_index.inc.php on line 3 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 17:02:00 America/Mexico_City] Notice: Undefined variable: page in ~/components/component_hero.inc.php on line 7
+ ← ~/pages/test_index.inc.php on line 3 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 17:02:00 America/Mexico_City] Notice: Trying to get property 'data' of non-object in ~/components/component_hero.inc.php on line 7
+ ← ~/pages/test_index.inc.php on line 3 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 17:02:15 America/Mexico_City] Notice: Undefined variable: page in ~/components/component_hero.inc.php on line 7
+ ← ~/pages/test_index.inc.php on line 3 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 17:02:15 America/Mexico_City] Notice: Trying to get property 'data' of non-object in ~/components/component_hero.inc.php on line 7
+ ← ~/pages/test_index.inc.php on line 3 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 17:06:45 America/Mexico_City] Notice: Undefined index: data in ~/components/hero.inc.php on line 3
+ ← ~/includes/classes/component.inc.php on line 20 in _process_view()
+ ← ~/components/component_hero.inc.php on line 10 in stitch()
+ ← ~/includes/library/lib_components.inc.php on line 11 in draw()
+ ← ~/pages/test_index.inc.php on line 3 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 17:22:30 America/Mexico_City] Notice: Undefined index: title in ~/components/hero.inc.php on line 3
+ ← ~/includes/classes/component.inc.php on line 20 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 18 in stitch()
+ ← ~/pages/test_index.inc.php on line 3 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 17:23:03 America/Mexico_City] Notice: Undefined index: title in ~/components/hero.inc.php on line 2
+ ← ~/includes/classes/component.inc.php on line 20 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 18 in stitch()
+ ← ~/pages/test_index.inc.php on line 3 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 17:35:57 America/Mexico_City] Notice: Undefined variable: btn_enable in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 20 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 18 in stitch()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 00:39:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')', expecting ';' in A:\web\aori\EC-efirsa\public_html\includes\library\lib_components.inc.php on line 18
+[01-Feb-2018 17:51:29 America/Mexico_City] PHP Parse error:  syntax error, unexpected ''hero'' (T_CONSTANT_ENCAPSED_STRING) in A:\web\aori\EC-efirsa\public_html\pages\test_index.inc.php on line 3
+[01-Feb-2018 17:57:47 America/Mexico_City] Notice: Undefined variable: data in ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 23
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 17:57:47 America/Mexico_City] Warning: Invalid argument supplied for foreach() in ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 23
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 17:58:33 America/Mexico_City] Notice: Undefined variable: data in ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 23
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 17:58:33 America/Mexico_City] Warning: Invalid argument supplied for foreach() in ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 23
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 17:58:34 America/Mexico_City] Notice: Undefined variable: data in ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 23
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 17:58:34 America/Mexico_City] Warning: Invalid argument supplied for foreach() in ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 23
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 17:58:42 America/Mexico_City] PHP Warning:  Unterminated comment starting line 21 in A:\web\aori\EC-efirsa\public_html\includes\templates\efirsa.catalog\pages\test_index.inc.php on line 21
+[01-Feb-2018 18:00:28 America/Mexico_City] Notice: Undefined variable: data in ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 23
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:00:28 America/Mexico_City] Warning: Invalid argument supplied for foreach() in ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 23
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:01:15 America/Mexico_City] PHP Fatal error:  Uncaught Error: Access to undeclared static property: components::$component in A:\web\aori\EC-efirsa\public_html\includes\templates\efirsa.catalog\pages\test_index.inc.php:27
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\includes\classes\view.inc.php(63): include()
+#1 A:\web\aori\EC-efirsa\public_html\includes\classes\view.inc.php(20): view->_process_view('A:/web/aori/EC-...', Array)
+#2 A:\web\aori\EC-efirsa\public_html\pages\test_index.inc.php(7): view->stitch('pages/test_inde...')
+#3 A:\web\aori\EC-efirsa\public_html\index.php(35): include('A:\\web\\aori\\EC-...')
+#4 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\includes\templates\efirsa.catalog\pages\test_index.inc.php on line 27
+[01-Feb-2018 18:11:40 America/Mexico_City] PHP Fatal error:  Uncaught Error: Undefined class constant 'hero' in A:\web\aori\EC-efirsa\public_html\includes\templates\efirsa.catalog\pages\test_index.inc.php:27
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\includes\classes\view.inc.php(63): include()
+#1 A:\web\aori\EC-efirsa\public_html\includes\classes\view.inc.php(20): view->_process_view('A:/web/aori/EC-...', Array)
+#2 A:\web\aori\EC-efirsa\public_html\pages\test_index.inc.php(7): view->stitch('pages/test_inde...')
+#3 A:\web\aori\EC-efirsa\public_html\index.php(35): include('A:\\web\\aori\\EC-...')
+#4 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\includes\templates\efirsa.catalog\pages\test_index.inc.php on line 27
+[01-Feb-2018 18:11:41 America/Mexico_City] PHP Fatal error:  Uncaught Error: Undefined class constant 'hero' in A:\web\aori\EC-efirsa\public_html\includes\templates\efirsa.catalog\pages\test_index.inc.php:27
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\includes\classes\view.inc.php(63): include()
+#1 A:\web\aori\EC-efirsa\public_html\includes\classes\view.inc.php(20): view->_process_view('A:/web/aori/EC-...', Array)
+#2 A:\web\aori\EC-efirsa\public_html\pages\test_index.inc.php(7): view->stitch('pages/test_inde...')
+#3 A:\web\aori\EC-efirsa\public_html\index.php(35): include('A:\\web\\aori\\EC-...')
+#4 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\includes\templates\efirsa.catalog\pages\test_index.inc.php on line 27
+[01-Feb-2018 18:11:58 America/Mexico_City] PHP Fatal error:  Uncaught Error: Undefined class constant 'hero' in A:\web\aori\EC-efirsa\public_html\includes\templates\efirsa.catalog\pages\test_index.inc.php:27
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\includes\classes\view.inc.php(63): include()
+#1 A:\web\aori\EC-efirsa\public_html\includes\classes\view.inc.php(20): view->_process_view('A:/web/aori/EC-...', Array)
+#2 A:\web\aori\EC-efirsa\public_html\pages\test_index.inc.php(7): view->stitch('pages/test_inde...')
+#3 A:\web\aori\EC-efirsa\public_html\index.php(35): include('A:\\web\\aori\\EC-...')
+#4 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\includes\templates\efirsa.catalog\pages\test_index.inc.php on line 27
+[01-Feb-2018 18:12:13 America/Mexico_City] Notice: Undefined index: title in ~/components/hero.inc.php on line 2
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 27 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:12:13 America/Mexico_City] Notice: Undefined index: subtitle in ~/components/hero.inc.php on line 3
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 27 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:12:13 America/Mexico_City] Notice: Undefined index: btn_link in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 27 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:12:13 America/Mexico_City] Notice: Undefined index: btn_title in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 27 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:12:13 America/Mexico_City] Notice: Undefined index: title in ~/components/hero.inc.php on line 2
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 27 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:12:13 America/Mexico_City] Notice: Undefined index: subtitle in ~/components/hero.inc.php on line 3
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 27 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:12:13 America/Mexico_City] Notice: Undefined index: btn_link in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 27 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:12:13 America/Mexico_City] Notice: Undefined index: btn_title in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 27 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:12:34 America/Mexico_City] Notice: Undefined index: title in ~/components/hero.inc.php on line 2
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:12:34 America/Mexico_City] Notice: Undefined index: subtitle in ~/components/hero.inc.php on line 3
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:12:34 America/Mexico_City] Notice: Undefined index: btn_link in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:12:34 America/Mexico_City] Notice: Undefined index: btn_title in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:12:34 America/Mexico_City] Notice: Undefined index: title in ~/components/hero.inc.php on line 2
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:12:34 America/Mexico_City] Notice: Undefined index: subtitle in ~/components/hero.inc.php on line 3
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:12:34 America/Mexico_City] Notice: Undefined index: btn_link in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:12:34 America/Mexico_City] Notice: Undefined index: btn_title in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:13:01 America/Mexico_City] Notice: Undefined index: title in ~/components/hero.inc.php on line 2
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:13:01 America/Mexico_City] Notice: Undefined index: subtitle in ~/components/hero.inc.php on line 3
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:13:01 America/Mexico_City] Notice: Undefined index: btn_link in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:13:01 America/Mexico_City] Notice: Undefined index: btn_title in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:13:01 America/Mexico_City] Notice: Undefined index: title in ~/components/hero.inc.php on line 2
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:13:01 America/Mexico_City] Notice: Undefined index: subtitle in ~/components/hero.inc.php on line 3
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:13:01 America/Mexico_City] Notice: Undefined index: btn_link in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:13:01 America/Mexico_City] Notice: Undefined index: btn_title in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:13:09 America/Mexico_City] Notice: Undefined index: title in ~/components/hero.inc.php on line 2
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:13:09 America/Mexico_City] Notice: Undefined index: subtitle in ~/components/hero.inc.php on line 3
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:13:09 America/Mexico_City] Notice: Undefined index: btn_link in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:13:09 America/Mexico_City] Notice: Undefined index: btn_title in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:13:09 America/Mexico_City] Notice: Undefined index: title in ~/components/hero.inc.php on line 2
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:13:09 America/Mexico_City] Notice: Undefined index: subtitle in ~/components/hero.inc.php on line 3
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:13:09 America/Mexico_City] Notice: Undefined index: btn_link in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:13:09 America/Mexico_City] Notice: Undefined index: btn_title in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:13:21 America/Mexico_City] PHP Fatal error:  Uncaught Error: Access to undeclared static property: components::$component in A:\web\aori\EC-efirsa\public_html\includes\templates\efirsa.catalog\pages\test_index.inc.php:28
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\includes\classes\view.inc.php(63): include()
+#1 A:\web\aori\EC-efirsa\public_html\includes\classes\view.inc.php(20): view->_process_view('A:/web/aori/EC-...', Array)
+#2 A:\web\aori\EC-efirsa\public_html\pages\test_index.inc.php(7): view->stitch('pages/test_inde...')
+#3 A:\web\aori\EC-efirsa\public_html\index.php(35): include('A:\\web\\aori\\EC-...')
+#4 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\includes\templates\efirsa.catalog\pages\test_index.inc.php on line 28
+[01-Feb-2018 18:13:42 America/Mexico_City] Notice: Undefined index: title in ~/components/hero.inc.php on line 2
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 29 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:13:42 America/Mexico_City] Notice: Undefined index: subtitle in ~/components/hero.inc.php on line 3
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 29 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:13:42 America/Mexico_City] Notice: Undefined index: btn_link in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 29 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:13:42 America/Mexico_City] Notice: Undefined index: btn_title in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 29 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:13:42 America/Mexico_City] Notice: Undefined index: title in ~/components/hero.inc.php on line 2
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 29 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:13:42 America/Mexico_City] Notice: Undefined index: subtitle in ~/components/hero.inc.php on line 3
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 29 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:13:42 America/Mexico_City] Notice: Undefined index: btn_link in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 29 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:13:42 America/Mexico_City] Notice: Undefined index: btn_title in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 29 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:14:51 America/Mexico_City] Notice: Undefined index: title in ~/components/hero.inc.php on line 2
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:14:51 America/Mexico_City] Notice: Undefined index: subtitle in ~/components/hero.inc.php on line 3
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:14:51 America/Mexico_City] Notice: Undefined index: btn_link in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:14:51 America/Mexico_City] Notice: Undefined index: btn_title in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:14:51 America/Mexico_City] Notice: Undefined index: title in ~/components/hero.inc.php on line 2
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:14:51 America/Mexico_City] Notice: Undefined index: subtitle in ~/components/hero.inc.php on line 3
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:14:51 America/Mexico_City] Notice: Undefined index: btn_link in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:14:51 America/Mexico_City] Notice: Undefined index: btn_title in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:15:06 America/Mexico_City] Notice: Undefined index: title in ~/components/hero.inc.php on line 2
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:15:06 America/Mexico_City] Notice: Undefined index: subtitle in ~/components/hero.inc.php on line 3
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:15:06 America/Mexico_City] Notice: Undefined index: btn_link in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:15:06 America/Mexico_City] Notice: Undefined index: btn_title in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:15:06 America/Mexico_City] Notice: Undefined index: title in ~/components/hero.inc.php on line 2
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:15:06 America/Mexico_City] Notice: Undefined index: subtitle in ~/components/hero.inc.php on line 3
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:15:06 America/Mexico_City] Notice: Undefined index: btn_link in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:15:06 America/Mexico_City] Notice: Undefined index: btn_title in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:15:34 America/Mexico_City] Notice: Undefined index: title in ~/components/hero.inc.php on line 2
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:15:34 America/Mexico_City] Notice: Undefined index: subtitle in ~/components/hero.inc.php on line 3
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:15:34 America/Mexico_City] Notice: Undefined index: btn_link in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:15:34 America/Mexico_City] Notice: Undefined index: btn_title in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:15:34 America/Mexico_City] Notice: Undefined index: title in ~/components/hero.inc.php on line 2
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:15:34 America/Mexico_City] Notice: Undefined index: subtitle in ~/components/hero.inc.php on line 3
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:15:34 America/Mexico_City] Notice: Undefined index: btn_link in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:15:34 America/Mexico_City] Notice: Undefined index: btn_title in ~/components/hero.inc.php on line 4
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 8 in stitch()
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 28 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:35:47 America/Mexico_City] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in A:\web\aori\EC-efirsa\public_html\includes\templates\efirsa.catalog\pages\test_index.inc.php on line 19
+[01-Feb-2018 18:37:38 America/Mexico_City] Warning: Illegal string offset 'sections' in ~/includes/functions/func_component.inc.php on line 5
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 19 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[01-Feb-2018 18:37:38 America/Mexico_City] Warning: Invalid argument supplied for foreach() in ~/includes/functions/func_component.inc.php on line 5
+ ← ~/includes/templates/efirsa.catalog/pages/test_index.inc.php on line 19 in __callstatic()
+ ← ~/includes/classes/view.inc.php on line 63 in include()
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 7 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 09:26:43 America/Mexico_City] PHP Fatal error:  Uncaught Error: Cannot use object of type ctrl_pages_custom as array in A:\web\aori\EC-efirsa\public_html\includes\functions\func_component.inc.php:19
+Stack trace:
+#0 A:\web\aori\EC-efirsa\public_html\includes\library\lib_functions.inc.php(10): component_getHtml(Object(ctrl_pages_custom))
+#1 A:\web\aori\EC-efirsa\public_html\pages\test_index.inc.php(6): functions::__callstatic('component_getHt...', Array)
+#2 A:\web\aori\EC-efirsa\public_html\index.php(35): include('A:\\web\\aori\\EC-...')
+#3 {main}
+  thrown in A:\web\aori\EC-efirsa\public_html\includes\functions\func_component.inc.php on line 19

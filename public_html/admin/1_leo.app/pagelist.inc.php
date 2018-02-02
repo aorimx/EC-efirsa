@@ -2,7 +2,7 @@
 <ul class="list-inline pull-right">
   <li>
     <?php echo 
-      functions::form_draw_link_button(document::link('', array('app' => $_GET['app'], 'doc'=> 'edit_page','new'=>true)), language::translate('title_add_new_page', 'Agregar nueva pàgina'), '', 'add'); 
+      functions::form_draw_link_button(document::link('', array('app' => $_GET['app'], 'doc'=> 'pagesection','new'=>true)), language::translate('title_add_new_page', 'Agregar nueva pàgina'), '', 'add'); 
     ?>
   </li>
 </ul>
@@ -29,9 +29,10 @@
                  . '  <td>'. functions::form_draw_checkbox('products['. $page['id'] .']', $page['id'], true) .'</td>' . PHP_EOL
                  . '  <td>'. functions::draw_fonticon('fa-circle', 'style="color: '. (!empty($page['status']) ? '#99cc66' : '#ff6666') .';"') .'</td>' . PHP_EOL
                  . '<td>' . $page['title'] .'</td>' 
+                 . '<td>' . $page['meta_description'] .'</td>' 
                  ;
         $output .= '  <td style="text-align: right;"></td>' . PHP_EOL
-                 . '  <td class="text-right"><a href="'. document::href_link('', array('app' => $_GET['app'], 'doc' => 'edit_page', 'page_id' => $page['id'] )) .'" title="'. language::translate('title_edit', 'Edit') .'">'. functions::draw_fonticon('fa-pencil').'</a></td>' . PHP_EOL
+                 . '  <td class="text-right"><a href="'. document::href_link('', array('app' => $_GET['app'], 'doc' => 'pagesection', 'page_id' => $page['id'] )) .'" title="'. language::translate('title_edit', 'Edit') .'">'. functions::draw_fonticon('fa-pencil').'</a></td>' . PHP_EOL
                  . '</tr>' . PHP_EOL;
       }
       database::free($pages_query);
@@ -47,7 +48,8 @@
         <tr>
         <th><?php echo functions::draw_fonticon('fa-check-square-o fa-fw checkbox-toggle', 'data-toggle="checkbox-toggle"'); ?></th>
         <th>&nbsp;</th>
-        <th class="main"><?php echo language::translate('title_name', 'Name'); ?></th>
+        <th class=""><?php echo language::translate('title_name', 'Name'); ?></th>
+        <th class="main">Meta description</th>
         <th></th>
         <th>&nbsp;</th>
         </tr>
@@ -61,14 +63,6 @@
       </tr>
     </tfoot>
 </table>
-
-
-
-
-
-
-
-
 
 <p>
     <ul class="list-inline">

@@ -4,15 +4,10 @@
     'name' =>'1 Leo modulo demo',
     'default' => 'pagelist',
     'theme' => array(
-      'color' => '#ff344a',
-      'icon' => 'fa-shower',
+      'color' => '#ff311a',
+      'icon' => 'fa-anchor',
     ),
     'menu' => array(
-      array(
-        'title' => language::translate('title_template', 'Template') .  ' - Leo Title',
-        'doc' => 'template',
-        'params' => array(),
-      ),
       array(
         'title' => 'Page list',
         'doc' => 'pagelist',
@@ -34,7 +29,8 @@
     'docs' => array(
       'template' => 'template.inc.php',
       'pagelist' => 'pagelist.inc.php',
-      'edit_page' => 'edit_page.inc.php',
+      'pagesection' => 'pagesection.inc.php',
+      'sectiondetail' => 'sectiondetail.inc.php',
 
 
 

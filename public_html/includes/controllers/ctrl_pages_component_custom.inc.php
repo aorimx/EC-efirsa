@@ -12,7 +12,7 @@
         public function reset(){
             $this->data = array();
             $fields_query = database::query( 
-                "show fields from " . DB_TABLE_PAGES_CONTENT_CUSTOM
+                "show fields from " . DB_TABLE_PAGES_COMPONENT_CUSTOM
             );
             while ($field = database::fetch($fields_query)) {
                 $this->data[$field['Field']] = null;

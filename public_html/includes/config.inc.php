@@ -107,8 +107,10 @@
   /* Your added tables here ... */
 
   define('DB_TABLE_PAGES_CUSTOM',                '`'. DB_DATABASE .'`.`'. DB_TABLE_PREFIX . 'pages_custom`');
+  define('DB_TABLE_PAGES_SECTION_CUSTOM',                '`'. DB_DATABASE .'`.`'. DB_TABLE_PREFIX . 'pages_section_custom`');
   define('DB_TABLE_PAGES_CONTENT_CUSTOM',                '`'. DB_DATABASE .'`.`'. DB_TABLE_PREFIX . 'pages_content_custom`');
   define('DB_TABLE_PAGES_COMPONENT_CUSTOM',                '`'. DB_DATABASE .'`.`'. DB_TABLE_PREFIX . 'pages_component_custom`');
+  
 
 
 ######################################################################
