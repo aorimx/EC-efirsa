@@ -242,3 +242,4 @@ components/component_hero.inc.php
 includes/classes/component.inc.php
 components/hero.inc.php
 components/section.inc.php
+includes/functions/func_page.inc.php
