@@ -1,7 +1,7 @@
 <?php
 
   $app_config = array(
-    'name' =>'1 Leo modulo demo',
+    'name' =>'1 Leo modulo demo !!!!',
     'default' => 'pagelist',
     'theme' => array(
       'color' => '#ff311a',
@@ -13,7 +13,8 @@
         'doc' => 'pagelist',
         'params' => array()
       ),
-      /*
+      
+/*
       array(
         'title' => 'Page detail',
         'doc' => 'pagedetail',
