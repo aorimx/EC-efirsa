@@ -1,0 +1,15 @@
+.menu-container{
+  display: inline-flex;
+  font-size: 14px;
+  margin-top: $space-8;
+  line-height: 1.5;
+  ul{
+    list-style: none;
+    li{
+    cursor: pointer;
+      .last-products{
+        padding-top: $space-2;
+      }
+  }
+  }
+}

@@ -1,0 +1,33 @@
+.content-slider{
+	width: 100%;
+	display: inline-flex;
+	justify-content: center;
+	  .content-cita{
+	    width: 100%;
+	    display: inline-flex;
+	    flex-wrap: wrap;
+	    .content-picture{
+	      width: 25%;
+	      display: flex;
+	      justify-content: center;
+	      flex-direction: column;
+	      align-items: center;
+	      img{
+	        max-width: 100px;
+	        border-radius: 100%;
+	      }
+	    }
+	    .content-info{
+	      width: 75%;
+	      strong{
+	        text-align: right;
+	      }
+	      p{
+	        text-align: right;
+	      }
+	    }
+	  }
+	.slider{
+		width: 90%;
+	}
+}

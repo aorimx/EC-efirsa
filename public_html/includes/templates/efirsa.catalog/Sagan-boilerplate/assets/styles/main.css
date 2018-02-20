@@ -1143,6 +1143,67 @@ select::-ms-expand {
     background-color: #6c6c6d;
     border-radius: 0; }
 
+.hero-content {
+  height: 50vh;
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 40px; }
+  .hero-content .hero-image {
+    background-image: url("../../../images/01_imagen_header.png");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; }
+  .hero-content .hero-text {
+    text-align: start;
+    position: absolute;
+    top: 72%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+    color: white;
+    line-height: 1; }
+    .hero-content .hero-text h1 {
+      font-size: 56px;
+      color: #ffffff;
+      text-transform: capitalize;
+      margin: 0; }
+    .hero-content .hero-text p {
+      color: #ffffff;
+      font-size: 32px;
+      text-transform: capitalize; }
+    .hero-content .hero-text button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 15px 25px;
+      color: #ffffff;
+      background-color: #a0a0a0;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 7px;
+      text-transform: capitalize; }
+  .hero-content .hero-text button:hover {
+    background-color: #555;
+    color: white; }
+  @media screen and (max-width: 600px) {
+    .hero-content {
+      width: 100%;
+      height: 32vh; } }
+
+.menu-container {
+  display: inline-flex;
+  font-size: 14px;
+  margin-top: 64px;
+  line-height: 1.5; }
+  .menu-container ul {
+    list-style: none; }
+    .menu-container ul li {
+      cursor: pointer; }
+      .menu-container ul li .last-products {
+        padding-top: 16px; }
+
 @font-face {
   font-family: 'Gothaml';
   src: url("../fonts/GothamLight.ttf") format("truetype"); }
@@ -2075,6 +2136,178 @@ ul.breadcrumb {
     width: 90%; }
     .td_pieces .input-group input {
       width: 70%; } }
+.container-comp1 {
+  width: 100%;
+  display: inline-flex; }
+  .container-comp1 .img-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center; }
+    .container-comp1 .img-container img {
+      width: 95%; }
+  .container-comp1 .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 16px;
+    width: 60%; }
+    .container-comp1 .description .title-text {
+      justify-content: start; }
+      .container-comp1 .description .title-text h1 {
+        text-align: start;
+        text-transform: capitalize;
+        font-size: 16px; }
+      .container-comp1 .description .title-text p {
+        text-align: start;
+        text-transform: capitalize;
+        font-size: 12px;
+        color: #000000; }
+    .container-comp1 .description .button-content button {
+      width: 40%; }
+  @media screen and (max-width: 768px) {
+    .container-comp1 {
+      display: block; }
+      .container-comp1 .img-container {
+        width: 100%; }
+      .container-comp1 .description {
+        padding-left: 0;
+        width: 100%; }
+        .container-comp1 .description .title-text h1 {
+          text-align: center; }
+        .container-comp1 .description .title-text p {
+          text-align: center; }
+        .container-comp1 .description .button-content button {
+          width: 100%; } }
+
+.container-comp2_multimedia {
+  width: 100%;
+  display: inline-flex;
+  padding-left: 48px;
+  padding-right: 48px; }
+  .container-comp2_multimedia .video-container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center; }
+    .container-comp2_multimedia .video-container video {
+      width: 95%; }
+  .container-comp2_multimedia .description {
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%; }
+    .container-comp2_multimedia .description h1 {
+      text-transform: uppercase;
+      text-align: center; }
+    .container-comp2_multimedia .description p {
+      text-align: start;
+      color: #000000;
+      font-size: 14px; }
+    .container-comp2_multimedia .description button {
+      width: 40%; }
+  @media screen and (max-width: 768px) {
+    .container-comp2_multimedia {
+      display: block; }
+      .container-comp2_multimedia .video-container {
+        width: 100%; }
+      .container-comp2_multimedia .description {
+        padding-left: 0;
+        width: 100%; }
+        .container-comp2_multimedia .description h1 {
+          text-align: center; }
+        .container-comp2_multimedia .description p {
+          text-align: center; }
+        .container-comp2_multimedia .description button {
+          width: 100%; } }
+
+.container-componentes {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 100%;
+  align-items: flex-start; }
+  .container-componentes .componente-content {
+    padding-top: 16px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center; }
+  @media screen and (max-width: 900px) {
+    .container-componentes {
+      display: block; }
+      .container-componentes .componente-content {
+        width: 100%; } }
+
+.content-cita {
+  width: 50%;
+  display: inline-flex;
+  flex-wrap: wrap; }
+  .content-cita .content-picture {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+    .content-cita .content-picture img {
+      max-width: 100px;
+      border-radius: 100%; }
+  .content-cita .content-info {
+    width: 75%; }
+    .content-cita .content-info strong {
+      text-align: right; }
+    .content-cita .content-info p {
+      text-align: right; }
+
+@media screen and (max-width: 768px) {
+  .content-cita {
+    width: 100%; } }
+.content-T-T-B {
+  width: 50%; }
+  .content-T-T-B p {
+    text-align: justify; }
+
+@media screen and (max-width: 768px) {
+  .content-T-T-B {
+    width: 100%; } }
+.content-slider {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center; }
+  .content-slider .content-cita {
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap; }
+    .content-slider .content-cita .content-picture {
+      width: 25%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center; }
+      .content-slider .content-cita .content-picture img {
+        max-width: 100px;
+        border-radius: 100%; }
+    .content-slider .content-cita .content-info {
+      width: 75%; }
+      .content-slider .content-cita .content-info strong {
+        text-align: right; }
+      .content-slider .content-cita .content-info p {
+        text-align: right; }
+  .content-slider .slider {
+    width: 90%; }
+
 .padd-between {
   margin-right: 16px; }
 
@@ -2524,10 +2757,10 @@ ul.breadcrumb {
   .middle-content .main_content-search {
     width: 100%; } }
 /**
- * Featherlight ÔÇô ultra slim jQuery lightbox
+ * Featherlight – ultra slim jQuery lightbox
  * Version 1.7.0 - http://noelboss.github.io/featherlight/
  *
- * Copyright 2016, No├½l Raoul Bossart (http://www.noelboss.com)
+ * Copyright 2016, Noël Raoul Bossart (http://www.noelboss.com)
  * MIT Licensed.
 **/
 body.featherlight-open {

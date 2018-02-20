@@ -1,0 +1,27 @@
+.container-componentes{
+  display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding-left: $space-2;
+    padding-right: $space-2;
+    width: 100%;
+    align-items: flex-start;
+    .componente-content{
+      padding-top: $space-2;
+      width: 45%;
+      display: flex;
+      flex-direction: column;
+      margin: $space-base;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+  @media screen and (max-width: 900px){
+    display: block;
+    .componente-content{
+      width: 100%;
+    }
+  }
+}
