@@ -7,7 +7,8 @@
       <h1>Modernización _</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris mi, sodales eget risus ut, dignissim lobortis enim. In mollis nec neque nec imperdiet. </p>
     </div>
+      <div class="button-content">
         <a href=""><button>lorem</button></a>
-
+      </div>
   </div>
 </div>

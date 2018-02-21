@@ -22,7 +22,7 @@
         <div class="clientes_slider">
           <h1>Nuestros <br>clientes _<h1/>
         </div>
-        <div style="width: 60%;">
+        <div class="cita_texto">
           <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'views/Componente6.inc.php'); ?>
       </div>
       </div>

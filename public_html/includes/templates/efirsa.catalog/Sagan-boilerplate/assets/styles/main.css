@@ -84,18 +84,43 @@
   background-color: #f2f2f2; }
 
 @font-face {
-  font-family: 'GothamB', sans-serif;
-  src: url("fonts/GothamLight.ttf") format("truetype");
-  font-weight: regular; }
+  font-family: 'Gothaml';
+  src: url("../fonts/GothamLight.ttf") format("truetype"); }
 @font-face {
-  font-family: 'GothamB', sans-serif;
-  src: url("fonts/GothamBold.ttf") format("truetype");
-  font-weight: bold; }
+  font-family: 'GothamB';
+  src: url("fonts/GothamBold.eot");
+  src: url("fonts/GothamBold.eot?#iefix") format("embedded-opentype"), url("fonts/GothamBold.woff") format("woff"), url("fonts/GothamBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'GothamB';
+  src: url("fonts/Gotham-Medium.etf");
+  src: url("fonts/Gotham-Medium.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: 'GothamB';
+  src: url("fonts/Gotham-Book.eot");
+  src: url("fonts/Gotham-Book.eot?#iefix") format("embedded-opentype"), url("fonts/Gotham-Book.woff") format("woff"), url("fonts/Gotham-Book.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: 'GothamB';
+  src: url("fonts/GothamLight.eot");
+  src: url("fonts/GothamLight.eot?#iefix") format("embedded-opentype"), url("fonts/GothamLight.woff") format("woff"), url("fonts/GothamLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'GothamB';
+  src: url("fonts/Gotham-Light.eot");
+  src: url("fonts/Gotham-Light.eot?#iefix") format("embedded-opentype"), url("fonts/Gotham-Light.woff") format("woff"), url("fonts/Gotham-Light.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal; }
 html, body {
   height: 100%; }
 
 body {
-  font-family: "GothamB", sans-serif;
+  font-family: "GothamB";
   font-size: 16px;
   background-color: #ffffff;
   font-weight: 300;
@@ -117,7 +142,7 @@ body {
     margin-bottom: 16px;
     color: #414042; }
   body h1, body h2, body h3, body h4, body h5, body h6 {
-    font-family: "GothamB", sans-serif;
+    font-family: "GothamB";
     color: #414042; }
   body h1, body h2, body h3 {
     margin-bottom: 16px;
@@ -1144,7 +1169,7 @@ select::-ms-expand {
     border-radius: 0; }
 
 .hero-content {
-  height: 50vh;
+  height: 45vh;
   width: 100%;
   margin-bottom: 40px; }
   .hero-content .hero-image {
@@ -1181,15 +1206,29 @@ select::-ms-expand {
       background-color: #a0a0a0;
       text-align: center;
       cursor: pointer;
-      border-radius: 7px;
-      text-transform: capitalize; }
+      border-radius: 7px; }
   .hero-content .hero-text button:hover {
     background-color: #555;
     color: white; }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 900px) {
     .hero-content {
       width: 100%;
-      height: 32vh; } }
+      height: 35vh; }
+      .hero-content .hero-text {
+        left: 27%; } }
+  @media screen and (max-width: 768px) {
+    .hero-content .hero-text {
+      left: 32%;
+      text-align: justify; } }
+  @media screen and (max-width: 640px) {
+    .hero-content {
+      height: 25vh; }
+      .hero-content .hero-text {
+        left: 35%; }
+        .hero-content .hero-text h1 {
+          font-size: 40px; }
+        .hero-content .hero-text p {
+          font-size: 16px; } }
 
 .menu-container {
   display: inline-flex;
@@ -1229,9 +1268,9 @@ select::-ms-expand {
       border: 2px solid #a0a0a0;
       background-color: unset; }
     .alert-content .botton-x .text-botton {
-      padding-left: 8px;
+      padding-left: 7px;
       padding-top: 4px;
-      padding-right: 19px;
+      padding-right: 18px;
       padding-bottom: 20px;
       color: #a0a0a0;
       cursor: pointer; }
@@ -2196,7 +2235,8 @@ ul.breadcrumb {
       .container-comp1 .description .title-text h1 {
         text-align: start;
         text-transform: capitalize;
-        font-size: 24px; }
+        font-size: 24px;
+        font-weight: bolder; }
       .container-comp1 .description .title-text p {
         text-align: start;
         text-transform: capitalize;
@@ -2249,7 +2289,8 @@ ul.breadcrumb {
     justify-content: center;
     width: 60%; }
     .container-comp2_multimedia .description h1 {
-      text-transform: uppercase;
+      text-transform: capitalize;
+      font-weight: bolder;
       text-align: center; }
     .container-comp2_multimedia .description p {
       text-align: start;
@@ -2257,8 +2298,13 @@ ul.breadcrumb {
       font-size: 14px; }
     .container-comp2_multimedia .description button {
       width: 40%; }
+  @media screen and (max-width: 900px) {
+    .container-comp2_multimedia .description p {
+      font-size: 12px; } }
   @media screen and (max-width: 768px) {
     .container-comp2_multimedia {
+      padding-left: 32px;
+      padding-right: 32px;
       display: block; }
       .container-comp2_multimedia .video-container {
         width: 100%; }
@@ -2268,7 +2314,7 @@ ul.breadcrumb {
         .container-comp2_multimedia .description h1 {
           text-align: center; }
         .container-comp2_multimedia .description p {
-          text-align: center; }
+          text-align: justify; }
         .container-comp2_multimedia .description button {
           width: 100%; } }
 
@@ -2285,7 +2331,6 @@ ul.breadcrumb {
     width: 48%;
     display: flex;
     flex-direction: column;
-    margin: 8px;
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -2307,6 +2352,12 @@ ul.breadcrumb {
     flex-direction: column;
     justify-content: center;
     text-align: center; }
+    .slider-content .clientes_slider h1 {
+      text-transform: capitalize;
+      font-weight: bolder;
+      font-size: 40px; }
+  .slider-content .cita_texto {
+    width: 60%; }
 
 .content-cita {
   width: 50%;
@@ -2323,11 +2374,20 @@ ul.breadcrumb {
       border-radius: 100%; }
   .content-cita .content-info {
     width: 75%; }
+    .content-cita .content-info .title {
+      font-size: 24px; }
     .content-cita .content-info p {
       text-align: left;
       color: #000000; }
 
 @media screen and (max-width: 768px) {
+  .slider-content {
+    display: block; }
+    .slider-content .clientes_slider {
+      width: 100%; }
+    .slider-content .cita_texto {
+      width: 100%; }
+
   .content-cita {
     width: 100%; } }
 .content-T-T-B {

@@ -1,8 +1,8 @@
 .container-comp2_multimedia{
   width: 100%;
   display: inline-flex;
-  padding-left: 48px;
-  padding-right: 48px;
+  padding-left: $space-6;
+  padding-right: $space-6;
   .video-container{
     width: 40%;
     display: flex;
@@ -21,7 +21,8 @@
     justify-content: center;
     width: 60%;
     h1{
-      text-transform: uppercase;
+      text-transform: capitalize;
+      font-weight: bolder;
       text-align: center;
     }
     p{
@@ -33,7 +34,16 @@
       width: 40%;
     }
   }
+  @media screen and (max-width: 900px){
+    .description{
+      p{
+        font-size: 12px;
+      }
+    }
+  }
   @media screen and (max-width: 768px){
+    padding-left: $space-4;
+    padding-right: $space-4;
     display: block;
     .video-container{
       width: 100%;
@@ -45,7 +55,7 @@
         text-align: center;
       }
       p{
-        text-align: center;
+        text-align: justify;
       }
       button{
         width: 100%;
