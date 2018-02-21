@@ -1,3 +1,16 @@
+.slider-content{
+  background-color: #e6e6e6;
+  width:100%;
+  display: inline-flex;
+  .clientes_slider{
+    width:40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
   .content-cita{
     width: 50%;
     display: inline-flex;
@@ -15,11 +28,9 @@
     }
     .content-info{
       width: 75%;
-      strong{
-        text-align: right;
-      }
       p{
-        text-align: right;
+        text-align: left;
+        color: $black;
       }
     }
   }

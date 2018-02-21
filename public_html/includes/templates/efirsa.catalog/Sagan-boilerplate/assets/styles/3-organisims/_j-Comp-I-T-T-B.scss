@@ -24,22 +24,28 @@
         h1{
           text-align: start;
           text-transform: capitalize;
-          font-size: $space-2;
+          font-size: $space-3;
 
         }
         p{
           text-align: start;
           text-transform: capitalize;
-          font-size: 12px;
+          font-size: 14px;
           color: $black;
         }
     }
-    .button-content{
-
     button{
-      width: 40%;
+      width: 50%;
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 12px 25px;
+      color: $white;
+      background-color: #a0a0a0;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 7px;
       }
-    }
   }
   @media screen and (max-width: 768px){
     display: block;

@@ -7,7 +7,7 @@
 	    display: inline-flex;
 	    flex-wrap: wrap;
 	    .content-picture{
-	      width: 25%;
+	      //width: 25%;
 	      display: flex;
 	      justify-content: center;
 	      flex-direction: column;
@@ -18,12 +18,13 @@
 	      }
 	    }
 	    .content-info{
-	      width: 75%;
+				padding-left: $space-3;
+	      width: 90%;
 	      strong{
 	        text-align: right;
 	      }
 	      p{
-	        text-align: right;
+	        text-align: left;
 	      }
 	    }
 	  }

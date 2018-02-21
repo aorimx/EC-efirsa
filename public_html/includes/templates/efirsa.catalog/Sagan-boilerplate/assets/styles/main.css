@@ -221,7 +221,7 @@ body {
 .j-workspace {
   min-height: calc(100vh - (250px + 85.73px));
   box-sizing: border-box;
-  margin-top: 64px;
+  margin-top: 48px;
   width: 100%; }
   .j-workspace .j-wrap {
     max-width: 1232px;
@@ -1146,7 +1146,6 @@ select::-ms-expand {
 .hero-content {
   height: 50vh;
   width: 100%;
-  margin-top: 24px;
   margin-bottom: 40px; }
   .hero-content .hero-image {
     background-image: url("../../../images/01_imagen_header.png");
@@ -1203,6 +1202,43 @@ select::-ms-expand {
       cursor: pointer; }
       .menu-container ul li .last-products {
         padding-top: 16px; }
+
+.alert-content {
+  width: 100%;
+  height: 48px;
+  background-color: #ececec;
+  display: inline-flex; }
+  .alert-content .text-content {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .alert-content .text-content .texto-verde {
+      color: #008129;
+      font-size: 18px;
+      padding-top: 8px; }
+  .alert-content .botton-x {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 5%;
+    margin-top: 8px; }
+    .alert-content .botton-x button {
+      width: 0;
+      border-radius: 50%;
+      border: 2px solid #a0a0a0;
+      background-color: unset; }
+    .alert-content .botton-x .text-botton {
+      padding-left: 8px;
+      padding-top: 4px;
+      padding-right: 19px;
+      padding-bottom: 20px;
+      color: #a0a0a0;
+      cursor: pointer; }
+    .alert-content .botton-x .c-oculto {
+      display: none; }
+    .alert-content .botton-x .c-mostrar {
+      display: block; }
 
 @font-face {
   font-family: 'Gothaml';
@@ -2160,14 +2196,23 @@ ul.breadcrumb {
       .container-comp1 .description .title-text h1 {
         text-align: start;
         text-transform: capitalize;
-        font-size: 16px; }
+        font-size: 24px; }
       .container-comp1 .description .title-text p {
         text-align: start;
         text-transform: capitalize;
-        font-size: 12px;
+        font-size: 14px;
         color: #000000; }
-    .container-comp1 .description .button-content button {
-      width: 40%; }
+    .container-comp1 .description button {
+      width: 50%;
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 12px 25px;
+      color: #ffffff;
+      background-color: #a0a0a0;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 7px; }
   @media screen and (max-width: 768px) {
     .container-comp1 {
       display: block; }
@@ -2237,7 +2282,7 @@ ul.breadcrumb {
   align-items: flex-start; }
   .container-componentes .componente-content {
     padding-top: 16px;
-    width: 45%;
+    width: 48%;
     display: flex;
     flex-direction: column;
     margin: 8px;
@@ -2250,6 +2295,18 @@ ul.breadcrumb {
       display: block; }
       .container-componentes .componente-content {
         width: 100%; } }
+
+.slider-content {
+  background-color: #e6e6e6;
+  width: 100%;
+  display: inline-flex; }
+  .slider-content .clientes_slider {
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; }
 
 .content-cita {
   width: 50%;
@@ -2266,10 +2323,9 @@ ul.breadcrumb {
       border-radius: 100%; }
   .content-cita .content-info {
     width: 75%; }
-    .content-cita .content-info strong {
-      text-align: right; }
     .content-cita .content-info p {
-      text-align: right; }
+      text-align: left;
+      color: #000000; }
 
 @media screen and (max-width: 768px) {
   .content-cita {
@@ -2291,7 +2347,6 @@ ul.breadcrumb {
     display: inline-flex;
     flex-wrap: wrap; }
     .content-slider .content-cita .content-picture {
-      width: 25%;
       display: flex;
       justify-content: center;
       flex-direction: column;
@@ -2300,11 +2355,12 @@ ul.breadcrumb {
         max-width: 100px;
         border-radius: 100%; }
     .content-slider .content-cita .content-info {
-      width: 75%; }
+      padding-left: 24px;
+      width: 90%; }
       .content-slider .content-cita .content-info strong {
         text-align: right; }
       .content-slider .content-cita .content-info p {
-        text-align: right; }
+        text-align: left; }
   .content-slider .slider {
     width: 90%; }
 
