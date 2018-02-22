@@ -38,26 +38,26 @@
               <li class="arrow_box"><a itemprop="url" href="<?php echo document::ilink('contacto.php'); ?>"><span itemprop="name">Contacto</span></a></li>
               <li class="arrow_box padding-top"><a itemprop="url" class="margin-top" href="<?php echo document::ilink('checkout'); ?>"><span itemprop="name"><img src="{snippet:template_path}/images/carrito.png" style="width: 25px;"></span></a></li>
 
-              <!--<li class="iconos-menu hidden-xs hidden-sm"><a href="#"><img class="lupaMenu" src="img/lupa.png"></a></li>
-              <li class="iconos-menu"><a href="#"><img class="carritoMenu" src="img/carrito.png"></a></li>-->
+              <!--<li class="iconos-menu hidden-xs hidden-sm"><a href="#"><img class="lupaMenu" src="images/lupa.png"></a></li>
+              <li class="iconos-menu"><a href="#"><img class="carritoMenu" src="images/carrito.png"></a></li>-->
               <!-- Descomentar cuando se usen las nuevas funciones
                 <li class="dropdown iconos-menu">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img class="carritoMenu" src="img/carrito.png"></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img class="carritoMenu" src="images/carrito.png"></a>
                 <ul class="dropdown-menu">
                   <li class="dropdown-header">Tu carrito está vacío</li>-->
                   <!--Descomentar cuando se implementen las siguientes funciones-->
-                  <!--<li><a href="#"><img class="iconos-submenu" src="img/kart.png">Carrito</a></li>
+                  <!--<li><a href="#"><img class="iconos-submenu" src="images/kart.png">Carrito</a></li>
                   <li role="separator" class="divider"></li>
-                  <li><a href="#"><img class="iconos-submenu" src="img/heart.png">Favoritos</a></li>
+                  <li><a href="#"><img class="iconos-submenu" src="images/heart.png">Favoritos</a></li>
                   <li role="separator" class="divider"></li>
-                  <li><a href="#"><img class="iconos-submenu" src="img/tools.png">Cuenta</a></li>
+                  <li><a href="#"><img class="iconos-submenu" src="images/tools.png">Cuenta</a></li>
                   <li role="separator" class="divider"></li>
-                  <li><a href="#"><img class="iconos-submenu" src="img/profile.png">Iniciar sesión</a></li>
+                  <li><a href="#"><img class="iconos-submenu" src="images/profile.png">Iniciar sesión</a></li>
                   <li role="separator" class="divider"></li>-->
                 <!-- Dscomentar cuando se implementen las nuevas funciones
                   </ul>
               </li>-->
-              <!--<li class="iconos-menu"><a href="#"><img class="bolsaMenu" src="img/bolsa.png"></a></li>-->
+              <!--<li class="iconos-menu"><a href="#"><img class="bolsaMenu" src="images/bolsa.png"></a></li>-->
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->

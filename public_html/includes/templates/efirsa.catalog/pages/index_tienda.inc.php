@@ -37,7 +37,7 @@
   <div class="banner-content">
     <!--<div class="banner">
       <div class="image-banner">-->
-        <!-- img class="image" src="../../includes/templates/default.catalog/ef-s/img/Banner.png"-->
+        <!-- img class="image" src="../../includes/templates/default.catalog/ef-s/images/Banner.png"-->
         <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_slides.inc.php'); ?>
       <!--</div>
     </div>-->
