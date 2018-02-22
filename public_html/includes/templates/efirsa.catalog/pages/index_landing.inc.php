@@ -41,7 +41,7 @@
       <h2 class="titulos-secciones">Productos</h2>
       <p class="texto-verde enlaces-verdes"><a target="_blank" class="texto-verde enlaces-verdes" href="archivos/catalogoEfirsa.pdf">Descargar nuestro catálogo<img class="flecha-enlace" src="{snippet:template_path}images/flecha-verde.png"></a></p>
     </div>
-    <!--<img class="img-full" src="img/cintillo-catalogo.jpg">-->
+    <!--<img class="img-full" src="images/cintillo-catalogo.jpg">-->
   </div>
 </div>
 
@@ -91,7 +91,7 @@
       <div class="carousel-inner">
 
         <div class="item active">
-          <img src="img/slider-1.png" alt="Efirsa Web Slider" style="width:100%;">
+          <img src="images/slider-1.png" alt="Efirsa Web Slider" style="width:100%;">
           <!--<div class="carousel-caption">
             <h3>Los Angeles</h3>
             <p>LA is always so much fun!</p>
@@ -99,7 +99,7 @@
         </div>
 
         <div class="item">
-          <img src="img/slider-2.png" alt="Efirsa Web Slider" style="width:100%;">
+          <img src="images/slider-2.png" alt="Efirsa Web Slider" style="width:100%;">
           <!--<div class="carousel-caption">
             <h3>Chicago</h3>
             <p>Thank you, Chicago!</p>

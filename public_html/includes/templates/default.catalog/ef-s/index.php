@@ -23,13 +23,13 @@
     		  <source src="video/preview.mp4" type="video/mp4">
               Su navegador no soporta la etiqueta de vídeo.
     		</video>
-        <a href="http://efirsa.mx/archivos/efirsaInstitucional.mp4" data-lity><img id="play-video" class="play_button_landing" src="img/play.png"></a>
+        <a href="http://efirsa.mx/archivos/efirsaInstitucional.mp4" data-lity><img id="play-video" class="play_button_landing" src="images/play.png"></a>
       </div>
     </div>
   </div>
   <div class="container-fluid">
     <div class="row separador-logo">
-      <img class="centrar-img efirsa-home" src="img/logos/logoIndex.png">
+      <img class="centrar-img efirsa-home" src="images/logos/logoIndex.png">
     </div>
   </div>
 
@@ -39,9 +39,9 @@
   <div class="row seccion-productos">
     <div class="padding-home">
       <h2 class="titulos-secciones">Productos</h2>
-      <p class="texto-verde enlaces-verdes"><a target="_blank" class="texto-verde enlaces-verdes" href="archivos/catalogoEfirsa.pdf">Descargar nuestro catálogo<img class="flecha-enlace" src="img/flecha-verde.png"></a></p>
+      <p class="texto-verde enlaces-verdes"><a target="_blank" class="texto-verde enlaces-verdes" href="archivos/catalogoEfirsa.pdf">Descargar nuestro catálogo<img class="flecha-enlace" src="images/flecha-verde.png"></a></p>
     </div>
-    <!--<img class="img-full" src="img/cintillo-catalogo.jpg">-->
+    <!--<img class="img-full" src="images/cintillo-catalogo.jpg">-->
   </div>
 </div>
 
@@ -76,7 +76,7 @@
       <div class="carousel-inner">
 
         <div class="item active">
-          <img src="img/slider-1.png" alt="Efirsa Web Slider" style="width:100%;">
+          <img src="images/slider-1.png" alt="Efirsa Web Slider" style="width:100%;">
           <!--<div class="carousel-caption">
             <h3>Los Angeles</h3>
             <p>LA is always so much fun!</p>
@@ -84,7 +84,7 @@
         </div>
 
         <div class="item">
-          <img src="img/slider-2.png" alt="Efirsa Web Slider" style="width:100%;">
+          <img src="images/slider-2.png" alt="Efirsa Web Slider" style="width:100%;">
           <!--<div class="carousel-caption">
             <h3>Chicago</h3>
             <p>Thank you, Chicago!</p>
@@ -123,25 +123,25 @@
           <div class="contenedor-servicios">
             <h2 class="servicios-item">Venta _</h2>
           </div>
-          <img src="img/servicios/Venta.png" alt="">
+          <img src="images/servicios/Venta.png" alt="">
         </div>
         <div class="col-xs-12 col-sm-3 sin-padding serviceResp">
           <div class="contenedor-servicios">
             <h2 class="servicios-item">Mantenimiento _</h2>
           </div>
-          <img src="img/servicios/Mantenimiento.png" alt="">
+          <img src="images/servicios/Mantenimiento.png" alt="">
         </div>
         <div class="col-xs-12 col-sm-3 sin-padding serviceResp">
           <div class="contenedor-servicios ">
             <h2 class="servicios-item">Modernización _</h2>
           </div>
-          <img src="img/servicios/Modernizacion.png" alt="">
+          <img src="images/servicios/Modernizacion.png" alt="">
         </div>
         <div class="col-xs-12 col-sm-3 sin-padding serviceResp">
           <div class="contenedor-servicios">
             <h2 class="servicios-item">Reparación _</h2>
           </div>
-          <img src="img/servicios/Reparacion.png" alt="">
+          <img src="images/servicios/Reparacion.png" alt="">
         </div>
       </div>
       <h2 class="textService">DE ELEVADORES DE USO <span class="strong">DOMÉSTICO E INDUSTRIAL</span></h2>
@@ -150,7 +150,7 @@
   <div class="container">
     <div class="row seccion-pasos-cotizacion">
       <div class="padding-home">
-        <p class="texto-centro"><a class="texto-verde enlaces-verdes" href="cotizaciones.php">Pasos a seguir para una cotización <img class="flecha-enlace" src="img/flecha-verde.png"></a></p>
+        <p class="texto-centro"><a class="texto-verde enlaces-verdes" href="cotizaciones.php">Pasos a seguir para una cotización <img class="flecha-enlace" src="images/flecha-verde.png"></a></p>
       </div>
     </div>
   </div>

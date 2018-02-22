@@ -1963,7 +1963,8 @@ ul.breadcrumb {
     flex-wrap: wrap; }
     .empty-cart-content .middle-content .content {
       display: flex;
-      justify-content: center; }
+      justify-content: center;
+      width: 100%; }
       .empty-cart-content .middle-content .content p {
         width: 100%;
         max-width: 250px;
