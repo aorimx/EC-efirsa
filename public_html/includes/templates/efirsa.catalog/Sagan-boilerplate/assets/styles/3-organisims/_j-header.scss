@@ -4,7 +4,7 @@ header{
     flex-wrap: wrap;
   }  .contenedor-menu{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1232px;
     background-color: #414042;
     position: fixed;
     top: 0;
@@ -35,17 +35,17 @@ header{
           }
           .hmenu.active span:nth-child(2){
               transform: rotate(45deg) translateX(6px) translateY(11px);
-             
+
               transition: all 0.5s ease-in-out;
           }
           .hmenu.active span:nth-child(3){
               opacity: 0;
-             
+
               transition: all 0.5s ease-in-out;
           }
           .hmenu.active span:nth-child(4){
               transform: rotate(-45deg) translateX(3px) translateY(-7px);
-           
+
               transition: all 0.5s ease-in-out;
           }
           .hmenu{
@@ -150,17 +150,17 @@ header{
           }
           .hmenu.active span:nth-child(2){
               transform: rotate(45deg) translateX(6px) translateY(11px);
-             
+
               transition: all 0.5s ease-in-out;
           }
           .hmenu.active span:nth-child(3){
               opacity: 0;
-             
+
               transition: all 0.5s ease-in-out;
           }
           .hmenu.active span:nth-child(4){
               transform: rotate(-45deg) translateX(3px) translateY(-7px);
-           
+
               transition: all 0.5s ease-in-out;
           }
           .hmenu{
