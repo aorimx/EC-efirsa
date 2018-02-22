@@ -61,7 +61,6 @@
     }
   }
   @media screen and (max-width: 640px){
-    height: 25vh;
     .hero-text{
       left: 35%;
       h1{
@@ -69,6 +68,16 @@
       }
       p{
         font-size: $space-2;
+      }
+    }
+  }
+  @media screen and (max-width: 480px){
+    .hero-text{
+      h1{
+        font-size: $space-3;
+      }
+      button{
+        padding: $space-base 25px;
       }
     }
   }

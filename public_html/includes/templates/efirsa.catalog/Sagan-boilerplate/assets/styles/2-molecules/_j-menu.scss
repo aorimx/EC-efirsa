@@ -21,5 +21,8 @@
   }
   @media screen and (max-width: 480px){
   display: block;
+  .sub-list{
+    padding-top: $space-base;
+  }
   }
 }

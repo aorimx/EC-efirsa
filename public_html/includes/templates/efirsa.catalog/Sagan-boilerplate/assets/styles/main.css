@@ -1221,14 +1221,17 @@ select::-ms-expand {
       left: 32%;
       text-align: justify; } }
   @media screen and (max-width: 640px) {
-    .hero-content {
-      height: 25vh; }
-      .hero-content .hero-text {
-        left: 35%; }
-        .hero-content .hero-text h1 {
-          font-size: 40px; }
-        .hero-content .hero-text p {
-          font-size: 16px; } }
+    .hero-content .hero-text {
+      left: 35%; }
+      .hero-content .hero-text h1 {
+        font-size: 40px; }
+      .hero-content .hero-text p {
+        font-size: 16px; } }
+  @media screen and (max-width: 480px) {
+    .hero-content .hero-text h1 {
+      font-size: 24px; }
+    .hero-content .hero-text button {
+      padding: 8px 25px; } }
 
 .menu-container {
   display: inline-flex;
@@ -1248,7 +1251,9 @@ select::-ms-expand {
     padding-top: 32px; }
   @media screen and (max-width: 480px) {
     .menu-container {
-      display: block; } }
+      display: block; }
+      .menu-container .sub-list {
+        padding-top: 8px; } }
 
 .alert-content {
   width: 100%;
@@ -1287,6 +1292,11 @@ select::-ms-expand {
       display: none; }
     .alert-content .botton-x .c-mostrar {
       display: block; }
+  @media screen and (max-width: 480px) {
+    .alert-content .text-content .texto-verde {
+      font-size: 14px; }
+    .alert-content .botton-x {
+      padding-right: 8px; } }
 
 @font-face {
   font-family: 'Gothaml';
