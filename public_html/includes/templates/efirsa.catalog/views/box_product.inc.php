@@ -25,7 +25,7 @@
       <?php } ?>
     </div>
   </div>
-    <div class="unit percent-30 product-detail">
+    <div class="unit percent-30 product-detail" style="padding-right:16px;">
 
     <div class="col-sm-halfs col-md-thirds" >
       <h1 class="title"><?php echo $name; ?></h1>

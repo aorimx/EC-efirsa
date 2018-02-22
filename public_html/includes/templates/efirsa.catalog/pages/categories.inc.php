@@ -4,13 +4,13 @@
 
 
 
-<main id="content" class="main_content" > <!--class="main_full" -->
+<main id="content" class="main_content" style="padding:16px;"> <!--class="main_full" -->
   {snippet:notices}
-  {snippet:breadcrumbs}
+  <!--{snippet:breadcrumbs}-->
   <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'views/box_search.inc.php'); ?>
   <div id="box-categories" class="box">
     <h1 class="categories-title"><?php echo language::translate('title_categories', 'Categories'); ?></h1>
-    <div class="box-thumbnail"> 
+    <div class="box-thumbnail">
       <?php if(!empty($categories)){ ?>
         <?php foreach ($categories as $category) echo functions::draw_listing_category($category); ?>
       <?php }else{ ?>

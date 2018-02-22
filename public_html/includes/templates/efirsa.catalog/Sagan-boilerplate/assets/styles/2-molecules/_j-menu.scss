@@ -12,4 +12,17 @@
       }
   }
   }
+  .list-title{
+    font-weight: bolder;
+    font-size: $space-2;
+  }
+  .sub-list{
+    padding-top: $space-4;
+  }
+  @media screen and (max-width: 480px){
+  display: block;
+  .sub-list{
+    padding-top: $space-base;
+  }
+  }
 }

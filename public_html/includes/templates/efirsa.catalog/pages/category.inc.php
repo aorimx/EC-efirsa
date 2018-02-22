@@ -17,7 +17,7 @@
     <?php } ?>
 
     <?php if ($_GET['page'] == 1 && $subcategories) { ?>
-      
+
     <div class="categories row half-gutter   box-thumbnail ">
       <?php foreach ($subcategories as $subcategory) echo functions::draw_listing_category($subcategory); ?>
     </div>
@@ -33,7 +33,7 @@
         <p>NO HAY PRODUCTOS EN ESTA CATEGORÌA</p>
         <a href="<?php echo document::ilink('index_tienda'); ?>"><button class="btn-print">Regresar a la página principal</button></a>
       </div>
-    </div> 
+    </div>
     <?php }?>
 
     <?php echo $pagination; ?>

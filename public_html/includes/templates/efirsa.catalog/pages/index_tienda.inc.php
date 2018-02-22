@@ -1,12 +1,20 @@
-<aside id="sidebar" class="aside_content">
-  <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'views/column_left.inc.php'); ?>
-</aside>
+<!--<aside id="sidebar" class="aside_content">
+  <?php //include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'views/column_left.inc.php'); ?>
+</aside>-->
 
 <main id="content" class="main_content">
   {snippet:notices}
 
-  <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'views/box_search.inc.php'); ?>
-  
+    <div class="banner-content">
+      <!--<div class="banner">
+        <div class="image-banner">-->
+          <!-- img class="image" src="../../includes/templates/default.catalog/ef-s/img/Banner.png"-->
+          <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_slides.inc.php'); ?>
+        <!--</div>
+      </div>-->
+    </div>
+  <?php //include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'views/box_search.inc.php'); ?>
+<?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'pages/categories.inc.php'); ?>
 
 
   <ul class="nav nav-tabs nav-justified" style="overflow: hidden;">
@@ -44,4 +52,3 @@
   </div>
 </div>
   <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_recently_viewed_products.inc.php'); ?>
-  
