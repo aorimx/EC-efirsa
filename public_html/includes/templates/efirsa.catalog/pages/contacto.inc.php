@@ -19,7 +19,6 @@
       </div>
       <div class="col-xs-12 col-sm-6" style="overflow: hidden; padding-left: 0px; padding-right: 0px;">
 
-
         <div class="form-container marginHtc">
           <form id="contact-form" action="#" method="POST" enctype="multipart/form-data">
                     <input type="hidden" name="_token" value="{{ csrf_token() }}"/>
@@ -428,11 +427,425 @@
                       <input class="btnI" type="submit" value="ENVIAR"/>
                     </div>
                     <div class="nota"><span>Los campos marcados con * son obligatorios</span></div>
-          </form>       
+          </form>
         </div>
+
       </div>
       <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6" style="padding-left: 24px; padding-top: 24px;">
          <div id="map"></div>
+
+
+         <script type="text/javascript">
+
+           var map;
+           var marker;
+
+           function initMap() {
+             var map = new google.maps.Map(document.getElementById('map'), {
+               zoom: 16,
+               // set the zoom level manually
+               disableDefaultUI:true,
+               scaleControl: false,
+               scrollwheel: true,
+               center: {lat: 20.6541449, lng: -103.379492},
+               styles: [
+                          {
+                            "elementType": "geometry",
+                            "stylers": [
+                              {
+                                "color": "#f5f5f5"
+                              }
+                            ]
+                          },
+                          {
+                            "elementType": "labels.icon",
+                            "stylers": [
+                              {
+                                "visibility": "off"
+                              }
+                            ]
+                          },
+                          {
+                            "elementType": "labels.text.fill",
+                            "stylers": [
+                              {
+                                "color": "#616161"
+                              }
+                            ]
+                          },
+                          {
+                            "elementType": "labels.text.stroke",
+                            "stylers": [
+                              {
+                                "color": "#f5f5f5"
+                              }
+                            ]
+                          },
+                          {
+                            "featureType": "administrative.land_parcel",
+                            "elementType": "labels.text.fill",
+                            "stylers": [
+                              {
+                                "color": "#bdbdbd"
+                              }
+                            ]
+                          },
+                          {
+                            "featureType": "landscape.man_made",
+                            "elementType": "geometry.fill",
+                            "stylers": [
+                              {
+                                "color": "#dfdfdf"
+                              }
+                            ]
+                          },
+                          {
+                            "featureType": "poi",
+                            "elementType": "geometry",
+                            "stylers": [
+                              {
+                                "color": "#eeeeee"
+                              }
+                            ]
+                          },
+                          {
+                            "featureType": "poi",
+                            "elementType": "labels.icon",
+                            "stylers": [
+                              {
+                                "saturation": -100
+                              },
+                              {
+                                "lightness": 15
+                              },
+                              {
+                                "visibility": "on"
+                              }
+                            ]
+                          },
+                          {
+                            "featureType": "poi",
+                            "elementType": "labels.text.fill",
+                            "stylers": [
+                              {
+                                "color": "#757575"
+                              }
+                            ]
+                          },
+                          {
+                            "featureType": "poi.medical",
+                            "elementType": "geometry",
+                            "stylers": [
+                              {
+                                "color": "#e5e5e5"
+                              }
+                            ]
+                          },
+                          {
+                            "featureType": "poi.park",
+                            "elementType": "geometry",
+                            "stylers": [
+                              {
+                                "color": "#e5e5e5"
+                              }
+                            ]
+                          },
+                          {
+                            "featureType": "poi.park",
+                            "elementType": "labels.text.fill",
+                            "stylers": [
+                              {
+                                "color": "#9e9e9e"
+                              }
+                            ]
+                          },
+                          {
+                            "featureType": "poi.school",
+                            "elementType": "geometry",
+                            "stylers": [
+                              {
+                                "color": "#e5e5e5"
+                              }
+                            ]
+                          },
+                          {
+                            "featureType": "road",
+                            "elementType": "geometry",
+                            "stylers": [
+                              {
+                                "color": "#ffffff"
+                              }
+                            ]
+                          },
+                          {
+                            "featureType": "road.arterial",
+                            "elementType": "labels.text.fill",
+                            "stylers": [
+                              {
+                                "color": "#757575"
+                              }
+                            ]
+                          },
+                          {
+                            "featureType": "road.highway",
+                            "elementType": "geometry",
+                            "stylers": [
+                              {
+                                "color": "#dadada"
+                              }
+                            ]
+                          },
+                          {
+                            "featureType": "road.highway",
+                            "elementType": "geometry.fill",
+                            "stylers": [
+                              {
+                                "color": "#cdcdcd"
+                              }
+                            ]
+                          },
+                          {
+                            "featureType": "road.highway",
+                            "elementType": "labels.text.fill",
+                            "stylers": [
+                              {
+                                "color": "#616161"
+                              }
+                            ]
+                          },
+                          {
+                            "featureType": "road.local",
+                            "elementType": "labels.text.fill",
+                            "stylers": [
+                              {
+                                "color": "#9e9e9e"
+                              }
+                            ]
+                          },
+                          {
+                            "featureType": "transit.line",
+                            "elementType": "geometry",
+                            "stylers": [
+                              {
+                                "color": "#e5e5e5"
+                              }
+                            ]
+                          },
+                          {
+                            "featureType": "transit.station",
+                            "elementType": "geometry",
+                            "stylers": [
+                              {
+                                "color": "#eeeeee"
+                              }
+                            ]
+                          },
+                          {
+                            "featureType": "water",
+                            "elementType": "geometry",
+                            "stylers": [
+                              {
+                                "color": "#c9c9c9"
+                              }
+                            ]
+                          },
+                          {
+                            "featureType": "water",
+                            "elementType": "labels.text.fill",
+                            "stylers": [
+                              {
+                                "color": "#9e9e9e"
+                              }
+                            ]
+                          }
+                        ]
+             });
+
+
+             var image = 'http://efirsa.mx/images/iconoMarker2.svg';
+
+            marker = new google.maps.Marker({
+               map: map,
+
+               icon: image,
+               position: {lat: 20.6534149, lng: -103.3800896}
+             });
+
+           }
+
+
+
+         </script>
+         <script async defer
+           src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDacDTJIvueZB9g-8matbFeGYyroNeNnxQ&callback=initMap">
+         </script>
       </div>
     </div>
   </div>
+
+  <script src="js/sweetalert2/dist/sweetalert2.all.min.js"></script>
+
+<!-- Include a polyfill for ES6 Promises (optional) for IE11 and Android browser -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
+  <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+  <script src="js/sliderForm.js"></script>
+  <script src="js/enviarForm.js"></script>
+  <script>
+      $("input[name='asunto']").click(function(){
+      	$('.dropdow-select').toggleClass('active');
+      });
+      $('input').click(function(){
+      	if($(this).attr('name')!="asunto" && $(this).attr('type')!="checkbox")
+      		$('.dropdow-select').removeClass('active');
+      });
+      $('.cbe').click(function(){
+      	var val=$('input[name="asunto"]').val();
+      	if($(this).is(':checked')){
+      		$('input[name="asunto"]').val(val + $(this).val());
+      	}
+      	else{
+      		val=val.replace($(this).val(),"");
+      		$('input[name="asunto"]').val(val);
+
+      	}
+
+      });
+
+      $('#contact-form').submit(function(e){
+      	e.preventDefault();
+      	$('input').removeClass('error');
+      	$('textarea').removeClass('error');
+      	$('label.error').remove();
+      	var name=$("input[name='nombre']");
+        var empresa=$("input[name='nombre-empresa']");
+        var puesto=$("input[name='puesto-empresa']");
+      	var asunto=$("input[name='asunto']");
+      	var mensaje=$("textarea[name='mensaje']");
+      	var email=$("input[name='email']");
+      	var pattern = new RegExp(/^[+a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i);
+      	if(name.val() === ""){
+      		$(name).addClass('error');
+      		$(name).after('<label class="error"> Campo obligatorio</label>');
+      	}
+      	if(empresa.val() === ""){
+      		$(empresa).addClass('error');
+      		$(empresa).after('<label class="error"> Campo obligatorio</label>');
+        }
+        if(puesto.val() === ""){
+      		$(puesto).addClass('error');
+      		$(puesto).after('<label class="error"> Campo obligatorio</label>');
+      	}
+      	if(asunto.val() === ""){
+      		$(asunto).addClass('error');
+      		$(asunto).after('<label class="error"> Campo obligatorio</label>');
+      	}
+      	if(mensaje.val() === ""){
+      		$(mensaje).addClass('error');
+      		$(mensaje).after('<label class="error"> Campo obligatorio</label>');
+      	}
+      	if(!pattern.test(email.val())){
+      		$(email).addClass('error');
+      		$(email).after('<label class="error"> El correo electrónico señalado es incorrecto</label>');
+      	}
+      	if($('label.error').length == 0){
+          console.log("se enviara un correo");
+          contactoEnviarMensajeBtn_click();
+          contactoEnviarDatos();
+      	}
+
+
+          return false;
+      });
+  </script>
+  <script>
+       $("input[name='estado']").click(function(){
+      	$('.dropdow-selectEstado').toggleClass('active');
+      });
+      $('input').click(function(){
+      	if($(this).attr('name')!="estado" && $(this).attr('type')!="checkbox")
+      		$('.dropdow-selectEstado').removeClass('active');
+      });
+      $('.est').click(function(){
+        console.log("se apreto");
+      	var val=$('input[name="estado"]').val();
+      	if($(this).is(':checked')){
+      		$('input[name="estado"]').val($(this).val());
+      	}
+      	else{
+      		val=val.replace($(this).val(),"");
+      		$('input[name="estado"]').val(val);
+
+      	}
+
+      });
+
+
+      $("input[name='asuntoP']").click(function(){
+      	$('.dropdow-selectP').toggleClass('active');
+      });
+      $('input').click(function(){
+      	if($(this).attr('name')!="asuntoP" && $(this).attr('type')!="checkbox")
+      		$('.dropdow-selectP').removeClass('active');
+      });
+      $('.cbp').click(function(){
+        console.log("se apreto");
+      	var val=$('input[name="asuntoP"]').val();
+      	if($(this).is(':checked')){
+      		$('input[name="asuntoP"]').val(val + $(this).val());
+      	}
+      	else{
+      		val=val.replace($(this).val(),"");
+      		$('input[name="asuntoP"]').val(val);
+
+      	}
+
+      });
+
+      $('#contact-form-p').submit(function(e){
+
+      	e.preventDefault();
+      	$('input').removeClass('error');
+      	$('textarea').removeClass('error');
+      	$('label.error').remove();
+      	var name=$("input[name='nombrep']");
+        var profesion=$("input[name='profesion']");
+
+      	var asunto=$("input[name='asuntoP']");
+      	var mensaje=$("textarea[name='mensajep']");
+      	var email=$("input[name='emailp']");
+      	var pattern = new RegExp(/^[+a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i);
+      	if(name.val() === ""){
+      		$(name).addClass('error');
+      		$(name).after('<label class="error"> Campo obligatorio</label>');
+      	}
+      	if(profesion.val() === ""){
+      		$(profesion).addClass('error');
+      		$(profesion).after('<label class="error"> Campo obligatorio</label>');
+        }
+
+      	if(asunto.val() === ""){
+      		$(asunto).addClass('error');
+      		$(asunto).after('<label class="error"> Campo obligatorio</label>');
+      	}
+      	if(mensaje.val() === ""){
+      		$(mensaje).addClass('error');
+      		$(mensaje).after('<label class="error"> Campo obligatorio</label>');
+      	}
+      	if(!pattern.test(email.val())){
+      		$(email).addClass('error');
+      		$(email).after('<label class="error"> El correo electrónico señalado es incorrecto</label>');
+      	}
+      	if($('label.error').length == 0){
+          console.log("se enviara un correo");
+          contactoEnviarMensajeBtnP_click();
+          contactoEnviarDatosP();
+
+      		//$('#contact-form').unbind('submit').submit();
+      	}
+
+
+          return false;
+      });
+  </script>
+
+<?php //require 'footer.php';?>

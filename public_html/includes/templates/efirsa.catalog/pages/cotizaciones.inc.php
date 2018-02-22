@@ -1,4 +1,6 @@
-<?php //require 'header.php';?>
+<?php
+  //require 'header.php';
+?>
 <?php   document::$layout = 'default_no_sagan'; ?>
   <div class="container">
     <div class="row proveedores-catalogo">

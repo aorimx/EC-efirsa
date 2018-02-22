@@ -2,7 +2,7 @@
 <html lang="es">
 <head itemscope itemtype="http://schema.org/WebSite">
   <title>EFIRSA</title>
-  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
   <meta charset="utf-8" />
   <meta name="description" content="Descripción EFIRSA">
   <meta name="keywords" content="Elevadores, Efirsa" />
@@ -17,14 +17,14 @@
   <meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="EFIRSA">
 	<meta name="twitter:description" content="XAX Logística">
-  <meta name="twitter:image" content="img/logo-xax.png">
+  <meta name="twitter:image" content="images/logo-xax.png">
   <meta name="twitter:domain" content="wordpress.stackexchange.com">
   <!-- Fin meta twitter -->
   <!-- Meta para facebook-->
   <meta property="og:site_name" content="EFIRSA"/>
   <meta property="og:type" content="article" />
 	<meta property="og:title" content="EFIRSA" />
-  <meta property="og:image" content="img/logo-xax.png" />
+  <meta property="og:image" content="images/logo-xax.png" />
 	<meta property="og:description" content="EFIRSA" />
   <meta property="og:url" content="<?php echo $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";?>" />
   <!-- Fin meta facebook -->
