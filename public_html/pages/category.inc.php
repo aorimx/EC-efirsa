@@ -9,14 +9,14 @@
   $category = reference::category($_GET['category_id']);
 
   if (empty($category->id)) {
-    notices::add('errors', language::translate('error_410_gone', 'The requested file is no longer available'));
+    notices::add('errors', language::translate('error_410_gone_EC', 'La pagina ya no esta disponible'));
     http_response_code(410);
     header('Refresh: 0; url='. document::ilink('categories'));
     exit;
   }
 
   if (empty($category->status)) {
-    notices::add('errors', language::translate('error_404_not_found', 'The requested file could not be found'));
+    notices::add('errors', language::translate('error_404_not_found_EC', 'No se encontro la pagina'));
     http_response_code(404);
     header('Refresh: 0; url='. document::ilink('categories'));
     exit;
@@ -26,7 +26,7 @@
   document::$snippets['title'][] = $category->head_title ? $category->head_title : $category->name;
   document::$snippets['description'] = $category->meta_description ? $category->meta_description : strip_tags($category->short_description);
 
-  breadcrumbs::add(language::translate('title_categories', 'Categories'), document::ilink('categories'));
+  breadcrumbs::add(language::translate('title_categories_EC', 'Categorias'), document::ilink('categories'));
   foreach (array_slice(functions::catalog_category_trail($category->id), 0, -1, true) as $category_id => $category_name) {
     breadcrumbs::add($category_name, document::ilink('category', array('category_id' => $category_id)));
   }
@@ -51,10 +51,10 @@
       'subcategories' => array(),
       'products' => array(),
       'sort_alternatives' => array(
-        'name' => language::translate('title_name', 'Name'),
-        'price' => language::translate('title_price', 'Price'),
-        'popularity' => language::translate('title_popularity', 'Popularity'),
-        'date' => language::translate('title_date', 'Date'),
+        'name' => language::translate('title_name_EC', 'Nombre'),
+        'price' => language::translate('title_price_EC', 'Precio'),
+        'popularity' => language::translate('title_popularity_EC', 'Popularidad'),
+        'date' => language::translate('title_date_EC', 'Fecha'),
       ),
     );
 
