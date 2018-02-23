@@ -18,7 +18,7 @@
     'title' => sprintf(language::translate('title_search_results_for_s_EC', 'Resultados encontrados para &quot;%s&quot;'), htmlspecialchars($_GET['query'])),
     'products' => array(),
     'sort_alternatives' => array(
-      'relevance' => language::translate('title_relevance_EC', 'Relecancia'),
+      'relevance' => language::translate('title_relevanceEC', 'Relevancia'),
       'name' => language::translate('title_name_EC', 'Nombre'),
       'price' => language::translate('title_price_EC', 'Precio'),
       'popularity' => language::translate('title_popularity_EC', 'Popularidad'),
