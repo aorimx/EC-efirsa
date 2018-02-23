@@ -140,7 +140,7 @@
 
         <?php if (!$catalog_only_mode) { ?>
         <div class="form-group">
-          <label><?php echo language::translate('title_quantity', 'Quantity'); ?></label>
+          <label><?php echo language::translate('title_quantity_EC', 'Cantidad'); ?></label>
           <!--Aqui abajo iba un display:flex;-->
           <div>
             <div class="input-group">
