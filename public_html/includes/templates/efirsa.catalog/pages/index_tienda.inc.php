@@ -30,13 +30,11 @@
       <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_campaign_products.inc.php'); ?>
     </div>
     <?php } ?>
-    <!--
-    <div class="tab-pane fade in" id="popular-products">
-      <?php //include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_popular_products.inc.php'); ?>
-    </div>-->
-
     <div class="tab-pane fade in active" id="latest-products">
       <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_latest_products.inc.php'); ?>
+    </div>
+    <div class="tab-pane fade in" id="popular-products">
+      <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_popular_products.inc.php'); ?>
     </div>
   </div>
 
