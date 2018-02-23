@@ -6,23 +6,23 @@
 
   $_GET['query'] = trim($_GET['query']);
 
-  document::$snippets['title'][] = !empty($_GET['query']) ? sprintf(language::translate('title_search_results_for_s', 'Search Results for &quot;%s&quot;'), htmlspecialchars($_GET['query'])) : language::translate('title_search_results', 'Search Results');
+  document::$snippets['title'][] = !empty($_GET['query']) ? sprintf(language::translate('title_search_results_for_s_EC', 'Resultados encontrados para &quot;%s&quot;'), htmlspecialchars($_GET['query'])) : language::translate('title_search_results_EC', 'Resultados de búsqueda');
 
-  breadcrumbs::add(language::translate('title_search_results', 'Search Results'), document::ilink('search'));
-  breadcrumbs::add(!empty($_GET['query']) ? strip_tags($_GET['query']) : language::translate('title_all_products', 'All Products'));
+  breadcrumbs::add(language::translate('title_search_results_EC', 'Resultados de busqueda'), document::ilink('search'));
+  breadcrumbs::add(!empty($_GET['query']) ? strip_tags($_GET['query']) : language::translate('title_all_products_EC', 'Todos los productos'));
 
   functions::draw_lightbox();
 
   $_page = new view();
   $_page->snippets = array(
-    'title' => sprintf(language::translate('title_search_results_for_s', 'Search Results for &quot;%s&quot;'), htmlspecialchars($_GET['query'])),
+    'title' => sprintf(language::translate('title_search_results_for_s_EC', 'Resultados encontrados para &quot;%s&quot;'), htmlspecialchars($_GET['query'])),
     'products' => array(),
     'sort_alternatives' => array(
-      'relevance' => language::translate('title_relevance', 'Relevance'),
-      'name' => language::translate('title_name', 'Name'),
-      'price' => language::translate('title_price', 'Price'),
-      'popularity' => language::translate('title_popularity', 'Popularity'),
-      'date' => language::translate('title_date', 'Date'),
+      'relevance' => language::translate('title_relevance_EC', 'Relecancia'),
+      'name' => language::translate('title_name_EC', 'Nombre'),
+      'price' => language::translate('title_price_EC', 'Precio'),
+      'popularity' => language::translate('title_popularity_EC', 'Popularidad'),
+      'date' => language::translate('title_date_EC', 'Fecha'),
     ),
     'pagination' => null,
     'listing_type' => $_GET['view'] //Validar la info!
