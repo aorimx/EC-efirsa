@@ -20,8 +20,17 @@
       <div class="products  half-gutter box-thumbnail  <?php echo $listing_type; ?> " >
     <?php foreach ($products as $product) echo functions::draw_listing_product($product, $listing_type /*'column'*/ ); ?>
       </div>
-    <?php } ?>
-
+    <?php }
+    else{
+    ?>
+    <div class="container-alert">
+      <div class="order-success">
+        <p>No se encontraron resultados</p>
+        <a href="<?php echo document::ilink('index_tienda'); ?>"><button class="btn-print">Regresar a la página principal</button></a>
+      </div>
+    </div>
+    <?php
+    }?>
     <?php echo $pagination; ?>
   </div>
 </main>
