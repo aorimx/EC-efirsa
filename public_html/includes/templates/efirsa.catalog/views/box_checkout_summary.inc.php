@@ -26,7 +26,7 @@
     </div>
   </div>
     <!--<div class="comments form-group">
-      <label><?php echo language::translate('title_comments', 'Comments'); ?></label>
+      <label><?php echo language::translate('title_comments_EC', 'Commentarios'); ?></label>
       <?php echo functions::form_draw_textarea('comments', true); ?>
     </div>-->
 

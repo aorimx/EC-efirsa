@@ -1,7 +1,7 @@
 <?php if(!empty($products)){ ?>
   <div id="box-recently-viewed-products" class="box-recently_viewed">
 
-    <h2><?php echo language::translate('title_recently_viewed', 'Recently Viewed'); ?></h2>
+    <h2><?php echo language::translate('title_recently_viewed_EC', 'Vistos recientemente'); ?></h2>
 
     <div class="box-thumbnail">
 
