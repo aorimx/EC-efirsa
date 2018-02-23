@@ -1,6 +1,6 @@
 <div id="box-category-tree" class="container-categories">
   <!--Este era h2-->
-  <button class="bg-color-success"><?php echo language::translate('title_categories', 'Categories'); ?>
+  <button class="bg-color-success"><?php echo language::translate('title_categories_EC', 'Categorias'); ?>
     <!--<i class="icon fa fa-caret-right flag-icon1 flip-right padding-le" aria-hidden="true"></i>--></button>
   <div class="categories-menu">
   <ul class="nav nav-primary nav-pills nav-stacked align-categories">

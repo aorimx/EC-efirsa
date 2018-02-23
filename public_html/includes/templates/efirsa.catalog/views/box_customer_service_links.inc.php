@@ -1,6 +1,6 @@
 <div id="box-information-links" class="box">
 
-  <h2 class="title"><?php echo language::translate('title_customer_service', 'Customer Service'); ?></h2>
+  <h2 class="title"><?php echo language::translate('title_customer_service_EC', 'Servicio al cliente'); ?></h2>
 
   <ul class="nav nav-pills nav-primary nav-stacked">
     <?php foreach ($pages as $page) { ?>

@@ -1,6 +1,6 @@
 <div id="box-information-links" class="box">
 
-  <h3 class="title"><?php echo language::translate('title_information', 'Information'); ?></h3>
+  <h3 class="title"><?php echo language::translate('title_information_EC', 'Informacion'); ?></h3>
 
   <ul class="nav nav-pills nav-primary nav-stacked">
     <?php foreach ($pages as $page) { ?>

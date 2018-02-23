@@ -38,9 +38,9 @@
       </div>
       <div class="tax">
           <?php if ($tax_rates) { ?>
-            <?php echo $including_tax ? language::translate('title_including_tax', 'Including Tax') : language::translate('title_excluding_tax', 'Excluding Tax'); ?>: <span class="total-tax"><?php echo currency::format($total_tax); ?></span>
+            <?php echo $including_tax ? language::translate('title_including_tax_EC', 'Incluye impuestos') : language::translate('title_excluding_tax_EC', 'No incluye impuestos'); ?>: <span class="total-tax"><?php echo currency::format($total_tax); ?></span>
           <?php } else { ?>
-            <?php echo language::translate('title_excluding_tax', 'Excluding Tax'); ?>
+            <?php echo language::translate('title_excluding_tax_EC', 'No incluye impuestos'); ?>
           <?php } ?>
       </div>
     <div>
@@ -89,7 +89,7 @@
 
       <?php if ($cheapest_shipping_fee !== null) { ?>
       <div class="cheapest-shipping" style="margin: 1em 0;">
-        <?php echo functions::draw_fonticon('fa-truck'); ?> <?php echo strtr(language::translate('text_cheapest_shipping_from_price', 'Cheapest shipping from <strong class="value">%price</strong>'), array('%price' => currency::format($cheapest_shipping_fee))); ?>
+        <?php echo functions::draw_fonticon('fa-truck'); ?> <?php echo strtr(language::translate('text_cheapest_shipping_from_price_EC', 'El envío más barato desde<strong class="value">%precio</strong>'), array('%price' => currency::format($cheapest_shipping_fee))); ?>
       </div>
       <?php } ?>
 
@@ -97,25 +97,25 @@
       <div class="stock-status" style="margin: 1em 0;">
        <?php if ($quantity > 0) { ?>
           <div class="stock-available">
-            <?php echo language::translate('title_stock_status', 'Stock Status'); ?>:
+            <?php echo language::translate('title_stock_status_EC', 'Estado del stock'); ?>:
             <span class="value"><?php echo $stock_status; ?></span>
           </div>
           <?php if ($delivery_status) { ?>
           <div class="stock-delivery">
-            <?php echo language::translate('title_delivery_status', 'Delivery Status'); ?>:
+            <?php echo language::translate('title_delivery_status_EC', 'Estatus de entrega'); ?>:
             <span class="value"><?php echo $delivery_status;?></span>
           </div>
           <?php } ?>
        <?php } else { ?>
           <?php if ($sold_out_status) { ?>
-            <div class="<?php echo $orderable ? 'stock-partly-available' : 'stock-unavailable'; ?>">
-              <?php echo language::translate('title_stock_status', 'Stock Status'); ?>:
+            <div class="<?php echo $orderable ? 'stock-partly-available_EC' : 'Estatus no disponible'; ?>">
+              <?php echo language::translate('title_stock_status_EC', 'Estatus disponible'); ?>:
               <span class="value"><?php echo $sold_out_status; ?></span>
             </div>
           <?php } else { ?>
             <div class="stock-unavailable">
-              <?php echo language::translate('title_stock_status', 'Stock Status'); ?>:
-              <span class="value"><?php echo language::translate('title_sold_out', 'Sold Out'); ?></span>
+              <?php echo language::translate('title_stock_status_EC', 'Estado disponible'); ?>:
+              <span class="value"><?php echo language::translate('title_sold_out_EC', 'Agotado'); ?></span>
             </div>
           <?php } ?>
        <?php } ?>
@@ -140,7 +140,7 @@
 
         <?php if (!$catalog_only_mode) { ?>
         <div class="form-group">
-          <label><?php echo language::translate('title_quantity', 'Quantity'); ?></label>
+          <label><?php echo language::translate('title_quantity_EC', 'Cantidad'); ?></label>
           <!--Aqui abajo iba un display:flex;-->
           <div>
             <div class="input-group">
@@ -148,7 +148,7 @@
               <?php echo !empty($quantity_unit['name']) ? '<div class="input-group-addon">'. $quantity_unit['name'] .'</div>' : ''; ?>
             </div>
             <div>
-              <?php echo '<button class="btn btn-success btn-aligned" name="add_cart_product" value="true" type="submit"'. (($quantity <= 0 && !$orderable) ? ' disabled="disabled"' : '') .'>'. language::translate('title_add_to_cart', 'Add To Cart') .'</button>'; ?>
+              <?php echo '<button class="btn btn-success btn-aligned" name="add_cart_product" value="true" type="submit"'. (($quantity <= 0 && !$orderable) ? ' disabled="disabled"' : '') .'>'. language::translate('title_add_to_cart_EC', 'Agregar a carrito') .'</button>'; ?>
               <p class="message text-aligned">Recibiras un correo de nuestros asesores para mas información</p>
             </div>
           </div>
@@ -161,10 +161,10 @@
 
       <div class="social-bookmarks text-center" style="margin: 1rem 0;">
         <a class="link" href="#"><?php echo functions::draw_fonticon('fa-link', 'style="color: #333;"'); ?></a>
-        <a class="twitter" href="<?php echo document::href_link('http://twitter.com/home/', array('status' => $name .' - '. $link)); ?>" target="_blank" title="<?php echo sprintf(language::translate('text_share_on_s', 'Share on %s'), 'Twitter'); ?>"><?php echo functions::draw_fonticon('fa-twitter-square fa-lg', 'style="color: #55acee;"'); ?></a>
-        <a class="facebook" href="<?php echo document::href_link('http://www.facebook.com/sharer.php', array('u' => $link)); ?>" target="_blank" title="<?php echo sprintf(language::translate('text_share_on_s', 'Share on %s'), 'Facebook'); ?>"><?php echo functions::draw_fonticon('fa-facebook-square fa-lg', 'style="color: #3b5998;"'); ?></a>
-        <a class="googleplus" href="<?php echo document::href_link('https://plus.google.com/share', array('url' => $link)); ?>" target="_blank" title="<?php echo sprintf(language::translate('text_share_on_s', 'Share on %s'), 'Google+'); ?>"><?php echo functions::draw_fonticon('fa-google-plus-square fa-lg', 'style="color: #dd4b39;"'); ?></a>
-        <a class="pinterest" href="<?php echo document::href_link('http://pinterest.com/pin/create/button/', array('url' => $link)); ?>" target="_blank" title="<?php echo sprintf(language::translate('text_share_on_s', 'Share on %s'), 'Pinterest'); ?>"><?php echo functions::draw_fonticon('fa-pinterest-square fa-lg', 'style="color: #bd081c;"'); ?></a>
+        <a class="twitter" href="<?php echo document::href_link('http://twitter.com/home/', array('status' => $name .' - '. $link)); ?>" target="_blank" title="<?php echo sprintf(language::translate('text_share_on_s_EC', 'Compartir en %s'), 'Twitter'); ?>"><?php echo functions::draw_fonticon('fa-twitter-square fa-lg', 'style="color: #55acee;"'); ?></a>
+        <a class="facebook" href="<?php echo document::href_link('http://www.facebook.com/sharer.php', array('u' => $link)); ?>" target="_blank" title="<?php echo sprintf(language::translate('text_share_on_s_EC', 'Compartir en %s'), 'Facebook'); ?>"><?php echo functions::draw_fonticon('fa-facebook-square fa-lg', 'style="color: #3b5998;"'); ?></a>
+        <a class="googleplus" href="<?php echo document::href_link('https://plus.google.com/share', array('url' => $link)); ?>" target="_blank" title="<?php echo sprintf(language::translate('text_share_on_s_EC', 'Compartir en %s'), 'Google+'); ?>"><?php echo functions::draw_fonticon('fa-google-plus-square fa-lg', 'style="color: #dd4b39;"'); ?></a>
+        <a class="pinterest" href="<?php echo document::href_link('http://pinterest.com/pin/create/button/', array('url' => $link)); ?>" target="_blank" title="<?php echo sprintf(language::translate('text_share_on_s_EC', 'Compartir en %s'), 'Pinterest'); ?>"><?php echo functions::draw_fonticon('fa-pinterest-square fa-lg', 'style="color: #bd081c;"'); ?></a>
       </div>
 
 

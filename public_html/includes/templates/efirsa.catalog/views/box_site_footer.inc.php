@@ -4,7 +4,7 @@
 
   <div class="row">
     <div class="hidden-xs col-sm-fourths col-md-fifths categories">
-      <h3 class="title"><?php echo language::translate('title_categories', 'Categories'); ?></h3>
+      <h3 class="title"><?php echo language::translate('title_categories_EC', 'Categorias'); ?></h3>
       <ul class="list-unstyled">
         <?php foreach ($categories as $category) echo '<li><a href="'. htmlspecialchars($category['link']) .'">'. $category['name'] .'</a></li>' . PHP_EOL; ?>
       </ul>
@@ -12,7 +12,7 @@
 
     <?php if ($manufacturers) { ?>
     <div class="hidden-xs hidden-sm col-md-fifths manufacturers">
-      <h3 class="title"><?php echo language::translate('title_manufacturers', 'Manufacturers'); ?></h3>
+      <h3 class="title"><?php echo language::translate('title_manufacturers_EC', 'Manufacturas'); ?></h3>
       <ul class="list-unstyled">
       <?php foreach ($manufacturers as $manufacturer) echo '<li><a href="'. htmlspecialchars($manufacturer['link']) .'">'. $manufacturer['name'] .'</a></li>' . PHP_EOL; ?>
       </ul>
@@ -20,30 +20,30 @@
     <?php } ?>
 
     <div class="col-xs-halfs col-sm-fourths col-md-fifths account">
-      <h3 class="title"><?php echo language::translate('title_account', 'Account'); ?></h3>
+      <h3 class="title"><?php echo language::translate('title_account_EC', 'Cuenta'); ?></h3>
       <ul class="list-unstyled">
-        <li><a href="<?php echo document::ilink('customer_service'); ?>"><?php echo language::translate('title_customer_service', 'Customer Service'); ?></a></li>
-        <li><a href="<?php echo document::href_ilink('regional_settings'); ?>"><?php echo language::translate('title_regional_settings', 'Regional Settings'); ?></a></li>
+        <li><a href="<?php echo document::ilink('customer_service'); ?>"><?php echo language::translate('title_customer_service_EC', 'Servicio al cliente'); ?></a></li>
+        <li><a href="<?php echo document::href_ilink('regional_settings'); ?>"><?php echo language::translate('title_regional_settings_EC', 'Ajustes Regionales'); ?></a></li>
         <?php if (empty(customer::$data['id'])) { ?>
-        <li><a href="<?php echo document::href_ilink('create_account'); ?>"><?php echo language::translate('title_create_account', 'Create Account'); ?></a></li>
-        <li><a href="<?php echo document::href_ilink('login'); ?>"><?php echo language::translate('title_login', 'Login'); ?></a></li>
+        <li><a href="<?php echo document::href_ilink('create_account'); ?>"><?php echo language::translate('title_create_account_EC', 'Crear Cuenta'); ?></a></li>
+        <li><a href="<?php echo document::href_ilink('login'); ?>"><?php echo language::translate('title_login_EC', 'Login'); ?></a></li>
         <?php } else { ?>
-        <li><a href="<?php echo document::href_ilink('order_history'); ?>"><?php echo language::translate('title_order_history', 'Order History'); ?></a></li>
-        <li><a href="<?php echo document::href_ilink('edit_account'); ?>"><?php echo language::translate('title_edit_account', 'Edit Account'); ?></a></li>
-        <li><a href="<?php echo document::href_ilink('logout'); ?>"><?php echo language::translate('title_logout', 'Logout'); ?></a></li>
+        <li><a href="<?php echo document::href_ilink('order_history'); ?>"><?php echo language::translate('title_order_history_EC', 'Historial de ordenes'); ?></a></li>
+        <li><a href="<?php echo document::href_ilink('edit_account'); ?>"><?php echo language::translate('title_edit_account_EC', 'Editar Cuenta'); ?></a></li>
+        <li><a href="<?php echo document::href_ilink('logout'); ?>"><?php echo language::translate('title_logout_EC', 'Cerrar Sesion'); ?></a></li>
         <?php } ?>
       </ul>
     </div>
 
     <div class="col-xs-halfs col-sm-fourths col-md-fifths information">
-      <h3 class="title"><?php echo language::translate('title_information', 'Information'); ?></h3>
+      <h3 class="title"><?php echo language::translate('title_information_EC', 'Informacion'); ?></h3>
       <ul class="list-unstyled">
         <?php foreach ($pages as $page) echo '<li><a href="'. htmlspecialchars($page['link']) .'">'. $page['title'] .'</a></li>' . PHP_EOL; ?>
       </ul>
     </div>
 
     <div class="hidden-xs col-sm-fourths col-md-fifths contact">
-      <h3 class="title"><?php echo language::translate('title_contact', 'Contact'); ?></h3>
+      <h3 class="title"><?php echo language::translate('title_contact_EC', 'Contacto'); ?></h3>
 
       <p><?php echo nl2br(settings::get('store_postal_address')); ?></p>
 
