@@ -3,34 +3,34 @@
   <div class="row">
     <div class="col-md-6">
 
-      <h1><?php echo language::translate('title_contact_us', 'Contact Us'); ?></h1>
+      <h1><?php echo language::translate('title_contact_us_EC', 'Contactanos'); ?></h1>
 
       <?php echo functions::form_draw_form_begin('contact_form', 'post'); ?>
 
         <div class="form-group">
-          <label><?php echo language::translate('title_name', 'Name'); ?></label>
+          <label><?php echo language::translate('title_name_EC', 'Nombre'); ?></label>
           <?php echo functions::form_draw_text_field('name', true, 'required="required"'); ?>
         </div>
 
         <div class="form-group">
-          <label><?php echo language::translate('title_email_address', 'Email Address'); ?></label>
+          <label><?php echo language::translate('title_email_address_EC', 'Correo Electronico'); ?></label>
           <?php echo functions::form_draw_email_field('email', true, 'required="required"'); ?>
         </div>
 
         <div class="form-group">
-          <label><?php echo language::translate('title_subject', 'Subject'); ?></label>
+          <label><?php echo language::translate('title_subject_EC', 'Tema'); ?></label>
           <?php echo functions::form_draw_text_field('subject', true, 'required="required"'); ?>
         </div>
 
         <div class="form-group">
-          <label><?php echo language::translate('title_message', 'Message'); ?></label>
+          <label><?php echo language::translate('title_message_EC', 'Mensaje'); ?></label>
           <?php echo functions::form_draw_textarea('message', true, 'required="required" style="height: 250px;"'); ?>
         </div>
 
         <?php if (settings::get('captcha_enabled')) { ?>
         <div class="row">
           <div class="form-group col-md-halfs">
-            <label><?php echo language::translate('title_captcha', 'CAPTCHA'); ?></label>
+            <label><?php echo language::translate('title_captcha_EC', 'CAPTCHA'); ?></label>
             <?php echo functions::form_draw_captcha_field('captcha', 'contact_us', 'required="required"'); ?>
           </div>
         </div>
@@ -42,7 +42,7 @@
     </div>
 
     <div class="col-md-6">
-      <h2><?php echo language::translate('title_contact_details', 'Contact Details'); ?></h2>
+      <h2><?php echo language::translate('title_contact_details_EC', 'Detalles de contacto'); ?></h2>
 
       <p class="address"><?php echo nl2br(settings::get('store_postal_address')); ?></p>
 

@@ -1,5 +1,5 @@
 <div id="box-checkout-shipping" class="box">
-  <h2 class="title"><?php echo language::translate('title_shipping', 'Shipping'); ?></h2>
+  <h2 class="title"><?php echo language::translate('title_shipping_EC', 'Envio'); ?></h2>
 
   <div class="options btn-group-vertical">
 

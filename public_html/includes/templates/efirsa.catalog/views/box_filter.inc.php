@@ -3,8 +3,8 @@
 
   <?php if ($manufacturers) { ?>
   <div class="manufacturers">
-    <!--h2 class="title"><?php echo language::translate('title_manufacturers', 'Manufacturers'); ?></h2-->
-    <button class="title btn-categories"><?php echo language::translate('title_manufacturers', 'Manufacturers'); ?></button>
+    <!--h2 class="title"><?php echo language::translate('title_manufacturers_EC', 'Manufacturas'); ?></h2-->
+    <button class="title btn-categories"><?php echo language::translate('title_manufacturers_EC', 'Manufacturas'); ?></button>
     <div class="form-control">
       <ul class="list-unstyled align-manufacturers">
         <?php foreach ($manufacturers as $manufacturer) echo '<li><label>'. functions::form_draw_checkbox('manufacturers[]', $manufacturer['id'], true) .' '. $manufacturer['name'] .'</label></li>' . PHP_EOL; ?>

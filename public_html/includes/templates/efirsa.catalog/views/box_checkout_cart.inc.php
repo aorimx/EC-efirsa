@@ -4,11 +4,11 @@
     <table class="items table table-striped data-table" style="width: 100%;">
       <thead>
         <tr class="item">
-          <th><?php echo language::translate('title_item', 'Item'); ?></th>
-          <th><?php echo language::translate('title_name', 'Name'); ?></th>
-          <th><?php echo language::translate('title_price', 'Price'); ?></th>
-          <th><?php echo language::translate('title_quantity', 'Quantity'); ?></th>
-          <th><?php echo language::translate('title_sum', 'Sum'); ?></th>
+          <th><?php echo language::translate('title_item_EC', 'Producto'); ?></th>
+          <th><?php echo language::translate('title_name_EC', 'Nombre'); ?></th>
+          <th><?php echo language::translate('title_price_EC', 'Precio'); ?></th>
+          <th><?php echo language::translate('title_quantity_EC', 'Cantidad'); ?></th>
+          <th><?php echo language::translate('title_sum_EC', 'Suma'); ?></th>
           <th></th>
         </tr>
       </thead>
@@ -45,7 +45,7 @@
         <tr>
           <td colspan="3" class="none"></th>
           <td colspan="3" class="subtotal">
-            <?php echo language::translate('title_subtotal', 'Subtotal'); ?>: <strong class="formatted-value"><?php echo !empty(customer::$data['display_prices_including_tax']) ?  currency::format($subtotal + $subtotal_tax) : currency::format($subtotal); ?></strong>
+            <?php echo language::translate('title_subtotal_EC', 'Subtotal'); ?>: <strong class="formatted-value"><?php echo !empty(customer::$data['display_prices_including_tax']) ?  currency::format($subtotal + $subtotal_tax) : currency::format($subtotal); ?></strong>
           </td>
         </tr>
       </tfoot>
