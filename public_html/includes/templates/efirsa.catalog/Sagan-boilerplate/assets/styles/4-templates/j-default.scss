@@ -30,6 +30,19 @@
   }
   .main_content{
     width: 100%;
+    .main-content-padding{
+      padding-left: $space-2;
+      .container-search-title{
+        display: inline-flex;
+        width: 100%;
+        .content-search{
+          width: 50%;
+        }
+        .categories-title{
+          width: 50%;
+        }
+      }
+    }
   }
   .padding-right{
     padding-right: $space-2;
@@ -64,6 +77,19 @@
     }
     .main_content{
     width: 100%;
+    .main-content-padding{
+      padding-left: 0;
+      .container-search-title{
+        display: block;
+        width: 100%;
+        .content-search{
+          width: 100%;
+        }
+        .categories-title{
+          width: 100%;
+        }
+      }
+    }
   }
   }
 }
