@@ -6,13 +6,13 @@
     margin-top: $space-10;
   }
   .main_content-search{
-    width: 75%;
+    width: 100%;
     .container-filtros{
       border-radius: 0;
       a{
         border-radius: 0;
         background-color: $white;
-        border-color: #6c6c6d; 
+        border-color: #6c6c6d;
         color: $black;
       }
       .activo{
@@ -31,7 +31,7 @@
   }
 }
 @media screen and (max-width: 991px){
- 
+
 }
 @media screen and (max-width: 768px){
   .middle-content{
