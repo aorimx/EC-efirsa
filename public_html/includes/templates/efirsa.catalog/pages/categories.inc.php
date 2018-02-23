@@ -4,7 +4,7 @@
 
 
 
-<main id="content" class="main_content" style="padding:16px;"> <!--class="main_full" -->
+<main id="content" class="main_content padding-left" > <!--class="main_full" -->
   {snippet:notices}
   <!--{snippet:breadcrumbs}-->
   <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'views/box_search.inc.php'); ?>
