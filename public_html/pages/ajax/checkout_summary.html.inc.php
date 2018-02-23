@@ -63,12 +63,12 @@
     'items' => array(),
     'order_total' => array(),
     'tax_total' => !empty($order->data['tax_total']) ? currency::format($order->data['tax_total'], false) : null,
-    'incl_excl_tax' => !empty(customer::$data['display_prices_including_tax']) ? language::translate('title_including_tax', 'Including Tax') : language::translate('title_excluding_tax', 'Excluding Tax'),
+    'incl_excl_tax' => !empty(customer::$data['display_prices_including_tax']) ? language::translate('title_including_tax_EC', 'Incluye impuestos') : language::translate('title_excluding_tax_EC', 'ENo incluye impuestos'),
     'payment_due' => $order->data['payment_due'],
     'error' => $order->validate(),
     'selected_shipping' => null,
     'selected_payment' => null,
-    'confirm' => !empty($payment->data['selected']['confirm']) ? $payment->data['selected']['confirm'] : language::translate('title_confirm_order', 'Confirm Order'),
+    'confirm' => !empty($payment->data['selected']['confirm']) ? $payment->data['selected']['confirm'] : language::translate('title_confirm_order_EC', 'Confirmar orden'),
   );
 
   foreach ($order->data['items'] as $item) {

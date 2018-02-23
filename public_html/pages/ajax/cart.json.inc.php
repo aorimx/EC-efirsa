@@ -6,7 +6,7 @@
     'quantity' => cart::$total['items'],
     'value' => !empty(customer::$data['display_prices_including_tax']) ? cart::$total['value'] + cart::$total['tax'] : cart::$total['value'],
     'formatted_value' => !empty(customer::$data['display_prices_including_tax']) ? currency::format(cart::$total['value'] + cart::$total['tax']) : currency::format(cart::$total['value']),
-    'text_total' => language::translate('title_total', 'Total'),
+    'text_total' => language::translate('title_total_EC', 'Total'),
   );
 
   foreach(cart::$items as $item) {
