@@ -10,22 +10,22 @@
 
   <div id="box-order-history" class="box">
 
-    <h1 class="title"><?php echo language::translate('title_order_history', 'Order History'); ?></h1>
+    <h1 class="title"><?php echo language::translate('title_order_history_EC', 'Historia de pedidos'); ?></h1>
 
     <table class="table table-striped data-table">
       <thead>
       <tr>
-        <th class="main"><?php echo language::translate('title_order', 'Order'); ?></th>
-        <th class="text-center"><?php echo language::translate('title_order_status', 'Order Status'); ?></th>
-        <th class="text-right"><?php echo language::translate('title_amount', 'Amount'); ?></th>
-        <th class="text-right"><?php echo language::translate('title_date', 'Date'); ?></th>
+        <th class="main"><?php echo language::translate('title_order_EC', 'Pedido'); ?></th>
+        <th class="text-center"><?php echo language::translate('title_order_status_EC', 'Estado del pedido'); ?></th>
+        <th class="text-right"><?php echo language::translate('title_amount_EC', 'Cantidad'); ?></th>
+        <th class="text-right"><?php echo language::translate('title_date_EC', 'Fecha'); ?></th>
         <th></th>
       </tr>
       </thead>
       <tbody>
       <?php if ($orders) foreach($orders as $order) { ?>
       <tr>
-        <td><a href="<?php echo htmlspecialchars($order['link']); ?>" class="lightbox-iframe"><?php echo language::translate('title_order', 'Order'); ?> #<?php echo $order['id']; ?></a></td>
+        <td><a href="<?php echo htmlspecialchars($order['link']); ?>" class="lightbox-iframe"><?php echo language::translate('title_order_EC', 'Pedido'); ?> #<?php echo $order['id']; ?></a></td>
         <td class="text-center"><?php echo $order['order_status']; ?></td>
         <td class="text-right"><?php echo $order['payment_due']; ?></td>
         <td class="text-right"><?php echo $order['date_created']; ?></td>

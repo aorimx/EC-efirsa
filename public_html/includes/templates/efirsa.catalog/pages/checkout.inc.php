@@ -21,7 +21,7 @@
     </div>
   </div>
     <div class="summary wrapper order-summary"></div>
-   
+
 
   </div>
 
@@ -395,11 +395,11 @@
   $('#box-checkout-summary-wrapper').on('click', 'button[name="confirm_order"]', function(e) {
     if (window.customer_form_changed) {
       e.preventDefault();
-      alert("<?php echo language::translate('warning_your_customer_information_unsaved', 'Your customer information contains unsaved changes.')?>");
+      alert("<?php echo language::translate('warning_your_customer_information_unsaved_EC', 'La información de su cliente contiene cambios no guardados.')?>");
     }
   });
 
   $('body').on('submit', 'form[name="checkout_form"]', function(e) {
-    $('#box-checkout-summary button[name="confirm_order"]').css('display', 'none').before('<div class="btn btn-block btn-default btn-lg disabled" style="text-align: center;"> <?php echo htmlspecialchars(language::translate('text_please_wait', 'Please wait')); ?>&hellip;</div>');
+    $('#box-checkout-summary button[name="confirm_order"]').css('display', 'none').before('<div class="btn btn-block btn-default btn-lg disabled" style="text-align: center;"> <?php echo htmlspecialchars(language::translate('text_please_wait_EC', 'Porfavor espera')); ?>&hellip;</div>');
   });
 </script>

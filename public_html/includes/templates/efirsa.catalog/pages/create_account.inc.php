@@ -12,66 +12,66 @@
   </div>
   <div id="box-create-account" class="box sub-menu" style="padding-left: 32px;">
 
-    <h1><?php echo language::translate('title_create_account', 'Create Account'); ?></h1>
+    <h1><?php echo language::('title_create_account_EC', 'Crear cuenta'); ?></h1>
 
     <?php echo functions::form_draw_form_begin('customer_form', 'post', false, false, 'style="max-width: 640px;"'); ?>
 
       <div class="row">
         <div class="form-group col-sm-halfs">
-          <label><?php echo language::translate('title_tax_id', 'Tax ID'); ?></label>
+          <label><?php echo language::('title_tax_id_EC', 'Tax ID'); ?></label>
           <?php echo functions::form_draw_text_field('tax_id', true); ?>
         </div>
 
         <div class="col-sm-halfs">
-          <label><?php echo language::translate('title_company', 'Company'); ?></label>
+          <label><?php echo language::translate('title_company_EC', 'Empresa'); ?></label>
           <?php echo functions::form_draw_text_field('company', true); ?>
         </div>
       </div>
 
       <div class="row">
         <div class="form-group col-sm-halfs">
-          <label><?php echo language::translate('title_firstname', 'Firstname'); ?></label>
+          <label><?php echo language::translate('title_firstname_EC', 'Nombre'); ?></label>
           <?php echo functions::form_draw_text_field('firstname', true, 'required="required"'); ?>
         </div>
 
         <div class="form-group col-sm-halfs">
-          <label><?php echo language::translate('title_lastname', 'Lastname'); ?></label>
+          <label><?php echo language::translate('title_lastname_EC', 'Apellidos'); ?></label>
           <?php echo functions::form_draw_text_field('lastname', true, 'required="required"'); ?>
         </div>
       </div>
 
       <div class="row">
         <div class="form-group col-sm-halfs">
-          <label><?php echo language::translate('title_address1', 'Address 1'); ?></label>
+          <label><?php echo language::translate('title_address1_EC', 'Dirección 1'); ?></label>
           <?php echo functions::form_draw_text_field('address1', true); ?>
         </div>
 
         <div class="form-group col-sm-halfs">
-          <label><?php echo language::translate('title_address2', 'Address 2'); ?></label>
+          <label><?php echo language::translate('title_address2_EC', 'Dirección 2'); ?></label>
           <?php echo functions::form_draw_text_field('address2', true); ?>
         </div>
       </div>
 
       <div class="row">
         <div class="form-group col-sm-halfs">
-          <label><?php echo language::translate('title_postcode', 'Postcode'); ?></label>
+          <label><?php echo language::translate('title_postcode_EC', 'Código postal'); ?></label>
           <?php echo functions::form_draw_text_field('postcode', true); ?>
         </div>
 
         <div class="form-group col-sm-halfs">
-          <label><?php echo language::translate('title_city', 'City'); ?></label>
+          <label><?php echo language::translate('title_city_EC', 'Ciudad'); ?></label>
           <?php echo functions::form_draw_text_field('city', true); ?>
         </div>
       </div>
 
       <div class="row">
         <div class="form-group col-sm-halfs">
-          <label><?php echo language::translate('title_country', 'Country'); ?></label>
+          <label><?php echo language::translate('title_country_EC', 'País'); ?></label>
           <?php echo functions::form_draw_countries_list('country_code', true, false, 'required="required"'); ?>
         </div>
 
         <div class="form-group col-sm-halfs">
-          <label><?php echo language::translate('title_zone_state_province', 'Zone/State/Province'); ?></label>
+          <label><?php echo language::translate('title_zone_state_province_EC', 'Zona/Estado/Provincia'); ?></label>
           <?php echo functions::form_draw_zones_list(isset($_POST['country_code']) ? $_POST['country_code'] : '', 'zone_code', true, false, 'required="required"'); ?>
         </div>
       </div>
@@ -83,19 +83,19 @@
         </div>
 
         <div class="form-group col-sm-halfs">
-          <label><?php echo language::translate('title_phone', 'Phone'); ?></label>
+          <label><?php echo language::translate('title_phone_EC', 'Telefono'); ?></label>
           <?php echo functions::form_draw_phone_field('phone', true); ?>
         </div>
       </div>
 
       <div class="row">
         <div class="form-group col-md-halfs">
-          <label><?php echo language::translate('title_desired_password', 'Desired Password'); ?></label>
+          <label><?php echo language::translate('title_desired_password_EC', 'Contraseña deseada'); ?></label>
           <?php echo functions::form_draw_password_field('password', '', 'required="required"'); ?>
         </div>
 
         <div class="form-group col-md-halfs">
-          <label><?php echo language::translate('title_confirm_password', 'Confirm Password'); ?></label>
+          <label><?php echo language::translate('title_confirm_password_EC', 'Confirmar contraseña'); ?></label>
           <?php echo functions::form_draw_password_field('confirmed_password', '', 'required="required"'); ?>
         </div>
       </div>
@@ -104,20 +104,20 @@
         <div class="form-group col-md-halfs" style="display: none;">
           <label><?php echo language::translate('title_newsletter', 'Newsletter'); ?></label>
           <div class="checkbox">
-            <label><?php echo functions::form_draw_checkbox('newsletter', '1', true); ?> <?php echo language::translate('title_subscribe', 'Subscribe'); ?></label>
+            <label><?php echo functions::form_draw_checkbox('newsletter', '1', true); ?> <?php echo language::translate('title_subscribe_EC', 'Suscribirse'); ?></label>
           </div>
         </div>
 
         <?php if (settings::get('captcha_enabled')) { ?>
         <div class="form-group col-md-halfs">
-          <label><?php echo language::translate('title_captcha', 'CAPTCHA'); ?></label>
+          <label><?php echo language::('title_captcha', 'CAPTCHA'); ?></label>
           <?php echo functions::form_draw_captcha_field('captcha', 'create_account', 'required="required"'); ?>
         </div>
         <?php } ?>
       </div>
 
       <div class="btn-group">
-        <?php echo functions::form_draw_button('create_account', language::translate('title_create_account', 'Create Account')); ?>
+        <?php echo functions::form_draw_button('create_account', language::('title_create_account', 'Create Account')); ?>
       </div>
 
     <?php echo functions::form_draw_form_end(); ?>

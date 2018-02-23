@@ -2,46 +2,46 @@
   {snippet:notices}
 
   <div id="box-regional-settings">
-    <h1 class="title"><?php echo language::translate('title_regional_settings', 'Regional Settings'); ?></h1>
+    <h1 class="title"><?php echo language::translate('title_regional_settings_EC', 'Ajustes regionales'); ?></h1>
 
     <?php echo functions::form_draw_form_begin('region_form', 'post', document::ilink(), false, 'style="max-width: 480px;"'); ?>
 
       <div class="row half-gutter">
         <?php if (count(language::$languages) > 1) { ?>
         <div class="form-group col-sm-halfs">
-          <label><?php echo language::translate('title_language', 'Language'); ?></label>
+          <label><?php echo language::translate('title_language_EC', 'Idioma'); ?></label>
           <?php echo functions::form_draw_languages_list('language_code', language::$selected['code']); ?>
         </div>
         <?php } ?>
 
         <?php if (count(currency::$currencies) > 1) { ?>
         <div class="form-group col-sm-halfs">
-          <label><?php echo language::translate('title_currency', 'Currency'); ?></label>
+          <label><?php echo language::translate('title_currency_EC', 'Momeda'); ?></label>
           <?php echo functions::form_draw_currencies_list('currency_code', currency::$selected['code']); ?>
         </div>
         <?php } ?>
 
         <div class="form-group col-sm-halfs">
-          <label><?php echo language::translate('title_country', 'Country'); ?></label>
+          <label><?php echo language::translate('title_country_EC', 'País'); ?></label>
           <?php echo functions::form_draw_countries_list('country_code', customer::$data['country_code']); ?>
         </div>
 
         <div class="form-group col-sm-halfs">
-          <label><?php echo language::translate('title_zone_state_province', 'Zone/State/Province'); ?></label>
+          <label><?php echo language::translate('title_zone_state_province_EC', 'Zona/Estado/Provincia'); ?></label>
           <?php echo functions::form_draw_zones_list(customer::$data['country_code'], 'zone_code', customer::$data['zone_code']); ?>
         </div>
 
         <div class="form-group col-sm-halfs">
-          <label><?php echo language::translate('title_display_prices', 'Display Prices'); ?></label>
+          <label><?php echo language::translate('title_display_prices_EC', 'Precios de pantalla'); ?></label>
           <div class="radio">
-            <label><?php echo functions::form_draw_radio_button('display_prices_including_tax', 0, isset(customer::$data['display_prices_including_tax']) ? (int)customer::$data['display_prices_including_tax'] : (int)settings::get('default_display_prices_including_tax')); ?> <?php echo language::translate('title_excl_tax', 'Excl. Tax'); ?></label>
-            <label style="margin-left: 1em;"><?php echo functions::form_draw_radio_button('display_prices_including_tax', 1, isset(customer::$data['display_prices_including_tax']) ? (int)customer::$data['display_prices_including_tax'] : (int)settings::get('default_display_prices_including_tax')); ?> <?php echo language::translate('title_incl_tax', 'Incl. Tax'); ?></label>
+            <label><?php echo functions::form_draw_radio_button('display_prices_including_tax', 0, isset(customer::$data['display_prices_including_tax']) ? (int)customer::$data['display_prices_including_tax'] : (int)settings::get('default_display_prices_including_tax')); ?> <?php echo language::translate('title_excl_tax_EC', 'Sin IVA'); ?></label>
+            <label style="margin-left: 1em;"><?php echo functions::form_draw_radio_button('display_prices_including_tax', 1, isset(customer::$data['display_prices_including_tax']) ? (int)customer::$data['display_prices_including_tax'] : (int)settings::get('default_display_prices_including_tax')); ?> <?php echo language::translate('title_incl_tax_EC', 'Con IVA'); ?></label>
           </div>
         </div>
       </div>
 
       <p class="btn-group btn-block">
-        <?php echo functions::form_draw_button('save', language::translate('title_save', 'Save')); ?>
+        <?php echo functions::form_draw_button('save', language::translate('title_save_EC', 'Guardar')); ?>
       </p>
 
     <?php echo functions::form_draw_form_end(); ?>
