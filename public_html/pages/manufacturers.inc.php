@@ -1,8 +1,8 @@
 <?php
-  document::$snippets['title'][] = language::translate('manufacturers:head_title', 'Manufacturers');
+  document::$snippets['title'][] = language::translate('manufacturers:head_title_EC', 'Manufacturas');
   document::$snippets['description'] = language::translate('manufacturers:meta_description', '');
 
-  breadcrumbs::add(language::translate('title_manufacturers', 'Manufacturers'));
+  breadcrumbs::add(language::translate('title_manufacturers_EC', 'Manufacturas'));
 
   $manufacturers_cache_id = cache::cache_id('manufacturers', array('basename', 'get', 'language', 'currency', 'account', 'prices'));
   if (cache::capture($manufacturers_cache_id, 'file')) {
