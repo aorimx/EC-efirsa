@@ -2101,8 +2101,7 @@ ul.breadcrumb {
       margin-left: 6%; }
       .custome-details .form-group .input-group input {
         width: 83%; }
-      .custome-details .form-group .input-group º
-      .input-group-ad {
+      .custome-details .form-group .input-group .input-group-ad {
         padding: 12px 12px;
         font-size: 14px;
         font-weight: normal;
@@ -2116,8 +2115,7 @@ ul.breadcrumb {
     width: 100%;
     text-align: center;
     justify-content: center;
-    align-items: center;
-    margin-top: 16px; }
+    align-items: center; }
 
 @media screen and (max-width: 1150px) {
   .custome-details .form-group .input-group {
@@ -2498,10 +2496,9 @@ body {
     right: 1cm;
     padding: 0.5em;
     font-size: 10mm;
-    display: block !important;
+    display: none;
     margin: 5mm auto;
-    z-index: 999999;
-    border-radius: 0.25em; } }
+    z-index: 999999; } }
 @media screen {
   html {
     background: #e6e9ed;
@@ -2529,14 +2526,15 @@ body {
     right: 1cm;
     padding: 0.5em;
     font-size: 10mm;
-    display: block !important;
+    display: none;
     margin: 5mm auto;
     z-index: 999999;
     border-radius: 70%;
     background-color: #a0a0a0; }
 
   html:hover button[name="print"] {
-    border-radius: 70%; }
+    border-radius: 70%;
+    display: block; }
 
   button[name="print"]:hover {
     background-color: #414042; } }
