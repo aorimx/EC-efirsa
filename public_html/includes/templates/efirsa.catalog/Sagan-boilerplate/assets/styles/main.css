@@ -2462,13 +2462,6 @@ ul.breadcrumb {
   .content-slider .slider {
     width: 90%; }
 
-body {
-  font-size: 9pt;
-  font-family: Arial, Helvetica,sans-serif;
-  color: #000;
-  margin: 0px;
-  padding: 0px; }
-
 @media print {
   @page {
     size: A4;
@@ -2501,19 +2494,19 @@ body {
     z-index: 999999; } }
 @media screen {
   html {
-    background: #e6e9ed;
     padding: 5mm; }
 
-  body[data-size="A4"] {
+  /*body[data-size="A4"] {
     position: relative;
     max-width: 21cm;
     min-height: 29.7cm;
     margin: 0 auto;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
     padding: 15mm;
     background: #fff;
-    margin-bottom: 5mm; }
-
+    margin-bottom: 5mm;
+  }
+*/
   .page-break {
     border-bottom: 1px #ccc dashed;
     margin: 15mm -15mm;
