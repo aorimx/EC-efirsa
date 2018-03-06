@@ -14,7 +14,7 @@
 <body data-size="A4">
 
 <?php if (isset($_GET['media']) && $_GET['media'] == 'print') { ?>
-<button name="print"><?php echo functions::draw_fonticon('fa-print'); ?> <?php echo language::translate('title_print', 'Print'); ?></button>
+<button name="print"><?php echo functions::draw_fonticon('fa-print'); ?> <?php //echo language::translate('title_print', 'Print'); ?></button>
 <?php } ?>
 
 {snippet:content}
