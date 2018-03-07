@@ -1965,6 +1965,8 @@ ul.breadcrumb {
       display: flex;
       justify-content: center;
       width: 100%; }
+      .empty-cart-content .middle-content .content img {
+        height: 100%; }
       .empty-cart-content .middle-content .content p {
         width: 100%;
         max-width: 250px;
