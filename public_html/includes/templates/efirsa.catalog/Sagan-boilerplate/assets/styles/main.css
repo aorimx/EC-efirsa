@@ -2118,6 +2118,8 @@ ul.breadcrumb {
     text-align: center;
     justify-content: center;
     align-items: center; }
+    .custome-details .content button {
+      margin-top: 16px; }
 
 @media screen and (max-width: 1150px) {
   .custome-details .form-group .input-group {
