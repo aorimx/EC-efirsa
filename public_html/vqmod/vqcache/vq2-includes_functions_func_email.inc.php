@@ -16,26 +16,26 @@
 
     require_once FS_DIR_HTTP_ROOT . WS_DIR_EXT . 'PHPMailer/PHPMailerAutoload.php';
 
-    $phpmailer = new PHPMailer;
+    $phpmailer = new PHPMailer(true);
 
     //$phpmailer->SMTPDebug = 2;
     //$phpmailer->Debugoutput = 'html';
 
 		$phpmailer->isSMTP();
-    $phpmailer->Host = 'smtp.ethereal.email';
+    $phpmailer->Host = 'smtp.gmail.com';
     $phpmailer->Port = 587; // Set 587 for GMail
     $phpmailer->SMTPSecure = 'tls'; // Set tls for GMail
 
     $phpmailer->SMTPAuth = true;
-    $phpmailer->Username = 'fgrxeqqe7wyvszcx@ethereal.email';
-    $phpmailer->Password = 'MHmmC9Gh3zwnAMu4yM';
+    $phpmailer->Username = 'navarretigo12@gmail.com';
+    $phpmailer->Password = '98.12.08mercado';
 
     $phpmailer->CharSet = language::$selected['charset'];
     $phpmailer->Encoding = 'quoted-printable';
     $phpmailer->setFrom($from_email, $from_name);
     $phpmailer->Subject = $subject;
 
-    if ($html) {
+    if ($html || true) {
       $phpmailer->msgHTML($message);
     } else {
       $phpmailer->Body = $message;
