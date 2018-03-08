@@ -1965,6 +1965,8 @@ ul.breadcrumb {
       display: flex;
       justify-content: center;
       width: 100%; }
+      .empty-cart-content .middle-content .content img {
+        height: 100%; }
       .empty-cart-content .middle-content .content p {
         width: 100%;
         max-width: 250px;
@@ -2116,6 +2118,8 @@ ul.breadcrumb {
     text-align: center;
     justify-content: center;
     align-items: center; }
+    .custome-details .content button {
+      margin-top: 16px; }
 
 @media screen and (max-width: 1150px) {
   .custome-details .form-group .input-group {

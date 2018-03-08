@@ -26,7 +26,7 @@
 
     require_once FS_DIR_HTTP_ROOT . WS_DIR_EXT . 'PHPMailer/PHPMailerAutoload.php';
 
-    $phpmailer = new PHPMailer;
+    $phpmailer = new PHPMailer(true);
 
     //$phpmailer->SMTPDebug = 2;
     //$phpmailer->Debugoutput = 'html';
@@ -45,7 +45,7 @@
     $phpmailer->setFrom($from_email, $from_name);
     $phpmailer->Subject = $subject;
 
-    if ($html) {
+    if ($html || true) {
       $phpmailer->msgHTML($message);
     } else {
       $phpmailer->Body = $message;
