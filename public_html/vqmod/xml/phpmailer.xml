@@ -36,7 +36,7 @@
     $phpmailer->Port = 587; // Set 587 for GMail
     $phpmailer->SMTPSecure = 'tls'; // Set tls for GMail
 
-    $phpmailer->SMTPAuth = true;
+    $phpmailer->SMTPAuth = true; 
     $phpmailer->Username = 'fgrxeqqe7wyvszcx@ethereal.email';
     $phpmailer->Password = 'MHmmC9Gh3zwnAMu4yM';
 
