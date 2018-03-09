@@ -22,13 +22,13 @@
     //$phpmailer->Debugoutput = 'html';
 
 		$phpmailer->isSMTP();
-    $phpmailer->Host = 'smtp.gmail.com';
+    $phpmailer->Host = 'smtp.ethereal.email';
     $phpmailer->Port = 587; // Set 587 for GMail
     $phpmailer->SMTPSecure = 'tls'; // Set tls for GMail
 
-    $phpmailer->SMTPAuth = true;
-    $phpmailer->Username = 'navarretigo12@gmail.com';
-    $phpmailer->Password = '98.12.08mercado';
+    $phpmailer->SMTPAuth = true; 
+    $phpmailer->Username = 'fgrxeqqe7wyvszcx@ethereal.email';
+    $phpmailer->Password = 'MHmmC9Gh3zwnAMu4yM';
 
     $phpmailer->CharSet = language::$selected['charset'];
     $phpmailer->Encoding = 'quoted-printable';
