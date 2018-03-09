@@ -743,7 +743,7 @@
                       <table role='presentation' cellpadding='0' cellspacing='0' style='font-size:0;width:100%;background:#fff' align='center' border='0'>
                         <tbody>
                           <tr>
-                            <td style='text-align:center;vertical-align:top;direction:ltr;font-size:0;padding:0;padding-bottom:20px;padding-left:200px;padding-top:10px'>
+                            <td style='text-align:center;vertical-align:top;direction:ltr;font-size:0;padding:0;padding-bottom:20px;padding-top:10px'>
                               <!--[if mso | IE]>
             <table role='presentation' border='0' cellpadding='0' cellspacing='0'>
               <tr>
