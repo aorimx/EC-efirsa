@@ -794,14 +794,14 @@
                           <tr>
                             <td style='word-wrap:break-word;font-size:0;padding:0 25px;padding-top:0;padding-bottom:0;padding-right:25px;padding-left:25px' align='center'>
                               <div style='cursor:auto;color:#000;font-family:Ubuntu,Helvetica,Arial,sans-serif;font-size:13px;line-height:22px;text-align:center'>
-                                <p><span style='font-size:14.666666666666666px;font-family:Arial;color:#000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap'><strong><span style='color:#449adc'><span style='font-size:25px'>Tu orden #%order_id se ha realizado exitosamente con un total de %payment_due por los siguientes productos:</span></span>
+                                <p><span style='font-size:14.666666666666666px;font-family:Arial;color:#000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap'><strong><span style='color:#000'><span style='font-size:13px'>Tu orden #%order_id se ha realizado exitosamente con un total de %payment_due por los siguientes productos:</span></span>
                                   </strong>
                                   </span>
                                 </p>
-                                <p><span style='font-size:14.666666666666666px;font-family:Arial;color:#000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap'><strong><span style='font-size:18px'><span style='color:#449adc'>%order_items</span></span>
+                                <p><span style='font-size:14.666666666666666px;font-family:Arial;color:#000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap'><strong><span style='font-size:13px'><span style='color:#000'>%order_items</span></span>
                                   </strong>
-                                  </span><strong style='font-family:Arial;font-size:14.666666666666666px;white-space:pre-wrap'><span style='font-size:18px'><span style='color:#449adc'>Para imprimir la orden click en el siguiente enlace:</span></span></strong></p>
-                                <p><span style='font-size:14.666666666666666px;font-family:Arial;color:#000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap'><strong><span style='font-size:18px'><span style='color:#449adc'>%order_copy_url</span></span>
+                                  </span><strong style='font-family:Arial;font-size:14.666666666666666px;white-space:pre-wrap'><span style='font-size:13px'><span style='color:#000'>Para imprimir la orden click en el siguiente enlace:</span></span></strong></p>
+                                <p><span style='font-size:14.666666666666666px;font-family:Arial;color:#000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap'><strong><span style='font-size:13px'><span style='color:#000'>%order_copy_url</span></span>
                                   </strong>
                                   </span>
                                 </p>
