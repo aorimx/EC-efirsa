@@ -30,8 +30,9 @@
     <?php }  else if(!$subcategories) {?>
     <div class="container-alert">
       <div class="order-success">
+        <img src="{snippet:template_path}images/noproductos.png" style="max-width: 60%;">
         <p>NO HAY PRODUCTOS EN ESTA CATEGORÌA</p>
-        <a href="<?php echo document::ilink('index_tienda'); ?>"><button class="btn-print">Regresar a la página principal</button></a>
+        <a href="<?php echo document::ilink('index_tienda'); ?>"><button class="btn-print" style="margin-bottom: 40px;">Regresar a la página principal</button></a>
       </div>
     </div>
     <?php }?>
