@@ -46,6 +46,7 @@
 <script src="{snippet:template_path}js/bar-order-by.js"></script>
 <script src="{snippet:template_path}Sagan-boilerplate/assets/scripts/aside-categories.js"></script>
 <script src="{snippet:template_path}js/sweetalert2/dist/sweetalert2.all.min.js"></script>
+
 {snippet:javascript}
 </body>
 </html>
