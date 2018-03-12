@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="{snippet:language}">
-<head>
+<head itemscope="" itemtype="http://schema.org/WebSite">
 <title>{snippet:title}</title>
+<link rel="icon" type="image/x-icon" href="{snippet:template_path}images/favicon.ico">
 <meta charset="{snippet:charset}" />
 <meta name="description" content="{snippet:description}" />
 <meta name="viewport" content="width=device-width, initial-scale=1">

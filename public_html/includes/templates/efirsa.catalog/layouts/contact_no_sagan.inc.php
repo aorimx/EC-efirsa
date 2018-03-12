@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="{snippet:language}">
-<head>
+<head itemscope="" itemtype="http://schema.org/WebSite">
 <title>{snippet:title}</title>
+<link rel="icon" type="image/x-icon" href="{snippet:template_path}images/favicon.ico">
 <meta charset="{snippet:charset}" />
 <meta name="description" content="{snippet:description}" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,7 +26,7 @@
 
   <header id="header">
 
-   
+
 
     <div id="region-wrapper">
       <!--<?php //include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_region.inc.php'); ?>-->
@@ -35,7 +36,7 @@
   </header>
 
   <!--<?php //include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_site_menu.inc.php'); ?>-->
-  
+
     <main class="j-workspace ">
     <div class="top">
       {snippet:top}
@@ -80,8 +81,8 @@
 <script src="{snippet:template_path}js/contact.js"></script>
 <script src="{snippet:template_path}js/contact-map.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDacDTJIvueZB9g-8matbFeGYyroNeNnxQ&callback=initMap" async defer></script>
-  
-  
+
+
 
 <!-- Scripts para funcionamiento -->
 <!--script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script-->

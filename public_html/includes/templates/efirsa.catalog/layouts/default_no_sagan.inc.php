@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="{snippet:language}">
-<head>
+<head itemscope="" itemtype="http://schema.org/WebSite">
 <title>{snippet:title}</title>
+<link rel="icon" type="image/x-icon" href="{snippet:template_path}images/favicon.ico">
 <meta charset="{snippet:charset}" />
 <meta name="description" content="{snippet:description}" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,7 +27,7 @@
 
   <header id="header">
 
-   
+
 
     <div id="region-wrapper">
       <!--<?php //include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_region.inc.php'); ?>-->
@@ -36,7 +37,7 @@
   </header>
 
   <!--<?php //include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_site_menu.inc.php'); ?>-->
-  
+
     <main class="j-workspace ">
     <div class="top">
       {snippet:top}
