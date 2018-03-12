@@ -193,8 +193,8 @@ a:hover, a:active{
 }
 
 .marca-nocel, .marca-nocel:hover{
-	max-width: 350px;
-  background-color: #6c6c6d !important;
+	max-width: 275px;
+  /*background-color: #6c6c6d !important;*/
 	height: auto;
 }
 
@@ -236,8 +236,8 @@ a:hover, a:active{
 }
 
 .navbar-cel li{
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .iconos-menu{
@@ -426,7 +426,7 @@ a:hover, a:active{
   background: url('../images/headerProductos.png');
   background-size: 100%;
   background-position: center;
-  padding: 145px 0px 50px;
+  padding: 110px 0px 50px;
 }
 
 .productos-catalogo{
@@ -499,7 +499,7 @@ a:hover, a:active{
   background: url('../images/header-proveedores.png');
   background-size: 100%;
   background-position: center;
-  padding: 145px 0px 50px;
+  padding: 110px 0px 50px;
 }
 
 .proveedores-catalogo{
@@ -976,7 +976,7 @@ a:hover, a:active{
   background: url('../images/header-contacto.png');
   background-size: 100%;
   background-position: center;
-  padding: 145px 0px 50px;
+  padding: 110px 0px 50px;
 }
 
 .form-contacto label{
@@ -1065,7 +1065,7 @@ a:hover, a:active{
   background: url('../images/header-nosotros.png');
   background-size: 100%;
   background-position: center;
-  padding: 145px 0px 50px;
+  padding: 110px 0px 50px;
 }
 
 .div-historia p{
