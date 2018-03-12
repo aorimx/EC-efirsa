@@ -246,7 +246,7 @@ body {
 .j-workspace {
   min-height: calc(100vh - (250px + 85.73px));
   box-sizing: border-box;
-  margin-top: 48px;
+  margin-top: 32px;
   width: 100%; }
   .j-workspace .j-wrap {
     max-width: 1232px;
