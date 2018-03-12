@@ -1656,7 +1656,8 @@ header {
             .contenedor-menu .navbar-default .container-fluid .navbar-collapse ul .arrow_box .margin-top {
               margin-top: -8px; }
             .contenedor-menu .navbar-default .container-fluid .navbar-collapse ul .arrow_box a span {
-              color: white; }
+              color: white;
+              font-weight: bolder; }
             .contenedor-menu .navbar-default .container-fluid .navbar-collapse ul .arrow_box a img {
               margin-bottom: -8px; }
 
