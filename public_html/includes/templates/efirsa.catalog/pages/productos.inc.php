@@ -248,7 +248,7 @@
   <div class="container">
     <div class="row">
       <div class="padding-productos">
-        <p class="texto-centro"><a class="texto-verde enlaces-verdes" href="archivos/catalogo.pdf" target="_blank">Descargar nuestro catálogo<img class="flecha-enlace" src="{snippet:template_path}images/flecha-verde.png"></a></p>
+        <p class="texto-centro"><a class="texto-verde enlaces-verdes" href="{snippet:template_path}archivos/LICENSE.pdf" target="_blank">Descargar nuestro catálogo<img class="flecha-enlace" src="{snippet:template_path}images/flecha-verde.png"></a></p>
       </div>
     </div>
   </div>

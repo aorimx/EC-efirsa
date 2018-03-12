@@ -426,7 +426,7 @@ a:hover, a:active{
   background: url('../images/headerProductos.png');
   background-size: 100%;
   background-position: center;
-  padding: 110px 0px 50px;
+  padding: 145px 0px 50px;
 }
 
 .productos-catalogo{
@@ -467,7 +467,7 @@ a:hover, a:active{
     z-index: 0;
     top: 0px;
     opacity: 0;
-    
+
 }
 .deployBlock{
     opacity: 1 !important;
@@ -499,7 +499,7 @@ a:hover, a:active{
   background: url('../images/header-proveedores.png');
   background-size: 100%;
   background-position: center;
-  padding: 110px 0px 50px;
+  padding: 145px 0px 50px;
 }
 
 .proveedores-catalogo{
@@ -614,7 +614,7 @@ a:hover, a:active{
         order: 2;
         padding: 32px;
     }
- 
+
 }
 
 @media screen and (max-width: 600px){
@@ -681,7 +681,7 @@ a:hover, a:active{
     width: auto !important;
     right: -32px;
     bottom: -72px;
-    z-index: 5; 
+    z-index: 5;
 }
 .content-img-fondo{
     width: 40%;
@@ -698,7 +698,7 @@ a:hover, a:active{
     left: 50%;
     transform: translate(-30%, -50%);
     top: 50%;
-    z-index: 5; 
+    z-index: 5;
 }
 .img-elevador-3{
     position: absolute;
@@ -706,7 +706,7 @@ a:hover, a:active{
     left: 50%;
     transform: translate(-50%, -50%);
     top: 50%;
-    z-index: 5; 
+    z-index: 5;
 }
 .content-img-fondo-2{
     width: 50%;
@@ -726,7 +726,7 @@ a:hover, a:active{
     width: auto !important;
     left: -16px;
     bottom: -104px;
-    z-index: 5; 
+    z-index: 5;
 }
 .img-fondo-2{
     width: 100% !important;
@@ -764,7 +764,7 @@ a:hover, a:active{
     .img-elevador-1{
         right: 48px;
         bottom: -64px;
-        z-index: 5; 
+        z-index: 5;
     }
     .content-img-fondo-2{
         width: 90%;
@@ -808,7 +808,7 @@ a:hover, a:active{
         width: 54% !important;
         right: 32px;
         bottom: -32px;
-        z-index: 5; 
+        z-index: 5;
     }
     .img-elevador-2{
         width: 54% !important;
@@ -976,7 +976,7 @@ a:hover, a:active{
   background: url('../images/header-contacto.png');
   background-size: 100%;
   background-position: center;
-  padding: 110px 0px 50px;
+  padding: 145px 0px 50px;
 }
 
 .form-contacto label{
@@ -1065,7 +1065,7 @@ a:hover, a:active{
   background: url('../images/header-nosotros.png');
   background-size: 100%;
   background-position: center;
-  padding: 110px 0px 50px;
+  padding: 145px 0px 50px;
 }
 
 .div-historia p{
@@ -1215,7 +1215,7 @@ a:hover, a:active{
     .container-footer-2{
         display: block;
     }
-    
+
 }
 footer{
     background-color: #58595b;
@@ -1252,7 +1252,7 @@ footer{
       .gris-footer{
           height: 142px;
       }
-    
+
 }
 
 .copyright{
@@ -1570,7 +1570,7 @@ footer{
     margin: auto;
 }
 @media screen and (max-width: 600px){
-    
+
     .form-contacto{
         display: flex;
         flex-direction: column;

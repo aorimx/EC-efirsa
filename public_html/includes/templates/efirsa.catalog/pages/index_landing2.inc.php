@@ -1,7 +1,7 @@
 <main id="content" class="main_content" style="width:100%;">
   <div class=" c-mostrar alert-content">
     <div class="text-content">
-      <p class="texto-verde"><a target="_blank" class="texto-verde" href="archivos/catalogoEfirsa.pdf">Descargar nuestro catálogo</a></p>
+      <p class="texto-verde"><a target="_blank" class="texto-verde" href="{snippet:template_path}archivos/LICENSE.pdf">Descargar nuestro catálogo</a></p>
     </div>
     <div class="botton-x">
       <button class="text-botton">X</button>
@@ -26,7 +26,7 @@
           <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'views/Componente6.inc.php'); ?>
       </div>
       </div>
-<?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'views/menu.inc.php'); ?>
+<?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'pages/menusecundario.inc.php'); ?>
 </main>
 <script>
 $(document).ready(function () {
