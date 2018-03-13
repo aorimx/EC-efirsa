@@ -24,13 +24,13 @@
       					</nav>
       				</div>-->
           </div>
-          <div id="navbar" class="navbar-collapse collapse" style="overflow: hidden; max-height: 424px !important;">
+          <div id="navbar" class="navbar-collapse collapse" style="overflow: hidden;">
             <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="nav navbar-nav navbar-cel navsec">
               <li>
                 <a class="navbar-brand marca-nocel hidden-xs hidden-sm" href="<?php echo document::ilink('index.php'); ?>"><img class="padding-top" src="{snippet:template_path}/images/logos/efirsaNav.png"></a>
               </li>
 
-              <li class="arrow_box"><a itemprop="url" href="<?php echo document::ilink('index.php'); ?>"><span itemprop="name">Inicio</span></a></li>
+              <!--<li class="arrow_box"><a itemprop="url" href="<?php echo document::ilink('index.php'); ?>"><span itemprop="name">Inicio</span></a></li>-->
               <li class="arrow_box"><a itemprop="url" href="<?php echo  document::ilink('nosotros'); ?>"><span itemprop="name">Nosotros</span></a></li>
               <li class="arrow_box"><a itemprop="url" href="<?php echo document::ilink('productos'); ?>"><span itemprop="name">Productos</span></a></li>
               <li class="arrow_box"><a itemprop="url" href="<?php echo document::ilink('certificaciones'); ?>"><span itemprop="name">Certificaciones</span></a></li>

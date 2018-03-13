@@ -147,10 +147,11 @@ header{
     position: fixed;
     top: 0;
     height: 56px;
-    z-index: 1;
+    z-index: 10;
 	}
 	.container-men{
 	max-width: 1232px;
+	max-height: 56px;
 	}
 	.navsec{
 		padding-top: 0;
@@ -195,6 +196,7 @@ header{
 
 .navbar-default {
     background-color: transparent;
+		max-height: 56px;
     border-color: #e7e7e7;
     border: 0px;
     margin-bottom: 0px;
@@ -203,6 +205,7 @@ header{
 
 .navbar-default .navbar-nav>li>a {
     color: white;
+		max-height: 56px;
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
@@ -217,13 +220,14 @@ header{
 }
 
 .marca-nocel img{
-	width: 83%;
+	width: 87%;
 	margin: auto;
 }
 
 #navbar{
 	padding-left: 0px;
 	padding-right: 0px;
+	max-height: 56px;
 }
 
 .navbar-cel{
@@ -232,11 +236,12 @@ header{
 }
 
 .navbar-cel li{
-
+font-size: 16px;
 }
 
-.navbar-cel .arrow_box{
 
+.navbar-cel .arrow_box li{
+font-size: 16px;
 }
 
 .navbar-cel .arrow_box{
@@ -254,8 +259,9 @@ header{
 }
 
 .navbar-cel li{
-	padding-left: 0px;
-	padding-right: 0px;
+	padding-left: 16px;
+	padding-right: 16px;
+	max-height: 56px;
 }
 
 .iconos-menu{
@@ -1344,6 +1350,7 @@ footer{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+		max-height: 56px;
 }
 
 @media (min-width: 1200px){
