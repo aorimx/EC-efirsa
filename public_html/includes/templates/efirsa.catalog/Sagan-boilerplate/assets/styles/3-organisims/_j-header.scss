@@ -4,16 +4,20 @@ header{
     flex-wrap: wrap;
   }  .contenedor-menu{
     width: 100%;
-    max-width: 1232px;
     background-color: #414042;
     position: fixed;
     top: 0;
     height: $space-7;
     z-index: 1;
+    .container-men{
+    max-width: 1232px;
+    }
     .navbar-default{
       width: 100%;
       height: $space-7;
       background-color: #414042;
+      justify-content: center;
+      display: flex;
       .container-fluid{
         width: 100%;
         height: $space-7;

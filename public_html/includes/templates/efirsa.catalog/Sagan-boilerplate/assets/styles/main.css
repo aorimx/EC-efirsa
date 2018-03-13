@@ -1574,16 +1574,19 @@ header {
 
 .contenedor-menu {
   width: 100%;
-  max-width: 1232px;
   background-color: #414042;
   position: fixed;
   top: 0;
   height: 56px;
   z-index: 1; }
+  .contenedor-menu .container-men {
+    max-width: 1232px; }
   .contenedor-menu .navbar-default {
     width: 100%;
     height: 56px;
-    background-color: #414042; }
+    background-color: #414042;
+    justify-content: center;
+    display: flex; }
     .contenedor-menu .navbar-default .container-fluid {
       width: 100%;
       height: 56px;

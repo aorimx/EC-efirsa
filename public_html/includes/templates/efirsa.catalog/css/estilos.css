@@ -137,6 +137,24 @@ a:hover, a:active{
   margin: auto;
 }
 
+header{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }  .contenedor-menu{
+    width: 100%;
+    background-color: #414042;
+    position: fixed;
+    top: 0;
+    height: 56px;
+    z-index: 1;
+	}
+	.container-men{
+	max-width: 1232px;
+	}
+	.navsec{
+		padding-top: 0;
+	}
 #wowslider-container1 .ws_bullets a {
     width: 42px !important;
     height: 7px !important;
@@ -199,7 +217,7 @@ a:hover, a:active{
 }
 
 .marca-nocel img{
-	width: 76%;
+	width: 83%;
 	margin: auto;
 }
 
@@ -1324,7 +1342,7 @@ footer{
 
 .nav.navbar-nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -1332,7 +1350,7 @@ footer{
 	.nav>li>a {
     position: relative;
     display: block;
-    padding: 15px 22px;
+    padding: 8px 22px;
 }
 }
 

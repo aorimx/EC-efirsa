@@ -1,6 +1,6 @@
-<div class="navbar-fixed-top container-fluid contenedor-menu">
+<div class="navbar-fixed-top container-fluid contenedor-menu container-align container-ms">
 <nav class="navbar navbar-default">
-        <div class="container-fluid sin-padding">
+        <div class="container-fluid sin-padding container-men">
           <div class="navbar-header">
             <a class="navbar-brand marca-cel visible-xs visible-sm" href="index.php"><img class="logo-movil" src="{snippet:template_path}/images/logos/efirsaFooter.png" style="position: relative; top: 0px;"></a>
             <button type="button" class="hmenu navbar-toggle collapsed btn-menu" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -25,7 +25,7 @@
       				</div>-->
           </div>
           <div id="navbar" class="navbar-collapse collapse" style="overflow: hidden; max-height: 424px !important;">
-            <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="nav navbar-nav navbar-cel">
+            <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="nav navbar-nav navbar-cel navsec">
               <li>
                 <a class="navbar-brand marca-nocel hidden-xs hidden-sm" href="<?php echo document::ilink('index.php'); ?>"><img class="padding-top" src="{snippet:template_path}/images/logos/efirsaNav.png"></a>
               </li>
