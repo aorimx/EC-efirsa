@@ -27,7 +27,7 @@
           <div id="navbar" class="navbar-collapse collapse" style="overflow: hidden;">
             <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="nav navbar-nav navbar-cel navsec">
               <li>
-                <a class="navbar-brand marca-nocel hidden-xs hidden-sm" href="<?php echo document::ilink('index.php'); ?>"><img class="padding-top" src="{snippet:template_path}/images/logos/efirsaNav.png"></a>
+                <a style="padding: 8px;" class="navbar-brand marca-nocel hidden-xs hidden-sm" href="<?php echo document::ilink('index.php'); ?>"><img style="width:200px;" class="padding-top" src="{snippet:template_path}/images/logos/efirsaNav.png"></a>
               </li>
 
               <!--<li class="arrow_box"><a itemprop="url" href="<?php echo document::ilink('index.php'); ?>"><span itemprop="name">Inicio</span></a></li>-->

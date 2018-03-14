@@ -260,10 +260,12 @@ font-size: 16px;
 
 .navbar-cel li{
 	padding-left: 16px;
-	padding-right: 16px;
+	padding-right: 0px;
 	max-height: 56px;
 }
-
+.navbar-cel li:first-child{
+	padding-left: 0px;
+}
 .iconos-menu{
 	margin-top: 7px;
 }
