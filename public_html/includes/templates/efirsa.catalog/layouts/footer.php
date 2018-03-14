@@ -29,13 +29,13 @@
       <p class="copyright">
         Copyright © EFIRSA.</p>
         <p class="copy_subtext">Todos los Derechos Reservados.</p>
-      
+
     </div>
     <div class="col-sm-4 centrar-footer terminos-gris">
-      <a href="{snippet:template_path}archivos/avisodePrivacidad.jpg" target="_blank"><p class="aviso">Políticas de privacidad</p></a> 
-      <a href="{snippet:template_path}archivos/terminosycondiciones.pdf" target="_blank"><p class="aviso"> Términos y Condiciones</p></a>
+      <a href="{snippet:template_path}archivos/avisodePrivacidad.jpg" target="_blank"><p class="aviso">Políticas de privacidad</p></a>
+      <a href="{snippet:template_path}archivos/TERMINOS.pdf" target="_blank"><p class="aviso"> Términos y Condiciones</p></a>
     </div>
-  </div> 
+  </div>
 
   <div class="container-footer-2">
     <div class="col-xs-4 centrar-footer">
@@ -46,16 +46,16 @@
       </ul>
     </div>
     <div class="col-xs-8 centrar-footer">
-      <a href="{snippet:template_path}archivos/avisodePrivacidad.jpg" target="_blank"><p class="aviso">Políticas de privacidad</p></a> 
+      <a href="{snippet:template_path}archivos/avisodePrivacidad.jpg" target="_blank"><p class="aviso">Políticas de privacidad</p></a>
       <a href="{snippet:template_path}archivos/terminosycondiciones.pdf" target="_blank"><p class="aviso"> Términos y Condiciones</p></a>
     </div>
     <div class=" col-xs-12 centrar-footer">
       <p class="copyright">
-        Copyright © EFIRSA. 
+        Copyright © EFIRSA.
         Todos los Derechos Reservados.
       </p>
     </div>
-  </div> 
+  </div>
 </div>
 
 </div>

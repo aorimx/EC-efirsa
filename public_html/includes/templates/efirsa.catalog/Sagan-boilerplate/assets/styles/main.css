@@ -1661,6 +1661,8 @@ header {
             .contenedor-menu .navbar-default .container-fluid .navbar-collapse ul .arrow_box a span {
               color: white;
               font-weight: bolder; }
+            .contenedor-menu .navbar-default .container-fluid .navbar-collapse ul .arrow_box a span:hover {
+              color: gray; }
             .contenedor-menu .navbar-default .container-fluid .navbar-collapse ul .arrow_box a img {
               margin-bottom: -8px; }
 
