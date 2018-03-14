@@ -450,6 +450,7 @@ font-size: 16px;
   background: url('../images/headerProductos.png');
   background-size: 100%;
   background-position: center;
+	margin-top: 15px;
   padding: 110px 0px 50px;
 }
 
