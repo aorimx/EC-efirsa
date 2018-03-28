@@ -801,11 +801,21 @@
                                 <p><span style='font-size:14.666666666666666px;font-family:Arial;color:#000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap'><strong><span style='font-size:13px'><span style='color:#000'>%order_items</span></span>
                                   </strong>
                                   </span><strong style='font-family:Arial;font-size:14.666666666666666px;white-space:pre-wrap'><span style='font-size:13px'><span style='color:#000'>Para imprimir la orden click en el siguiente enlace:</span></span></strong></p>
-                                <p><span style='font-size:14.666666666666666px;font-family:Arial;color:#000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap'><strong><span style='font-size:13px'><span style='color:#000'>%order_copy_url</span></span>
                                   </strong>
                                   </span>
                                 </p>
                               </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style='word-wrap:break-word;font-size:0;padding:15px 30px;padding-top:10px;padding-bottom:10px;padding-right:25px;padding-left:25px' align='center'>
+                              <table role='presentation' cellpadding='0' cellspacing='0' style='border-collapse:separate' align='center' border='0'>
+                                <tbody>
+                                  <tr>
+                                  <td style='border:none;border-radius:0;color:#fff;cursor:auto;padding:10px 25px' align='center' valign='top' bgcolor='#8bb420'><a href='%order_copy_url' style='background:#8bb420;font-family:Ubuntu,Helvetica,Arial,sans-serif;font-size:13px;font-weight:400;line-height:120%;text-transform:none;margin:0;text-decoration:none;color:inherit' target='_blank'><strong>IMPRIMIR AQUI</strong></a></td>
+                                  </tr>
+                                </tbody>
+                              </table>
                             </td>
                           </tr>
                           <tr>

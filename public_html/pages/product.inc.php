@@ -10,8 +10,8 @@
 
   if (empty($_GET['category_id']) && empty($product->manufacturer)) {
     if ($product->category_ids && count($product->category_ids)) {
-        $category_ids = array_values($product->category_ids);
-        $_GET['category_id'] = array_shift($category_ids);
+      $category_ids = array_values($product->category_ids);
+      $_GET['category_id'] = array_shift($category_ids);
     }
   }
 

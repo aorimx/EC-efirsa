@@ -134,12 +134,12 @@ hr {
     <table id="items" class="table table-striped">
       <thead>
         <tr>
-          <th><?php echo language::translate('title_qty_EC', 'Cantidad'); ?></th>
-          <th><?php echo language::translate('title_item_EC', 'Item'); ?></th>
-          <th><?php echo language::translate('title_sku', 'SKU'); ?></th>
-          <th class="text-right"><?php echo language::translate('title_unit_price_EC', 'Precio unitario'); ?></th>
-          <th class="text-right"><?php echo language::translate('title_tax', 'Tax'); ?> </th>
-          <th class="text-right"><?php echo language::translate('title_sum', 'Sum'); ?></th>
+          <th style="padding: 0;"><?php echo language::translate('title_qty_EC', 'Cantidad'); ?></th>
+          <th style="padding: 0;"><?php echo language::translate('title_item_EC', 'Item'); ?></th>
+          <th style="padding: 0;"><?php echo language::translate('title_sku', 'SKU'); ?></th>
+          <th style="padding: 0;"><?php echo language::translate('title_unit_price_EC', 'Precio unitario'); ?></th>
+          <th style="padding: 0;"><?php echo language::translate('title_tax', 'Tax'); ?> </th>
+          <th style="padding: 0;"><?php echo language::translate('title_sum', 'Sum'); ?></th>
         </tr>
       </thead>
       <tbody>
@@ -165,9 +165,9 @@ hr {
           </td>
           <td><?php echo $item['sku']; ?></td>
         <?php if (!empty(customer::$data['display_prices_including_tax'])) { ?>
-          <td class="text-right"><?php echo currency::format($item['price'] + $item['tax'], false, $order['currency_code'], $order['currency_value']); ?></td>
-          <td class="text-right"><?php echo currency::format($item['tax'], false, $order['currency_code'], $order['currency_value']); ?> (<?php echo @round($item['tax']/$item['price']*100); ?> %)</td>
-          <td class="text-right"><?php echo currency::format($item['quantity'] * ($item['price'] + $item['tax']), false, $order['currency_code'], $order['currency_value']); ?></td>
+          <td style="width:20%; padding: 0;"><?php echo currency::format($item['price'] + $item['tax'], false, $order['currency_code'], $order['currency_value']); ?></td>
+          <td style="width:20%; padding: 0;"><?php echo currency::format($item['tax'], false, $order['currency_code'], $order['currency_value']); ?> (<?php echo @round($item['tax']/$item['price']*100); ?> %)</td>
+          <td style="width:20%; padding: 0;"><?php echo currency::format($item['quantity'] * ($item['price'] + $item['tax']), false, $order['currency_code'], $order['currency_value']); ?></td>
         <?php } else { ?>
           <td class="text-right"><?php echo currency::format($item['price'], false, $order['currency_code'], $order['currency_value']); ?></td>
           <td class="text-right"><?php echo currency::format($item['tax'], false, $order['currency_code'], $order['currency_value']); ?> (<?php echo @round($item['tax']/$item['price']*100); ?> %)</td>
@@ -183,8 +183,8 @@ hr {
         <?php foreach ($order['order_total'] as $ot_row) { ?>
         <?php if (!empty(customer::$data['display_prices_including_tax'])) { ?>
         <tr>
-          <td class="text-right"><?php echo $ot_row['title']; ?></td>
-          <td class="text-right"><?php echo currency::format($ot_row['value'] + $ot_row['tax'], false, $order['currency_code'], $order['currency_value']); ?></td>
+          <td style="width:16%;"><?php echo $ot_row['title']; ?></td>
+          <td><?php echo currency::format($ot_row['value'] + $ot_row['tax'], false, $order['currency_code'], $order['currency_value']); ?></td>
         </tr>
         <?php } else { ?>
         <tr>
@@ -202,7 +202,7 @@ hr {
         <?php } ?>
 
         <tr>
-          <td class="text-right"><strong><?php echo language::translate('title_grand_total', 'Grand Total'); ?></strong></td>
+          <td style="width:20%;" class="text-right"><strong><?php echo language::translate('title_grand_total', 'Grand Total'); ?></strong></td>
           <td class="text-right"><strong><?php echo currency::format($order['payment_due'], false, $order['currency_code'], $order['currency_value']); ?></strong></td>
         </tr>
       </tbody>
@@ -235,7 +235,7 @@ hr {
   </main>
 
   <?php if (count($order['items']) <= 10) { ?>
-  <footer id="footer">
+  <footer id="footer" style="position: static;">
 
     <hr />
 
