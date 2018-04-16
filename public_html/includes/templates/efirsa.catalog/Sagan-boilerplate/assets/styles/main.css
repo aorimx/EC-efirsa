@@ -1302,6 +1302,9 @@ select::-ms-expand {
       font-size: 14px; }
     .alert-content .botton-x {
       padding-right: 8px; } }
+  @media screen and (max-width: 480px) {
+    .alert-content .text-content .texto-verde {
+      font-size: 12px; } }
 
 @font-face {
   font-family: 'Gothaml';
@@ -2323,13 +2326,23 @@ ul.breadcrumb {
   padding-right: 48px; }
   .container-comp2_multimedia .video-container {
     width: 40%;
-    display: flex;
+    display: inline-grid;
     justify-content: center;
     align-content: center;
     align-items: center;
     text-align: center; }
     .container-comp2_multimedia .video-container video {
-      width: 95%; }
+      width: 100%; }
+    .container-comp2_multimedia .video-container .play_button_landing {
+      position: relative;
+      margin: -26% 0 16% 5%;
+      width: 100px;
+      opacity: .7;
+      transition: all 0.5s;
+      cursor: pointer; }
+    .container-comp2_multimedia .video-container .play_button_landing:hover {
+      opacity: 1;
+      transform: scale(1.15); }
   .container-comp2_multimedia .description {
     padding-left: 16px;
     display: flex;
@@ -2346,7 +2359,13 @@ ul.breadcrumb {
       font-size: 14px; }
     .container-comp2_multimedia .description button {
       width: 40%; }
+  @media screen and (max-width: 991px) {
+    .container-comp2_multimedia .video-container .play_button_landing {
+      margin: -29% 0 16% 5%; } }
   @media screen and (max-width: 900px) {
+    .container-comp2_multimedia .video-container .play_button_landing {
+      margin: -26% 0 16% 5%;
+      width: 60px; }
     .container-comp2_multimedia .description p {
       font-size: 12px; } }
   @media screen and (max-width: 768px) {
@@ -2356,6 +2375,9 @@ ul.breadcrumb {
       display: block; }
       .container-comp2_multimedia .video-container {
         width: 100%; }
+        .container-comp2_multimedia .video-container .play_button_landing {
+          margin: -23% 0 16% 5%;
+          width: 100px; }
       .container-comp2_multimedia .description {
         padding-left: 0;
         width: 100%; }
@@ -2365,6 +2387,10 @@ ul.breadcrumb {
           text-align: justify; }
         .container-comp2_multimedia .description button {
           width: 100%; } }
+  @media screen and (max-width: 480px) {
+    .container-comp2_multimedia .video-container .play_button_landing {
+      margin: -23% 0 16% 5%;
+      width: 50px; } }
 
 .container-componentes {
   display: inline-flex;

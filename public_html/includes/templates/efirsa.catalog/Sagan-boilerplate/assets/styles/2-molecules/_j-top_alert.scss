@@ -52,4 +52,11 @@
      padding-right: $space-base;
    }
  }
+ @media screen and (max-width: 480px){
+   .text-content{
+     .texto-verde{
+       font-size: 12px;
+     }
+   }
+ }
 }
