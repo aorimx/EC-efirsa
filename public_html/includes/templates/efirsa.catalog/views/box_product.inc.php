@@ -214,10 +214,10 @@
       </table>
     <?php }
     else{ ?>
-      <p style="color: #414042; opacity: .65;">No hay características para este producto</p>
+      <p style="color: #414042; opacity: .65; font-style: italic;">No hay características para este producto</p>
     <?php }?>
   <?php }   else{ ?>
-      <p style="color: #414042; opacity: .65;">No hay características para este producto</p>
+      <p style="color: #414042; opacity: .65; font-style: italic;">No hay características para este producto</p>
     <?php }?>
   </div>
 </div>
