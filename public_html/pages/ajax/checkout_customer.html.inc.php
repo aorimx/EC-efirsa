@@ -27,9 +27,9 @@
       if (!empty($_POST['create_account'])) {
         if (isset($_POST['email']) && !database::num_rows(database::query("select id from ". DB_TABLE_CUSTOMERS ." where email = '". database::input($_POST['email']) ."' limit 1;"))) {
         if (empty($_POST['password']))
-          notices::add('errors', language::translate('error_missing_password', 'You must enter a password.'));
+          notices::add('errors', language::translate('error_missing_password_EC', 'Debe ingresar una contraseña'));
         } else {
-          if (!isset($_POST['confirmed_password']) || $_POST['password'] != $_POST['confirmed_password']) notices::add('errors', language::translate('error_passwords_missmatch', 'The passwords did not match.'));
+          if (!isset($_POST['confirmed_password']) || $_POST['password'] != $_POST['confirmed_password']) notices::add('errors', language::translate('error_passwords_missmatch_EC', 'La contraseña no coincidio'));
         }
       }
     }
@@ -106,7 +106,7 @@
               if (empty($_POST['password'])) $_POST['password'] = functions::password_generate(6);
               $customer->set_password($_POST['password']);
 
-              $email_message = language::translate('email_subject_account_created', "Welcome %customer_firstname %customer_lastname to %store_name!\r\n\r\nYour account has been created. You can now make purchases in our online store and keep track of history.\r\n\r\nLogin using your email address %customer_email and password %customer_password.\r\n\r\n%store_name\r\n\r\n%store_link");
+              $email_message = language::translate('email_subject_account_created_EC', "Bienvenido %customer_firstname %customer_lastname a %store_name!\r\n\r\nTu cuenta ha sido creada. Ahora puede hacer compras en nuestra tienda en línea y realizar un seguimiento de la historia.\r\n\r\nInicia sesion usando tu correo electronico %customer_email y password %customer_password.\r\n\r\n%store_name\r\n\r\n%store_link");
 
               $translations = array(
                 '%store_name' => settings::get('store_name'),
@@ -124,11 +124,11 @@
               functions::email_send(
                 null,
                 $_POST['email'],
-                language::translate('email_subject_customer_account_created', 'Customer Account Created'),
+                language::translate('email_subject_customer_account_created_EC', 'Cuenta de cliente creada'),
                 $email_message
               );
 
-              notices::add('success', language::translate('success_account_has_been_created', 'A customer account has been created that will let you keep track of orders.'));
+              notices::add('success', language::translate('success_account_has_been_created_EC', 'Se ha creado una cuenta de cliente que le permitirá realizar un seguimiento de los pedidos.'));
 
               customer::load($customer->data['id']);
             }

@@ -6,6 +6,40 @@
   .shopping-cart {
     width: 70%;
     padding-right: $space-2;
+    .content_back{
+      width: 100%;
+      display: inline-flex;
+      .third{
+        width: 53%;
+        padding: $space-2;
+      }
+      .middle{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .content{
+          display: flex;
+          justify-content: center;
+          p{
+            width: 100%;
+            max-width: 250px;
+            color: black;
+            text-align: center;
+            padding: $space-base;
+          }
+          a{
+            width: 100%;
+            max-width: 250px;
+            p{
+              background-color: #228b22;
+              color: white;
+              font-size: $space-2;
+            }
+          }
+        }
+      }
+    }
   }
   .order-summary{
     width: 30%;
@@ -15,13 +49,63 @@
       max-width: 100%;
     }
   }
+  .oculto{
+    display: none;
+  }
   .custome-details{
-    width: 70%;
+    width: 100%;
     margin-left: 0;
+    padding-left: $space-8;
+    padding-right: $space-8;
     .margin-left{
       margin-left: -$space-2;
     }
-  }
+    .title{
+      width: 105%;
+      background-color: #6c6c6d !important;
+      color: $white;
+      padding-left: $space-3;
+    }
+  .form-group{
+      display: inline-flex;
+      width: 100%;
+      label{
+        width: 25%;
+        padding-left: $space-3;
+      }
+      input{
+        width: 70%;
+        border-radius: 0px;
+      }
+      select{
+        width: 70%;
+        border-radius: 0;
+      }
+      textarea{
+        width: 70%;
+        border-radius: 0;
+      }
+      .input-group{
+        display: inline-flex;
+        width: 100%;
+        max-height: 40px;
+        margin-left: 6%;
+        input{
+          width: 85%;
+        }
+        .input-group-ad{
+          padding: 12px 12px;
+          font-size: 14px;
+          font-weight: normal;
+          line-height: 1;
+          color: #fff;
+          text-align: center;
+          background-color: #6c6c6d;
+          border-radius: 0;
+        }
+      }  
+    }
+  }    
   .padding-right{
     padding-right: $space-2;
   }
@@ -33,6 +117,9 @@
   }
   .padding-bottom{
     padding-bottom: $space-2;
+  }
+  .color-black{
+    color: black;
   }
   .backgroung-gray{
     padding-top: $space-2;
@@ -74,6 +161,7 @@
     .copyrights{
       width: 100%;
       text-align: center;
+      color: #000000;
     }
     .red-footer{
       width: 100%;
@@ -83,7 +171,7 @@
         position: relative;
         display: block;
         float: left;
-        padding-right: 16px;
+        padding-right: $space-2;
         }
       li:last-child{
         padding-right: 0;
@@ -94,12 +182,115 @@
     }
   }
 }
+.td_pieces{
+  .input-group{
+    background-color: #6c6c6d;
+    border-radius: 3px;
+    display: inline-flex;
+    input{
+      width: 65%;
+    }
+    span{
+      width: 35%;
+      text-align: center;
+      padding-top: 7px;
+      color: white;
+    }
+  }
+}
+.featherlight-content{
+  .box-login{
+    .form-group{
+      display: inline-flex;
+      width: 100%;
+      label{
+        width: 25%;
+        padding-left: $space-3;
+      }
+      input{
+        width: 70%;
+        border-radius: 0px;
+      }
+      select{
+        width: 70%;
+        border-radius: 0;
+      }
+      textarea{
+        width: 70%;
+        border-radius: 0;
+      }
+      .input-group{
+        display: inline-flex;
+        width: 100%;
+        max-height: 40px;
+        input{
+          width: 85%;
+        }
+        .input-group-ad{
+          padding: 12px 12px;
+          font-size: 14px;
+          font-weight: normal;
+          line-height: 1;
+          color: #fff;
+          text-align: center;
+          background-color: #6c6c6d;
+          border-radius: 0;
+        }
+      }  
+    }
+  }
+}
+@media screen and (max-width: 1150px){
+  .checkout{
+    .custome-details{
+      .form-group{
+        .input-group{
+          display: inline-flex;
+          width: 100%;
+          max-height: 40px;
+          margin-left: 6%;
+          input{
+            width: 84%;
+          }
+        }  
+      }
+    } 
+  }
+}
+@media screen and (max-width: 1050px){
+  .checkout{
+    .custome-details{
+      .form-group{
+        .input-group{
+          display: inline-flex;
+          width: 100%;
+          max-height: 40px;
+          margin-left: 6%;
+          input{
+            width: 83%;
+          }
+        }  
+      }
+    } 
+  }
+}
 @media screen and (max-width: 991px){
   .checkout{
     .shopping-cart {
       width: 100%;
       padding-left: 0;
       padding-right: 0;
+      .content_back{
+        width: 100%;
+        display: inline-flex;
+        .third{
+          width: 0;
+          padding: 0;
+        }
+        .middle{
+          width: 100%;
+        }
+      }
     }
     .order-summary{
       width: 100%;
@@ -112,9 +303,59 @@
     .custome-details{
       width: 100%;
       padding-right: 0;
+      padding-left: $space-2;
+      .title{
+        width: 104%
+      }
+      .form-group{
+      display: block;
+      width: 100%;
+      label{
+        width: 100%;
+        padding-left: 0;
+      }
+      input{
+        width: 100%;
+      }
+      select{
+        width: 100%;
+      }
+      textarea{
+        width: 100%;
+        border-radius: 0;
+      }
+      .input-group{
+        padding-left: 0;
+        width: 100%;
+        margin-left: 0;
+        input{
+          width: 96%;
+        }
+      }
+    }
+  }
+} 
+  .td_pieces{
+    .input-group{
+      input{
+        width: 60%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px){
+  .checkout{
+    .custome-details{
+      .title{
+        width: 105%
+      }
     }
   } 
+  .td_name{
+    white-space: unset !important;
+  }
 }
+
 @media screen and (max-width: 600px){
   .gris-footers{
     background-color: #d8d8d8;
@@ -144,5 +385,20 @@
       margin-bottom: $space-base;
       padding-right: $space-base;
     }
+  }
+  .td_name{
+    text-align: right;
+  }
+  .td_price{
+    padding: $space-2 !important;
+  }
+  .td_pieces{
+    margin-left: 30%;
+  }
+  .td_subtotal{
+    width: 50%;
+  }
+  .none{
+    display: none;
   }
 }

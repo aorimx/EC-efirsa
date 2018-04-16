@@ -6,7 +6,7 @@
 
     </div>
     <div class="col-xs-12 col-sm-6 derecha-footer" style="padding-right: 32px;">
-      <a class="hidden-xs" href="index.php"><img class="logo-movil-footer" src="img/logos/efirsaFooter.png"></a>
+      <a class="hidden-xs" href="index.php"><img class="logo-movil-footer" src="images/logos/efirsaFooter.png"></a>
       <p class="p-footer footer-fuente"><a  href="tel:14140202">Tel. 14140202</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a  href="tel:31441377">31441377</a></p>
       <p class="p-footer footer-fuente"><a  href="tel:018001712297">01 800 171 2297</a><i class="i-footer">&nbsp;Lada sin costo</i></p>
       <p><a class="texto-verde enlaces-verdes footer-fuente" href="mailto:ventas@efirsa.mx">ventas@efirsa.mx</a></p>
@@ -19,9 +19,9 @@
   <div class="container resp-none">
     <div class="col-sm-4 centrar-footer">
       <ul class="redes-footer">
-        <li><a href="https://www.facebook.com/elevadores.efirsa/"><img src="img/fb-footerg.png"></a></li>
-        <li><a href="#"><img src="img/instagram.svg" style="width: 24px;" alt=""></a></li>
-        <li><a href="https://www.youtube.com/channel/UCAS0CzSP8m0o95ENQwm95PQ"><img src="img/yt-footerg.png"></a></li>
+        <li><a href="https://www.facebook.com/elevadores.efirsa/"><img src="images/fb-footerg.png"></a></li>
+        <li><a href="#"><img src="images/instagram.svg" style="width: 24px;" alt=""></a></li>
+        <li><a href="https://www.youtube.com/channel/UCAS0CzSP8m0o95ENQwm95PQ"><img src="images/yt-footerg.png"></a></li>
       </ul>
     </div>
     <div class=" col-sm-4 centrar-footer">
@@ -39,9 +39,9 @@
   <div class="container-footer-2">
     <div class="col-xs-4 centrar-footer">
       <ul class="redes-footer">
-        <li><a href="https://www.facebook.com/elevadores.efirsa/"><img src="img/fb-footerg.png"></a></li>
-        <li><a href="#"><img src="img/instagram.svg" style="width: 17px;" alt=""></a></li>
-        <li><a href="https://www.youtube.com/channel/UCAS0CzSP8m0o95ENQwm95PQ"><img src="img/yt-footerg.png"></a></li>
+        <li><a href="https://www.facebook.com/elevadores.efirsa/"><img src="images/fb-footerg.png"></a></li>
+        <li><a href="#"><img src="images/instagram.svg" style="width: 17px;" alt=""></a></li>
+        <li><a href="https://www.youtube.com/channel/UCAS0CzSP8m0o95ENQwm95PQ"><img src="images/yt-footerg.png"></a></li>
       </ul>
     </div>
     <div class="col-xs-8 centrar-footer">

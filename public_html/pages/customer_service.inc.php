@@ -1,11 +1,11 @@
 <?php
-  document::$snippets['title'][] = language::translate('customer_service:head_title', 'Customer Service');
-  document::$snippets['description'] = language::translate('customer_service:meta_description', '');
+  document::$snippets['title'][] = language::translate('customer_service:head_title_EC', 'Servicio al cliente');
+  document::$snippets['description'] = language::translate('customer_service:meta_description_EC', 'Descripcion');
 
   if (!empty($_GET['page_id'])) {
-    breadcrumbs::add(language::translate('title_customer_service', 'Customer Service'), document::ilink('customer_service'));
+    breadcrumbs::add(language::translate('title_customer_service_EC', 'Servicio al cliente'), document::ilink('customer_service'));
   } else {
-    breadcrumbs::add(language::translate('title_customer_service', 'Customer Service'));
+    breadcrumbs::add(language::translate('title_customer_service_EC', 'Servicio al cliente'));
   }
 
   $_page = new view();
@@ -26,7 +26,7 @@
     $page = database::fetch($pages_query);
 
     if (empty($page['status'])) {
-      notices::add('errors', language::translate('error_page_not_found', 'The requested page could not be found'));
+      notices::add('errors', language::translate('error_page_not_found_EC', 'La pagina no se encontro'));
       http_response_code(404);
       header('Location: '. document::ilink(''));
       exit;

@@ -34,13 +34,13 @@ table {
     padding-left: 0;
     color: $gray-dark;
     &:first-child{
-      width: 17%;
+      width: 15%;
     }
     &:nth-child(2){
       width: 29%;
     }
     &:nth-child(3){
-      width: 13%;
+      width: 14%;
       padding-top: $space-2;
     }
     &:nth-child(4){
@@ -49,7 +49,8 @@ table {
     &:last-child{
       border-right: none;
       text-align: right;
-      width: 13%;
+      width: 14%;
+      margin-left: 50%;
     }
     p{
       line-height: .5;
@@ -65,15 +66,29 @@ table {
   }
 }
 @media screen and (max-width: 600px){
-  table td{
-    width: 100%;
-     &:first-child{
-      width: 30%;
+table {
+  width: 100%;
+  // Zebra Stripped Table
+  td {
+    &:first-child{
+      width: 20%;
+    }
+    &:nth-child(2){
+      width: 80%;
+      margin-left: 20%;
+    }
+    &:nth-child(3){
+      width: 25%;
+    }
+    &:nth-child(4){
+      width: 70%;
     }
     &:last-child{
       border-right: none;
       text-align: right;
       width: 100%;
+      margin-left: 0;
     }
   }
+}
 }

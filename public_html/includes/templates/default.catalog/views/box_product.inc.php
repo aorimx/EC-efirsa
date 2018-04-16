@@ -5,15 +5,15 @@
       <div class="container-img-product">
         <a href="<?php echo htmlspecialchars($image['original']); ?>" data-toggle="lightbox" data-gallery="product">
           <img class="img-responsive" src="<?php echo htmlspecialchars($image['thumbnail']); ?>" srcset="<?php echo htmlspecialchars($image['thumbnail']); ?> 1x, <?php echo htmlspecialchars($image['thumbnail_2x']); ?> 2x" alt="" title="<?php echo htmlspecialchars($name); ?>" />
-          <?php echo $sticker; ?>
+          <?php //echo $sticker; ?>
         </a>
       </div>
 
       <?php if ($extra_images) { ?>
       <div class="extra-images row half-gutter">
         <?php foreach ($extra_images as $image) { ?>
-        <div class="col-xs-thirds">
-          <div class="extra-image">
+        <div class="thumbnail-content">
+          <div class="thumbnail">
             <a href="<?php echo htmlspecialchars($image['original']); ?>" data-toggle="lightbox" data-gallery="product">
               <img class="img-responsive" src="<?php echo htmlspecialchars($image['thumbnail']); ?>" srcset="<?php echo htmlspecialchars($image['thumbnail']); ?> 1x, <?php echo htmlspecialchars($image['thumbnail_2x']); ?> 2x" alt="" title="<?php echo htmlspecialchars($name); ?>" />
             </a>
@@ -23,12 +23,6 @@
       </div>
       <?php } ?>
     </div>
-    <div class="thumbnail-img container-others-img">
-        <img class="img-big " onMouseOver="cambiar();" onMouseOut="volver();" src="{snippet:template_path}ef-s/img/e-commerce/Botonera4.png" alt="[#TODO]">
-        <img class="img-big" onMouseOver="cambiar2();" onMouseOut="volver();" src="{snippet:template_path}ef-s/img/e-commerce/Botonera4.png" alt="[#TODO]">
-        <img class="img-big" onMouseOver="cambiar3();" onMouseOut="volver();" src="{snippet:template_path}ef-s/img/e-commerce/Botonera4.png" alt="[#TODO]">
-        <img class="img-big" onMouseOver="cambiar4();" onMouseOut="volver();" src="{snippet:template_path}ef-s/img/e-commerce/Botonera4.png" alt="[#TODO]">
-        </div>
   </div>
     <div class="unit percent-30">
     <div class="col-sm-halfs col-md-thirds">
@@ -150,10 +144,24 @@
     </div>
   </div>
 
+</div>
+<hr>
+<div class="grid">
+  <div class="unit half">
+  <div class="container-descripcion"> 
+    <h3> Descripción</h3>
+      <?php if ($description) { ?>
+        <?php echo $description; ?>
+      <?php } ?>
+  </div>
+</div>
+
+  <div class="unit half container-car">
+  <div class="attributes">
+    <h3>Características</h3>
   <?php if (empty($_SERVER['HTTP_X_REQUESTED_WITH']) || strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') { ?>
   <?php if ($attributes) { ?>
-  <div class="attributes">
-    <table class="table table-striped">
+    <table class="table table-striped table-attributes">
 <?php
   for ($i=0; $i<count($attributes); $i++) {
     if (strpos($attributes[$i], ':') !== false) {
@@ -177,25 +185,14 @@
   }
 ?>
     </table>
+  <?php }
+  else{ ?>
+    <p style="color: #000; opacity: .65;">No hay características para este producto</p>
+  <?php }?> 
+  <?php } ?>
+  
   </div>
-  <?php } ?>
-  <?php } ?>
 </div>
-<hr>
-<div class="grid">
-  <div class="unit half container-descripcion"> 
-    <h3> Descripción</h3>
-      <?php if ($description) { ?>
-        <?php echo $description; ?>
-      <?php } ?>
-  </div>
-  <div class="unit half ">
-     <h3> Caracteristicas</h3>
-          <ul>
-          <li>Especificaciones</li>
-          <li>Especificaciones</li>
-          </ul>
-  </div>
 </div>
 </div>
 <script>

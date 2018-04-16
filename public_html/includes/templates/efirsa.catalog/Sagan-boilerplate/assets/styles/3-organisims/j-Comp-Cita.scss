@@ -1,0 +1,61 @@
+.slider-content{
+  background-color: #e6e6e6;
+  width:100%;
+  display: inline-flex;
+  .clientes_slider{
+    width:40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    h1{
+      text-transform: capitalize;
+      font-weight: bolder;
+      font-size: 40px;
+    }
+  }
+  .cita_texto{
+    width: 60%;
+  }
+}
+  .content-cita{
+    width: 50%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    .content-picture{
+      width: 25%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      img{
+        max-width: 100px;
+        border-radius: 100%;
+      }
+    }
+    .content-info{
+      width: 75%;
+      .title{
+      font-size: $space-3;
+      }
+      p{
+        text-align: left;
+        color: $black;
+      }
+    }
+  }
+@media screen and (max-width: 768px){
+  .slider-content{
+    display: block;
+    .clientes_slider{
+      width: 100%;
+    }
+    .cita_texto{
+      width: 100%;
+    }
+  }
+  .content-cita{
+    width: 100%;
+  }
+}

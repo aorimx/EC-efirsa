@@ -15,7 +15,6 @@
   <link rel="stylesheet" href="{snippet:template_path}ef-s/css/inicio.css">
   <link rel="stylesheet" href="{snippet:template_path}ef-s/css/mobileMenu.css">
   <link rel="stylesheet" href="{snippet:template_path}ef-s/css/nosotros.css">
-  <link rel="stylesheet" href="{snippet:template_path}ef-s/css/contacto.css">
   <link rel="stylesheet" href="{snippet:template_path}ef-s/css/estilos.css">
   <link rel="stylesheet" href="{snippet:template_path}ef-s/css/style1.css">
   <link href="{snippet:template_path}Sagan-boilerplate/assets/styles/main.css" rel="stylesheet">
@@ -40,12 +39,12 @@
 
   <!--<?php //include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_site_menu.inc.php'); ?>-->
   
-    <main class="j-workspace ">
+    <main class="j-workspace">
     <div class="top">
       {snippet:top}
     </div>
     <div class="j-wrap">
-    <div class="middle">
+    <div class="middle-content">
       {snippet:content}
       <div style="clear: both;"></div>
     </div>
@@ -53,7 +52,7 @@
     <div class="bottom">
       {snippet:bottom}
     </div>
-  <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/footer.php'); ?>
+<?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . '/layouts/footer.php'); ?>
 </div>
 
 </main>
@@ -67,6 +66,8 @@
 <script src="{snippet:template_path}ef-s/js/mobilMenu.js"></script>
 <script src="{snippet:template_path}ef-s/js/bootstrap.min.js"></script>
 <script src="{snippet:template_path}ef-s/js/scripts.js"></script>
+<script src="{snippet:template_path}Sagan-boilerplate/assets/scripts/aside-categories.js"></script>
+<script src="{snippet:template_path}Sagan-boilerplate/assets/scripts/sweetalert2/dist/sweetalert2.all.min.js"></script>
 {snippet:javascript}
 </body>
 </html>

@@ -10,14 +10,14 @@
   $page = database::fetch($pages_query);
 
   if (empty($page['status'])) {
-    notices::add('errors', language::translate('error_410_gone', 'The requested file is no longer available'));
+    notices::add('errors', language::translate('error_410_gone_EC', 'El archivo solicitado ya no está disponible'));
     http_response_code(410);
     header('Refresh: 0; url='. document::ilink(''));
     exit;
   }
 
   if (empty($page['status'])) {
-    notices::add('errors', language::translate('error_404_not_found', 'The requested file could not be found'));
+    notices::add('errors', language::translate('error_404_not_found_EC', 'No se pudo encontrar el archivo solicitado'));
     http_response_code(404);
     header('Refresh: 0; url='. document::ilink(''));
     exit;

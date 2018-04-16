@@ -1,0 +1,93 @@
+.order-summary{
+    width: 30%;
+    padding-right: $space-6;
+    div{
+      .backgroung-gray{
+        padding-top: $space-2;
+        padding-bottom: $space-2;
+        width: 100%;
+        background-color: #868686;
+        margin-bottom: 8px;
+        .title{
+          width: 100%;
+          display: inline-flex;
+          justify-content: center;
+        }
+        h2{
+          color:white;
+          margin-bottom: 0;
+        }
+      }
+      div{
+        .middle-content{
+        display: inline-flex;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .halfs-content{
+          width: 50%;
+        }
+        }
+        .backgroung-black{
+        padding-top: $space-base;
+        padding-bottom: $space-base;
+        width: 100%;
+        background-color: black;
+        display: inline-flex;
+        .td-border{
+          border-color: black;
+          border-style: solid;
+          border-width: 1px;
+        }
+        strong{
+          color:white;
+        }
+        }
+      }
+      .content-butons{
+        .botons{
+          width: 100%;
+          a{
+            p{
+              background-color: #6d6d6c;
+              text-align: center;
+              padding-top: $space-base;
+              padding-bottom: $space-base;
+            }
+          }
+          .green{
+            background-color: #228000;
+            margin-bottom: 4px;
+          }
+          .grey{
+            background-color: #6d6d6c;
+          }
+          p{
+            background-color: #228000;
+            text-align: center;
+            padding-top: $space-base;
+            padding-bottom: $space-base;
+          }
+        }
+        .comments{
+          text-align: justify;
+            @media screen and (max-width: 992px){
+              text-align: center;
+            }
+        }
+      }
+      button{
+        max-width: 100%;
+      }
+    }
+  }
+@media screen and (max-width: 991px){
+  .order-summary{
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    button{
+      max-width: 100%;
+    }
+  }
+}

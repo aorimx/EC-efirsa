@@ -1,0 +1,11 @@
+.content-T-T-B{
+  width: 50%;
+  p{
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 768px){
+  .content-T-T-B{
+    width: 100%;
+  }
+}

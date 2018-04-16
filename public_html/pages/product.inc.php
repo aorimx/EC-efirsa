@@ -16,25 +16,25 @@
   }
 
   if (empty($product->id)) {
-    notices::add('errors', language::translate('error_410_gone', 'The requested file is no longer available'));
+    notices::add('errors', language::translate('error_410_gone_EC', 'El archivo solicitado ya no está disponible'));
     http_response_code(410);
     header('Refresh: 0; url='. document::ilink(''));
     exit;
   }
 
   if (empty($product->status)) {
-    notices::add('errors', language::translate('error_404_not_found', 'The requested file could not be found'));
+    notices::add('errors', language::translate('error_404_not_found_EC', 'No se pudo encontrar el archivo solicitado'));
     http_response_code(404);
     header('Refresh: 0; url='. document::ilink(''));
     exit;
   }
 
   if ($product->date_valid_from > date('Y-m-d H:i:s')) {
-    notices::add('errors', sprintf(language::translate('text_product_cannot_be_purchased_until_s', 'The product cannot be purchased until %s'), language::strftime(language::$selected['format_date'], strtotime($product->date_valid_from))));
+    notices::add('errors', sprintf(language::translate('text_product_cannot_be_purchased_until_s_EC', 'El producto no puede comprarse hasta %s'), language::strftime(language::$selected['format_date'], strtotime($product->date_valid_from))));
   }
 
   if (substr($product->date_valid_to, 0, 10) != '0000-00-00' && substr($product->date_valid_to, 0, 4) > '1971' && $product->date_valid_to < date('Y-m-d H:i:s')) {
-    notices::add('errors', language::translate('text_product_can_no_longer_be_purchased', 'The product can no longer be purchased'));
+    notices::add('errors', language::translate('text_product_can_no_longer_be_purchased_EC', 'El producto ya no se puede comprar'));
   }
 
   database::query(
@@ -61,12 +61,12 @@
   }
 
   if (!empty($_GET['category_id'])) {
-    breadcrumbs::add(language::translate('title_categories', 'Categories'), document::ilink('categories'));
+    breadcrumbs::add(language::translate('title_categories_EC', 'Categorias'), document::ilink('categories'));
     foreach (functions::catalog_category_trail($_GET['category_id']) as $category_id => $category_name) {
       breadcrumbs::add($category_name, document::ilink('category', array('category_id' => (int)$category_id)));
     }
   } else if (!empty($product->manufacturer)) {
-    breadcrumbs::add(language::translate('title_manufacturers', 'Manufacturers'), document::ilink('manufacturers'));
+    breadcrumbs::add(language::translate('title_manufacturers_EC', 'Manufacturas'), document::ilink('manufacturers'));
     breadcrumbs::add($product->manufacturer->name, document::ilink('manufacturer', array('manufacturer_id' => $product->manufacturer->id)));
   }
   breadcrumbs::add($product->name);
@@ -114,7 +114,7 @@
     'gtin' => $product->gtin,
     'name' => $product->name,
     'short_description' => !empty($product->short_description) ? $product->short_description : '',
-    'description' => !empty($product->description) ? $product->description : '<em style="opacity: 0.65;">'. language::translate('text_no_product_description', 'There is no description for this product yet.') . '</em>',
+    'description' => !empty($product->description) ? $product->description : '<em style="opacity: 0.65;">'. language::translate('text_no_product_description_EC', 'No hay descripción para este producto.') . '</em>',
     'head_title' => !empty($product->head_title) ? $product->head_title : $product->name,
     'meta_description' => !empty($product->meta_description) ? $product->meta_description : $product->short_description,
     'keywords' => $product->keywords,
@@ -139,7 +139,7 @@
     'tax_rates' => array(),
     'quantity' => @round($product->quantity, $product->quantity_unit['decimals']),
     'quantity_unit' => $product->quantity_unit,
-    'stock_status' => settings::get('display_stock_count') ? round($product->quantity, $product->quantity_unit['decimals']) .' '. $product->quantity_unit['name'] : language::translate('title_in_stock', 'In Stock'),
+    'stock_status' => settings::get('display_stock_count') ? round($product->quantity, $product->quantity_unit['decimals']) .' '. $product->quantity_unit['name'] : language::translate('title_in_stock_EC', 'En Stock'),
     'delivery_status' => !empty($product->delivery_status['name']) ? $product->delivery_status['name'] : '',
     'sold_out_status' => !empty($product->sold_out_status['name']) ? $product->sold_out_status['name'] : '',
     'orderable' => $product->sold_out_status['orderable'],
@@ -173,9 +173,9 @@
 // Stickers
   if (!empty($product->campaign['price'])) {
     $percentage = round(($product->price - $product->campaign['price']) / $product->price * 100);
-    $_page->snippets['sticker'] = '<div class="sticker sale" title="'. language::translate('title_on_sale', 'On Sale') .'">'. language::translate('sticker_sale', 'Sale') .'<br />-'. $percentage .' %</div>';
+    $_page->snippets['sticker'] = '<div class="sticker sale" title="'. language::translate('title_on_sale_EC', 'En venta') .'">'. language::translate('sticker_sale_EC', 'Venta') .'<br />-'. $percentage .' %</div>';
   } else if ($product->date_created > date('Y-m-d', strtotime('-'.settings::get('new_products_max_age')))) {
-    $_page->snippets['sticker'] = '<div class="sticker new" title="'. language::translate('title_new', 'New') .'">'. language::translate('sticker_new', 'New') .'</div>';
+    $_page->snippets['sticker'] = '<div class="sticker new" title="'. language::translate('title_new_EC', 'Nuevo') .'">'. language::translate('sticker_new_EC', 'Nuevo') .'</div>';
   }
 
 // Manufacturer
@@ -305,7 +305,7 @@
 
         case 'select':
 
-          $options = array(array('-- '. language::translate('title_select', 'Select') .' --', ''));
+          $options = array(array('-- '. language::translate('title_select', 'Seleccionar') .' --', ''));
           foreach ($group['values'] as $value) {
 
             $price_adjust_text = '';

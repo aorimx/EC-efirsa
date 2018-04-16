@@ -39,7 +39,7 @@
 
     if (!empty($payment->modules) && count($payment->options()) > 0) {
       if (empty($payment->data['selected'])) {
-        notices::add('errors', language::translate('error_no_payment_method_selected', 'No payment method selected'));
+        notices::add('errors', language::translate('error_no_payment_method_selected_EC', 'No ha seleccionado el método de pago'));
         header('Location: '. document::ilink('checkout'));
         exit;
       }
@@ -68,7 +68,7 @@
         switch (@strtoupper($gateway['method'])) {
 
           case 'POST':
-            echo '<p>'. language::translate('title_redirecting', 'Redirecting') .'...</p>' . PHP_EOL
+            echo '<p>'. language::translate('title_redirecting_EC', 'Redirigir') .'...</p>' . PHP_EOL
                . '<form name="gateway_form" method="post" action="'. (!empty($gateway['action']) ? $gateway['action'] : document::ilink('order_process')) .'">' . PHP_EOL;
             if (is_array($gateway['fields'])) {
               foreach ($gateway['fields'] as $key => $value) echo '  ' . functions::form_draw_hidden_field($key, $value) . PHP_EOL;

@@ -10,7 +10,7 @@
         
         <p class="p-a" style="font-size: 16px; width: 89%;">Nuestro fundador y director Aureliano Flores López inició con la empresa SIMEYE la cual se dedicaba a los servicios de mantenimiento, posteriormente paso a convertirse en Elevadores de Occidente realizando la instalación de elevadores y escaleras marca Mitsubishi, poco después la instalación de elevadores Italianos creando la marca Elevadores Familiares y de Restaurantes S.A. de C.V, finalmente se evolucionó a Efirsa S.A. de C.V. en el año 2010.</p>
         <br>
-        <img class="foto1 img-full-767 nosotrosImg" src="img/foto-nosotros1.png">
+        <img class="foto1 img-full-767 nosotrosImg" src="images/foto-nosotros1.png">
         <p class="p-a txtNosotros">EFIRSA se especializa en todo tipo de ascensores y escaleras eléctricas desde hace más de 30 años. Ofreciendo soluciones innovadoras y ecológicamente eficientes; apoyando cada paso de nuestros clientes durante cada uno de sus proyectos; que parte desde el diseño, fabricación e instalación hasta el mantenimiento y modernización.
         <br><br>
         Hoy en día EFIRSA es una empresa mexicana que cuenta con una gran cartera de clientes y sucursales en varios puntos de la República. (León, Vallarta, D.F. Los Cabos, San Luis Potosí, entre muchos otros), gracias a la innovación y tecnología de nivel mundial y al equipo de colaboradores altamente calificados.
@@ -21,7 +21,7 @@
   </div>
   <div class="container-fluid">
     <div class="row separador-transportando div-transportando">
-      <h2><img src="img/comillas-izquierda.png">&nbsp;SOLUCIONES DE ALTURA<img src="img/comillas-derecha.png"></h2>
+      <h2><img src="images/comillas-izquierda.png">&nbsp;SOLUCIONES DE ALTURA<img src="images/comillas-derecha.png"></h2>
       <p>Para EFIRSA lo importante es poder brindarle los más altos <br>niveles de calidad garantizando seguridad y confianza</p>
     </div>
   </div>
@@ -32,8 +32,8 @@
           <h2 class="p-a" style="margin-bottom: 32px;">Nuestro propósito</h2>
           <p class="p-a" style="font-size: 16px;">Ser la primera empresa mexicana en elevadores. Tenemos la capacidad de desarrollar, diseñar y crear equipos de sistemas verticales con tecnología desarrollada y creada en México compitiendo con las grandes marcas como lo son Mitsubishi y Otis. Con ingeniería propia podemos tener menores costos y refacciones en stock con menores tiempos de entrega, así como un servicio más personalizado.</p>
 
-          <img class="foto2 img-full-767 nosotrosImg2" src="img/nosotros/nosotros1.png">
-          <img class="foto2 img-full-767 nosotrosImg3" src="img/nosotros/nosotros2.png">
+          <img class="foto2 img-full-767 nosotrosImg2" src="images/nosotros/nosotros1.png">
+          <img class="foto2 img-full-767 nosotrosImg3" src="images/nosotros/nosotros2.png">
           <div class="titleNos">
             <h2 class="p-a" style="margin-right: 124px;">Nuestro mercado</h2>
           </div>
@@ -197,8 +197,8 @@
             </table>-
           </div>-->
           <div class="col-xs-12 col-sm-12 mapa">
-            <img src="img/nosotros/efirsaMap.png" class="imgMapa img-responsive" alt="">
-            <img src="img/nosotros/mapTitle.png" class="titleMap img-responsive" alt="">
+            <img src="images/nosotros/efirsaMap.png" class="imgMapa img-responsive" alt="">
+            <img src="images/nosotros/mapTitle.png" class="titleMap img-responsive" alt="">
             <h2 class="mapPresencia">PRESENCIA</h2>
             <table class="hidden-xs tableMap">
               <tr>
