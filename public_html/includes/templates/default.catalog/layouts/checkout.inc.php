@@ -12,7 +12,6 @@
   <link rel="stylesheet" href="{snippet:template_path}ef-s/css/inicio.css">
   <link rel="stylesheet" href="{snippet:template_path}ef-s/css/mobileMenu.css">
   <link rel="stylesheet" href="{snippet:template_path}ef-s/css/nosotros.css">
-  <link rel="stylesheet" href="{snippet:template_path}ef-s/css/contacto.css">
   <link rel="stylesheet" href="{snippet:template_path}ef-s/css/estilos.css">
   <link rel="stylesheet" href="{snippet:template_path}ef-s/css/style1.css">
   <link rel="stylesheet" href="{snippet:template_path}Sagan-boilerplate/assets/styles/main.css">
@@ -51,6 +50,7 @@
 <script src="{snippet:template_path}ef-s/js/mobilMenu.js"></script>
 <script src="{snippet:template_path}ef-s/js/bootstrap.min.js"></script>
 <script src="{snippet:template_path}ef-s/js/scripts.js"></script>
+<script src="{snippet:template_path}Sagan-boilerplate/assets/scripts/checkout.js"></script>
 {snippet:javascript}
 </body>
 </html>

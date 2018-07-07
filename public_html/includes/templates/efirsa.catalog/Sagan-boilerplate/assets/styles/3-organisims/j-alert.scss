@@ -1,0 +1,34 @@
+.container-alert{
+  min-height: calc(100vh - (250px + 85.73px));
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  display: table;
+.order-success{
+  display: table-cell;
+  vertical-align: middle;
+  button{
+    a:visited{
+      color: $white;
+    }
+    a:link{
+      color: $white;
+    }
+    text-transform: initial;
+  }
+  .btn-print{
+    background-color: #228B22;
+  }
+  .fa{
+    font-size: 64px;
+    margin-bottom: $space-3;
+  }
+  p{
+    color: $black;
+  }
+  i{
+    width: 50px;
+    height: 50px;
+  }
+}
+}

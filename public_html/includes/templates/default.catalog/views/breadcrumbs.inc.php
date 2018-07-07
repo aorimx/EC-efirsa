@@ -1,4 +1,4 @@
-<ul class="breadcrumb sub-menu">
+<ul class="breadcrumb">
 <?php
   foreach ($breadcrumbs as $breadcrumb) {
     if (!empty($breadcrumb['link'])) {

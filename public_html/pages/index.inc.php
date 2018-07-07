@@ -1,6 +1,6 @@
 <?php
 
-  document::$snippets['title'] = array(language::translate('index:head_title', 'Online Store'), settings::get('store_name'));
+  document::$snippets['title'] = array(language::translate('index:head_title_EC', 'Tienda en linea'), settings::get('store_name'));
   document::$snippets['description'] = language::translate('index:meta_description', '');
   document::$snippets['head_tags']['canonical'] = '<link rel="canonical" href="'. document::href_ilink('') .'" />';
   document::$snippets['head_tags']['opengraph'] = '<meta property="og:url" content="'. document::href_ilink('') .'" />' . PHP_EOL
@@ -9,4 +9,4 @@
 
   $_page = new view();
 
-  echo $_page->stitch('pages/index');
+  echo $_page->stitch('pages/index_landing2');

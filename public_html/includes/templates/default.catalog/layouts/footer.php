@@ -1,15 +1,15 @@
 <footer itemscope="" itemtype="https://schema.org/WPFooter" style="padding: 32px 16px 34px;">
   <div class="container" style="height: 184px;">
     <div class="col-xs-12 col-sm-6 footerContacto">
-      <h2 class="titulo-footer" style="margin-top: 0;">Contacto</h2>
-      <p class="p-footer footer-fuente" style="margin-bottom: 16px;">Av. Lázaro Cárdenas 2305, Zona 1, Interior 3 <br> C.P. 44920, Col. Las Torres</p>
+      <h2 class="titulo-footer text-align-left" style="margin-top: 0;">Contacto</h2>
+      <p class="p-footer footer-fuente text-align-left" style="margin-bottom: 16px;">Av. Lázaro Cárdenas 2305, Zona 1, Interior 3 <br> C.P. 44920, Col. Las Torres</p>
 
     </div>
     <div class="col-xs-12 col-sm-6 derecha-footer" style="padding-right: 32px;">
-      <a class="hidden-xs" href="../../includes/templates/default.catalog/ef-s/index.php"><img class="logo-movil-footer" src="../../includes/templates/default.catalog/ef-s/img/logos/efirsaFooter.png"></a>
+      <a class="hidden-xs" href="../../includes/templates/default.catalog/ef-s/index.php"><img class="logo-movil-footer" src="../../includes/templates/default.catalog/ef-s/images/logos/efirsaFooter.png"></a>
       <p class="p-footer footer-fuente"><a  href="tel:14140202">Tel. 14140202</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a  href="tel:31441377">31441377</a></p>
       <p class="p-footer footer-fuente"><a  href="tel:018001712297">01 800 171 2297</a><i class="i-footer">&nbsp;Lada sin costo</i></p>
-      <p><a class="texto-verde enlaces-verdes footer-fuente" href="mailto:ventas@efirsa.mx">ventas@efirsa.mx</a></p>
+      <p class="p-footer footer-fuente"><a class="texto-verde enlaces-verdes footer-fuente" href="mailto:ventas@efirsa.mx">ventas@efirsa.mx</a></p>
       <p><a class="texto-verde enlaces-verdes area-ventas footer-fuente" href="#"><i>Contactar solo a área de ventas</i></a></p>
     </div>
   </div>
@@ -18,9 +18,9 @@
 <div class="gris-footers">
     <div class="content-footer">
       <ul class="red-footer">
-        <li><a href="https://www.facebook.com/elevadores.efirsa/"><img src="../../includes/templates/default.catalog/ef-s/img/fb-footerg.png"></a></li>
-        <li><a href="#"><img src="../../includes/templates/default.catalog/ef-s/img/instagram.svg" style="width: 24px;" alt=""></a></li>
-        <li><a href="https://www.youtube.com/channel/UCAS0CzSP8m0o95ENQwm95PQ"><img src="../../includes/templates/default.catalog/ef-s/img/yt-footerg.png"></a></li>
+        <li><a href="https://www.facebook.com/elevadores.efirsa/"><img src="../../includes/templates/default.catalog/ef-s/images/fb-footerg.png"></a></li>
+        <li><a href="#"><img src="../../includes/templates/default.catalog/ef-s/images/instagram.svg" style="width: 24px;" alt=""></a></li>
+        <li><a href="https://www.youtube.com/channel/UCAS0CzSP8m0o95ENQwm95PQ"><img src="../../includes/templates/default.catalog/ef-s/images/yt-footerg.png"></a></li>
       </ul>
     </div>
     <div class="content-footer">
@@ -37,9 +37,9 @@
   <!--<div class="container-footer-2">
     <div class="col-xs-4 centrar-footer">
       <ul class="redes-footer">
-        <li><a href="https://www.facebook.com/elevadores.efirsa/"><img src="../../includes/templates/default.catalog/ef-s/img/fb-footerg.png"></a></li>
-        <li><a href="#"><img src="../../includes/templates/default.catalog/ef-s/img/instagram.svg" style="width: 17px;" alt=""></a></li>
-        <li><a href="https://www.youtube.com/channel/UCAS0CzSP8m0o95ENQwm95PQ"><img src="../../includes/templates/default.catalog/ef-s/img/yt-footerg.png"></a></li>
+        <li><a href="https://www.facebook.com/elevadores.efirsa/"><img src="../../includes/templates/default.catalog/ef-s/images/fb-footerg.png"></a></li>
+        <li><a href="#"><img src="../../includes/templates/default.catalog/ef-s/images/instagram.svg" style="width: 17px;" alt=""></a></li>
+        <li><a href="https://www.youtube.com/channel/UCAS0CzSP8m0o95ENQwm95PQ"><img src="../../includes/templates/default.catalog/ef-s/images/yt-footerg.png"></a></li>
       </ul>
     </div>
     <div class="col-xs-8 centrar-footer">

@@ -3,16 +3,16 @@
 
   switch ((int)$_GET['code']) {
     case 403:
-      notices::add('errors', language::translate('error_403_forbidden', 'Access to the requested file is forbidden'));
+      notices::add('errors', language::translate('error_403_forbidden_EC', 'El acceso a este archivo esta prohibido'));
       break;
     case 404:
-      notices::add('errors', language::translate('error_404_not_found', 'The requested file could not be found'));
+      notices::add('errors', language::translate('error_404_not_found_EC', 'No se encontro el archivo'));
       break;
     case 410:
-      notices::add('errors', language::translate('error_410_gone', 'The requested file is no longer available'));
+      notices::add('errors', language::translate('error_410_gone_EC', 'TEl archivo no se encuentra disponible'));
       break;
     default:
-      notices::add('errors', language::translate('error_400_bad_request', 'The server cannot or will not process the request due to a client error.'));
+      notices::add('errors', language::translate('error_400_bad_request_EC', 'El servidor no puede o no procesará la solicitud debido a un error del cliente'));
       break;
   }
 

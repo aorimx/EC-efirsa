@@ -1,0 +1,14 @@
+#CSS & MAPS
+public_html/*.css.map
+
+
+#CONFIG
+public_html/admin/.htaccess
+public_html/admin/.htpasswd
+
+#LOGS
+public_html/logs/*
+
+#CACHE
+public_html/cache/*
+public_html/vqmod/checked.cache

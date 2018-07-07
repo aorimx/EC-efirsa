@@ -65,7 +65,6 @@ a:hover, a:active{
 }
 
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
-    padding: 8px 4px;
     line-height: 1.42857143;
     vertical-align: top;
     border-top: 0px solid #ddd !important;
@@ -127,6 +126,25 @@ a:hover, a:active{
   width: 90%;
   margin: auto;
 }
+.banner-content{
+  width: 100%;
+}
+.banner{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-banner {
+  max-width: 100%;
+  margin-bottom: 16px;
+}
+.image{
+  max-width: 100%;
+}
 #wowslider-container1 .ws_bullets a {
     width: 42px !important;
     height: 7px !important;
@@ -152,7 +170,7 @@ a:hover, a:active{
     width: 100%;
     height: 100%;
     z-index: 9999;
-    background: url(../img/loader.gif) 50% 20% no-repeat rgba(249, 249, 249, 0.84);
+    background: url(../images/loader.gif) 50% 20% no-repeat rgba(249, 249, 249, 0.84);
     background-size: 120px;
 }
 .banner-content{
@@ -272,7 +290,7 @@ a:hover, a:active{
     font-family: 'GothamB';
 		font-weight: normal;
     font-size: 30px;
-    background-image: url(../img/hamburguesa-icono.png);
+    background-image: url(../images/hamburguesa-icono.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: 5px 37%;
@@ -436,7 +454,7 @@ a:hover, a:active{
 
 
 .header-productos{
-  background: url('../img/headerProductos.png');
+  background: url('../images/headerProductos.png');
   background-size: 100%;
   background-position: center;
   padding: 110px 0px 50px;
@@ -509,7 +527,7 @@ a:hover, a:active{
 /* Estilos proveedores */
 
 .header-proveedores{
-  background: url('../img/header-proveedores.png');
+  background: url('../images/header-proveedores.png');
   background-size: 100%;
   background-position: center;
   padding: 110px 0px 50px;
@@ -555,7 +573,7 @@ a:hover, a:active{
 /* Estilos contacto */
 
 .header-contacto{
-  background: url('../img/header-contacto.png');
+  background: url('../images/header-contacto.png');
   background-size: 100%;
   background-position: center;
   padding: 110px 0px 50px;
@@ -644,7 +662,7 @@ a:hover, a:active{
 /* Estilos nosotros */
 
 .header-nosotros{
-  background: url('../img/header-nosotros.png');
+  background: url('../images/header-nosotros.png');
   background-size: 100%;
   background-position: center;
   padding: 110px 0px 50px;
@@ -659,7 +677,7 @@ a:hover, a:active{
 }
 
 .separador-clientes{
-  background: url('../img/cintillo-clientes.png');
+  background: url('../images/cintillo-clientes.png');
 	background-size: 100%;
   padding: 40px 0px;
   margin: 50px -15px;
@@ -778,6 +796,15 @@ a:hover, a:active{
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;
+}
+.text-align{
+  text-align: center;
+}
+.text-align-left{
+  text-align: left;
+}
+.text-align-right{
+  text-align: right;
 }
 @media screen and (max-width: 900px){
     .footerContacto{
@@ -909,8 +936,12 @@ footer{
 .derecha-footer a:hover, .derecha-footer a{
 	color: white;
 }
-
-
+.footer-fuente a:visited{
+  color: white;
+}
+.footer-fuente a:link{
+  color: white;
+}
 .area-ventas{
 	color: #c2c3c5 !important;
 }
@@ -1203,7 +1234,13 @@ footer {
 .footer-fuente{
 	font-size: 13px;
 }
-}
+  a:link{ 
+color: #ffffff; 
+} 
+a:visited{ 
+color: #ffffff; 
+} 
+
 
 @media (max-width: 700px){
 	.play_button_landing {

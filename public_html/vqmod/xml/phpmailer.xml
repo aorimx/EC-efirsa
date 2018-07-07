@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+	<id>PHPMailer</id>
+	<version>1.0</version>
+	<vqmver required="true">2.4.0</vqmver>
+	<author>tim-international.net</author>
+
+	<file path="includes/functions/" name="func_email.inc.php">
+		<operation error="log">
+			<search position="replace" regex="false"><![CDATA[
+  function email_send($from_formatted, $recipients, $subject, $message, $html=false, $attachments=array()) {
+      ]]></search>
+			<add>
+      <![CDATA[
+  function email_send_phpmailer($from_formatted, $recipients, $subject, $message, $html=false, $attachments=array()) {
+
+    if (empty($from_formatted)) $from_formatted = settings::get('store_name') . ' <'. settings::get('store_email') .'>';
+
+  // Secure
+    $from_formatted = trim(str_replace(array("\r", "\n"), '', $from_formatted));
+    $subject = trim(str_replace(array("\r", "\n"), '', $subject));
+
+  // Extract
+    $from_name = trim(trim(preg_replace('#^(.*)\s?<[^>]+>$#', '$1', $from_formatted)), '"');
+    $from_email = filter_var(preg_replace('#^.*\s<([^>]+)>$#', '$1', $from_formatted), FILTER_SANITIZE_EMAIL);
+
+    require_once FS_DIR_HTTP_ROOT . WS_DIR_EXT . 'PHPMailer/PHPMailerAutoload.php';
+
+    $phpmailer = new PHPMailer(true);
+
+    //$phpmailer->SMTPDebug = 2;
+    //$phpmailer->Debugoutput = 'html';
+
+		$phpmailer->isSMTP();
+    $phpmailer->Host = 'smtp.gmail.com';
+    $phpmailer->Port = 587; // Set 587 for GMail
+    $phpmailer->SMTPSecure = 'tls'; // Set tls for GMail
+
+    $phpmailer->SMTPAuth = true;
+    $phpmailer->Username = 'ecbasesagan@gmail.com';
+    $phpmailer->Password = 'ECbaseSaganBoilerplate';
+
+    $phpmailer->CharSet = language::$selected['charset'];
+    $phpmailer->Encoding = 'quoted-printable';
+    $phpmailer->setFrom($from_email, $from_name);
+    $phpmailer->Subject = $subject;
+
+    if ($html || true) {
+      $phpmailer->msgHTML($message);
+    } else {
+      $phpmailer->Body = $message;
+    }
+
+    if (!empty($attachments)) {
+      foreach ($attachments as $file) $phpmailer->addAttachment($file);
+    }
+
+    if (!is_array($recipients)) $recipients = preg_split('#>\s?(,|;|\r\n)#', $recipients);
+
+    $success = true;
+    foreach ($recipients as $to_formatted) {
+
+      $to_name = trim(preg_replace('#^(.*)\s?<[^>]+>$#', '$1', $to_formatted), '" \r\n');
+      $to_email = filter_var(preg_replace('#^.*\s<([^>]+)>$#', '$1', $to_formatted), FILTER_SANITIZE_EMAIL);
+
+      $phpmailer->clearAddresses();
+
+      $phpmailer->addAddress($to_name, $to_email);
+
+      //send the message, check for errors
+      if (!$phpmailer->send()) {
+        trigger_error('Failed sending e-mail to '. $to_email .': '. $phpmailer->ErrorInfo, E_USER_WARNING);
+        $success = false;
+      }
+    }
+
+    return $success;
+  }
+
+  function email_send($from_formatted, $recipients, $subject, $message, $html=false, $attachments=array()) {
+
+  // Use PHPMailer instead
+    return functions::email_send_phpmailer($from_formatted, $recipients, $subject, $message, $html, $attachments);
+      ]]></add>
+		</operation>
+	</file>
+</modification>

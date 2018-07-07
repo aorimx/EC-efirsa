@@ -703,21 +703,157 @@
           }
         }
 
-        $aliases['%order_items'] .= (float)$item['quantity'] .' x '. $product->name . (!empty($options) ? ' ('. implode(', ', $options) .')' : '') . "\r\n";
+        $aliases['%order_items'] .= (float)$item['quantity'] .' x '. $product->name . '<br>' . (!empty($options) ? ' ('. implode(', ', $options) .')' : '') . "\r\n";
       }
 
       $aliases['%order_items'] = trim($aliases['%order_items']);
 
-      $message = "Thank you for your purchase!\r\n\r\n"
-               . "Your order #%order_id has successfully been created with a total of %payment_due for the following ordered items:\r\n\r\n"
-               . "%order_items\r\n\r\n"
-               . "A printable order copy is available here:\r\n"
-               . "%order_copy_url\r\n\r\n"
-               . "Regards,\r\n"
-               . "%store_name\r\n"
-               . "%store_url\r\n";
-
-      $message = language::translate('email_order_confirmation', $message, $language_code);
+      $message = "
+      <body style='background:#ffffff'>
+        <div class='mj-container' style='background-color:#ffffff'>
+          <!--[if mso | IE]>
+            <table role='presentation' border='0' cellpadding='0' cellspacing='0' width='600' align='center' style='width:600px;'>
+              <tr>
+                <td style='line-height:0px;font-size:0px;mso-line-height-rule:exactly;'>
+            <![endif]-->
+          <div class='mj-column-per-33 outlook-group-fix' data-vertical-align='top' style='vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%'>
+            <table role='presentation' cellpadding='0' cellspacing='0' width='100%' border='0'>
+              <tbody></tbody>
+            </table>
+          </div>
+          <!--[if mso | IE]>
+            </td></tr></table>
+            <![endif]-->
+          <!--[if mso | IE]>
+            <table role='presentation' border='0' cellpadding='0' cellspacing='0' width='600' align='center' style='width:600px;'>
+              <tr>
+                <td style='line-height:0px;font-size:0px;mso-line-height-rule:exactly;'>
+            <![endif]-->
+          <div style='margin:0 auto;max-width:600px;background:#fff'>
+            <table role='presentation' cellpadding='0' cellspacing='0' style='font-size:0;width:100%;background:#fff' align='center' border='0'>
+              <tbody>
+                <tr>
+                  <td style='text-align:center;vertical-align:top;direction:ltr;font-size:0;padding:0;padding-bottom:20px;padding-top:10px'>
+                    <!--[if mso | IE]>
+            <table role='presentation' border='0' cellpadding='0' cellspacing='0'>
+              <tr>
+                <td style='vertical-align:undefined;width:300px;'>
+            <![endif]-->
+                    <div style='margin:0 auto;max-width:600px;background:#fff'>
+                      <table role='presentation' cellpadding='0' cellspacing='0' style='font-size:0;width:100%;background:#fff' align='center' border='0'>
+                        <tbody>
+                          <tr>
+                            <td style='text-align:center;vertical-align:top;direction:ltr;font-size:0;padding:0;padding-bottom:20px;padding-top:10px'>
+                              <!--[if mso | IE]>
+            <table role='presentation' border='0' cellpadding='0' cellspacing='0'>
+              <tr>
+                <td style='vertical-align:top;width:300px;'>
+            <![endif]-->
+                              <div class='mj-column-per-100 outlook-group-fix' style='vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%'>
+                                <table role='presentation' cellpadding='0' cellspacing='0' width='100%' border='0'>
+                                  <tbody>
+                                    <tr>
+                                      <td style='word-wrap:break-word;font-size:0;padding:0' align='center'>
+                                        <table role='presentation' cellpadding='0' cellspacing='0' style='border-collapse:collapse;border-spacing:0' align='center' border='0'>
+                                          <tbody>
+                                            <tr>
+                                              <td style='width:300px'><img alt='Featuring Authentic Movement, Holographic Simulation, Droid to Droid Experience, and Watch With Me' height='auto' src='http://efirsa.mx/img/logos/logoIndex.png' style='border:none;border-radius:0;display:block;font-size:13px;outline:0;text-decoration:none;width:100%;height:auto'
+                                                  width='300'></td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                              <!--[if mso | IE]>
+            </td></tr></table>
+            <![endif]-->
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <!--[if mso | IE]>
+            </td><td style='vertical-align:top;width:300px;'>
+            <![endif]-->
+                    <div class='mj-column-per-50 outlook-group-fix' style='vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%'>
+                      <table role='presentation' cellpadding='0' cellspacing='0' width='100%' border='0'>
+                        <tbody>
+                          <tr>
+                            <td style='word-wrap:break-word;font-size:0;padding:10px 25px' align='center'>
+                              <div style='cursor:auto;color:#512d0b;font-family:Ubuntu,Helvetica,Arial,sans-serif;font-size:20px;line-height:22px;text-align:center'><strong>Hola %firstname</strong></div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style='word-wrap:break-word;font-size:0;padding:0 25px' align='center'>
+                              <div style='cursor:auto;color:#000;font-family:Arial;font-size:18px;line-height:22px;text-align:center'>Gracias por tu compra</div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style='word-wrap:break-word;font-size:0;padding:0 25px;padding-top:0;padding-bottom:0;padding-right:25px;padding-left:25px' align='center'>
+                              <div style='cursor:auto;color:#000;font-family:Ubuntu,Helvetica,Arial,sans-serif;font-size:13px;line-height:22px;text-align:center'>
+                                <p><span style='font-size:14.666666666666666px;font-family:Arial;color:#000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap'><strong><span style='color:#000'><span style='font-size:13px'>Tu orden #%order_id se ha realizado exitosamente con un total de %payment_due por los siguientes productos:</span></span>
+                                  </strong>
+                                  </span>
+                                </p>
+                                <p><span style='font-size:14.666666666666666px;font-family:Arial;color:#000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap'><strong><span style='font-size:13px'><span style='color:#000'>%order_items</span></span>
+                                  </strong>
+                                  </span>
+                                  <br>
+                                  <strong style='font-family:Arial;font-size:14.666666666666666px;white-space:pre-wrap'><span style='font-size:13px'><span style='color:#000'>Para imprimir la orden click en el siguiente enlace:</span></span></strong></p>
+                                  </strong>
+                                  </span>
+                                </p>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style='word-wrap:break-word;font-size:0;padding:15px 30px;padding-top:10px;padding-bottom:10px;padding-right:25px;padding-left:25px' align='center'>
+                              <table role='presentation' cellpadding='0' cellspacing='0' style='border-collapse:separate' align='center' border='0'>
+                                <tbody>
+                                  <tr>
+                                  <td style='border:none;border-radius:0;color:#fff;cursor:auto;padding:10px 25px' align='center' valign='top' bgcolor='#228B22'><a href='%order_copy_url' style='background:#228B22;font-family:Ubuntu,Helvetica,Arial,sans-serif;font-size:13px;font-weight:400;line-height:120%;text-transform:none;margin:0;text-decoration:none;color:white; target='_blank'><strong>IMPRIMIR AQUI</strong></a></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style='word-wrap:break-word;font-size:0;padding:15px 30px;padding-top:10px;padding-bottom:10px;padding-right:25px;padding-left:25px' align='center'>
+                              <table role='presentation' cellpadding='0' cellspacing='0' style='border-collapse:separate' align='center' border='0'>
+                                <tbody>
+                                  <tr>
+                                    <td style='border:none;border-radius:0;color:#fff;cursor:auto;padding:10px 25px' align='center' valign='top' bgcolor='#228B22'><a href='%store_url' style='background:#228B22;font-family:Ubuntu,Helvetica,Arial,sans-serif;font-size:13px;font-weight:400;line-height:120%;text-transform:none;margin:0;text-decoration:none;color:white; target='_blank'><strong>%store_name</strong></a></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style='word-wrap:break-word;font-size:0;padding:0 25px;padding-top:10px;padding-bottom:10px;padding-right:25px;padding-left:25px' align='center'>
+                              <div style='cursor:auto;color:#000;font-family:Ubuntu,Helvetica,Arial,sans-serif;font-size:13px;line-height:22px;text-align:center'>
+                                <p></p>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <!--[if mso | IE]>
+            </td></tr></table>
+            <![endif]-->
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!--[if mso | IE]>
+            </td></tr></table>
+            <![endif]-->
+        </div>
+      </body>";
 
       functions::email_send(
         null,

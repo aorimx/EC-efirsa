@@ -1,6 +1,8 @@
 <div id="box-category-tree" class="box">
-  <h2 class="title"><?php echo language::translate('title_categories', 'Categories'); ?></h2>
-  <ul class="nav nav-primary nav-pills nav-stacked">
+  <!--Este era h2-->
+  <button class="title btn-categories"><?php echo language::translate('title_categories', 'Categories'); ?><i class="icon fa fa-caret-right flag-icon1 flip-right padding-le" aria-hidden="true"></i></button>
+  <div class="c-oculto">
+  <ul class="nav nav-primary nav-pills nav-stacked align-categories">
 <?php
   if (!function_exists('custom_draw_category_tree')) {
     function custom_draw_category_tree($categories, $indent=0) {
@@ -20,4 +22,5 @@
   custom_draw_category_tree($categories);
 ?>
   </ul>
+</div>
 </div>

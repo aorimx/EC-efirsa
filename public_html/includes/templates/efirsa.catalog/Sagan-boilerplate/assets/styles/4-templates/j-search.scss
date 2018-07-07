@@ -1,0 +1,46 @@
+// hacking "gridism.css" a little bit.
+.middle-content{
+  .aside_content-search{
+    width: 25%;
+    padding-right: $space-2;
+    margin-top: $space-10;
+  }
+  .main_content-search{
+    width: 100%;
+    .container-filtros{
+      border-radius: 0;
+      a{
+        border-radius: 0;
+        background-color: $white;
+        border-color: #6c6c6d;
+        color: $black;
+      }
+      .activo{
+        border-radius: 0;
+        background-color: #6c6c6d;
+        border-color: #6c6c6d;
+        color: $white;
+      }
+    }
+    .sub-menu_search{
+      padding-top: $space-6;
+    }
+    .title-search{
+      text-align: center;
+    }
+  }
+}
+@media screen and (max-width: 991px){
+
+}
+@media screen and (max-width: 768px){
+  .middle-content{
+    .aside_content-search{
+      margin-top: 0;
+      width: 100%;
+    }
+    .main_content-search{
+    width: 100%;
+  }
+  }
+}

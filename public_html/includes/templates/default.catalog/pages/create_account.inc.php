@@ -1,4 +1,4 @@
-<aside id="sidebar">
+<aside id="sidebar" style="display: none;">
   <div id="column-left">
     <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_customer_service_links.inc.php'); ?>
     <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_account_links.inc.php'); ?>
@@ -7,9 +7,10 @@
 
 <main id="content">
   {snippet:notices}
+  <div class="sub-menu">
   {snippet:breadcrumbs}
-
-  <div id="box-create-account" class="box">
+  </div>
+  <div id="box-create-account" class="box sub-menu" style="padding-left: 32px;">
 
     <h1><?php echo language::translate('title_create_account', 'Create Account'); ?></h1>
 
@@ -100,7 +101,7 @@
       </div>
 
       <div class="row">
-        <div class="form-group col-md-halfs">
+        <div class="form-group col-md-halfs" style="display: none;">
           <label><?php echo language::translate('title_newsletter', 'Newsletter'); ?></label>
           <div class="checkbox">
             <label><?php echo functions::form_draw_checkbox('newsletter', '1', true); ?> <?php echo language::translate('title_subscribe', 'Subscribe'); ?></label>

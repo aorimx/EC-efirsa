@@ -11,14 +11,14 @@
   $manufacturer = reference::manufacturer($_GET['manufacturer_id']);
 
   if (empty($manufacturer->id)) {
-    notices::add('errors', language::translate('error_410_gone', 'The requested file is no longer available'));
+    notices::add('errors', language::translate('error_410_gone_EC', 'El archivo solicitado ya no está disponible'));
     http_response_code(410);
     header('Refresh: 0; url='. document::ilink('manufacturers'));
     exit;
   }
 
   if (empty($manufacturer->status)) {
-    notices::add('errors', language::translate('error_404_not_found', 'The requested file could not be found'));
+    notices::add('errors', language::translate('error_404_not_found_EC', 'No se pudo encontrar el archivo solicitado'));
     http_response_code(404);
     header('Refresh: 0; url='. document::ilink('manufacturers'));
     exit;
@@ -28,7 +28,7 @@
   document::$snippets['title'][] = $manufacturer->head_title ? $manufacturer->head_title : $manufacturer->name;
   document::$snippets['description'] = $manufacturer->meta_description ? $manufacturer->meta_description : strip_tags($manufacturer->short_description);
 
-  breadcrumbs::add(language::translate('title_manufacturers', 'Manufacturers'), document::ilink('manufacturers'));
+  breadcrumbs::add(language::translate('title_manufacturers_EC', 'Manufacturas'), document::ilink('manufacturers'));
   breadcrumbs::add($manufacturer->name);
 
   $manufacturer_cache_id = cache::cache_id('box_manufacturer', array('basename', 'get', 'language', 'currency', 'account', 'prices'));
@@ -49,10 +49,10 @@
       ),
       'products' => array(),
       'sort_alternatives' => array(
-        'name' => language::translate('title_name', 'Name'),
-        'price' => language::translate('title_price', 'Price'),
-        'popularity' => language::translate('title_popularity', 'Popularity'),
-        'date' => language::translate('title_date', 'Date'),
+        'name' => language::translate('title_name_EC', 'Nombre'),
+        'price' => language::translate('title_price_EC', 'Precio'),
+        'popularity' => language::translate('title_popularity_EC', 'Popularidad'),
+        'date' => language::translate('title_date_EC', 'Fecha'),
       ),
       'pagination' => null,
     );

@@ -39,9 +39,9 @@
 
 // Database
   define('DB_TYPE', 'mysql');
-  define('DB_SERVER', '127.0.0.1');
+  define('DB_SERVER', 'localhost');
   define('DB_USERNAME', 'root');
-  define('DB_PASSWORD', '');
+  define('DB_PASSWORD', 'root');
   define('DB_DATABASE', 'ec-efirsa');
   define('DB_TABLE_PREFIX', 'ec_');
   define('DB_CONNECTION_CHARSET', (strtoupper(substr(PHP_OS, 0, 3)) == 'WIN') ? 'latin1' : 'utf8'); // utf8 or latin1
@@ -124,8 +124,6 @@
   }
   
 // Password Encryption Salt
-  
-  define('PASSWORD_SALT', 'IJaQlm5IJHcZWCpskcteY6IoXziDvMsGCHUvb0FbX0axvu1PwNVAKsv0mnLZuR7YHQr7Locfu0zT6zLMcDJQ65m8xD490gnysVBSOHxywUae4oIEd1pY49zbZqP7jK8a');
-
+  define('PASSWORD_SALT', 'L9OKOlM5MiGFngWcWydddz4hq0OyBKIfztZN4Hdo6MVjHsfEZFx1w7OCdWIsk6DorZmi1IfZj5nphd8AFjrMzbC70YnqyQBbEvZq9a3A7ScOOSIhaSKRm2rx4IOXp38f');
   
 ?>

@@ -13,7 +13,7 @@
       <?php echo functions::form_draw_password_field('password', '', 'placeholder="'. language::translate('title_password', 'Password') .'"'); ?>
     </div>
 
-    <div class="checkbox">
+    <div class="checkbox" style="display: none;">
       <label><?php echo functions::form_draw_checkbox('remember_me', '1'); ?> <?php echo language::translate('title_remember_me', 'Remember Me'); ?></label>
     </div>
 
